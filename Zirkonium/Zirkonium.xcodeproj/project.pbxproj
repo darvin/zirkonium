@@ -1,0 +1,1122 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		36797D360BA00AA500772FB3 /* Zirkonium-All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 36797D3E0BA00ACB00772FB3 /* Build configuration list for PBXAggregateTarget "Zirkonium-All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				36797D380BA00AAD00772FB3 /* PBXTargetDependency */,
+			);
+			name = "Zirkonium-All";
+			productName = "Zirkonium-All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D949993118EC297004CC052 /* CoreDataWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D949992118EC297004CC052 /* CoreDataWorkaround.m */; };
+		0D949E44118F02DE004CC052 /* NonOSC_TO_OSCVersion.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B4B6F006117602CE00B9C5D7 /* NonOSC_TO_OSCVersion.xcmappingmodel */; };
+		20E2B3720CC6A3510015BC02 /* ZKMRNSpatializerView.h in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 361430840C4FCF84008F15F1 /* ZKMRNSpatializerView.h */; };
+		20E2B3730CC6A3510015BC02 /* ZKMRNSpatializerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361430850C4FCF84008F15F1 /* ZKMRNSpatializerView.m */; };
+		20F20D580D608D190078DFF0 /* ZKMRNCartesianEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F20D570D608D190078DFF0 /* ZKMRNCartesianEvent.m */; };
+		36000F3C0B274A86000BFC2A /* Syncretism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36000F390B274A84000BFC2A /* Syncretism.framework */; };
+		360120C80B9CA09E00645290 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F40F610B95FE2200025E81 /* CoreAudio.framework */; };
+		360120C90B9CA0A700645290 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */; };
+		360120CA0B9CA0A800645290 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514E9E2D081EC793009B8CD9 /* CoreServices.framework */; };
+		360120CC0B9CA0A900645290 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7788DA0506752A1600599AAD /* CoreData.framework */; };
+		360121480B9CA0C700645290 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360121460B9CA0C700645290 /* AudioUnit.framework */; };
+		360121490B9CA0C700645290 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360121470B9CA0C700645290 /* AudioToolbox.framework */; };
+		360CF36E0B6A81DD00A2C573 /* ZKMRNAudioSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 360CF36C0B6A81DD00A2C573 /* ZKMRNAudioSource.m */; };
+		360F82820B7375CF0032E5F9 /* ZKMRNOutputPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F82800B7375CF0032E5F9 /* ZKMRNOutputPatch.m */; };
+		360F86640B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F86620B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.m */; };
+		361513010B665C5C001313B3 /* ZKMRNFileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 361512FF0B665C5C001313B3 /* ZKMRNFileSource.m */; };
+		36196F450B52896F00BD6BF5 /* ZKMRNInputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36196F430B52896F00BD6BF5 /* ZKMRNInputSource.m */; };
+		36196F4D0B52897E00BD6BF5 /* ZKMRNTestSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 36196F4B0B52897E00BD6BF5 /* ZKMRNTestSource.m */; };
+		3621B4740B6FB86D00729026 /* Syncretism.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 36000F390B274A84000BFC2A /* Syncretism.framework */; };
+		362330A50AF2074E0059E069 /* ZKMRNDomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 362330A30AF2074E0059E069 /* ZKMRNDomeView.m */; };
+		362330BF0AF208F20059E069 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 362330BE0AF208F20059E069 /* OpenGL.framework */; };
+		3623332F0AF258260059E069 /* ZKMRNSpeakerSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3623332D0AF258260059E069 /* ZKMRNSpeakerSetup.m */; };
+		364941D20AF797BD0070977D /* ZKMRNSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 364941D00AF797BD0070977D /* ZKMRNSpeaker.m */; };
+		364941F50AF798F10070977D /* ZKMRNSpeakerRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 364941F30AF798F10070977D /* ZKMRNSpeakerRing.m */; };
+		3662E44D0AF9F276005DE99C /* ZKMRNOpenGLShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3662E44B0AF9F276005DE99C /* ZKMRNOpenGLShapes.m */; };
+		3668F6B20B14BB3900F13FBC /* ZKMRNGraphChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3668F6B00B14BB3900F13FBC /* ZKMRNGraphChannel.m */; };
+		366F57900B24666D00B17E0C /* ZKMRNChannelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 366F578E0B24666D00B17E0C /* ZKMRNChannelGroup.m */; };
+		368349930B050602002E32DC /* ZKMRNSimpleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 368349910B050602002E32DC /* ZKMRNSimpleMap.m */; };
+		368349A90B0506D6002E32DC /* ZKMRNOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 368349A70B0506D6002E32DC /* ZKMRNOpenGLView.m */; };
+		3692CBFA0B4D85C6009B56D4 /* ZKMRNInputPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3692CBF80B4D85C6009B56D4 /* ZKMRNInputPatch.m */; };
+		36A6815D0B25AC3E00C3C98C /* ZKMRNGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A6815B0B25AC3E00C3C98C /* ZKMRNGraph.m */; };
+		36B37E880B2487C0006F5521 /* ZKMRNPositionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B37E860B2487C0006F5521 /* ZKMRNPositionEvent.m */; };
+		36E9C08F0B81F34E0076E77F /* ZKMRNDirectOutPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E9C08D0B81F34E0076E77F /* ZKMRNDirectOutPatch.m */; };
+		36E9C0E40B81F6800076E77F /* ZKMRNAbstractInOutPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E9C0E20B81F6800076E77F /* ZKMRNAbstractInOutPatch.m */; };
+		36EB96AA0B021E22006332FC /* ZKMRNChannelMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EB96A80B021E22006332FC /* ZKMRNChannelMap.m */; };
+		36EB97C30B0241C6006332FC /* ZKMRNChannelMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EB97C10B0241C6006332FC /* ZKMRNChannelMapView.m */; };
+		36EE15480B2568F8001D079E /* ZKMRNEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE15460B2568F8001D079E /* ZKMRNEvent.m */; };
+		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		B405920713DDA61700891C09 /* ZKMRNGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B405920413DDA61700891C09 /* ZKMRNGradientView.m */; };
+		B405920813DDA61700891C09 /* ZKMRNLightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B405920613DDA61700891C09 /* ZKMRNLightTableView.m */; };
+		B41911C7136F063E00ECC916 /* RecordOff.png in Resources */ = {isa = PBXBuildFile; fileRef = B41911C5136F063E00ECC916 /* RecordOff.png */; };
+		B41911C8136F063E00ECC916 /* RecordOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B41911C6136F063E00ECC916 /* RecordOn.png */; };
+		B421FD850FFB65680034C10E /* ZKMRNDirectOutPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B421FD840FFB65680034C10E /* ZKMRNDirectOutPatchChannel.m */; };
+		B42DF2181327DA0D00D1114A /* defaultstudio.zrkstu in Resources */ = {isa = PBXBuildFile; fileRef = B42DF2171327DA0D00D1114A /* defaultstudio.zrkstu */; };
+		B4338E1E11C916FF0004DE6C /* InputSetup1to2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B4338E1D11C916FF0004DE6C /* InputSetup1to2.xcmappingmodel */; };
+		B44351B914619880007CB6C7 /* LegacyMetadata_0.9.36.plist in Resources */ = {isa = PBXBuildFile; fileRef = B44351B814619880007CB6C7 /* LegacyMetadata_0.9.36.plist */; };
+		B44351DF14619A56007CB6C7 /* MetadataExample.zrkpxml in Resources */ = {isa = PBXBuildFile; fileRef = B44351DE14619A56007CB6C7 /* MetadataExample.zrkpxml */; };
+		B457B32713E9980300CE117F /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B32613E9980300CE117F /* LightController.m */; };
+		B4640E0412424C4A009CD2BA /* D3_zkm_La_sw.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B4640DF412424C4A009CD2BA /* D3_zkm_La_sw.pdf */; };
+		B4640E0812424C4A009CD2BA /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B4640DF812424C4A009CD2BA /* minus-8.png */; };
+		B4640E0912424C4A009CD2BA /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B4640DF912424C4A009CD2BA /* plus-8.png */; };
+		B4640E0A12424C4A009CD2BA /* Zirkonium-file.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4640DFA12424C4A009CD2BA /* Zirkonium-file.icns */; };
+		B4640E0B12424C4A009CD2BA /* Zirkonium.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4640DFB12424C4A009CD2BA /* Zirkonium.icns */; };
+		B4640E2C12424C90009CD2BA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4640E1812424C90009CD2BA /* Credits.rtf */; };
+		B4640E2E12424C90009CD2BA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4640E1C12424C90009CD2BA /* MainMenu.nib */; };
+		B4640E3012424C90009CD2BA /* ZKMRNPieceDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4640E2012424C90009CD2BA /* ZKMRNPieceDocument.nib */; };
+		B4640E3112424C90009CD2BA /* ZKMRNPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4640E2212424C90009CD2BA /* ZKMRNPreferences.nib */; };
+		B4640E3312424C90009CD2BA /* ZKMRNStudioSetupDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4640E2612424C90009CD2BA /* ZKMRNStudioSetupDocument.nib */; };
+		B4640E6512424EF0009CD2BA /* ZKMORLoggerClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = B4640E6412424EF0009CD2BA /* ZKMORLoggerClient.mm */; };
+		B467EC2D11C8E1710005EA20 /* InputSetup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B467EC2C11C8E1710005EA20 /* InputSetup.xcdatamodeld */; };
+		B4933ED70FE2BFFF00226C9F /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FD6AF90FE2909C00CFB35B /* GLUT.framework */; };
+		B4A83C9E0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A83C9D0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.m */; };
+		B4B0B93E11C8C9A400EC73E7 /* PieceDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4B0B93D11C8C9A400EC73E7 /* PieceDocument.xcdatamodeld */; };
+		B4B0B94211C8CA8900EC73E7 /* Piece1To2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B4B0B94111C8CA8900EC73E7 /* Piece1To2.xcmappingmodel */; };
+		B4B759CA125EFC5B008455AF /* ZKMRNRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B759C9125EFC5B008455AF /* ZKMRNRoom.m */; };
+		B4B75AA3125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B75AA2125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.m */; };
+		B4B9CA6F1248B8DF000E6181 /* version.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4B9CA6E1248B8DF000E6181 /* version.plist */; };
+		B4C0C35611EF4E2400AF450E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C0C35511EF4E2300AF450E /* IOKit.framework */; };
+		B4CB549D125C5794002A6F6E /* OSCController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5484125C5794002A6F6E /* OSCController.m */; };
+		B4CB549E125C5794002A6F6E /* ZKMRNContainerArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5486125C5794002A6F6E /* ZKMRNContainerArrayController.m */; };
+		B4CB549F125C5794002A6F6E /* ZKMRNEventsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5488125C5794002A6F6E /* ZKMRNEventsArrayController.m */; };
+		B4CB54A1125C5794002A6F6E /* ZKMRNGroupsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB548C125C5794002A6F6E /* ZKMRNGroupsArrayController.m */; };
+		B4CB54A2125C5794002A6F6E /* ZKMRNManagedObjectExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB548E125C5794002A6F6E /* ZKMRNManagedObjectExtensions.m */; };
+		B4CB54A3125C5794002A6F6E /* ZKMRNPieceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5490125C5794002A6F6E /* ZKMRNPieceDocument.m */; };
+		B4CB54A4125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5492125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.m */; };
+		B4CB54A5125C5794002A6F6E /* ZKMRNPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5494125C5794002A6F6E /* ZKMRNPreferencesController.m */; };
+		B4CB54A6125C5794002A6F6E /* ZKMRNStudioSetupDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5496125C5794002A6F6E /* ZKMRNStudioSetupDocument.m */; };
+		B4CB54A7125C5794002A6F6E /* ZKMRNTestSourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB5498125C5794002A6F6E /* ZKMRNTestSourceController.m */; };
+		B4CB54A8125C5794002A6F6E /* ZKMRNZirkoniumSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB549A125C5794002A6F6E /* ZKMRNZirkoniumSystem.m */; };
+		B4CB54A9125C5794002A6F6E /* ZKMRNZirkoniumUISystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CB549C125C5794002A6F6E /* ZKMRNZirkoniumUISystem.m */; };
+		B4CB54C7125C5802002A6F6E /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB54C6125C5802002A6F6E /* VVBasics.framework */; };
+		B4CB54C9125C5802002A6F6E /* VVMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB54C8125C5802002A6F6E /* VVMIDI.framework */; };
+		B4CB54CB125C5802002A6F6E /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB54CA125C5802002A6F6E /* VVOSC.framework */; };
+		B4CB554D125C5C17002A6F6E /* VVBasics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB54C6125C5802002A6F6E /* VVBasics.framework */; };
+		B4CB554E125C5C17002A6F6E /* VVMIDI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB54C8125C5802002A6F6E /* VVMIDI.framework */; };
+		B4CB554F125C5C17002A6F6E /* VVOSC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B4CB54CA125C5802002A6F6E /* VVOSC.framework */; };
+		B4CF257A1451A4C200449A7E /* FileSourcesController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CF25791451A4C200449A7E /* FileSourcesController.m */; };
+		B4CF25F71451C21900449A7E /* NSString+PathResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CF25F61451C21900449A7E /* NSString+PathResolver.m */; };
+		B4D163951175E68B007FA5C4 /* StudioSetup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4D163941175E68B007FA5C4 /* StudioSetup.xcdatamodeld */; };
+		B4D9E52D124356FB00B3818F /* ZKMRNTimeWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9E52C124356FB00B3818F /* ZKMRNTimeWatch.m */; };
+		B4DD2F47137013A800CE780B /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DD2F44137013A800CE780B /* Play.png */; };
+		B4DD2F48137013A800CE780B /* Rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DD2F45137013A800CE780B /* Rewind.png */; };
+		B4DD2F49137013A800CE780B /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B4DD2F46137013A800CE780B /* Stop.png */; };
+		B4ED232813E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ED232713E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.m */; };
+		B4ED232B13E80D2D00E2AB4A /* ZKMRNTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = B4ED232A13E80D2D00E2AB4A /* ZKMRNTextures.m */; };
+		B4F67BAA115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F67BA9115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36000F380B274A84000BFC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36000F330B274A84000BFC2A /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+		36000F3A0B274A84000BFC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36000F330B274A84000BFC2A /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 366964510AEE89B100E4EAC9;
+			remoteInfo = SyncretismTest;
+		};
+		36268FC60B3AECB6008E3CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36000F330B274A84000BFC2A /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36226F490B3AC10A009CAA75;
+			remoteInfo = SyncretismTestTool;
+		};
+		36797D370BA00AAD00772FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
+			remoteInfo = Zirkonium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3621B4700B6FB84400729026 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B4CB554D125C5C17002A6F6E /* VVBasics.framework in Copy Frameworks */,
+				B4CB554E125C5C17002A6F6E /* VVMIDI.framework in Copy Frameworks */,
+				B4CB554F125C5C17002A6F6E /* VVOSC.framework in Copy Frameworks */,
+				3621B4740B6FB86D00729026 /* Syncretism.framework in Copy Frameworks */,
+				20E2B3720CC6A3510015BC02 /* ZKMRNSpatializerView.h in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514EA07C081ECB3F009B8CD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../Library/Spotlight;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B467EBFA11C8D90E0005EA20 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D949991118EC297004CC052 /* CoreDataWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataWorkaround.h; sourceTree = "<group>"; };
+		0D949992118EC297004CC052 /* CoreDataWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataWorkaround.m; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		20F20D560D608D190078DFF0 /* ZKMRNCartesianEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNCartesianEvent.h; sourceTree = "<group>"; };
+		20F20D570D608D190078DFF0 /* ZKMRNCartesianEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNCartesianEvent.m; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* Zirkonium_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zirkonium_Prefix.pch; sourceTree = "<group>"; };
+		36000F330B274A84000BFC2A /* Syncretism.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Syncretism.xcodeproj; path = ../Syncretism/Syncretism.xcodeproj; sourceTree = SOURCE_ROOT; };
+		360121460B9CA0C700645290 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		360121470B9CA0C700645290 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		360CF36B0B6A81DD00A2C573 /* ZKMRNAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNAudioSource.h; sourceTree = "<group>"; };
+		360CF36C0B6A81DD00A2C573 /* ZKMRNAudioSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNAudioSource.m; sourceTree = "<group>"; };
+		360F827F0B7375CF0032E5F9 /* ZKMRNOutputPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNOutputPatch.h; sourceTree = "<group>"; };
+		360F82800B7375CF0032E5F9 /* ZKMRNOutputPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNOutputPatch.m; sourceTree = "<group>"; };
+		360F86610B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNOutputPatchChannel.h; sourceTree = "<group>"; };
+		360F86620B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNOutputPatchChannel.m; sourceTree = "<group>"; };
+		361430840C4FCF84008F15F1 /* ZKMRNSpatializerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNSpatializerView.h; path = Widgets/ZKMRNSpatializerView.h; sourceTree = "<group>"; };
+		361430850C4FCF84008F15F1 /* ZKMRNSpatializerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNSpatializerView.m; path = Widgets/ZKMRNSpatializerView.m; sourceTree = "<group>"; };
+		361512FE0B665C5C001313B3 /* ZKMRNFileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNFileSource.h; sourceTree = "<group>"; };
+		361512FF0B665C5C001313B3 /* ZKMRNFileSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNFileSource.m; sourceTree = "<group>"; };
+		3617016B0B4D6A1300ADE48B /* InputSetup.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = InputSetup.xcdatamodel; sourceTree = "<group>"; };
+		36196F420B52896F00BD6BF5 /* ZKMRNInputSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNInputSource.h; sourceTree = "<group>"; };
+		36196F430B52896F00BD6BF5 /* ZKMRNInputSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNInputSource.m; sourceTree = "<group>"; };
+		36196F4A0B52897E00BD6BF5 /* ZKMRNTestSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNTestSource.h; sourceTree = "<group>"; };
+		36196F4B0B52897E00BD6BF5 /* ZKMRNTestSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNTestSource.m; sourceTree = "<group>"; };
+		362330A20AF2074E0059E069 /* ZKMRNDomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNDomeView.h; path = Widgets/ZKMRNDomeView.h; sourceTree = "<group>"; };
+		362330A30AF2074E0059E069 /* ZKMRNDomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNDomeView.m; path = Widgets/ZKMRNDomeView.m; sourceTree = "<group>"; };
+		362330BE0AF208F20059E069 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		3623332C0AF258260059E069 /* ZKMRNSpeakerSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeakerSetup.h; sourceTree = "<group>"; };
+		3623332D0AF258260059E069 /* ZKMRNSpeakerSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeakerSetup.m; sourceTree = "<group>"; };
+		364941CF0AF797BD0070977D /* ZKMRNSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeaker.h; sourceTree = "<group>"; };
+		364941D00AF797BD0070977D /* ZKMRNSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeaker.m; sourceTree = "<group>"; };
+		364941F20AF798F10070977D /* ZKMRNSpeakerRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeakerRing.h; sourceTree = "<group>"; };
+		364941F30AF798F10070977D /* ZKMRNSpeakerRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeakerRing.m; sourceTree = "<group>"; };
+		3662E44A0AF9F276005DE99C /* ZKMRNOpenGLShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNOpenGLShapes.h; path = Widgets/ZKMRNOpenGLShapes.h; sourceTree = "<group>"; };
+		3662E44B0AF9F276005DE99C /* ZKMRNOpenGLShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNOpenGLShapes.m; path = Widgets/ZKMRNOpenGLShapes.m; sourceTree = "<group>"; };
+		3668F6AF0B14BB3800F13FBC /* ZKMRNGraphChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNGraphChannel.h; sourceTree = "<group>"; };
+		3668F6B00B14BB3900F13FBC /* ZKMRNGraphChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNGraphChannel.m; sourceTree = "<group>"; };
+		366F578D0B24666D00B17E0C /* ZKMRNChannelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNChannelGroup.h; sourceTree = "<group>"; };
+		366F578E0B24666D00B17E0C /* ZKMRNChannelGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNChannelGroup.m; sourceTree = "<group>"; };
+		368349900B050602002E32DC /* ZKMRNSimpleMap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMRNSimpleMap.h; sourceTree = "<group>"; };
+		368349910B050602002E32DC /* ZKMRNSimpleMap.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSimpleMap.m; sourceTree = "<group>"; };
+		368349A60B0506D6002E32DC /* ZKMRNOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNOpenGLView.h; path = Widgets/ZKMRNOpenGLView.h; sourceTree = "<group>"; };
+		368349A70B0506D6002E32DC /* ZKMRNOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNOpenGLView.m; path = Widgets/ZKMRNOpenGLView.m; sourceTree = "<group>"; };
+		3692CBF70B4D85C6009B56D4 /* ZKMRNInputPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNInputPatch.h; sourceTree = "<group>"; };
+		3692CBF80B4D85C6009B56D4 /* ZKMRNInputPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNInputPatch.m; sourceTree = "<group>"; };
+		36A6815A0B25AC3E00C3C98C /* ZKMRNGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNGraph.h; sourceTree = "<group>"; };
+		36A6815B0B25AC3E00C3C98C /* ZKMRNGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNGraph.m; sourceTree = "<group>"; };
+		36B37E850B2487C0006F5521 /* ZKMRNPositionEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNPositionEvent.h; sourceTree = "<group>"; };
+		36B37E860B2487C0006F5521 /* ZKMRNPositionEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNPositionEvent.m; sourceTree = "<group>"; };
+		36E9C08C0B81F34E0076E77F /* ZKMRNDirectOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNDirectOutPatch.h; sourceTree = "<group>"; };
+		36E9C08D0B81F34E0076E77F /* ZKMRNDirectOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNDirectOutPatch.m; sourceTree = "<group>"; };
+		36E9C0E10B81F6800076E77F /* ZKMRNAbstractInOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNAbstractInOutPatch.h; sourceTree = "<group>"; };
+		36E9C0E20B81F6800076E77F /* ZKMRNAbstractInOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNAbstractInOutPatch.m; sourceTree = "<group>"; };
+		36EB96A70B021E22006332FC /* ZKMRNChannelMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNChannelMap.h; sourceTree = "<group>"; };
+		36EB96A80B021E22006332FC /* ZKMRNChannelMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNChannelMap.m; sourceTree = "<group>"; };
+		36EB97C00B0241C6006332FC /* ZKMRNChannelMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNChannelMapView.h; path = Widgets/ZKMRNChannelMapView.h; sourceTree = "<group>"; };
+		36EB97C10B0241C6006332FC /* ZKMRNChannelMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNChannelMapView.m; path = Widgets/ZKMRNChannelMapView.m; sourceTree = "<group>"; };
+		36ED8A000BA1E2BD004C8429 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		36EE15450B2568F8001D079E /* ZKMRNEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNEvent.h; sourceTree = "<group>"; };
+		36EE15460B2568F8001D079E /* ZKMRNEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNEvent.m; sourceTree = "<group>"; };
+		36F40F610B95FE2200025E81 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		36FE44180AF0DB960017B68E /* StudioSetup.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = StudioSetup.xcdatamodel; sourceTree = "<group>"; };
+		514E9E2D081EC793009B8CD9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		775BDEF0067A8BF0009058FE /* PieceDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = PieceDocument.xcdatamodel; sourceTree = "<group>"; };
+		7788DA0506752A1600599AAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		8D15AC370486D014006FF6A4 /* Zirkonium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zirkonium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B405920313DDA61700891C09 /* ZKMRNGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNGradientView.h; path = Widgets/ZKMRNGradientView.h; sourceTree = "<group>"; };
+		B405920413DDA61700891C09 /* ZKMRNGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNGradientView.m; path = Widgets/ZKMRNGradientView.m; sourceTree = "<group>"; };
+		B405920513DDA61700891C09 /* ZKMRNLightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNLightTableView.h; path = Widgets/ZKMRNLightTableView.h; sourceTree = "<group>"; };
+		B405920613DDA61700891C09 /* ZKMRNLightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNLightTableView.m; path = Widgets/ZKMRNLightTableView.m; sourceTree = "<group>"; };
+		B41911C5136F063E00ECC916 /* RecordOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordOff.png; sourceTree = "<group>"; };
+		B41911C6136F063E00ECC916 /* RecordOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordOn.png; sourceTree = "<group>"; };
+		B421FD830FFB65680034C10E /* ZKMRNDirectOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNDirectOutPatchChannel.h; sourceTree = "<group>"; };
+		B421FD840FFB65680034C10E /* ZKMRNDirectOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNDirectOutPatchChannel.m; sourceTree = "<group>"; };
+		B42DF2171327DA0D00D1114A /* defaultstudio.zrkstu */ = {isa = PBXFileReference; lastKnownFileType = file; path = defaultstudio.zrkstu; sourceTree = "<group>"; };
+		B4338E1D11C916FF0004DE6C /* InputSetup1to2.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = InputSetup1to2.xcmappingmodel; sourceTree = "<group>"; };
+		B44351B814619880007CB6C7 /* LegacyMetadata_0.9.36.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LegacyMetadata_0.9.36.plist; sourceTree = "<group>"; };
+		B44351DE14619A56007CB6C7 /* MetadataExample.zrkpxml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MetadataExample.zrkpxml; sourceTree = "<group>"; };
+		B457B32513E9980300CE117F /* LightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightController.h; sourceTree = "<group>"; };
+		B457B32613E9980300CE117F /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightController.m; sourceTree = "<group>"; };
+		B4640DF412424C4A009CD2BA /* D3_zkm_La_sw.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D3_zkm_La_sw.pdf; sourceTree = "<group>"; };
+		B4640DF812424C4A009CD2BA /* minus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-8.png"; sourceTree = "<group>"; };
+		B4640DF912424C4A009CD2BA /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
+		B4640DFA12424C4A009CD2BA /* Zirkonium-file.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Zirkonium-file.icns"; sourceTree = "<group>"; };
+		B4640DFB12424C4A009CD2BA /* Zirkonium.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Zirkonium.icns; sourceTree = "<group>"; };
+		B4640E1912424C90009CD2BA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = Credits.rtf; sourceTree = "<group>"; };
+		B4640E1D12424C90009CD2BA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = MainMenu.nib; sourceTree = "<group>"; };
+		B4640E2112424C90009CD2BA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ZKMRNPieceDocument.nib; sourceTree = "<group>"; };
+		B4640E2312424C90009CD2BA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ZKMRNPreferences.nib; sourceTree = "<group>"; };
+		B4640E2712424C90009CD2BA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ZKMRNStudioSetupDocument.nib; sourceTree = "<group>"; };
+		B4640E6312424EF0009CD2BA /* ZKMORLoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORLoggerClient.h; sourceTree = "<group>"; };
+		B4640E6412424EF0009CD2BA /* ZKMORLoggerClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORLoggerClient.mm; sourceTree = "<group>"; };
+		B4640E6612424F6D009CD2BA /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
+		B467EC2E11C8E1710005EA20 /* InputSetup 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "InputSetup 2.xcdatamodel"; sourceTree = "<group>"; };
+		B4A83C9C0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNAbstractInOutPatchChannel.h; sourceTree = "<group>"; };
+		B4A83C9D0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNAbstractInOutPatchChannel.m; sourceTree = "<group>"; };
+		B4B0B93F11C8C9A400EC73E7 /* PieceDocument 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "PieceDocument 2.xcdatamodel"; sourceTree = "<group>"; };
+		B4B0B94111C8CA8900EC73E7 /* Piece1To2.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = Piece1To2.xcmappingmodel; sourceTree = "<group>"; };
+		B4B6F006117602CE00B9C5D7 /* NonOSC_TO_OSCVersion.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; path = NonOSC_TO_OSCVersion.xcmappingmodel; sourceTree = "<group>"; };
+		B4B759C8125EFC5B008455AF /* ZKMRNRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNRoom.h; sourceTree = "<group>"; };
+		B4B759C9125EFC5B008455AF /* ZKMRNRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNRoom.m; sourceTree = "<group>"; };
+		B4B75AA1125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNSpatializerViewCameraAdjustment.h; path = Widgets/ZKMRNSpatializerViewCameraAdjustment.h; sourceTree = "<group>"; };
+		B4B75AA2125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNSpatializerViewCameraAdjustment.m; path = Widgets/ZKMRNSpatializerViewCameraAdjustment.m; sourceTree = "<group>"; };
+		B4B9CA6E1248B8DF000E6181 /* version.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = version.plist; sourceTree = "<group>"; };
+		B4C0C35511EF4E2300AF450E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		B4CB5483125C5794002A6F6E /* OSCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCController.h; path = Controllers/OSCController.h; sourceTree = "<group>"; };
+		B4CB5484125C5794002A6F6E /* OSCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCController.m; path = Controllers/OSCController.m; sourceTree = "<group>"; };
+		B4CB5485125C5794002A6F6E /* ZKMRNContainerArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNContainerArrayController.h; path = Controllers/ZKMRNContainerArrayController.h; sourceTree = "<group>"; };
+		B4CB5486125C5794002A6F6E /* ZKMRNContainerArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNContainerArrayController.m; path = Controllers/ZKMRNContainerArrayController.m; sourceTree = "<group>"; };
+		B4CB5487125C5794002A6F6E /* ZKMRNEventsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNEventsArrayController.h; path = Controllers/ZKMRNEventsArrayController.h; sourceTree = "<group>"; };
+		B4CB5488125C5794002A6F6E /* ZKMRNEventsArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNEventsArrayController.m; path = Controllers/ZKMRNEventsArrayController.m; sourceTree = "<group>"; };
+		B4CB548B125C5794002A6F6E /* ZKMRNGroupsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNGroupsArrayController.h; path = Controllers/ZKMRNGroupsArrayController.h; sourceTree = "<group>"; };
+		B4CB548C125C5794002A6F6E /* ZKMRNGroupsArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNGroupsArrayController.m; path = Controllers/ZKMRNGroupsArrayController.m; sourceTree = "<group>"; };
+		B4CB548D125C5794002A6F6E /* ZKMRNManagedObjectExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNManagedObjectExtensions.h; path = Controllers/ZKMRNManagedObjectExtensions.h; sourceTree = "<group>"; };
+		B4CB548E125C5794002A6F6E /* ZKMRNManagedObjectExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNManagedObjectExtensions.m; path = Controllers/ZKMRNManagedObjectExtensions.m; sourceTree = "<group>"; };
+		B4CB548F125C5794002A6F6E /* ZKMRNPieceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNPieceDocument.h; path = Controllers/ZKMRNPieceDocument.h; sourceTree = "<group>"; };
+		B4CB5490125C5794002A6F6E /* ZKMRNPieceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNPieceDocument.m; path = Controllers/ZKMRNPieceDocument.m; sourceTree = "<group>"; };
+		B4CB5491125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNPieceDocumentWindowController.h; path = Controllers/ZKMRNPieceDocumentWindowController.h; sourceTree = "<group>"; };
+		B4CB5492125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNPieceDocumentWindowController.m; path = Controllers/ZKMRNPieceDocumentWindowController.m; sourceTree = "<group>"; };
+		B4CB5493125C5794002A6F6E /* ZKMRNPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNPreferencesController.h; path = Controllers/ZKMRNPreferencesController.h; sourceTree = "<group>"; };
+		B4CB5494125C5794002A6F6E /* ZKMRNPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNPreferencesController.m; path = Controllers/ZKMRNPreferencesController.m; sourceTree = "<group>"; };
+		B4CB5495125C5794002A6F6E /* ZKMRNStudioSetupDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNStudioSetupDocument.h; path = Controllers/ZKMRNStudioSetupDocument.h; sourceTree = "<group>"; };
+		B4CB5496125C5794002A6F6E /* ZKMRNStudioSetupDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNStudioSetupDocument.m; path = Controllers/ZKMRNStudioSetupDocument.m; sourceTree = "<group>"; };
+		B4CB5497125C5794002A6F6E /* ZKMRNTestSourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNTestSourceController.h; path = Controllers/ZKMRNTestSourceController.h; sourceTree = "<group>"; };
+		B4CB5498125C5794002A6F6E /* ZKMRNTestSourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNTestSourceController.m; path = Controllers/ZKMRNTestSourceController.m; sourceTree = "<group>"; };
+		B4CB5499125C5794002A6F6E /* ZKMRNZirkoniumSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNZirkoniumSystem.h; path = Controllers/ZKMRNZirkoniumSystem.h; sourceTree = "<group>"; };
+		B4CB549A125C5794002A6F6E /* ZKMRNZirkoniumSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNZirkoniumSystem.m; path = Controllers/ZKMRNZirkoniumSystem.m; sourceTree = "<group>"; };
+		B4CB549B125C5794002A6F6E /* ZKMRNZirkoniumUISystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNZirkoniumUISystem.h; path = Controllers/ZKMRNZirkoniumUISystem.h; sourceTree = "<group>"; };
+		B4CB549C125C5794002A6F6E /* ZKMRNZirkoniumUISystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNZirkoniumUISystem.m; path = Controllers/ZKMRNZirkoniumUISystem.m; sourceTree = "<group>"; };
+		B4CB54C6125C5802002A6F6E /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVBasics.framework; path = Frameworks/VVBasics.framework; sourceTree = "<group>"; };
+		B4CB54C8125C5802002A6F6E /* VVMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVMIDI.framework; path = Frameworks/VVMIDI.framework; sourceTree = "<group>"; };
+		B4CB54CA125C5802002A6F6E /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = Frameworks/VVOSC.framework; sourceTree = "<group>"; };
+		B4CB54FE125C5B34002A6F6E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CF25781451A4C200449A7E /* FileSourcesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSourcesController.h; sourceTree = "<group>"; };
+		B4CF25791451A4C200449A7E /* FileSourcesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSourcesController.m; sourceTree = "<group>"; };
+		B4CF25F51451C21900449A7E /* NSString+PathResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PathResolver.h"; sourceTree = "<group>"; };
+		B4CF25F61451C21900449A7E /* NSString+PathResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PathResolver.m"; sourceTree = "<group>"; };
+		B4D163961175E68B007FA5C4 /* StudioSetup 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "StudioSetup 2.xcdatamodel"; sourceTree = "<group>"; };
+		B4D5605F127191640098C643 /* PieceDocument 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "PieceDocument 3.xcdatamodel"; sourceTree = "<group>"; };
+		B4D9E52B124356FB00B3818F /* ZKMRNTimeWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNTimeWatch.h; sourceTree = "<group>"; };
+		B4D9E52C124356FB00B3818F /* ZKMRNTimeWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNTimeWatch.m; sourceTree = "<group>"; };
+		B4DD2F44137013A800CE780B /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		B4DD2F45137013A800CE780B /* Rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rewind.png; sourceTree = "<group>"; };
+		B4DD2F46137013A800CE780B /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		B4ED232613E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeakerSetupView.h; sourceTree = "<group>"; };
+		B4ED232713E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeakerSetupView.m; sourceTree = "<group>"; };
+		B4ED232913E80D2D00E2AB4A /* ZKMRNTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNTextures.h; sourceTree = "<group>"; };
+		B4ED232A13E80D2D00E2AB4A /* ZKMRNTextures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNTextures.m; sourceTree = "<group>"; };
+		B4F67BA8115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNDomeViewCameraAdjustment.h; path = Widgets/ZKMRNDomeViewCameraAdjustment.h; sourceTree = "<group>"; };
+		B4F67BA9115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNDomeViewCameraAdjustment.m; path = Widgets/ZKMRNDomeViewCameraAdjustment.m; sourceTree = "<group>"; };
+		B4FD6AF90FE2909C00CFB35B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */,
+				362330BF0AF208F20059E069 /* OpenGL.framework in Frameworks */,
+				36000F3C0B274A86000BFC2A /* Syncretism.framework in Frameworks */,
+				360120C80B9CA09E00645290 /* CoreAudio.framework in Frameworks */,
+				360120C90B9CA0A700645290 /* CoreFoundation.framework in Frameworks */,
+				360120CA0B9CA0A800645290 /* CoreServices.framework in Frameworks */,
+				360120CC0B9CA0A900645290 /* CoreData.framework in Frameworks */,
+				360121480B9CA0C700645290 /* AudioUnit.framework in Frameworks */,
+				360121490B9CA0C700645290 /* AudioToolbox.framework in Frameworks */,
+				B4933ED70FE2BFFF00226C9F /* GLUT.framework in Frameworks */,
+				B4C0C35611EF4E2400AF450E /* IOKit.framework in Frameworks */,
+				B4CB54C7125C5802002A6F6E /* VVBasics.framework in Frameworks */,
+				B4CB54C9125C5802002A6F6E /* VVMIDI.framework in Frameworks */,
+				B4CB54CB125C5802002A6F6E /* VVOSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4FD6AF90FE2909C00CFB35B /* GLUT.framework */,
+				36ED8A000BA1E2BD004C8429 /* Carbon.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				36F40F610B95FE2200025E81 /* CoreAudio.framework */,
+				360121460B9CA0C700645290 /* AudioUnit.framework */,
+				360121470B9CA0C700645290 /* AudioToolbox.framework */,
+				514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */,
+				514E9E2D081EC793009B8CD9 /* CoreServices.framework */,
+				7788DA0506752A1600599AAD /* CoreData.framework */,
+				362330BE0AF208F20059E069 /* OpenGL.framework */,
+				36000F330B274A84000BFC2A /* Syncretism.xcodeproj */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C0C35511EF4E2300AF450E /* IOKit.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Zirkonium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Zirkonium */ = {
+			isa = PBXGroup;
+			children = (
+				B4640E1312424C90009CD2BA /* English.lproj */,
+				B4640DF312424C4A009CD2BA /* Resources */,
+				E1B74B1A0667B4A90069E3BA /* Model */,
+				B4ED22C913E7FA8C00E2AB4A /* OpenGL */,
+				362330400AF206A50059E069 /* Widgets */,
+				B405920213DDA5FE00891C09 /* Light */,
+				2A37F4ABFDCFA73011CA2CEA /* Controllers */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = Zirkonium;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4CB5483125C5794002A6F6E /* OSCController.h */,
+				B4CB5484125C5794002A6F6E /* OSCController.m */,
+				B4CB5485125C5794002A6F6E /* ZKMRNContainerArrayController.h */,
+				B4CB5486125C5794002A6F6E /* ZKMRNContainerArrayController.m */,
+				B4CB5487125C5794002A6F6E /* ZKMRNEventsArrayController.h */,
+				B4CB5488125C5794002A6F6E /* ZKMRNEventsArrayController.m */,
+				B4CB548B125C5794002A6F6E /* ZKMRNGroupsArrayController.h */,
+				B4CB548C125C5794002A6F6E /* ZKMRNGroupsArrayController.m */,
+				B4CB548D125C5794002A6F6E /* ZKMRNManagedObjectExtensions.h */,
+				B4CB548E125C5794002A6F6E /* ZKMRNManagedObjectExtensions.m */,
+				B4CB548F125C5794002A6F6E /* ZKMRNPieceDocument.h */,
+				B4CB5490125C5794002A6F6E /* ZKMRNPieceDocument.m */,
+				B4CB5491125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.h */,
+				B4CB5492125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.m */,
+				B4CB5493125C5794002A6F6E /* ZKMRNPreferencesController.h */,
+				B4CB5494125C5794002A6F6E /* ZKMRNPreferencesController.m */,
+				B4CB5495125C5794002A6F6E /* ZKMRNStudioSetupDocument.h */,
+				B4CB5496125C5794002A6F6E /* ZKMRNStudioSetupDocument.m */,
+				B4CB5497125C5794002A6F6E /* ZKMRNTestSourceController.h */,
+				B4CB5498125C5794002A6F6E /* ZKMRNTestSourceController.m */,
+				B4CB5499125C5794002A6F6E /* ZKMRNZirkoniumSystem.h */,
+				B4CB549A125C5794002A6F6E /* ZKMRNZirkoniumSystem.m */,
+				B4CB549B125C5794002A6F6E /* ZKMRNZirkoniumUISystem.h */,
+				B4CB549C125C5794002A6F6E /* ZKMRNZirkoniumUISystem.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4CB54FE125C5B34002A6F6E /* Info.plist */,
+				32DBCF750370BD2300C91783 /* Zirkonium_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+				B4CB54C6125C5802002A6F6E /* VVBasics.framework */,
+				B4CB54C8125C5802002A6F6E /* VVMIDI.framework */,
+				B4CB54CA125C5802002A6F6E /* VVOSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36000F340B274A84000BFC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36000F390B274A84000BFC2A /* Syncretism.framework */,
+				36000F3B0B274A84000BFC2A /* SyncretismTest.octest */,
+				36268FC70B3AECB6008E3CA1 /* SyncretismTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360FE4370B4E65DA00690502 /* InputSetup */ = {
+			isa = PBXGroup;
+			children = (
+				B467EC2C11C8E1710005EA20 /* InputSetup.xcdatamodeld */,
+				36E9C0E10B81F6800076E77F /* ZKMRNAbstractInOutPatch.h */,
+				36E9C0E20B81F6800076E77F /* ZKMRNAbstractInOutPatch.m */,
+				36E9C08C0B81F34E0076E77F /* ZKMRNDirectOutPatch.h */,
+				36E9C08D0B81F34E0076E77F /* ZKMRNDirectOutPatch.m */,
+				3692CBF70B4D85C6009B56D4 /* ZKMRNInputPatch.h */,
+				3692CBF80B4D85C6009B56D4 /* ZKMRNInputPatch.m */,
+				360F827F0B7375CF0032E5F9 /* ZKMRNOutputPatch.h */,
+				360F82800B7375CF0032E5F9 /* ZKMRNOutputPatch.m */,
+				B4A83C9C0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.h */,
+				B4A83C9D0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.m */,
+				360F86610B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.h */,
+				360F86620B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.m */,
+				B421FD830FFB65680034C10E /* ZKMRNDirectOutPatchChannel.h */,
+				B421FD840FFB65680034C10E /* ZKMRNDirectOutPatchChannel.m */,
+			);
+			path = InputSetup;
+			sourceTree = "<group>";
+		};
+		362330400AF206A50059E069 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B4F67BA7115A106300D10EA6 /* Helper */,
+				B4D9E52B124356FB00B3818F /* ZKMRNTimeWatch.h */,
+				B4D9E52C124356FB00B3818F /* ZKMRNTimeWatch.m */,
+				B4CF25781451A4C200449A7E /* FileSourcesController.h */,
+				B4CF25791451A4C200449A7E /* FileSourcesController.m */,
+				B4CF25F51451C21900449A7E /* NSString+PathResolver.h */,
+				B4CF25F61451C21900449A7E /* NSString+PathResolver.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		36D509510B4E95690067DF70 /* StudioSetup */ = {
+			isa = PBXGroup;
+			children = (
+				B4D163941175E68B007FA5C4 /* StudioSetup.xcdatamodeld */,
+				B4B759C8125EFC5B008455AF /* ZKMRNRoom.h */,
+				B4B759C9125EFC5B008455AF /* ZKMRNRoom.m */,
+				36EB96A70B021E22006332FC /* ZKMRNChannelMap.h */,
+				36EB96A80B021E22006332FC /* ZKMRNChannelMap.m */,
+				368349900B050602002E32DC /* ZKMRNSimpleMap.h */,
+				368349910B050602002E32DC /* ZKMRNSimpleMap.m */,
+				364941CF0AF797BD0070977D /* ZKMRNSpeaker.h */,
+				364941D00AF797BD0070977D /* ZKMRNSpeaker.m */,
+				364941F20AF798F10070977D /* ZKMRNSpeakerRing.h */,
+				364941F30AF798F10070977D /* ZKMRNSpeakerRing.m */,
+				3623332C0AF258260059E069 /* ZKMRNSpeakerSetup.h */,
+				3623332D0AF258260059E069 /* ZKMRNSpeakerSetup.m */,
+				0D949991118EC297004CC052 /* CoreDataWorkaround.h */,
+				0D949992118EC297004CC052 /* CoreDataWorkaround.m */,
+			);
+			path = StudioSetup;
+			sourceTree = "<group>";
+		};
+		36D5095D0B4E95B40067DF70 /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0B93D11C8C9A400EC73E7 /* PieceDocument.xcdatamodeld */,
+				B4D55FF3127181250098C643 /* Events */,
+				B4D55FF21271810E0098C643 /* Sources */,
+				366F578D0B24666D00B17E0C /* ZKMRNChannelGroup.h */,
+				366F578E0B24666D00B17E0C /* ZKMRNChannelGroup.m */,
+				36A6815A0B25AC3E00C3C98C /* ZKMRNGraph.h */,
+				36A6815B0B25AC3E00C3C98C /* ZKMRNGraph.m */,
+				3668F6AF0B14BB3800F13FBC /* ZKMRNGraphChannel.h */,
+				3668F6B00B14BB3900F13FBC /* ZKMRNGraphChannel.m */,
+			);
+			path = Piece;
+			sourceTree = "<group>";
+		};
+		B405920213DDA5FE00891C09 /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				B457B32513E9980300CE117F /* LightController.h */,
+				B457B32613E9980300CE117F /* LightController.m */,
+				B405920313DDA61700891C09 /* ZKMRNGradientView.h */,
+				B405920413DDA61700891C09 /* ZKMRNGradientView.m */,
+				B405920513DDA61700891C09 /* ZKMRNLightTableView.h */,
+				B405920613DDA61700891C09 /* ZKMRNLightTableView.m */,
+			);
+			name = Light;
+			sourceTree = "<group>";
+		};
+		B4640DF312424C4A009CD2BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B44351DE14619A56007CB6C7 /* MetadataExample.zrkpxml */,
+				B44351B814619880007CB6C7 /* LegacyMetadata_0.9.36.plist */,
+				B4DD2F44137013A800CE780B /* Play.png */,
+				B4DD2F45137013A800CE780B /* Rewind.png */,
+				B4DD2F46137013A800CE780B /* Stop.png */,
+				B41911C5136F063E00ECC916 /* RecordOff.png */,
+				B41911C6136F063E00ECC916 /* RecordOn.png */,
+				B42DF2171327DA0D00D1114A /* defaultstudio.zrkstu */,
+				B4640DF412424C4A009CD2BA /* D3_zkm_La_sw.pdf */,
+				B4640DF812424C4A009CD2BA /* minus-8.png */,
+				B4640DF912424C4A009CD2BA /* plus-8.png */,
+				B4640DFA12424C4A009CD2BA /* Zirkonium-file.icns */,
+				B4640DFB12424C4A009CD2BA /* Zirkonium.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4640E1312424C90009CD2BA /* English.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				B4B9CA6E1248B8DF000E6181 /* version.plist */,
+				B4640E1812424C90009CD2BA /* Credits.rtf */,
+				B4640E1C12424C90009CD2BA /* MainMenu.nib */,
+				B4640E2012424C90009CD2BA /* ZKMRNPieceDocument.nib */,
+				B4640E2212424C90009CD2BA /* ZKMRNPreferences.nib */,
+				B4640E2612424C90009CD2BA /* ZKMRNStudioSetupDocument.nib */,
+			);
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+		B4D55FF21271810E0098C643 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				360CF36B0B6A81DD00A2C573 /* ZKMRNAudioSource.h */,
+				360CF36C0B6A81DD00A2C573 /* ZKMRNAudioSource.m */,
+				361512FE0B665C5C001313B3 /* ZKMRNFileSource.h */,
+				361512FF0B665C5C001313B3 /* ZKMRNFileSource.m */,
+				36196F420B52896F00BD6BF5 /* ZKMRNInputSource.h */,
+				36196F430B52896F00BD6BF5 /* ZKMRNInputSource.m */,
+				36196F4A0B52897E00BD6BF5 /* ZKMRNTestSource.h */,
+				36196F4B0B52897E00BD6BF5 /* ZKMRNTestSource.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B4D55FF3127181250098C643 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				20F20D560D608D190078DFF0 /* ZKMRNCartesianEvent.h */,
+				20F20D570D608D190078DFF0 /* ZKMRNCartesianEvent.m */,
+				36EE15450B2568F8001D079E /* ZKMRNEvent.h */,
+				36EE15460B2568F8001D079E /* ZKMRNEvent.m */,
+				36B37E850B2487C0006F5521 /* ZKMRNPositionEvent.h */,
+				36B37E860B2487C0006F5521 /* ZKMRNPositionEvent.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		B4ED22C913E7FA8C00E2AB4A /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED22CB13E7FADE00E2AB4A /* Helper */,
+				368349A60B0506D6002E32DC /* ZKMRNOpenGLView.h */,
+				368349A70B0506D6002E32DC /* ZKMRNOpenGLView.m */,
+				362330A20AF2074E0059E069 /* ZKMRNDomeView.h */,
+				362330A30AF2074E0059E069 /* ZKMRNDomeView.m */,
+				B4ED232613E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.h */,
+				B4ED232713E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.m */,
+				361430840C4FCF84008F15F1 /* ZKMRNSpatializerView.h */,
+				361430850C4FCF84008F15F1 /* ZKMRNSpatializerView.m */,
+				36EB97C00B0241C6006332FC /* ZKMRNChannelMapView.h */,
+				36EB97C10B0241C6006332FC /* ZKMRNChannelMapView.m */,
+			);
+			name = OpenGL;
+			sourceTree = "<group>";
+		};
+		B4ED22CB13E7FADE00E2AB4A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B4F67BA8115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.h */,
+				B4F67BA9115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.m */,
+				B4B75AA1125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.h */,
+				B4B75AA2125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.m */,
+				3662E44A0AF9F276005DE99C /* ZKMRNOpenGLShapes.h */,
+				3662E44B0AF9F276005DE99C /* ZKMRNOpenGLShapes.m */,
+				B4ED232913E80D2D00E2AB4A /* ZKMRNTextures.h */,
+				B4ED232A13E80D2D00E2AB4A /* ZKMRNTextures.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B4F67BA7115A106300D10EA6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B4640E6612424F6D009CD2BA /* CAAtomicStack.h */,
+				B4640E6312424EF0009CD2BA /* ZKMORLoggerClient.h */,
+				B4640E6412424EF0009CD2BA /* ZKMORLoggerClient.mm */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E1B74B1A0667B4A90069E3BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				360FE4370B4E65DA00690502 /* InputSetup */,
+				36D5095D0B4E95B40067DF70 /* Piece */,
+				36D509510B4E95690067DF70 /* StudioSetup */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Zirkonium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0ACA0875C91100E6366F /* Build configuration list for PBXNativeTarget "Zirkonium" */;
+			buildPhases = (
+				3621B4700B6FB84400729026 /* Copy Frameworks */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				514EA07C081ECB3F009B8CD9 /* CopyFiles */,
+				B467EBFA11C8D90E0005EA20 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zirkonium;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Zirkonium;
+			productReference = 8D15AC370486D014006FF6A4 /* Zirkonium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0ACE0875C91100E6366F /* Build configuration list for PBXProject "Zirkonium" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Zirkonium */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36000F340B274A84000BFC2A /* Products */;
+					ProjectRef = 36000F330B274A84000BFC2A /* Syncretism.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Zirkonium */,
+				36797D360BA00AA500772FB3 /* Zirkonium-All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		36000F390B274A84000BFC2A /* Syncretism.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Syncretism.framework;
+			remoteRef = 36000F380B274A84000BFC2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36000F3B0B274A84000BFC2A /* SyncretismTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SyncretismTest.octest;
+			remoteRef = 36000F3A0B274A84000BFC2A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36268FC70B3AECB6008E3CA1 /* SyncretismTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SyncretismTestTool;
+			remoteRef = 36268FC60B3AECB6008E3CA1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44351B914619880007CB6C7 /* LegacyMetadata_0.9.36.plist in Resources */,
+				B4640E0412424C4A009CD2BA /* D3_zkm_La_sw.pdf in Resources */,
+				B4640E0812424C4A009CD2BA /* minus-8.png in Resources */,
+				B4640E0912424C4A009CD2BA /* plus-8.png in Resources */,
+				B4640E0A12424C4A009CD2BA /* Zirkonium-file.icns in Resources */,
+				B4640E0B12424C4A009CD2BA /* Zirkonium.icns in Resources */,
+				B4640E2C12424C90009CD2BA /* Credits.rtf in Resources */,
+				B4640E2E12424C90009CD2BA /* MainMenu.nib in Resources */,
+				B4640E3012424C90009CD2BA /* ZKMRNPieceDocument.nib in Resources */,
+				B4640E3112424C90009CD2BA /* ZKMRNPreferences.nib in Resources */,
+				B4640E3312424C90009CD2BA /* ZKMRNStudioSetupDocument.nib in Resources */,
+				B4B9CA6F1248B8DF000E6181 /* version.plist in Resources */,
+				B42DF2181327DA0D00D1114A /* defaultstudio.zrkstu in Resources */,
+				B41911C7136F063E00ECC916 /* RecordOff.png in Resources */,
+				B41911C8136F063E00ECC916 /* RecordOn.png in Resources */,
+				B4DD2F47137013A800CE780B /* Play.png in Resources */,
+				B4DD2F48137013A800CE780B /* Rewind.png in Resources */,
+				B4DD2F49137013A800CE780B /* Stop.png in Resources */,
+				B44351DF14619A56007CB6C7 /* MetadataExample.zrkpxml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0B93E11C8C9A400EC73E7 /* PieceDocument.xcdatamodeld in Sources */,
+				B467EC2D11C8E1710005EA20 /* InputSetup.xcdatamodeld in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				B4D163951175E68B007FA5C4 /* StudioSetup.xcdatamodeld in Sources */,
+				362330A50AF2074E0059E069 /* ZKMRNDomeView.m in Sources */,
+				3623332F0AF258260059E069 /* ZKMRNSpeakerSetup.m in Sources */,
+				364941D20AF797BD0070977D /* ZKMRNSpeaker.m in Sources */,
+				364941F50AF798F10070977D /* ZKMRNSpeakerRing.m in Sources */,
+				3662E44D0AF9F276005DE99C /* ZKMRNOpenGLShapes.m in Sources */,
+				36EB96AA0B021E22006332FC /* ZKMRNChannelMap.m in Sources */,
+				36EB97C30B0241C6006332FC /* ZKMRNChannelMapView.m in Sources */,
+				368349930B050602002E32DC /* ZKMRNSimpleMap.m in Sources */,
+				368349A90B0506D6002E32DC /* ZKMRNOpenGLView.m in Sources */,
+				3668F6B20B14BB3900F13FBC /* ZKMRNGraphChannel.m in Sources */,
+				366F57900B24666D00B17E0C /* ZKMRNChannelGroup.m in Sources */,
+				36B37E880B2487C0006F5521 /* ZKMRNPositionEvent.m in Sources */,
+				36EE15480B2568F8001D079E /* ZKMRNEvent.m in Sources */,
+				36A6815D0B25AC3E00C3C98C /* ZKMRNGraph.m in Sources */,
+				3692CBFA0B4D85C6009B56D4 /* ZKMRNInputPatch.m in Sources */,
+				36196F450B52896F00BD6BF5 /* ZKMRNInputSource.m in Sources */,
+				36196F4D0B52897E00BD6BF5 /* ZKMRNTestSource.m in Sources */,
+				361513010B665C5C001313B3 /* ZKMRNFileSource.m in Sources */,
+				360CF36E0B6A81DD00A2C573 /* ZKMRNAudioSource.m in Sources */,
+				360F82820B7375CF0032E5F9 /* ZKMRNOutputPatch.m in Sources */,
+				360F86640B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.m in Sources */,
+				36E9C08F0B81F34E0076E77F /* ZKMRNDirectOutPatch.m in Sources */,
+				36E9C0E40B81F6800076E77F /* ZKMRNAbstractInOutPatch.m in Sources */,
+				20E2B3730CC6A3510015BC02 /* ZKMRNSpatializerView.m in Sources */,
+				20F20D580D608D190078DFF0 /* ZKMRNCartesianEvent.m in Sources */,
+				B421FD850FFB65680034C10E /* ZKMRNDirectOutPatchChannel.m in Sources */,
+				B4A83C9E0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.m in Sources */,
+				B4F67BAA115A109A00D10EA6 /* ZKMRNDomeViewCameraAdjustment.m in Sources */,
+				0D949993118EC297004CC052 /* CoreDataWorkaround.m in Sources */,
+				0D949E44118F02DE004CC052 /* NonOSC_TO_OSCVersion.xcmappingmodel in Sources */,
+				B4B0B94211C8CA8900EC73E7 /* Piece1To2.xcmappingmodel in Sources */,
+				B4338E1E11C916FF0004DE6C /* InputSetup1to2.xcmappingmodel in Sources */,
+				B4640E6512424EF0009CD2BA /* ZKMORLoggerClient.mm in Sources */,
+				B4D9E52D124356FB00B3818F /* ZKMRNTimeWatch.m in Sources */,
+				B4CB549D125C5794002A6F6E /* OSCController.m in Sources */,
+				B4CB549E125C5794002A6F6E /* ZKMRNContainerArrayController.m in Sources */,
+				B4CB549F125C5794002A6F6E /* ZKMRNEventsArrayController.m in Sources */,
+				B4CB54A1125C5794002A6F6E /* ZKMRNGroupsArrayController.m in Sources */,
+				B4CB54A2125C5794002A6F6E /* ZKMRNManagedObjectExtensions.m in Sources */,
+				B4CB54A3125C5794002A6F6E /* ZKMRNPieceDocument.m in Sources */,
+				B4CB54A4125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.m in Sources */,
+				B4CB54A5125C5794002A6F6E /* ZKMRNPreferencesController.m in Sources */,
+				B4CB54A6125C5794002A6F6E /* ZKMRNStudioSetupDocument.m in Sources */,
+				B4CB54A7125C5794002A6F6E /* ZKMRNTestSourceController.m in Sources */,
+				B4CB54A8125C5794002A6F6E /* ZKMRNZirkoniumSystem.m in Sources */,
+				B4CB54A9125C5794002A6F6E /* ZKMRNZirkoniumUISystem.m in Sources */,
+				B4B759CA125EFC5B008455AF /* ZKMRNRoom.m in Sources */,
+				B4B75AA3125F194F008455AF /* ZKMRNSpatializerViewCameraAdjustment.m in Sources */,
+				B405920713DDA61700891C09 /* ZKMRNGradientView.m in Sources */,
+				B405920813DDA61700891C09 /* ZKMRNLightTableView.m in Sources */,
+				B4ED232813E80CAC00E2AB4A /* ZKMRNSpeakerSetupView.m in Sources */,
+				B4ED232B13E80D2D00E2AB4A /* ZKMRNTextures.m in Sources */,
+				B457B32713E9980300CE117F /* LightController.m in Sources */,
+				B4CF257A1451A4C200449A7E /* FileSourcesController.m in Sources */,
+				B4CF25F71451C21900449A7E /* NSString+PathResolver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36797D380BA00AAD00772FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D15AC270486D014006FF6A4 /* Zirkonium */;
+			targetProxy = 36797D370BA00AAD00772FB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4640E1812424C90009CD2BA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4640E1912424C90009CD2BA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B4640E1C12424C90009CD2BA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4640E1D12424C90009CD2BA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		B4640E2012424C90009CD2BA /* ZKMRNPieceDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4640E2112424C90009CD2BA /* English */,
+			);
+			name = ZKMRNPieceDocument.nib;
+			sourceTree = "<group>";
+		};
+		B4640E2212424C90009CD2BA /* ZKMRNPreferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4640E2312424C90009CD2BA /* English */,
+			);
+			name = ZKMRNPreferences.nib;
+			sourceTree = "<group>";
+		};
+		B4640E2612424C90009CD2BA /* ZKMRNStudioSetupDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4640E2712424C90009CD2BA /* English */,
+			);
+			name = ZKMRNStudioSetupDocument.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0ACB0875C91100E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../build,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Zirkonium_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				HEADER_SEARCH_PATHS = oscpack;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Zirkonium;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		26FC0ACC0875C91100E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				FRAMEWORK_SEARCH_PATHS = (
+					../build,
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Zirkonium_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
+				HEADER_SEARCH_PATHS = oscpack;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Zirkonium;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0ACF0875C91100E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MOMC_NO_INVERSE_RELATIONSHIP_WARNINGS = YES;
+				MOMC_NO_MAX_PROPERTY_COUNT_WARNINGS = YES;
+				MOMC_NO_WARNINGS = YES;
+				MOMC_SUPPRESS_INVERSE_TRANSIENT_ERROR = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		26FC0AD00875C91100E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		36797D3F0BA00ACB00772FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Zirkonium-All";
+			};
+			name = Debug;
+		};
+		36797D400BA00ACB00772FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "Zirkonium-All";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0ACA0875C91100E6366F /* Build configuration list for PBXNativeTarget "Zirkonium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0ACB0875C91100E6366F /* Debug */,
+				26FC0ACC0875C91100E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0ACE0875C91100E6366F /* Build configuration list for PBXProject "Zirkonium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0ACF0875C91100E6366F /* Debug */,
+				26FC0AD00875C91100E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36797D3E0BA00ACB00772FB3 /* Build configuration list for PBXAggregateTarget "Zirkonium-All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36797D3F0BA00ACB00772FB3 /* Debug */,
+				36797D400BA00ACB00772FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B467EC2C11C8E1710005EA20 /* InputSetup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3617016B0B4D6A1300ADE48B /* InputSetup.xcdatamodel */,
+				B467EC2E11C8E1710005EA20 /* InputSetup 2.xcdatamodel */,
+				B4338E1D11C916FF0004DE6C /* InputSetup1to2.xcmappingmodel */,
+			);
+			currentVersion = B467EC2E11C8E1710005EA20 /* InputSetup 2.xcdatamodel */;
+			path = InputSetup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B4B0B93D11C8C9A400EC73E7 /* PieceDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				775BDEF0067A8BF0009058FE /* PieceDocument.xcdatamodel */,
+				B4B0B93F11C8C9A400EC73E7 /* PieceDocument 2.xcdatamodel */,
+				B4D5605F127191640098C643 /* PieceDocument 3.xcdatamodel */,
+				B4B0B94111C8CA8900EC73E7 /* Piece1To2.xcmappingmodel */,
+			);
+			currentVersion = B4B0B93F11C8C9A400EC73E7 /* PieceDocument 2.xcdatamodel */;
+			path = PieceDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B4D163941175E68B007FA5C4 /* StudioSetup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36FE44180AF0DB960017B68E /* StudioSetup.xcdatamodel */,
+				B4D163961175E68B007FA5C4 /* StudioSetup 2.xcdatamodel */,
+				B4B6F006117602CE00B9C5D7 /* NonOSC_TO_OSCVersion.xcmappingmodel */,
+			);
+			currentVersion = B4D163961175E68B007FA5C4 /* StudioSetup 2.xcdatamodel */;
+			path = StudioSetup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

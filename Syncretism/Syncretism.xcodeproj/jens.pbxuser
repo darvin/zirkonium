@@ -1,0 +1,1530 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B4D65EA10FD7B25300331444 /* SyncretismTestTool */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+		addToTargets = (
+			8DC2EF4F0486A6940098B216 /* Syncretism */,
+		);
+		breakpoints = (
+			B4AFEE73124A2BC7001C19B3 /* ZKMNRSpeakerLayout.m:143 */,
+			B4D43E6A12786ADC00C51CAF /* ZKMORConduit.mm:559 */,
+			B4D0BD7F128D8646007CDF30 /* ZirkoniumKernelDevice.mm:31 */,
+			B4D0BD83128D864C007CDF30 /* ZirkoniumKernelDeviceInput.mm:65 */,
+		);
+		codeSenseManager = B4D662020FD7D5D300331444 /* Code sense */;
+		executables = (
+			B4D65EA10FD7B25300331444 /* SyncretismTestTool */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					581,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					541,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333289763;
+			PBXWorkspaceStateSaveDate = 333289763;
+		};
+		perUserProjectItems = {
+			B40591F913DDA5D500891C09 /* PBXTextBookmark */ = B40591F913DDA5D500891C09 /* PBXTextBookmark */;
+			B41890BC12646E9900349EAA /* PBXTextBookmark */ = B41890BC12646E9900349EAA /* PBXTextBookmark */;
+			B41890F0126480F100349EAA /* PBXTextBookmark */ = B41890F0126480F100349EAA /* PBXTextBookmark */;
+			B421C6A011C69FE600B18050 /* PBXTextBookmark */ = B421C6A011C69FE600B18050 /* PBXTextBookmark */;
+			B42672271277207B002BF845 /* PBXTextBookmark */ = B42672271277207B002BF845 /* PBXTextBookmark */;
+			B42672281277207B002BF845 /* PBXTextBookmark */ = B42672281277207B002BF845 /* PBXTextBookmark */;
+			B426724912773229002BF845 /* PBXTextBookmark */ = B426724912773229002BF845 /* PBXTextBookmark */;
+			B426724A12773229002BF845 /* PBXTextBookmark */ = B426724A12773229002BF845 /* PBXTextBookmark */;
+			B426724C12773229002BF845 /* PBXTextBookmark */ = B426724C12773229002BF845 /* PBXTextBookmark */;
+			B45432A71371815600D36040 /* PBXTextBookmark */ = B45432A71371815600D36040 /* PBXTextBookmark */;
+			B4640EE512425AEF009CD2BA /* PBXTextBookmark */ = B4640EE512425AEF009CD2BA /* PBXTextBookmark */;
+			B494B6EF11A56825000F29D8 /* PBXTextBookmark */ = B494B6EF11A56825000F29D8 /* PBXTextBookmark */;
+			B494B6F711A56825000F29D8 /* PBXTextBookmark */ = B494B6F711A56825000F29D8 /* PBXTextBookmark */;
+			B494B6F811A56825000F29D8 /* PBXTextBookmark */ = B494B6F811A56825000F29D8 /* PBXTextBookmark */;
+			B4AE50C112030C61002328C8 /* PBXTextBookmark */ = B4AE50C112030C61002328C8 /* PBXTextBookmark */;
+			B4B60F6411A4623300E2C231 /* PBXTextBookmark */ = B4B60F6411A4623300E2C231 /* PBXTextBookmark */;
+			B4B60F6711A4623300E2C231 /* PBXTextBookmark */ = B4B60F6711A4623300E2C231 /* PBXTextBookmark */;
+			B4B60F6D11A4623300E2C231 /* PBXTextBookmark */ = B4B60F6D11A4623300E2C231 /* PBXTextBookmark */;
+			B4B75C1E125F5BEF008455AF /* PBXTextBookmark */ = B4B75C1E125F5BEF008455AF /* PBXTextBookmark */;
+			B4B75C5D125F5EBE008455AF /* PBXTextBookmark */ = B4B75C5D125F5EBE008455AF /* PBXTextBookmark */;
+			B4B75F32125F8555008455AF /* PBXTextBookmark */ = B4B75F32125F8555008455AF /* PBXTextBookmark */;
+			B4BAA06612670D1200B7F142 /* PBXTextBookmark */ = B4BAA06612670D1200B7F142 /* PBXTextBookmark */;
+			B4BAA06712670D1200B7F142 /* PBXTextBookmark */ = B4BAA06712670D1200B7F142 /* PBXTextBookmark */;
+			B4BAA06812670D1200B7F142 /* PBXTextBookmark */ = B4BAA06812670D1200B7F142 /* PBXTextBookmark */;
+			B4BAA06A12670D1200B7F142 /* PBXTextBookmark */ = B4BAA06A12670D1200B7F142 /* PBXTextBookmark */;
+			B4BB39221265AA2D00FFBFA0 /* PBXTextBookmark */ = B4BB39221265AA2D00FFBFA0 /* PBXTextBookmark */;
+			B4C3D13F1279A7010064BAF0 /* PBXTextBookmark */ = B4C3D13F1279A7010064BAF0 /* PBXTextBookmark */;
+			B4CABB6D13718D82004157C2 /* PBXTextBookmark */ = B4CABB6D13718D82004157C2 /* PBXTextBookmark */;
+			B4D0B9D3128D3182007CDF30 /* PBXTextBookmark */ = B4D0B9D3128D3182007CDF30 /* PBXTextBookmark */;
+			B4D0B9D4128D3182007CDF30 /* PBXTextBookmark */ = B4D0B9D4128D3182007CDF30 /* PBXTextBookmark */;
+			B4D0B9D5128D3182007CDF30 /* PBXTextBookmark */ = B4D0B9D5128D3182007CDF30 /* PBXTextBookmark */;
+			B4D0BA9D128D4F22007CDF30 /* PBXTextBookmark */ = B4D0BA9D128D4F22007CDF30 /* PBXTextBookmark */;
+			B4D0BA9F128D4F22007CDF30 /* PBXTextBookmark */ = B4D0BA9F128D4F22007CDF30 /* PBXTextBookmark */;
+			B4D0BAA0128D4F22007CDF30 /* PBXTextBookmark */ = B4D0BAA0128D4F22007CDF30 /* PBXTextBookmark */;
+			B4D0BB2B128D5458007CDF30 /* PBXTextBookmark */ = B4D0BB2B128D5458007CDF30 /* PBXTextBookmark */;
+			B4D0BB2C128D5458007CDF30 /* PBXTextBookmark */ = B4D0BB2C128D5458007CDF30 /* PBXTextBookmark */;
+			B4D2A71C133283C1009DC678 /* PBXTextBookmark */ = B4D2A71C133283C1009DC678 /* PBXTextBookmark */;
+			B4D43EBA12786D1300C51CAF /* PBXTextBookmark */ = B4D43EBA12786D1300C51CAF /* PBXTextBookmark */;
+			B4D43EBD12786D1300C51CAF /* PBXTextBookmark */ = B4D43EBD12786D1300C51CAF /* PBXTextBookmark */;
+			B4D43EBE12786D1300C51CAF /* PBXTextBookmark */ = B4D43EBE12786D1300C51CAF /* PBXTextBookmark */;
+			B4D4C1B811A1BE7600ABE50A /* PBXTextBookmark */ = B4D4C1B811A1BE7600ABE50A /* PBXTextBookmark */;
+			B4D7E667127841AD00CC2D1D /* PBXTextBookmark */ = B4D7E667127841AD00CC2D1D /* PBXTextBookmark */;
+			B4D87044126DDF360040444B /* PBXTextBookmark */ = B4D87044126DDF360040444B /* PBXTextBookmark */;
+			B4DA777113095BA500240DBC /* PBXTextBookmark */ = B4DA777113095BA500240DBC /* PBXTextBookmark */;
+			B4DA777213095BA500240DBC /* PBXTextBookmark */ = B4DA777213095BA500240DBC /* PBXTextBookmark */;
+			B4F97C4B1270637E002E1AFF /* PBXTextBookmark */ = B4F97C4B1270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C4C1270637E002E1AFF /* PBXTextBookmark */ = B4F97C4C1270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C4D1270637E002E1AFF /* PBXTextBookmark */ = B4F97C4D1270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C4E1270637E002E1AFF /* PBXTextBookmark */ = B4F97C4E1270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C4F1270637E002E1AFF /* PBXTextBookmark */ = B4F97C4F1270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C501270637E002E1AFF /* PBXTextBookmark */ = B4F97C501270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C521270637E002E1AFF /* PBXTextBookmark */ = B4F97C521270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C531270637E002E1AFF /* PBXTextBookmark */ = B4F97C531270637E002E1AFF /* PBXTextBookmark */;
+			B4F97C551270637E002E1AFF /* PBXTextBookmark */ = B4F97C551270637E002E1AFF /* PBXTextBookmark */;
+		};
+		sourceControlManager = B4D662010FD7D5D300331444 /* Source Control */;
+		userBookmarkGroup = B432644E115B50880023DB4D /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	089C1667FE841158C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1073, 754}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 103}";
+			sepNavWindowFrame = "{{38, 94}, {1132, 882}}";
+		};
+	};
+	2020CDB20AF6AEDA004E30A7 /* Sycamore.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 537}}";
+			sepNavSelRange = "{1164, 15}";
+			sepNavVisRange = "{0, 1191}";
+		};
+	};
+	2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1222}}";
+			sepNavSelRange = "{2568, 0}";
+			sepNavVisRange = "{1733, 1434}";
+		};
+	};
+	2020CDB50AF6AEDA004E30A7 /* CAAudioUnitZKM.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 3393}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1217}";
+		};
+	};
+	2020CDB60AF6AEDA004E30A7 /* ZKMORAudioUnit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 1417}}";
+			sepNavSelRange = "{1126, 4}";
+			sepNavVisRange = "{543, 1533}";
+		};
+	};
+	2020CDB70AF6AEDA004E30A7 /* ZKMORAudioUnit.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 5668}}";
+			sepNavSelRange = "{790, 15}";
+			sepNavVisRange = "{0, 1306}";
+		};
+	};
+	2020CDBA0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 715}}";
+			sepNavSelRange = "{431, 4}";
+			sepNavVisRange = "{0, 1232}";
+		};
+	};
+	2020CDBB0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 2652}}";
+			sepNavSelRange = "{861, 5}";
+			sepNavVisRange = "{3979, 791}";
+		};
+	};
+	2020CDBC0AF6AEDA004E30A7 /* ZKMORMixer3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1274}}";
+			sepNavSelRange = "{97, 4}";
+			sepNavVisRange = "{0, 838}";
+		};
+	};
+	2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 4043}}";
+			sepNavSelRange = "{97, 4}";
+			sepNavVisRange = "{0, 1308}";
+		};
+	};
+	2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1898}}";
+			sepNavSelRange = "{101, 4}";
+			sepNavVisRange = "{39, 1747}";
+		};
+	};
+	2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 7592}}";
+			sepNavSelRange = "{17306, 16}";
+			sepNavVisRange = "{16693, 1434}";
+			sepNavWindowFrame = "{{15, 28}, {1101, 969}}";
+		};
+	};
+	2020CDC00AF6AEDA004E30A7 /* ZKMORDeviceOutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 1911}}";
+			sepNavSelRange = "{1040, 12}";
+			sepNavVisRange = "{0, 1536}";
+			sepNavWindowFrame = "{{61, 73}, {1132, 882}}";
+		};
+	};
+	2020CDC10AF6AEDA004E30A7 /* ZKMORDeviceOutput.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 10335}}";
+			sepNavSelRange = "{18510, 0}";
+			sepNavVisRange = "{8067, 1322}";
+			sepNavWindowFrame = "{{-1190, 116}, {1132, 882}}";
+		};
+	};
+	2020CDC30AF6AEDA004E30A7 /* ZKMORConduit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 5291}}";
+			sepNavSelRange = "{3201, 4}";
+			sepNavVisRange = "{2556, 1323}";
+		};
+	};
+	2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1195, 7670}}";
+			sepNavSelRange = "{9490, 53}";
+			sepNavVisRange = "{12111, 1066}";
+		};
+	};
+	2020CDC50AF6AEDA004E30A7 /* ZKMORCore.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 572}}";
+			sepNavSelRange = "{94, 4}";
+			sepNavVisRange = "{19, 907}";
+		};
+	};
+	2020CDC60AF6AEDA004E30A7 /* ZKMORCore.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 537}}";
+			sepNavSelRange = "{94, 4}";
+			sepNavVisRange = "{0, 767}";
+		};
+	};
+	2020CDC70AF6AEDA004E30A7 /* ZKMORException.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 624}}";
+			sepNavSelRange = "{99, 4}";
+			sepNavVisRange = "{0, 930}";
+		};
+	};
+	2020CDC80AF6AEDA004E30A7 /* ZKMORException.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 826}}";
+			sepNavSelRange = "{391, 28}";
+			sepNavVisRange = "{376, 812}";
+		};
+	};
+	2020CDC90AF6AEDA004E30A7 /* ZKMORGraph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 3094}}";
+			sepNavSelRange = "{95, 4}";
+			sepNavVisRange = "{0, 862}";
+		};
+	};
+	2020CDCA0AF6AEDA004E30A7 /* ZKMORGraph.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1314, 8177}}";
+			sepNavSelRange = "{7077, 15}";
+			sepNavVisRange = "{6324, 1966}";
+		};
+	};
+	2020CDCB0AF6AEDA004E30A7 /* ZKMORUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 624}}";
+			sepNavSelRange = "{99, 4}";
+			sepNavVisRange = "{0, 1454}";
+		};
+	};
+	2020CDCC0AF6AEDA004E30A7 /* ZKMORUtilities.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 2691}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{5381, 1166}";
+		};
+	};
+	2020CDCE0AF6AEDA004E30A7 /* ZKMORRenderSimulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 676}}";
+			sepNavSelRange = "{105, 4}";
+			sepNavVisRange = "{0, 916}";
+		};
+	};
+	2020CDCF0AF6AEDA004E30A7 /* ZKMORRenderSimulator.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1820}}";
+			sepNavSelRange = "{3147, 14}";
+			sepNavVisRange = "{2370, 1223}";
+		};
+	};
+	2020CDD10AF6AEDA004E30A7 /* ZKMORAudioFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2600}}";
+			sepNavSelRange = "{99, 4}";
+			sepNavVisRange = "{0, 908}";
+		};
+	};
+	2020CDD20AF6AEDA004E30A7 /* ZKMORAudioFile.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 9529}}";
+			sepNavSelRange = "{24630, 14}";
+			sepNavVisRange = "{23754, 1487}";
+		};
+	};
+	2020CDD30AF6AEDA004E30A7 /* ZKMORQuickTime.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1014}}";
+			sepNavSelRange = "{2147, 4}";
+			sepNavVisRange = "{888, 1470}";
+		};
+	};
+	2020CDD40AF6AEDA004E30A7 /* ZKMORQuickTime.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2964}}";
+			sepNavSelRange = "{6918, 14}";
+			sepNavVisRange = "{5957, 1149}";
+		};
+	};
+	2020CDD50AF6AEDA004E30A7 /* ZKMORAudioFileOutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 1001}}";
+			sepNavSelRange = "{247, 12}";
+			sepNavVisRange = "{0, 1106}";
+		};
+	};
+	2020CDD60AF6AEDA004E30A7 /* ZKMORAudioFileOutput.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1328, 3094}}";
+			sepNavSelRange = "{5782, 14}";
+			sepNavVisRange = "{5049, 1409}";
+		};
+	};
+	2020CDD80AF6AEDA004E30A7 /* ZKMORNoise.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1073, 754}}";
+			sepNavSelRange = "{272, 12}";
+			sepNavVisRange = "{0, 1094}";
+		};
+	};
+	2020CDD90AF6AEDA004E30A7 /* ZKMORNoise.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2444}}";
+			sepNavSelRange = "{1378, 15}";
+			sepNavVisRange = "{735, 1112}";
+		};
+	};
+	2020CDDB0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1677}}";
+			sepNavSelRange = "{815, 16}";
+			sepNavVisRange = "{1296, 566}";
+		};
+	};
+	2020CDDC0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 9464}}";
+			sepNavSelRange = "{7881, 18}";
+			sepNavVisRange = "{6776, 1604}";
+		};
+	};
+	2020CDE00AF6AEDA004E30A7 /* ZKMORFileStreamer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1321, 3289}}";
+			sepNavSelRange = "{6670, 10}";
+			sepNavVisRange = "{5857, 1154}";
+		};
+	};
+	2020CDE40AF6AEDB004E30A7 /* ZKMORQTReader.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 5083}}";
+			sepNavSelRange = "{9301, 10}";
+			sepNavVisRange = "{8795, 1184}";
+		};
+	};
+	2020CDE50AF6AEDB004E30A7 /* ZKMORThreadBridge.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1391}}";
+			sepNavSelRange = "{1049, 15}";
+			sepNavVisRange = "{0, 1162}";
+		};
+	};
+	2020CDE60AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1898}}";
+			sepNavSelRange = "{3697, 10}";
+			sepNavVisRange = "{2554, 1626}";
+		};
+	};
+	2020CDE70AF6AEDB004E30A7 /* ZKMORZone.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1384, 3003}}";
+			sepNavSelRange = "{5448, 10}";
+			sepNavVisRange = "{4661, 1402}";
+		};
+	};
+	2020CDE80AF6AEDB004E30A7 /* ZKMORZone.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1916, 4550}}";
+			sepNavSelRange = "{9789, 4}";
+			sepNavVisRange = "{9026, 1176}";
+		};
+	};
+	2020CE2D0AF6AF0D004E30A7 /* AUOutputBL.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1508}}";
+			sepNavSelRange = "{4930, 15}";
+			sepNavVisRange = "{3658, 1558}";
+		};
+	};
+	2020CE2E0AF6AF0D004E30A7 /* AUOutputBL.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 2093}}";
+			sepNavSelRange = "{3365, 15}";
+			sepNavVisRange = "{4762, 1118}";
+		};
+	};
+	2020CE310AF6AF0D004E30A7 /* CAAudioChannelLayout.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1807}}";
+			sepNavSelRange = "{5581, 16}";
+			sepNavVisRange = "{4470, 1450}";
+		};
+	};
+	2020CE330AF6AF0E004E30A7 /* CAAudioFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 5642}}";
+			sepNavSelRange = "{17185, 15}";
+			sepNavVisRange = "{16346, 1423}";
+		};
+	};
+	2020CE380AF6AF0E004E30A7 /* CAAudioHardwareDevice.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 15899}}";
+			sepNavSelRange = "{7582, 44}";
+			sepNavVisRange = "{7011, 940}";
+		};
+	};
+	2020CE3A0AF6AF0E004E30A7 /* CAAudioHardwareStream.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 7072}}";
+			sepNavSelRange = "{18199, 4}";
+			sepNavVisRange = "{17657, 788}";
+		};
+	};
+	2020CE3B0AF6AF0E004E30A7 /* CAAudioHardwareSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 1326}}";
+			sepNavSelRange = "{5011, 4}";
+			sepNavVisRange = "{3300, 1879}";
+		};
+	};
+	2020CE3C0AF6AF0E004E30A7 /* CAAudioHardwareSystem.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1118, 3042}}";
+			sepNavSelRange = "{9834, 4}";
+			sepNavVisRange = "{8183, 2285}";
+		};
+	};
+	2020CE3D0AF6AF0E004E30A7 /* CAAudioUnit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {971, 4992}}";
+			sepNavSelRange = "{13078, 7}";
+			sepNavVisRange = "{12532, 1441}";
+			sepNavWindowFrame = "{{38, 94}, {1132, 882}}";
+		};
+	};
+	2020CE3E0AF6AF0E004E30A7 /* CAAudioUnit.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 14963}}";
+			sepNavSelRange = "{33934, 0}";
+			sepNavVisRange = "{33147, 1471}";
+			sepNavWindowFrame = "{{61, 73}, {1132, 882}}";
+		};
+	};
+	2020CE3F0AF6AF0E004E30A7 /* CABufferList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 3913}}";
+			sepNavSelRange = "{10486, 15}";
+			sepNavVisRange = "{9308, 1290}";
+		};
+	};
+	2020CE400AF6AF0E004E30A7 /* CABufferList.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2197}}";
+			sepNavSelRange = "{5426, 15}";
+			sepNavVisRange = "{4541, 1288}";
+		};
+	};
+	2020CE460AF6AF0E004E30A7 /* CAGuard.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1352}}";
+			sepNavSelRange = "{2063, 4}";
+			sepNavVisRange = "{0, 2709}";
+		};
+	};
+	2020CE470AF6AF0E004E30A7 /* CAGuard.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 3991}}";
+			sepNavSelRange = "{2063, 4}";
+			sepNavVisRange = "{0, 2684}";
+		};
+	};
+	2020CE500AF6AF0E004E30A7 /* CAStreamBasicDescription.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 6331}}";
+			sepNavSelRange = "{2063, 4}";
+			sepNavVisRange = "{0, 2660}";
+		};
+	};
+	2020CE510AF6AF0E004E30A7 /* CAXException.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1703}}";
+			sepNavSelRange = "{2063, 4}";
+			sepNavVisRange = "{0, 2646}";
+		};
+	};
+	32DBCF5E0370ADEE00C91783 /* Syncretism_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {821, 526}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 152}";
+			sepNavWindowFrame = "{{268, 112}, {880, 654}}";
+		};
+	};
+	3612EE680B54019900E98AC9 /* ZKMNREventScheduler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {799, 2275}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 809}";
+		};
+	};
+	3612EE690B54019900E98AC9 /* ZKMNREventScheduler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1496, 2808}}";
+			sepNavSelRange = "{3202, 4}";
+			sepNavVisRange = "{2578, 1849}";
+		};
+	};
+	361E0A6D0B5810D400634685 /* ZKMNRPannerEvent.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 1378}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 812}";
+		};
+	};
+	361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1566, 2249}}";
+			sepNavSelRange = "{5537, 20}";
+			sepNavVisRange = "{3883, 1951}";
+		};
+	};
+	36226EA30B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{109, 625}";
+		};
+	};
+	36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1482}}";
+			sepNavSelRange = "{2408, 16}";
+			sepNavVisRange = "{1633, 1678}";
+		};
+	};
+	36226F480B3AC10A009CAA75 /* SyncretismTestTool */ = {
+		activeExec = 0;
+		executables = (
+			B4D65EA10FD7B25300331444 /* SyncretismTestTool */,
+		);
+	};
+	36226F540B3AC144009CAA75 /* ZKMNRTestToolDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 390}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{29, 614}";
+		};
+	};
+	3631DB5E0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1833}}";
+			sepNavSelRange = "{4301, 8}";
+			sepNavVisRange = "{3097, 1353}";
+		};
+	};
+	3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 4823}}";
+			sepNavSelRange = "{8656, 0}";
+			sepNavVisRange = "{8047, 935}";
+			sepNavWindowFrame = "{{38, 379}, {652, 597}}";
+		};
+	};
+	3631DB870AEE2757001DC5CC /* ZKMNRCoordinates.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {759, 2457}}";
+			sepNavSelRange = "{2004, 1}";
+			sepNavVisRange = "{1536, 1511}";
+		};
+	};
+	3631DB880AEE2757001DC5CC /* ZKMNRCoordinates.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 3406}}";
+			sepNavSelRange = "{3735, 36}";
+			sepNavVisRange = "{988, 1008}";
+		};
+	};
+	364AA1DB0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 780}}";
+			sepNavSelRange = "{389, 21}";
+			sepNavVisRange = "{0, 899}";
+		};
+	};
+	364AA1DC0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 1469}}";
+			sepNavSelRange = "{227, 0}";
+			sepNavVisRange = "{0, 828}";
+		};
+	};
+	364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1235}}";
+			sepNavSelRange = "{2213, 16}";
+			sepNavVisRange = "{1307, 1691}";
+		};
+	};
+	364B4C810B55450D00B509E7 /* ZKMNREventSchedulerTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 364}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 568}";
+		};
+	};
+	364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1560}}";
+			sepNavSelRange = "{1279, 16}";
+			sepNavVisRange = "{943, 790}";
+		};
+	};
+	364B50FE0B55652800B509E7 /* ZKMORClock.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 689}}";
+			sepNavSelRange = "{95, 4}";
+			sepNavVisRange = "{0, 942}";
+		};
+	};
+	364B50FF0B55652800B509E7 /* ZKMORClock.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1482}}";
+			sepNavSelRange = "{95, 4}";
+			sepNavVisRange = "{0, 873}";
+		};
+	};
+	364B51000B55652800B509E7 /* ZKMOROutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1092}}";
+			sepNavSelRange = "{96, 4}";
+			sepNavVisRange = "{0, 679}";
+		};
+	};
+	364B51010B55652800B509E7 /* ZKMOROutput.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {710, 897}}";
+			sepNavSelRange = "{870, 38}";
+			sepNavVisRange = "{0, 758}";
+		};
+	};
+	365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 2951}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{314, 746}";
+		};
+	};
+	366717370B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 382}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 459}";
+		};
+	};
+	366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 2847}}";
+			sepNavSelRange = "{872, 15}";
+			sepNavVisRange = "{579, 702}";
+		};
+	};
+	366964500AEE89B100E4EAC9 /* SyncretismTest */ = {
+		activeExec = 0;
+	};
+	3669645B0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 364}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 301}";
+		};
+	};
+	3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {817, 2015}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1440, 1196}";
+		};
+	};
+	366964680AEE8A4F00E4EAC9 /* Syncretism.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 702}}";
+			sepNavSelRange = "{1568, 15}";
+			sepNavVisRange = "{210, 1382}";
+			sepNavWindowFrame = "{{245, 133}, {880, 654}}";
+		};
+	};
+	366D76540B2ACA1100F07F47 /* triangle.c */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \" of vertices> <dimension (must be 2)> <# of attributes>\\\\n\\\"\\n);\\n  printf(\\n\\\"                                           <# of boundary markers (0 or 1)>\\\\n\\\"\\n);\\n  printf(\\n\\\"    Remaining lines:  <vertex \";\n            r = \"{107278, 200}\";\n            s = 1;\n        },\n                {\n            l = \" of triangles> <nodes per triangle> <# of attributes>\\\\n\\\");\\n  printf(\\n\\\"    Remaining lines:  <triangle \";\n            r = \"{108569, 106}\";\n            s = 1;\n        },\n                {\n            l = \" of vertices> <dimension (must be 2)> <# of attributes>\\\\n\\\"\\n);\\n  printf(\\n\\\"                                           <# of boundary markers (0 or 1)>\\\\n\\\"\\n);\\n  printf(\\n\\\"    Following lines:  <vertex \";\n            r = \"{110155, 200}\";\n            s = 1;\n        },\n                {\n            l = \" of segments> <# of boundary markers (0 or 1)>\\\\n\\\");\\n  printf(\\n\\\"    Following lines:  <segment \";\n            r = \"{110425, 98}\";\n            s = 1;\n        },\n                {\n            l = \" of holes>\\\\n\\\");\\n  printf(\\\"    Following lines:  <hole \";\n            r = \"{110594, 58}\";\n            s = 1;\n        },\n                {\n            l = \" of regional attributes and/or area constraints>\\\\n\\\");\\n  printf(\\n\\\"    Optional following lines:  <region \";\n            r = \"{110697, 108}\";\n            s = 1;\n        },\n                {\n            l = \" of vertices> may be set to zero to indicate\\\\n\\\"\\n);\\n  printf(\\n\\\"    that the vertices are listed in a separate .node file; .poly files\\\\n\\\");\\n  printf(\\n\\\"    produced by Triangle always have this format.  A vertex set represented\\\\n\\\"\\n);\\n  printf(\\n\\\"    this way has the advantage that it may easily be triangulated with or\\\\n\\\");\\n  printf(\\n\\\"    without segments (depending on whether the -p switch is invoked).\\\\n\\\");\\n  printf(\\\"\\\\n\\\");\\n  printf(\\n\\\"    The second section lists the segments.  Segments are edges whose\\\\n\\\");\\n  printf(\\n\\\"    presence in the triangulation is enforced.  (Depending on the choice of\\\\n\\\"\\n);\\n  printf(\\n\\\"    switches, segment might be subdivided into smaller edges).  Each\\\\n\\\");\\n  printf(\\n\\\"    segment is specified by listing the indices of its two endpoints.  This\\\\n\\\"\\n);\\n  printf(\\n\\\"    means that you must include its endpoints in the vertex list.  Each\\\\n\\\");\\n  printf(\\\"    segment, like each point, may have a boundary marker.\\\\n\\\\n\\\");\\n  printf(\\n\\\"    If -q, -a, -u, and -s are not selected, Triangle produces a constrained\\\\n\\\"\\n);\\n  printf(\\n\\\"    Delaunay triangulation (CDT), in which each segment appears as a single\\\\n\\\"\\n);\\n  printf(\\n\\\"    edge in the triangulation.  If -q, -a, -u, or -s is selected, Triangle\\\\n\\\"\\n);\\n  printf(\\n\\\"    produces a conforming constrained Delaunay triangulation (CCDT), in\\\\n\\\");\\n  printf(\\n\\\"    which segments may be subdivided into smaller edges.  If -D is\\\\n\\\");\\n  printf(\\n\\\"    selected, Triangle produces a conforming Delaunay triangulation, so\\\\n\\\");\\n  printf(\\n\\\"    that every triangle is Delaunay, and not just constrained Delaunay.\\\\n\\\");\\n  printf(\\\"\\\\n\\\");\\n  printf(\\n\\\"    The third section lists holes (and concavities, if -c is selected) in\\\\n\\\");\\n  printf(\\n\\\"    the triangulation.  Holes are specified by identifying a point inside\\\\n\\\");\\n  printf(\\n\\\"    each hole.  After the triangulation is formed, Triangle creates holes\\\\n\\\");\\n  printf(\\n\\\"    by eating triangles, spreading out from each hole point until its\\\\n\\\");\\n  printf(\\n\\\"    progress is blocked by segments in the PSLG.  You must be careful to\\\\n\\\");\\n  printf(\\n\\\"    enclose each hole in segments, or your whole triangulation might be\\\\n\\\");\\n  printf(\\n\\\"    eaten away.  If the two triangles abutting a segment are eaten, the\\\\n\\\");\\n  printf(\\n\\\"    segment itself is also eaten.  Do not place a hole directly on a\\\\n\\\");\\n  printf(\\\"    segment; if you do, Triangle chooses one side of the segment\\\\n\\\");\\n  printf(\\\"    arbitrarily.\\\\n\\\\n\\\");\\n  printf(\\n\\\"    The optional fourth section lists regional attributes (to be assigned\\\\n\\\");\\n  printf(\\n\\\"    to all triangles in a region) and regional constraints on the maximum\\\\n\\\");\\n  printf(\\n\\\"    triangle area.  Triangle reads this section only if the -A switch is\\\\n\\\");\\n  printf(\\n\\\"    used or the -a switch is used without a number following it, and the -r\\\\n\\\"\\n);\\n  printf(\\n\\\"    switch is not used.  Regional attributes and area constraints are\\\\n\\\");\\n  printf(\\n\\\"    propagated in the same manner as holes:  you specify a point for each\\\\n\\\");\\n  printf(\\n\\\"    attribute and/or constraint, and the attribute and/or constraint\\\\n\\\");\\n  printf(\\n\\\"    affects the whole region (bounded by segments) containing the point.\\\\n\\\");\\n  printf(\\n\\\"    If two values are written on a line after the x and y coordinate, the\\\\n\\\");\\n  printf(\\n\\\"    first such value is assumed to be a regional attribute (but is only\\\\n\\\");\\n  printf(\\n\\\"    applied if the -A switch is selected), and the second value is assumed\\\\n\\\"\\n);\\n  printf(\\n\\\"    to be a regional area constraint (but is only applied if the -a switch\\\\n\\\"\\n);\\n  printf(\\n\\\"    is selected).  You may specify just one value after the coordinates,\\\\n\\\");\\n  printf(\\n\\\"    which can serve as both an attribute and an area constraint, depending\\\\n\\\"\\n);\\n  printf(\\n\\\"    on the choice of switches.  If you are using the -A and -a switches\\\\n\\\");\\n  printf(\\n\\\"    simultaneously and wish to assign an attribute to some region without\\\\n\\\");\\n  printf(\\\"    imposing an area constraint, use a negative maximum area.\\\\n\\\\n\\\");\\n  printf(\\n\\\"    When a triangulation is created from a .poly file, you must either\\\\n\\\");\\n  printf(\\n\\\"    enclose the entire region to be triangulated in PSLG segments, or\\\\n\\\");\\n  printf(\\n\\\"    use the -c switch, which automatically creates extra segments that\\\\n\\\");\\n  printf(\\n\\\"    enclose the convex hull of the PSLG.  If you do not use the -c switch,\\\\n\\\"\\n);\\n  printf(\\n\\\"    Triangle eats all triangles that are not enclosed by segments; if you\\\\n\\\");\\n  printf(\\n\\\"    are not careful, your whole triangulation may be eaten away.  If you do\\\\n\\\"\\n);\\n  printf(\\n\\\"    use the -c switch, you can still produce concavities by the appropriate\\\\n\\\"\\n);\\n  printf(\\n\\\"    placement of holes just inside the boundary of the convex hull.\\\\n\\\");\\n  printf(\\\"\\\\n\\\");\\n  printf(\\n\\\"    An ideal PSLG has no intersecting segments, nor any vertices that lie\\\\n\\\");\\n  printf(\\n\\\"    upon segments (except, of course, the endpoints of each segment).  You\\\\n\\\"\\n);\\n  printf(\\n\\\"    aren't required to make your .poly files ideal, but you should be aware\\\\n\\\"\\n);\\n  printf(\\n\\\"    of what can go wrong.  Segment intersections are relatively safe--\\\\n\\\");\\n  printf(\\n\\\"    Triangle calculates the intersection points for you and adds them to\\\\n\\\");\\n  printf(\\n\\\"    the triangulation--as long as your machine's floating-point precision\\\\n\\\");\\n  printf(\\n\\\"    doesn't become a problem.  You are tempting the fates if you have three\\\\n\\\"\\n);\\n  printf(\\n\\\"    segments that cross at the same location, and expect Triangle to figure\\\\n\\\"\\n);\\n  printf(\\n\\\"    out where the intersection point is.  Thanks to floating-point roundoff\\\\n\\\"\\n);\\n  printf(\\n\\\"    error, Triangle will probably decide that the three segments intersect\\\\n\\\"\\n);\\n  printf(\\n\\\"    at three different points, and you will find a minuscule triangle in\\\\n\\\");\\n  printf(\\n\\\"    your output--unless Triangle tries to refine the tiny triangle, uses\\\\n\\\");\\n  printf(\\n\\\"    up the last bit of machine precision, and fails to terminate at all.\\\\n\\\");\\n  printf(\\n\\\"    You're better off putting the intersection point in the input files,\\\\n\\\");\\n  printf(\\n\\\"    and manually breaking up each segment into two.  Similarly, if you\\\\n\\\");\\n  printf(\\n\\\"    place a vertex at the middle of a segment, and hope that Triangle will\\\\n\\\"\\n);\\n  printf(\\n\\\"    break up the segment at that vertex, you might get lucky.  On the other\\\\n\\\"\\n);\\n  printf(\\n\\\"    hand, Triangle might decide that the vertex doesn't lie precisely on\\\\n\\\");\\n  printf(\\n\\\"    the segment, and you'll have a needle-sharp triangle in your output--or\\\\n\\\"\\n);\\n  printf(\\\"    a lot of tiny triangles if you're generating a quality mesh.\\\\n\\\");\\n  printf(\\\"\\\\n\\\");\\n  printf(\\n\\\"    When Triangle reads a .poly file, it also writes a .poly file, which\\\\n\\\");\\n  printf(\\n\\\"    includes all the subsegments--the edges that are parts of input\\\\n\\\");\\n  printf(\\n\\\"    segments.  If the -c switch is used, the output .poly file also\\\\n\\\");\\n  printf(\\n\\\"    includes all of the edges on the convex hull.  Hence, the output .poly\\\\n\\\"\\n);\\n  printf(\\n\\\"    file is useful for finding edges associated with input segments and for\\\\n\\\"\\n);\\n  printf(\\n\\\"    setting boundary conditions in finite element simulations.  Moreover,\\\\n\\\");\\n  printf(\\n\\\"    you will need the output .poly file if you plan to refine the output\\\\n\\\");\\n  printf(\\n\\\"    mesh, and don't want segments to be missing in later triangulations.\\\\n\\\");\\n  printf(\\\"\\\\n\\\");\\n  printf(\\\"  .area files:\\\\n\\\");\\n  printf(\\\"    First line:  <# of triangles>\\\\n\\\");\\n  printf(\\\"    Following lines:  <triangle \";\n            r = \"{111076, 7312}\";\n            s = 1;\n        },\n                {\n            l = \" of edges> <# of boundary markers (0 or 1)>\\\\n\\\");\\n  printf(\\n\\\"    Following lines:  <edge \";\n            r = \"{118871, 92}\";\n            s = 1;\n        },\n                {\n            l = \" of triangles> <# of neighbors per triangle (always 3)>\\\\n\\\"\\n);\\n  printf(\\n\\\"    Following lines:  <triangle \";\n            r = \"{119793, 109}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 651150}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {793, 203411}}";
+			sepNavSelRange = "{1381, 8}";
+			sepNavVisRange = "{0, 2640}";
+			sepNavWindowFrame = "{{38, 94}, {1132, 882}}";
+		};
+	};
+	366D76550B2ACA1100F07F47 /* triangle.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 4199}}";
+			sepNavSelRange = "{21999, 0}";
+			sepNavVisRange = "{20671, 1427}";
+		};
+	};
+	366D77130B2AD75800F07F47 /* ZKMNRPannerTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 364}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 291}";
+		};
+	};
+	366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 4238}}";
+			sepNavSelRange = "{4910, 20}";
+			sepNavVisRange = "{3348, 2187}";
+		};
+	};
+	3686FEB70C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 4524}}";
+			sepNavSelRange = "{1432, 15}";
+			sepNavVisRange = "{610, 1518}";
+		};
+	};
+	3686FEBA0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 537}}";
+			sepNavSelRange = "{99, 4}";
+			sepNavVisRange = "{0, 191}";
+		};
+	};
+	3686FEBB0C00E0BA0017E7D9 /* ZKMORGuardRT.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 598}}";
+			sepNavSelRange = "{97, 4}";
+			sepNavVisRange = "{0, 1396}";
+		};
+	};
+	369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {759, 3263}}";
+			sepNavSelRange = "{2436, 11}";
+			sepNavVisRange = "{1730, 852}";
+		};
+	};
+	36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 1196}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1296}";
+		};
+	};
+	36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 3289}}";
+			sepNavSelRange = "{6041, 20}";
+			sepNavVisRange = "{5348, 1322}";
+			sepNavWindowFrame = "{{15, 28}, {1101, 969}}";
+		};
+	};
+	36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 11609}}";
+			sepNavSelRange = "{637, 19}";
+			sepNavVisRange = "{656, 1721}";
+		};
+	};
+	36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 832}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{843, 937}";
+		};
+	};
+	36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 1027}}";
+			sepNavSelRange = "{1507, 0}";
+			sepNavVisRange = "{1015, 954}";
+			sepNavWindowFrame = "{{84, 52}, {1132, 882}}";
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* Syncretism */ = {
+		activeExec = 0;
+	};
+	B40591F913DDA5D500891C09 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */;
+		name = "ZKMNRPanner.mm: 26";
+		rLen = 19;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 1721;
+		vrLoc = 656;
+	};
+	B41890BC12646E9900349EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3631DB5E0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h */;
+		name = "ZKMNRSpeakerLayout.h: 26";
+		rLen = 20;
+		rLoc = 1030;
+		rType = 0;
+		vrLen = 1982;
+		vrLoc = 287;
+	};
+	B41890F0126480F100349EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */;
+		name = "ZKMNRPannerEvent.m: 38";
+		rLen = 47;
+		rLoc = 1335;
+		rType = 0;
+		vrLen = 1762;
+		vrLoc = 0;
+	};
+	B421C6A011C69FE600B18050 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC70AF6AEDA004E30A7 /* ZKMORException.h */;
+		name = "ZKMORException.h: 33";
+		rLen = 28;
+		rLoc = 581;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 159;
+	};
+	B42672271277207B002BF845 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */;
+		name = "ZKMNRSpeakerLayoutSimulatorTest.m: 40";
+		rLen = 15;
+		rLoc = 872;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 579;
+	};
+	B42672281277207B002BF845 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */;
+		name = "ZKMNREventSchedulerTest.m: 62";
+		rLen = 16;
+		rLoc = 1279;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 943;
+	};
+	B426724912773229002BF845 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B51000B55652800B509E7 /* ZKMOROutput.h */;
+		name = "ZKMOROutput.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 764;
+	};
+	B426724A12773229002BF845 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC60AF6AEDA004E30A7 /* ZKMORCore.m */;
+		name = "ZKMORCore.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 151;
+	};
+	B426724C12773229002BF845 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC30AF6AEDA004E30A7 /* ZKMORConduit.h */;
+		name = "ZKMORConduit.h: 397";
+		rLen = 16;
+		rLoc = 11027;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 9649;
+	};
+	B432644E115B50880023DB4D /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			B432648A115B57760023DB4D /* PBXTextBookmark */,
+		);
+		name = Root;
+	};
+	B432648A115B57760023DB4D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */;
+		name = "task:";
+		rLen = 0;
+		rLoc = 1333;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 160;
+	};
+	B45432A71371815600D36040 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */;
+		name = "ZKMNRPannerEventTest.m: 97";
+		rLen = 11;
+		rLoc = 2436;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 1730;
+	};
+	B4640EE512425AEF009CD2BA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364AA1DC0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm */;
+		name = "ZKMNRValueTransformer.mm: 10";
+		rLen = 0;
+		rLoc = 227;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 0;
+	};
+	B494B6EF11A56825000F29D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */;
+		name = "ZKMORMixer3D.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1280;
+		vrLoc = 0;
+	};
+	B494B6F711A56825000F29D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */;
+		name = "ZKMORMixerMatrix.mm: 35";
+		rLen = 0;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 1102;
+		vrLoc = 6234;
+	};
+	B494B6F811A56825000F29D8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */;
+		name = "ZKMORMixerMatrix.h: 54";
+		rLen = 0;
+		rLoc = 2138;
+		rType = 0;
+		vrLen = 1744;
+		vrLoc = 42;
+	};
+	B4AE50C112030C61002328C8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364AA1DB0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h */;
+		name = "ZKMNRValueTransformer.h: 19";
+		rLen = 21;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 0;
+	};
+	B4AFEE73124A2BC7001C19B3 /* ZKMNRSpeakerLayout.m:143 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */;
+		functionName = "-initWithCoder:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 143;
+		location = Syncretism;
+		modificationTime = 326207390.323725;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4B60F6411A4623300E2C231 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3612EE680B54019900E98AC9 /* ZKMNREventScheduler.h */;
+		name = "ZKMNREventScheduler.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	B4B60F6711A4623300E2C231 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDD80AF6AEDA004E30A7 /* ZKMORNoise.h */;
+		name = "ZKMORNoise.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 183;
+	};
+	B4B60F6D11A4623300E2C231 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3686FEB70C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm */;
+		name = "ZKMORAudioUnitParameterScheduler.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1158;
+		vrLoc = 0;
+	};
+	B4B75C1E125F5BEF008455AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 366D76540B2ACA1100F07F47 /* triangle.c */;
+		name = "triangle.c: 18";
+		rLen = 8;
+		rLoc = 1381;
+		rType = 0;
+		vrLen = 2640;
+		vrLoc = 0;
+	};
+	B4B75C5D125F5EBE008455AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 366D76550B2ACA1100F07F47 /* triangle.h */;
+		name = "triangle.h: 300";
+		rLen = 0;
+		rLoc = 21999;
+		rType = 0;
+		vrLen = 1427;
+		vrLoc = 20671;
+	};
+	B4B75F32125F8555008455AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 361E0A6D0B5810D400634685 /* ZKMNRPannerEvent.h */;
+		name = "ZKMNRPannerEvent.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	B4BAA06612670D1200B7F142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */;
+		name = "ZKMNRLinearAlgebra.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 937;
+		vrLoc = 843;
+	};
+	B4BAA06712670D1200B7F142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */;
+		name = "ZKMNRLinearAlgebra.c: 51";
+		rLen = 0;
+		rLoc = 1507;
+		rType = 0;
+		vrLen = 954;
+		vrLoc = 1015;
+	};
+	B4BAA06812670D1200B7F142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */;
+		name = "ZKMNRPanner.h: 83";
+		rLen = 24;
+		rLoc = 2901;
+		rType = 0;
+		vrLen = 1093;
+		vrLoc = 2453;
+	};
+	B4BAA06A12670D1200B7F142 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3631DB880AEE2757001DC5CC /* ZKMNRCoordinates.mm */;
+		name = "ZKMNRCoordinates.mm: 138";
+		rLen = 36;
+		rLoc = 3735;
+		rType = 0;
+		vrLen = 1008;
+		vrLoc = 988;
+	};
+	B4BB39221265AA2D00FFBFA0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */;
+		name = "ZKMNRValueTransformerTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1296;
+		vrLoc = 0;
+	};
+	B4C3D13F1279A7010064BAF0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */;
+		name = "ZKMNRSpeakerLayout.m: 265";
+		rLen = 0;
+		rLoc = 8656;
+		rType = 0;
+		vrLen = 935;
+		vrLoc = 8047;
+	};
+	B4CABB6D13718D82004157C2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */;
+		name = "ZKMNRPanner.mm: 26";
+		rLen = 19;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 1775;
+		vrLoc = 656;
+	};
+	B4D0B9D3128D3182007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */;
+		name = "ZKMORConduit.mm: 304";
+		rLen = 53;
+		rLoc = 9490;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 12111;
+	};
+	B4D0B9D4128D3182007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDCC0AF6AEDA004E30A7 /* ZKMORUtilities.mm */;
+		name = "ZKMORUtilities.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1166;
+		vrLoc = 5381;
+	};
+	B4D0B9D5128D3182007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B51010B55652800B509E7 /* ZKMOROutput.m */;
+		name = "ZKMOROutput.m: 46";
+		rLen = 38;
+		rLoc = 870;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 0;
+	};
+	B4D0BA9D128D4F22007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB50AF6AEDA004E30A7 /* CAAudioUnitZKM.cpp */;
+		name = "CAAudioUnitZKM.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1217;
+		vrLoc = 0;
+	};
+	B4D0BA9F128D4F22007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CE3D0AF6AF0E004E30A7 /* CAAudioUnit.h */;
+		name = "CAAudioUnit.h: 335";
+		rLen = 7;
+		rLoc = 13078;
+		rType = 0;
+		vrLen = 1441;
+		vrLoc = 12532;
+	};
+	B4D0BAA0128D4F22007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CE3E0AF6AF0E004E30A7 /* CAAudioUnit.cpp */;
+		name = "CAAudioUnit.cpp: 1089";
+		rLen = 0;
+		rLoc = 33934;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 33147;
+	};
+	B4D0BB2B128D5458007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC10AF6AEDA004E30A7 /* ZKMORDeviceOutput.mm */;
+		name = "ZKMORDeviceOutput.mm: 568";
+		rLen = 0;
+		rLoc = 18512;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 8067;
+	};
+	B4D0BB2C128D5458007CDF30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC00AF6AEDA004E30A7 /* ZKMORDeviceOutput.h */;
+		name = "ZKMORDeviceOutput.h: 31";
+		rLen = 12;
+		rLoc = 1040;
+		rType = 0;
+		vrLen = 1536;
+		vrLoc = 0;
+	};
+	B4D0BD7F128D8646007CDF30 /* ZirkoniumKernelDevice.mm:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4D43EF1127887D400C51CAF /* ZirkoniumKernelDevice.mm */;
+		functionName = "ZirkoniumDeviceRenderFunction( id SELF, AudioUnitRenderActionFlags * ioActionFlags, const AudioTimeStamp * inTimeStamp, UInt32 inOutputBusNumber, UInt32 inNumberFrames, AudioBufferList * ioData)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = Syncretism;
+		modificationTime = 326207319.263781;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4D0BD83128D864C007CDF30 /* ZirkoniumKernelDeviceInput.mm:65 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B4D43EF3127887D400C51CAF /* ZirkoniumKernelDeviceInput.mm */;
+		functionName = "ZKMORZirkoniumDeviceInputRenderFunc( id SELF, AudioUnitRenderActionFlags * ioActionFlags, const AudioTimeStamp * inTimeStamp, UInt32 inOutputBusNumber, UInt32 inNumberFrames, AudioBufferList * ioData)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 65;
+		location = Syncretism;
+		modificationTime = 326207319.263828;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4D2A71C133283C1009DC678 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */;
+		name = "CAAudioUnitZKM.h: 74";
+		rLen = 0;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 1733;
+	};
+	B4D43E6A12786ADC00C51CAF /* ZKMORConduit.mm:559 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */;
+		functionName = "ZKMORAbstractMethodCallCallback( id SELF, AudioUnitRenderActionFlags * ioActionFlags, const AudioTimeStamp * inTimeStamp, UInt32 inOutputBusNumber, UInt32 inNumberFrames, AudioBufferList * ioData)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 559;
+		location = Syncretism;
+		modificationTime = 326207390.323756;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B4D43EBA12786D1300C51CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDD40AF6AEDA004E30A7 /* ZKMORQuickTime.mm */;
+		name = "ZKMORQuickTime.mm: 90";
+		rLen = 4;
+		rLoc = 2707;
+		rType = 0;
+		vrLen = 1325;
+		vrLoc = 1991;
+	};
+	B4D43EBD12786D1300C51CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDCA0AF6AEDA004E30A7 /* ZKMORGraph.mm */;
+		name = "ZKMORGraph.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1261;
+		vrLoc = 0;
+	};
+	B4D43EBE12786D1300C51CAF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB20AF6AEDA004E30A7 /* Sycamore.h */;
+		name = "Sycamore.h: 37";
+		rLen = 0;
+		rLoc = 1096;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 0;
+	};
+	B4D43EF1127887D400C51CAF /* ZirkoniumKernelDevice.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = ZirkoniumKernelDevice.mm;
+		path = "/Users/jens/zirkoniumcode/Zirkonium Branch/git/proj/zirkonium/Sycamore/SycamoreSource/AudioUnit/ZirkoniumKernelDevice.mm";
+		sourceTree = "<absolute>";
+	};
+	B4D43EF3127887D400C51CAF /* ZirkoniumKernelDeviceInput.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = ZirkoniumKernelDeviceInput.mm;
+		path = "/Users/jens/zirkoniumcode/Zirkonium Branch/git/proj/zirkonium/Sycamore/SycamoreSource/AudioUnit/ZirkoniumKernelDeviceInput.mm";
+		sourceTree = "<absolute>";
+	};
+	B4D4C1B811A1BE7600ABE50A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3612EE690B54019900E98AC9 /* ZKMNREventScheduler.m */;
+		name = "ZKMNREventScheduler.m: 114";
+		rLen = 6;
+		rLoc = 3273;
+		rType = 0;
+		vrLen = 1588;
+		vrLoc = 2654;
+	};
+	B4D65EA10FD7B25300331444 /* SyncretismTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SyncretismTestTool;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	B4D662010FD7D5D300331444 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B4D662020FD7D5D300331444 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B4D7E667127841AD00CC2D1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB70AF6AEDA004E30A7 /* ZKMORAudioUnit.mm */;
+		name = "ZKMORAudioUnit.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1386;
+		vrLoc = 0;
+	};
+	B4D87044126DDF360040444B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDC90AF6AEDA004E30A7 /* ZKMORGraph.h */;
+		name = "ZKMORGraph.h: 116";
+		rLen = 0;
+		rLoc = 3451;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 3278;
+	};
+	B4DA777113095BA500240DBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3631DB870AEE2757001DC5CC /* ZKMNRCoordinates.h */;
+		name = "ZKMNRCoordinates.h: 61";
+		rLen = 1;
+		rLoc = 2004;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 1536;
+	};
+	B4DA777213095BA500240DBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 366964680AEE8A4F00E4EAC9 /* Syncretism.h */;
+		name = "Syncretism.h: 31";
+		rLen = 0;
+		rLoc = 935;
+		rType = 0;
+		vrLen = 1388;
+		vrLoc = 210;
+	};
+	B4F97C4B1270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36226F540B3AC144009CAA75 /* ZKMNRTestToolDriver.m */;
+		name = "ZKMNRTestToolDriver.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 29;
+	};
+	B4F97C4C1270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36226EA30B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.h */;
+		name = "ZKMNRAbstractProcessorTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 625;
+		vrLoc = 109;
+	};
+	B4F97C4D1270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */;
+		name = "ZKMNRAbstractProcessorTest.m: 73";
+		rLen = 343;
+		rLoc = 2164;
+		rType = 0;
+		vrLen = 1066;
+		vrLoc = 1857;
+	};
+	B4F97C4E1270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3669645B0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.h */;
+		name = "ZKMNRCoordinatesTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 0;
+	};
+	B4F97C4F1270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */;
+		name = "ZKMNRCoordinatesTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 1440;
+	};
+	B4F97C501270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364B4C810B55450D00B509E7 /* ZKMNREventSchedulerTest.h */;
+		name = "ZKMNREventSchedulerTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	B4F97C521270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 366D77130B2AD75800F07F47 /* ZKMNRPannerTest.h */;
+		name = "ZKMNRPannerTest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	B4F97C531270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */;
+		name = "ZKMNRPannerTest.m: 74";
+		rLen = 13;
+		rLoc = 2101;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 767;
+	};
+	B4F97C551270637E002E1AFF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */;
+		name = "ZKMNRSpeakerLayoutTest.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 314;
+	};
+}

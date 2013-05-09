@@ -1,0 +1,9 @@
+# AudioDriverPlugIn Entry Points
+_AudioDriverPlugInOpen
+_AudioDriverPlugInClose
+_AudioDriverPlugInDeviceGetPropertyInfo
+_AudioDriverPlugInDeviceGetProperty
+_AudioDriverPlugInDeviceSetProperty
+_AudioDriverPlugInStreamGetPropertyInfo
+_AudioDriverPlugInStreamGetProperty
+_AudioDriverPlugInStreamSetProperty

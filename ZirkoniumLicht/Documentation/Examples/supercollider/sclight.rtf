@@ -1,0 +1,241 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf420
+{\fonttbl\f0\fnil\fcharset77 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red191\green0\blue0;\red0\green0\blue191;
+\red96\green96\blue96;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs18 \cf2 \
+\cf3 // General Setup -- Do this first!\cf2 \
+(\
+\cf3 //~numberOfIds = 8;\cf2 \
+~numberOfIds = 12;\
+\
+	\cf3 // Connection to Zirkonium\cf2 \
+z = \cf4 NetAddr\cf2 (\cf5 "localhost"\cf2 , 50818);\
+z.sendMsg(\cf5 "/lconfig/numberOfIds"\cf2 , ~numberOfIds);\
+\
+\cf3 // Assign random colors\cf2 \
+~cmd = \cf4 List\cf2 .new;\
+~numberOfIds.do \{ \cf4 arg\cf2  i; ~cmd.add([\cf5 "/lpan/az"\cf2 , i, 0.0, 0.0, 0.0, 0.0, 1.0.rand, 1.0.rand, 1.0.rand]) \};\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 z.sendBundle(0.0, *(~cmd));\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 )\
+\
+(\
+\cf4 var\cf2  slider;\
+\cf4 var\cf2  text;\
+\cf4 var\cf2  panCtl;\
+\cf4 var\cf2  azSpan = 0.0, znSpan = 0.0;\
+\cf3 //azSpan = 0.1;\cf2 \
+\cf3 //znSpan = 0.1;\cf2 \
+\
+w = \cf4 SCWindow\cf2 (\cf5 "Dome"\cf2 , \cf4 Rect\cf2 (128, 128, 400, 256));\
+w.front;\
+slider = \cf4 SC2DSlider\cf2 (w, \cf4 Rect\cf2 (10, 10, 200, 200));\
+slider.x = 0.5;\
+slider.y = 0.0;\
+slider.action = \{ \cf4 arg\cf2  widget; panCtl.value(widget.x, widget.y) \};\
+\
+panCtl = \{ \cf4 arg\cf2  x, y;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 	\cf4 var\cf2  panx, pany;\
+	\cf4 var\cf2  polar;\
+	\cf4 var\cf2  zenith, azimuth;\
+	\cf4 var\cf2  dazimuth;\
+	\cf4 var\cf2  numChannels = ~numberOfIds;\
+	\cf4 var\cf2  panCommands;\
+	\
+		\cf3 // X and Y are swapped in Zirkonium (X is height)\cf2 \
+	panx = y; pany = x;\
+	\
+		\cf3 // [0, 0] needs to be in the middle\cf2 \
+	panx = (panx - 0.5) * 2.0;\
+	pany = 1.0 - pany;\
+	pany = (pany - 0.5) * 2.0;\
+	polar = \cf4 Point\cf2 (panx, pany).asPolar;\
+	\
+		\cf3 // Project onto the surface of a sphere\cf2 \
+	zenith = (0.5 - (polar.rho * 0.5)).max(0.0);\
+	azimuth = polar.theta / 3.141593;\
+\
+	\cf3 // DEBUG	\cf2 \
+\cf3 //	[azimuth, zenith].postln;\cf2 \
+	panCommands = \cf4 List\cf2 .new;\
+	dazimuth = 2.0 / numChannels;\
+	numChannels.do \{ \cf4 arg\cf2  i; panCommands.add([\cf5 "/lpan/az"\cf2 , i, azimuth + (i * dazimuth), zenith, azSpan, znSpan]) \};\
+	z.sendBundle(0.0, *panCommands);\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 \};\
+)\
+\
+\cf3 //\cf2 \
+\cf3 // 	Control Example 2 -- Lamp (Azimuth / Zenith)\cf2 \
+\cf3 //\cf2 \
+\cf3 //	Control the positions of 2 of the 8 channels from SuperCollider. This example uses the\cf2 \
+\cf3 //	"/lpan/lamp/az" command which takes a coordinates in spherical formant moves the ID to the\cf2 \
+\cf3 // 	lamp nearest the specified position.\cf2 \
+\cf3 //\cf2 \
+\cf3 // 	Compare to the other control examples. See the Zirkonium documentation \cf2 \
+\cf3 // 	for more information about the OSC interface.\cf2 \
+\cf3 //  	\cf2 \
+(\
+z.sendMsg(\cf5 "/lpan/lamp/az"\cf2 , 0, 0.1, 0.1);\
+z.sendMsg(\cf5 "/lpan/lamp/az"\cf2 , 1, 0.7, 0.0);\
+)\
+\
+\
+\
+\
+\cf3 //\cf2 \
+\cf3 // 	Control Example 3 -- Lamps (X/ Y)\cf2 \
+\cf3 //\cf2 \
+\cf3 //	Control the positions of 2 of the 8 channels from SuperCollider. This example uses the\cf2 \
+\cf3 //	"/lpan/lamp/xy" command which takes a coordinates in cartesian formant moves the ID to the\cf2 \
+\cf3 // 	lamp nearest the specified position.\cf2 \
+\cf3 //\cf2 \
+\cf3 // 	Compare to the other control examples. See the Zirkonium documentation \cf2 \
+\cf3 // 	for more information about the OSC interface.\cf2 \
+\cf3 //  	\cf2 \
+(\
+z.sendMsg(\cf5 "/lpan/lamp/xy"\cf2 , 0, 0.3, 0.3);\
+z.sendMsg(\cf5 "/lpan/lamp/xy"\cf2 , 1, -0.4, -0.4);\
+)\
+\
+\
+\
+\
+\cf3 //\cf2 \
+\cf3 // 	Control Example 4 -- Cartesian\cf2 \
+\cf3 //\cf2 \
+\cf3 //	Control the positions of the channel 1 from SuperCollider. This example uses the\cf2 \
+\cf3 //	"/lpan/xy" command which takes a coordinates in cartesian form.\cf2 \
+\cf3 //\cf2 \
+\cf3 // 	Compare to the other control examples. See the Zirkonium documentation \cf2 \
+\cf3 // 	for more information about the OSC interface.\cf2 \
+\cf3 //  	\cf2 \
+(\
+\cf4 var\cf2  slider;\
+\cf4 var\cf2  text;\
+\cf4 var\cf2  panCtl;\
+\
+w = \cf4 SCWindow\cf2 (\cf5 "Dome"\cf2 , \cf4 Rect\cf2 (128, 128, 400, 256));\
+w.front;\
+slider = \cf4 SC2DSlider\cf2 (w, \cf4 Rect\cf2 (10, 10, 200, 200));\
+slider.x = 0.5;\
+slider.y = 0.0;\
+slider.action = \{ \cf4 arg\cf2  widget; panCtl.value(widget.x, widget.y) \};\
+\
+panCtl = \{ \cf4 arg\cf2  x, y;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 	\cf4 var\cf2  panx, pany;\
+	\
+		\cf3 // X and Y are swapped in Zirkonium (X is height)\cf2 \
+	panx = y; pany = x;\
+	\
+		\cf3 // [0, 0] needs to be in the middle\cf2 \
+	panx = (panx - 0.5) * 2.0;\
+	pany = 1.0 - pany;\
+	pany = (pany - 0.5) * 2.0;\
+\
+	z.sendMsg(\cf5 "/lpan/xy"\cf2 , 0, panx, pany, 0.3, 0.3);\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 \};\
+)\
+\
+\
+\
+\cf3 //  Control Example 5 -- Color\cf2 \
+(\
+\cf4 var\cf2  panCommands;\
+\cf4 var\cf2  zenith, azimuth;\
+\cf4 var\cf2  dazimuth;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf4 var\cf2  numChannels = ~numberOfIds;\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 zenith = 0.2;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 panCommands = \cf4 List\cf2 .new;\
+dazimuth = 2.0 / numChannels;\
+numChannels.do \{ \cf4 arg\cf2  i; panCommands.add([\cf5 "/lpan/lamp/az"\cf2 , i, -1.0 + (i * dazimuth), zenith]) \};\
+	z.sendBundle(0.0, *panCommands);\
+\
+\pard\pardeftab560\ql\qnatural
+\cf2 t = \cf4 Task\cf2 (\{ \
+		\cf4 var\cf2  stepCount = 40;\
+		\cf4 var\cf2  stepDur = 0.07;\
+		\cf4 var\cf2  oneOverStepCount;\
+		oneOverStepCount = 1.0 / stepCount;\
+		\cf4 inf\cf2 .do(\{ \cf4 arg\cf2  gj;\
+			stepCount.do \{ \cf4 arg\cf2  j;\
+				panCommands = \cf4 List\cf2 .new;\
+				numChannels.do \{ \cf4 arg\cf2  i; panCommands.add([\cf5 "/lconfig/color"\cf2 , i, 0.0, oneOverStepCount * (j+1), oneOverStepCount * (j+1)]) \};\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 				z.sendBundle(0.0, *panCommands);\
+\pard\pardeftab560\ql\qnatural
+\cf2 				stepDur.wait \};\
+			stepCount.do \{ \cf4 arg\cf2  j;\
+				panCommands = \cf4 List\cf2 .new;\
+				numChannels.do \{ \cf4 arg\cf2  i; panCommands.add([\cf5 "/lconfig/color"\cf2 , i, 0.0, oneOverStepCount * (stepCount-j), oneOverStepCount * (stepCount-j)]) \};\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab560\ql\qnatural\pardirnatural
+\cf2 				z.sendBundle(0.0, *panCommands);\
+\pard\pardeftab560\ql\qnatural
+\cf2 				stepDur.wait \};\
+		\}); \
+	\});\
+)\
+\
+t.start;\
+t.pause;\
+t.resume;\
+t.reset;\
+t.stop;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 \
+\
+\cf3 //  Control Example 5 -- Circle\cf2 \
+(\
+\cf4 var\cf2  panCommands;\
+\cf4 var\cf2  azimuth;\
+\cf4 var\cf2  dazimuth;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf4 var\cf2  numChannels = ~numberOfIds;\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 azimuth = -1.0;\
+~azimuthStep = 0.005;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 ~zenith = 0.0;\
+\pard\pardeftab560\ql\qnatural
+\cf2 ~stepDur = 0.07;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 dazimuth = 2.0 / numChannels;\
+\pard\pardeftab560\ql\qnatural
+\cf2 t = \cf4 Task\cf2 (\{ \
+		\cf4 inf\cf2 .do(\{ \cf4 arg\cf2  gj;\
+			panCommands = \cf4 List\cf2 .new;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 			numChannels.do \{ \cf4 arg\cf2  i; panCommands.add([\cf5 "/lpan/az"\cf2 , i, azimuth + (i * dazimuth), ~zenith]) \};\
+			z.sendBundle(0.0, *panCommands);\
+			~stepDur.wait;\
+			azimuth = azimuth + ~azimuthStep;\
+		\});\
+\pard\pardeftab560\ql\qnatural
+\cf2 	\});\
+)\
+\
+t.start;\
+t.pause;\
+t.resume;\
+t.reset;\
+t.stop;\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf2 \
+~zenith = 0.15;\
+~stepDur = 0.1;\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf2 ~azimuthStep = 0.01;\
+\
+}

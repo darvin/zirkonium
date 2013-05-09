@@ -1,0 +1,22 @@
+Sycamore Overview
+
+<p>Sycamore is a framework that provides Objective-C abstractions to CoreAudio, AudioUnits, and AudioToolbox functionality.</p><p>It includes objects for, among other things, file playback and recording, noise generators, and wrappers around the Matrix Mixer and 3D Mixer AudioUnits. If you just want a wrapper on the HAL, look into the much lighter-weight <a href="http://aldebaran.armory.com/~zenomt/macosx/MTCoreAudio/">MTCoreAudio.</a></p>
+The Sycamore distribution contains the following:<ul>	<li>		Sycamore		<ul>			<li>Documentation</li>			<li>SycamoreExamplesSource</li>				<ul>					<li>Debugging Example</li>					<li>File Playback and Recording Example</li>					<li>List Audio Units Example</li>				</ul>			<li>SycamoreSource &mdash; The source code documented here.</li>			<li>SycamoreTestSource &mdash; OCUnit tests for Sycamore</li>		</ul>	</li>
+	<li>SycamoreLog &mdash; a lightweight logging framework for use in realtime systems. It is available as a seperate framework, and Sycamore depends on it for logging</li>
+	<li>Cushion &mdash; an AudioHardwarePlugIn device that uses Sycamore internally. Similar to the AudioReflectorDriver, but in user space.</li>
+</ul>
+
+The header files and Doxygen documentation explain the classes in detail, but this file is intended as an overall orientation in the Sycamore Framework.
+
+Core and Zone form the foundation of the library. They depend only on SycamoreLog, but all of the rest of the library depends on at least Core and some of it on Zone as well.
+
+Dependencies ( : means depends on)
+	Core : SycamoreLog
+	Zone : SycamoreLog
+
+	AudioUnit  : Core
+	Debugging  : Core
+	Generators : Core
+	HAL        : Core
+
+	FileIO     : Core, Zone

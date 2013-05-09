@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 20900F810FB6141B00A3FA06 /* SycamoreTestTool */;
+		activeTarget = 36944A4C0A9CBFF100770B32 /* SycamoreTest */;
+		codeSenseManager = 20900FA40FB6141E00A3FA06 /* Code sense */;
+		executables = (
+			20900F810FB6141B00A3FA06 /* SycamoreTestTool */,
+			20900F820FB6141B00A3FA06 /* SycmoreDebugTest */,
+			20900F830FB6141B00A3FA06 /* SycamoreFileExample */,
+			20900F840FB6141B00A3FA06 /* SycamoreListAUExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 263647498;
+			PBXWorkspaceStateSaveDate = 263647498;
+		};
+		perUserProjectItems = {
+			205B0E4E0FB6F7CA00C6A9B9 /* PBXTextBookmark */ = 205B0E4E0FB6F7CA00C6A9B9 /* PBXTextBookmark */;
+			20B98F960FB61CB5007AFF5D /* PBXTextBookmark */ = 20B98F960FB61CB5007AFF5D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 20900FA30FB6141E00A3FA06 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	205B0E4E0FB6F7CA00C6A9B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 205B0E4F0FB6F7CA00C6A9B9 /* RunPlatformUnitTests.include */;
+		name = "RunPlatformUnitTests.include: 357";
+		rLen = 0;
+		rLoc = 11740;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 11582;
+	};
+	205B0E4F0FB6F7CA00C6A9B9 /* RunPlatformUnitTests.include */ = {
+		isa = PBXFileReference;
+		name = RunPlatformUnitTests.include;
+		path = /Developer/Tools/RunPlatformUnitTests.include;
+		sourceTree = "<absolute>";
+	};
+	20900F810FB6141B00A3FA06 /* SycamoreTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreTestTool;
+		sourceDirectories = (
+		);
+	};
+	20900F820FB6141B00A3FA06 /* SycmoreDebugTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycmoreDebugTest;
+		sourceDirectories = (
+		);
+	};
+	20900F830FB6141B00A3FA06 /* SycamoreFileExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreFileExample;
+		sourceDirectories = (
+		);
+	};
+	20900F840FB6141B00A3FA06 /* SycamoreListAUExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreListAUExample;
+		sourceDirectories = (
+		);
+	};
+	20900FA30FB6141E00A3FA06 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	20900FA40FB6141E00A3FA06 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	20B98F960FB61CB5007AFF5D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20B98F970FB61CB5007AFF5D /* RunPlatformUnitTests.include */;
+		name = "RunPlatformUnitTests.include: 386";
+		rLen = 0;
+		rLoc = 13187;
+		rType = 0;
+		vrLen = 617;
+		vrLoc = 12929;
+	};
+	20B98F970FB61CB5007AFF5D /* RunPlatformUnitTests.include */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = RunPlatformUnitTests.include;
+		path = /Developer/Tools/RunPlatformUnitTests.include;
+		sourceTree = "<absolute>";
+	};
+	363044600A9EEAAE009518F1 /* SycmoreDebugTest */ = {
+		activeExec = 0;
+		executables = (
+			20900F820FB6141B00A3FA06 /* SycmoreDebugTest */,
+		);
+	};
+	3652A54C0AAC97E7003D3818 /* SycamoreFileExample */ = {
+		activeExec = 0;
+		executables = (
+			20900F830FB6141B00A3FA06 /* SycamoreFileExample */,
+		);
+	};
+	36841DCE0AD3B35900D04417 /* SycamoreListAUExample */ = {
+		activeExec = 0;
+		executables = (
+			20900F840FB6141B00A3FA06 /* SycamoreListAUExample */,
+		);
+	};
+	36944A4C0A9CBFF100770B32 /* SycamoreTest */ = {
+		activeExec = 0;
+	};
+	36EC508C0A9DA123007DF698 /* SycamoreTestTool */ = {
+		activeExec = 0;
+		executables = (
+			20900F810FB6141B00A3FA06 /* SycamoreTestTool */,
+		);
+	};
+	8DC2EF4F0486A6940098B216 /* Sycamore */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	0DA949DE13DEECDE004DAC8A /* ZirkoniumMuseum */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZirkoniumMuseum;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0DA94A1513DEECE7004DAC8A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0DA94A1613DEECE7004DAC8A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0DA94A1713DEEE92004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CB130B13CE0022DE65 /* ZKMRNZirkoniumSystem.h */;
+		name = "ZKMRNZirkoniumSystem.h: 158";
+		rLen = 15;
+		rLoc = 4926;
+		rType = 0;
+		vrLen = 217;
+		vrLoc = 4701;
+	};
+	0DA94A1813DEEE92004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */;
+		name = "ZKMRNZirkoniumSystem.m: 160";
+		rLen = 0;
+		rLoc = 5047;
+		rType = 0;
+		vrLen = 948;
+		vrLoc = 4987;
+	};
+	0DA94A1913DEEE92004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8810149F88007C43A1 /* ZKMRMMuseumSystem.h */;
+		name = "ZKMRMMuseumSystem.h: 49";
+		rLen = 15;
+		rLoc = 1337;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 1001;
+	};
+	0DA94A1A13DEEE92004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */;
+		rLen = 15;
+		rLoc = 4344;
+		rType = 0;
+	};
+	0DA94A1B13DEEE92004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */;
+		name = "ZKMRMMuseumSystem.m: 122";
+		rLen = 0;
+		rLoc = 4300;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 3638;
+	};
+	0DA94A2013DEEE99004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B404226313DEC07E00AFCDDC /* ZKMRNLightController.h */;
+		name = "ZKMRNLightController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 0;
+	};
+	0DA94A2113DEEE99004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B404226413DEC07E00AFCDDC /* ZKMRNLightController.m */;
+		name = "ZKMRNLightController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1336;
+		vrLoc = 0;
+	};
+	0DA94A2213DEEE99004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2014F3911059330000CAD0CD /* ZKMRMLightController.m */;
+		name = "ZKMRMLightController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1236;
+		vrLoc = 0;
+	};
+	0DA94A2313DEEE99004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CB130B13CE0022DE65 /* ZKMRNZirkoniumSystem.h */;
+		rLen = 15;
+		rLoc = 2145;
+		rType = 0;
+	};
+	0DA94A2413DEEE99004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CB130B13CE0022DE65 /* ZKMRNZirkoniumSystem.h */;
+		name = "ZKMRNZirkoniumSystem.h: 72";
+		rLen = 15;
+		rLoc = 2145;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 1422;
+	};
+	0DA94A2A13DEF019004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CB130B13CE0022DE65 /* ZKMRNZirkoniumSystem.h */;
+		name = "ZKMRNZirkoniumSystem.h: 72";
+		rLen = 15;
+		rLoc = 2145;
+		rType = 0;
+		vrLen = 1619;
+		vrLoc = 1422;
+	};
+	0DA94A2B13DEF019004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2014F3911059330000CAD0CD /* ZKMRMLightController.m */;
+		name = "ZKMRMLightController.m: 110";
+		rLen = 29;
+		rLoc = 3320;
+		rType = 0;
+		vrLen = 1895;
+		vrLoc = 2599;
+	};
+	0DA94A2C13DEF019004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2014F3901059330000CAD0CD /* ZKMRMLightController.h */;
+		name = "ZKMRMLightController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 0;
+	};
+	0DA94A2D13DEF019004DAC8A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */;
+	};
+	0DA94A2E13DEF019004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */;
+		name = "ZKMRMMuseumSystem.m: 148";
+		rLen = 0;
+		rLoc = 4857;
+		rType = 0;
+		vrLen = 1184;
+		vrLoc = 4026;
+	};
+	0DA94A3213DEF05A004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8810149F88007C43A1 /* ZKMRMMuseumSystem.h */;
+		name = "ZKMRMMuseumSystem.h: 49";
+		rLen = 15;
+		rLoc = 1337;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 278;
+	};
+	0DA94A3313DEF05A004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */;
+		name = "ZKMRMMuseumSystem.m: 148";
+		rLen = 0;
+		rLoc = 4857;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 4026;
+	};
+	0DA94A3413DEF05A004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2066BE33102B192C00A61AAE /* ZKMRMBorderlessWindow.m */;
+		name = "ZKMRMBorderlessWindow.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	0DA94A3513DEF05A004DAC8A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */;
+	};
+	0DA94A3613DEF05A004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */;
+		name = "ZKMRMUserWatchdog.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 0;
+	};
+	0DA94A3713DEF0D3004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CB130B13CE0022DE65 /* ZKMRNZirkoniumSystem.h */;
+		name = "ZKMRNZirkoniumSystem.h: 158";
+		rLen = 15;
+		rLoc = 4926;
+		rType = 0;
+		vrLen = 1196;
+		vrLoc = 4501;
+	};
+	0DA94A3813DEF0D3004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B404226413DEC07E00AFCDDC /* ZKMRNLightController.m */;
+		name = "ZKMRNLightController.m: 2";
+		rLen = 15;
+		rLoc = 12;
+		rType = 0;
+		vrLen = 591;
+		vrLoc = 2548;
+	};
+	0DA94A3913DEF0D3004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */;
+		rLen = 15;
+		rLoc = 5047;
+		rType = 0;
+	};
+	0DA94A3A13DEF0D3004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */;
+		name = "ZKMRNZirkoniumSystem.m: 160";
+		rLen = 15;
+		rLoc = 5047;
+		rType = 0;
+		vrLen = 947;
+		vrLoc = 4987;
+	};
+	0DA94A3D13DEF0D6004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */;
+		name = "ZKMRMUserWatchdog.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 0;
+	};
+	0DA94A3E13DEF0D6004DAC8A /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */;
+	};
+	0DA94A3F13DEF0D6004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */;
+		name = "ZKMRNZirkoniumSystem.m: 160";
+		rLen = 15;
+		rLoc = 5047;
+		rType = 0;
+		vrLen = 1886;
+		vrLoc = 4227;
+	};
+	0DA94A4413DEF0F7004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */;
+		name = "ZKMRNZirkoniumSystem.m: 160";
+		rLen = 15;
+		rLoc = 5047;
+		rType = 0;
+		vrLen = 1912;
+		vrLoc = 4227;
+	};
+	0DA94A4513DEF0F7004DAC8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */;
+		name = "ZKMRMMuseumSystem.m: 146";
+		rLen = 0;
+		rLoc = 4857;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 4026;
+	};
+	2014F3901059330000CAD0CD /* ZKMRMLightController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 618}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 569}";
+		};
+	};
+	2014F3911059330000CAD0CD /* ZKMRMLightController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1126, 1833}}";
+			sepNavSelRange = "{3320, 29}";
+			sepNavVisRange = "{2599, 1895}";
+		};
+	};
+	204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 793}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1264}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
+		};
+	};
+	2066BE33102B192C00A61AAE /* ZKMRMBorderlessWindow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 618}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 799}";
+		};
+	};
+	20A22B8810149F88007C43A1 /* ZKMRMMuseumSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 1001}}";
+			sepNavSelRange = "{1337, 15}";
+			sepNavVisRange = "{278, 1507}";
+		};
+	};
+	20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {874, 5603}}";
+			sepNavSelRange = "{4857, 0}";
+			sepNavVisRange = "{4026, 1191}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0DA949DE13DEECDE004DAC8A /* ZirkoniumMuseum */;
+		activeTarget = 8D1107260486CEB800E47090 /* ZirkoniumMuseum */;
+		breakpoints = (
+		);
+		codeSenseManager = 0DA94A1613DEECE7004DAC8A /* Code sense */;
+		executables = (
+			0DA949DE13DEECDE004DAC8A /* ZirkoniumMuseum */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					696,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333378433;
+			PBXWorkspaceStateSaveDate = 333378433;
+		};
+		perUserProjectItems = {
+			0DA94A1713DEEE92004DAC8A = 0DA94A1713DEEE92004DAC8A /* PBXTextBookmark */;
+			0DA94A1813DEEE92004DAC8A = 0DA94A1813DEEE92004DAC8A /* PBXTextBookmark */;
+			0DA94A1913DEEE92004DAC8A = 0DA94A1913DEEE92004DAC8A /* PBXTextBookmark */;
+			0DA94A1A13DEEE92004DAC8A = 0DA94A1A13DEEE92004DAC8A /* PBXTextBookmark */;
+			0DA94A1B13DEEE92004DAC8A = 0DA94A1B13DEEE92004DAC8A /* PBXTextBookmark */;
+			0DA94A2013DEEE99004DAC8A = 0DA94A2013DEEE99004DAC8A /* PBXTextBookmark */;
+			0DA94A2113DEEE99004DAC8A = 0DA94A2113DEEE99004DAC8A /* PBXTextBookmark */;
+			0DA94A2213DEEE99004DAC8A = 0DA94A2213DEEE99004DAC8A /* PBXTextBookmark */;
+			0DA94A2313DEEE99004DAC8A = 0DA94A2313DEEE99004DAC8A /* PBXTextBookmark */;
+			0DA94A2413DEEE99004DAC8A = 0DA94A2413DEEE99004DAC8A /* PBXTextBookmark */;
+			0DA94A2A13DEF019004DAC8A = 0DA94A2A13DEF019004DAC8A /* PBXTextBookmark */;
+			0DA94A2B13DEF019004DAC8A = 0DA94A2B13DEF019004DAC8A /* PBXTextBookmark */;
+			0DA94A2C13DEF019004DAC8A = 0DA94A2C13DEF019004DAC8A /* PBXTextBookmark */;
+			0DA94A2D13DEF019004DAC8A = 0DA94A2D13DEF019004DAC8A /* PBXBookmark */;
+			0DA94A2E13DEF019004DAC8A = 0DA94A2E13DEF019004DAC8A /* PBXTextBookmark */;
+			0DA94A3213DEF05A004DAC8A = 0DA94A3213DEF05A004DAC8A /* PBXTextBookmark */;
+			0DA94A3313DEF05A004DAC8A = 0DA94A3313DEF05A004DAC8A /* PBXTextBookmark */;
+			0DA94A3413DEF05A004DAC8A = 0DA94A3413DEF05A004DAC8A /* PBXTextBookmark */;
+			0DA94A3513DEF05A004DAC8A = 0DA94A3513DEF05A004DAC8A /* PBXBookmark */;
+			0DA94A3613DEF05A004DAC8A = 0DA94A3613DEF05A004DAC8A /* PBXTextBookmark */;
+			0DA94A3713DEF0D3004DAC8A = 0DA94A3713DEF0D3004DAC8A /* PBXTextBookmark */;
+			0DA94A3813DEF0D3004DAC8A = 0DA94A3813DEF0D3004DAC8A /* PBXTextBookmark */;
+			0DA94A3913DEF0D3004DAC8A = 0DA94A3913DEF0D3004DAC8A /* PBXTextBookmark */;
+			0DA94A3A13DEF0D3004DAC8A = 0DA94A3A13DEF0D3004DAC8A /* PBXTextBookmark */;
+			0DA94A3D13DEF0D6004DAC8A = 0DA94A3D13DEF0D6004DAC8A /* PBXTextBookmark */;
+			0DA94A3E13DEF0D6004DAC8A = 0DA94A3E13DEF0D6004DAC8A /* PBXBookmark */;
+			0DA94A3F13DEF0D6004DAC8A = 0DA94A3F13DEF0D6004DAC8A /* PBXTextBookmark */;
+			0DA94A4413DEF0F7004DAC8A = 0DA94A4413DEF0F7004DAC8A /* PBXTextBookmark */;
+			0DA94A4513DEF0F7004DAC8A = 0DA94A4513DEF0F7004DAC8A /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0DA94A1513DEECE7004DAC8A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7006A1CB130B13CE0022DE65 /* ZKMRNZirkoniumSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1154, 3224}}";
+			sepNavSelRange = "{4926, 15}";
+			sepNavVisRange = "{4501, 1196}";
+		};
+	};
+	7006A1CC130B13CE0022DE65 /* ZKMRNZirkoniumSystem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 14443}}";
+			sepNavSelRange = "{5047, 15}";
+			sepNavVisRange = "{4227, 1912}";
+		};
+	};
+	8D1107260486CEB800E47090 /* ZirkoniumMuseum */ = {
+		activeExec = 0;
+		executables = (
+			0DA949DE13DEECDE004DAC8A /* ZirkoniumMuseum */,
+		);
+	};
+	B404226313DEC07E00AFCDDC /* ZKMRNLightController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 1118}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 406}";
+		};
+	};
+	B404226413DEC07E00AFCDDC /* ZKMRNLightController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1154, 7449}}";
+			sepNavSelRange = "{12, 15}";
+			sepNavVisRange = "{2548, 591}";
+		};
+	};
+}

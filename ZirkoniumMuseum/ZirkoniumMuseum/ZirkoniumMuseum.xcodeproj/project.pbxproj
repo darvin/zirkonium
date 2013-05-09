@@ -1,0 +1,1152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2014F3921059330000CAD0CD /* ZKMRMLightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2014F3911059330000CAD0CD /* ZKMRMLightController.m */; };
+		204768CA10501B2A000E25C5 /* ZKMRMPlaybackMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 204768C910501B2A000E25C5 /* ZKMRMPlaybackMode.m */; };
+		204768D410501CD6000E25C5 /* ZKMRMUserWatchdog.m in Sources */ = {isa = PBXBuildFile; fileRef = 204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */; };
+		2066BE12102B139B00A61AAE /* ZKMRMTextLayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2066BE11102B139B00A61AAE /* ZKMRMTextLayerManager.m */; };
+		2066BE2D102B16E400A61AAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2066BE2C102B16E400A61AAE /* QuartzCore.framework */; };
+		2066BE34102B192C00A61AAE /* ZKMRMBorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2066BE33102B192C00A61AAE /* ZKMRMBorderlessWindow.m */; };
+		20A22AD010149A3C007C43A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22AC510149A3C007C43A1 /* Cocoa.framework */; };
+		20A22AD110149A3C007C43A1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22AC610149A3C007C43A1 /* CoreAudio.framework */; };
+		20A22AD210149A3C007C43A1 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22AC710149A3C007C43A1 /* AudioUnit.framework */; };
+		20A22AD310149A3C007C43A1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22AC810149A3C007C43A1 /* AudioToolbox.framework */; };
+		20A22AD410149A3C007C43A1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22AC910149A3C007C43A1 /* CoreFoundation.framework */; };
+		20A22AD510149A3C007C43A1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22ACA10149A3C007C43A1 /* CoreServices.framework */; };
+		20A22AD610149A3C007C43A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22ACB10149A3C007C43A1 /* CoreData.framework */; };
+		20A22AD710149A3C007C43A1 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22ACC10149A3C007C43A1 /* OpenGL.framework */; };
+		20A22AE110149A41007C43A1 /* Syncretism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22ADC10149A3C007C43A1 /* Syncretism.framework */; };
+		20A22AE410149AA3007C43A1 /* Syncretism.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 20A22ADC10149A3C007C43A1 /* Syncretism.framework */; };
+		20A22B8A10149F88007C43A1 /* ZKMRMMuseumSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */; };
+		20A22B8D10149FCE007C43A1 /* ZirkoniumMuseum.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A22B8B10149FCE007C43A1 /* ZirkoniumMuseum.xib */; };
+		20A22B991014A018007C43A1 /* ZKMMDPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A22B971014A018007C43A1 /* ZKMMDPiece.m */; };
+		20A22BAA1014A222007C43A1 /* ZKMRMPlaybackPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A22BA91014A222007C43A1 /* ZKMRMPlaybackPiece.m */; };
+		20B9BEDF1057F2DC00EF80B6 /* LanBox.c in Sources */ = {isa = PBXBuildFile; fileRef = 20B9BED71057F2DC00EF80B6 /* LanBox.c */; };
+		20B9BEE01057F2DC00EF80B6 /* ZKMRLMixerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B9BEDA1057F2DC00EF80B6 /* ZKMRLMixerLight.m */; };
+		20B9BEE11057F2DC00EF80B6 /* ZKMRLOutputDMX.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B9BEDC1057F2DC00EF80B6 /* ZKMRLOutputDMX.m */; };
+		20B9BEE21057F2DC00EF80B6 /* ZKMRLPannerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B9BEDE1057F2DC00EF80B6 /* ZKMRLPannerLight.m */; };
+		7006A1F5130B14540022DE65 /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7006A1F2130B14540022DE65 /* VVBasics.framework */; };
+		7006A1F6130B14540022DE65 /* VVMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7006A1F3130B14540022DE65 /* VVMIDI.framework */; };
+		7006A1F7130B14540022DE65 /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7006A1F4130B14540022DE65 /* VVOSC.framework */; };
+		7006A340130B19D20022DE65 /* VVBasics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7006A1F2130B14540022DE65 /* VVBasics.framework */; };
+		7006A341130B19D20022DE65 /* VVMIDI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7006A1F3130B14540022DE65 /* VVMIDI.framework */; };
+		7006A342130B19D20022DE65 /* VVOSC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7006A1F4130B14540022DE65 /* VVOSC.framework */; };
+		70A0CAE1136A67CE00076A6B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A0CAE0136A67CE00076A6B /* GLUT.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B42575F113E82F0D00C6800F /* OSCController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425756A13E82F0D00C6800F /* OSCController.m */; };
+		B42575F213E82F0D00C6800F /* ZKMRNContainerArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425756C13E82F0D00C6800F /* ZKMRNContainerArrayController.m */; };
+		B42575F313E82F0D00C6800F /* ZKMRNEventsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425756E13E82F0D00C6800F /* ZKMRNEventsArrayController.m */; };
+		B42575F413E82F0D00C6800F /* ZKMRNGroupsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757013E82F0D00C6800F /* ZKMRNGroupsArrayController.m */; };
+		B42575F613E82F0D00C6800F /* ZKMRNManagedObjectExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757413E82F0D00C6800F /* ZKMRNManagedObjectExtensions.m */; };
+		B42575F713E82F0D00C6800F /* ZKMRNPieceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757613E82F0D00C6800F /* ZKMRNPieceDocument.m */; };
+		B42575F813E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757813E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.m */; };
+		B42575F913E82F0D00C6800F /* ZKMRNPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757A13E82F0D00C6800F /* ZKMRNPreferencesController.m */; };
+		B42575FA13E82F0D00C6800F /* ZKMRNStudioSetupDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757C13E82F0D00C6800F /* ZKMRNStudioSetupDocument.m */; };
+		B42575FB13E82F0D00C6800F /* ZKMRNTestSourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B425757E13E82F0D00C6800F /* ZKMRNTestSourceController.m */; };
+		B42575FC13E82F0D00C6800F /* ZKMRNZirkoniumSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B425758013E82F0D00C6800F /* ZKMRNZirkoniumSystem.m */; };
+		B42575FD13E82F0D00C6800F /* ZKMRNZirkoniumUISystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B425758213E82F0D00C6800F /* ZKMRNZirkoniumUISystem.m */; };
+		B42575FE13E82F0D00C6800F /* InputSetup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B425758513E82F0D00C6800F /* InputSetup.xcdatamodeld */; };
+		B42575FF13E82F0D00C6800F /* ZKMRNAbstractInOutPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B425758913E82F0D00C6800F /* ZKMRNAbstractInOutPatch.m */; };
+		B425760013E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B425758B13E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.m */; };
+		B425760113E82F0D00C6800F /* ZKMRNDirectOutPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B425758D13E82F0D00C6800F /* ZKMRNDirectOutPatch.m */; };
+		B425760213E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B425758F13E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.m */; };
+		B425760313E82F0D00C6800F /* ZKMRNInputPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B425759113E82F0D00C6800F /* ZKMRNInputPatch.m */; };
+		B425760413E82F0D00C6800F /* ZKMRNOutputPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B425759313E82F0D00C6800F /* ZKMRNOutputPatch.m */; };
+		B425760513E82F0D00C6800F /* ZKMRNOutputPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B425759513E82F0D00C6800F /* ZKMRNOutputPatchChannel.m */; };
+		B425760613E82F0D00C6800F /* PieceDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B425759713E82F0D00C6800F /* PieceDocument.xcdatamodeld */; };
+		B425760713E82F0D00C6800F /* ZKMRNAudioSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B425759C13E82F0D00C6800F /* ZKMRNAudioSource.m */; };
+		B425760813E82F0D00C6800F /* ZKMRNCartesianEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B425759E13E82F0D00C6800F /* ZKMRNCartesianEvent.m */; };
+		B425760913E82F0D00C6800F /* ZKMRNChannelGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575A013E82F0D00C6800F /* ZKMRNChannelGroup.m */; };
+		B425760A13E82F0D00C6800F /* ZKMRNEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575A213E82F0D00C6800F /* ZKMRNEvent.m */; };
+		B425760B13E82F0D00C6800F /* ZKMRNFileSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575A413E82F0D00C6800F /* ZKMRNFileSource.m */; };
+		B425760C13E82F0D00C6800F /* ZKMRNGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575A613E82F0D00C6800F /* ZKMRNGraph.m */; };
+		B425760D13E82F0D00C6800F /* ZKMRNGraphChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575A813E82F0D00C6800F /* ZKMRNGraphChannel.m */; };
+		B425760E13E82F0D00C6800F /* ZKMRNInputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575AA13E82F0D00C6800F /* ZKMRNInputSource.m */; };
+		B425760F13E82F0D00C6800F /* ZKMRNPositionEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575AC13E82F0D00C6800F /* ZKMRNPositionEvent.m */; };
+		B425761013E82F0D00C6800F /* ZKMRNTestSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575AE13E82F0D00C6800F /* ZKMRNTestSource.m */; };
+		B425761113E82F0D00C6800F /* CoreDataWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575B113E82F0D00C6800F /* CoreDataWorkaround.m */; };
+		B425761213E82F0D00C6800F /* StudioSetup.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B42575B213E82F0D00C6800F /* StudioSetup.xcdatamodeld */; };
+		B425761313E82F0D00C6800F /* ZKMRNChannelMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575B613E82F0D00C6800F /* ZKMRNChannelMap.m */; };
+		B425761413E82F0D00C6800F /* ZKMRNRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575B813E82F0D00C6800F /* ZKMRNRoom.m */; };
+		B425761513E82F0D00C6800F /* ZKMRNSimpleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575BA13E82F0D00C6800F /* ZKMRNSimpleMap.m */; };
+		B425761613E82F0D00C6800F /* ZKMRNSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575BC13E82F0D00C6800F /* ZKMRNSpeaker.m */; };
+		B425761713E82F0D00C6800F /* ZKMRNSpeakerRing.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575BE13E82F0D00C6800F /* ZKMRNSpeakerRing.m */; };
+		B425761813E82F0D00C6800F /* ZKMRNSpeakerSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575C013E82F0D00C6800F /* ZKMRNSpeakerSetup.m */; };
+		B425761913E82F0D00C6800F /* D3_zkm_La_sw.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B42575C213E82F0D00C6800F /* D3_zkm_La_sw.pdf */; };
+		B425761A13E82F0D00C6800F /* defaultsetup.zrkstu in Resources */ = {isa = PBXBuildFile; fileRef = B42575C313E82F0D00C6800F /* defaultsetup.zrkstu */; };
+		B425761B13E82F0D00C6800F /* defaultstudio.zrkstu in Resources */ = {isa = PBXBuildFile; fileRef = B42575C413E82F0D00C6800F /* defaultstudio.zrkstu */; };
+		B425761C13E82F0D00C6800F /* LegacyMetadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = B42575C513E82F0D00C6800F /* LegacyMetadata.plist */; };
+		B425761D13E82F0D00C6800F /* LegacyMetadataV2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B42575C613E82F0D00C6800F /* LegacyMetadataV2.plist */; };
+		B425761E13E82F0D00C6800F /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575C713E82F0D00C6800F /* minus-8.png */; };
+		B425761F13E82F0D00C6800F /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575C813E82F0D00C6800F /* Play.png */; };
+		B425762013E82F0D00C6800F /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575C913E82F0D00C6800F /* plus-8.png */; };
+		B425762113E82F0D00C6800F /* RecordOff.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575CA13E82F0D00C6800F /* RecordOff.png */; };
+		B425762213E82F0D00C6800F /* RecordOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575CB13E82F0D00C6800F /* RecordOn.png */; };
+		B425762313E82F0D00C6800F /* Rewind.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575CC13E82F0D00C6800F /* Rewind.png */; };
+		B425762413E82F0D00C6800F /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = B42575CD13E82F0D00C6800F /* Stop.png */; };
+		B425762513E82F0D00C6800F /* studio.zrkstu in Resources */ = {isa = PBXBuildFile; fileRef = B42575CE13E82F0D00C6800F /* studio.zrkstu */; };
+		B425762613E82F0D00C6800F /* studio2.zip in Resources */ = {isa = PBXBuildFile; fileRef = B42575CF13E82F0D00C6800F /* studio2.zip */; };
+		B425762713E82F0D00C6800F /* Zirkonium-file.icns in Resources */ = {isa = PBXBuildFile; fileRef = B42575D013E82F0D00C6800F /* Zirkonium-file.icns */; };
+		B425762813E82F0D00C6800F /* Zirkonium.icns in Resources */ = {isa = PBXBuildFile; fileRef = B42575D113E82F0D00C6800F /* Zirkonium.icns */; };
+		B425762913E82F0D00C6800F /* ZKMORLoggerClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = B42575D613E82F0D00C6800F /* ZKMORLoggerClient.mm */; };
+		B425762A13E82F0D00C6800F /* ZKMRNChannelMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575D813E82F0D00C6800F /* ZKMRNChannelMapView.m */; };
+		B425762B13E82F0D00C6800F /* ZKMRNDomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575DA13E82F0D00C6800F /* ZKMRNDomeView.m */; };
+		B425762C13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575DC13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.m */; };
+		B425762D13E82F0D00C6800F /* ZKMRNGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575DE13E82F0D00C6800F /* ZKMRNGradientView.m */; };
+		B425762E13E82F0D00C6800F /* ZKMRNLightTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575E013E82F0D00C6800F /* ZKMRNLightTableView.m */; };
+		B425762F13E82F0D00C6800F /* ZKMRNOpenGLShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575E213E82F0D00C6800F /* ZKMRNOpenGLShapes.m */; };
+		B425763013E82F0D00C6800F /* ZKMRNOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575E413E82F0D00C6800F /* ZKMRNOpenGLView.m */; };
+		B425763113E82F0D00C6800F /* ZKMRNSpatializerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575E613E82F0D00C6800F /* ZKMRNSpatializerView.m */; };
+		B425763213E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575E813E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.m */; };
+		B425763313E82F0D00C6800F /* ZKMRNTimeWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575EA13E82F0D00C6800F /* ZKMRNTimeWatch.m */; };
+		B425763413E82F0D00C6800F /* ZKMRNSpeakerSetupView.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575EC13E82F0D00C6800F /* ZKMRNSpeakerSetupView.m */; };
+		B425763513E82F0D00C6800F /* ZKMRNTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = B42575EE13E82F0D00C6800F /* ZKMRNTextures.m */; };
+		B425764613E830C700C6800F /* MuseumView.m in Sources */ = {isa = PBXBuildFile; fileRef = B425764513E830C700C6800F /* MuseumView.m */; };
+		B43F4B6913E989FA0094D4AD /* ZKMMDDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B43F4B6513E989FA0094D4AD /* ZKMMDDocument.xcdatamodeld */; };
+		B43F4B6C13E98A180094D4AD /* ZKMMDDocument10-2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B43F4B6A13E98A180094D4AD /* ZKMMDDocument10-2.xcmappingmodel */; };
+		B43F4B6D13E98A180094D4AD /* ZKMMDDocument10-11.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = B43F4B6B13E98A180094D4AD /* ZKMMDDocument10-11.xcmappingmodel */; };
+		B48CC0E11455996100A3F13A /* FileSourcesController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48CC0DE1455996100A3F13A /* FileSourcesController.m */; };
+		B48CC0E21455996100A3F13A /* NSString+PathResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = B48CC0E01455996100A3F13A /* NSString+PathResolver.m */; };
+		B48CC1171455A9D700A3F13A /* PauseMuseum.png in Resources */ = {isa = PBXBuildFile; fileRef = B48CC1151455A9D700A3F13A /* PauseMuseum.png */; };
+		B48CC1181455A9D700A3F13A /* PlayMuseum.png in Resources */ = {isa = PBXBuildFile; fileRef = B48CC1161455A9D700A3F13A /* PlayMuseum.png */; };
+		B4A2AEA814597CDC0008DDF6 /* Volume.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A2AEA714597CDC0008DDF6 /* Volume.png */; };
+		B4BCAAD113D5C9320066F1C7 /* ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BCAAD013D5C9320066F1C7 /* ItemView.m */; };
+		B4C66E2913D6DBBF0055E138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C66E2813D6DBBF0055E138 /* AppDelegate.m */; };
+		B4EEB9EE13EA9DBB005610D9 /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EEB9ED13EA9DBB005610D9 /* LightController.m */; };
+		B4EEBA1C13EA9F7B005610D9 /* ZKMRNPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4EEBA1813EA9F7B005610D9 /* ZKMRNPreferences.nib */; };
+		B4EEBA1D13EA9F7B005610D9 /* ZKMRNStudioSetupDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = B4EEBA1A13EA9F7B005610D9 /* ZKMRNStudioSetupDocument.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20A22ADB10149A3C007C43A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A22ACD10149A3C007C43A1 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+		20A22ADD10149A3C007C43A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A22ACD10149A3C007C43A1 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 366964510AEE89B100E4EAC9;
+			remoteInfo = SyncretismTest;
+		};
+		20A22ADF10149A3C007C43A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A22ACD10149A3C007C43A1 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36226F490B3AC10A009CAA75;
+			remoteInfo = SyncretismTestTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20A22AEE10149AD4007C43A1 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7006A340130B19D20022DE65 /* VVBasics.framework in Copy Frameworks */,
+				7006A341130B19D20022DE65 /* VVMIDI.framework in Copy Frameworks */,
+				7006A342130B19D20022DE65 /* VVOSC.framework in Copy Frameworks */,
+				20A22AE410149AA3007C43A1 /* Syncretism.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2014F3901059330000CAD0CD /* ZKMRMLightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMLightController.h; sourceTree = "<group>"; };
+		2014F3911059330000CAD0CD /* ZKMRMLightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMLightController.m; sourceTree = "<group>"; };
+		204768C810501B2A000E25C5 /* ZKMRMPlaybackMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMPlaybackMode.h; sourceTree = "<group>"; };
+		204768C910501B2A000E25C5 /* ZKMRMPlaybackMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMPlaybackMode.m; sourceTree = "<group>"; };
+		204768D210501CD6000E25C5 /* ZKMRMUserWatchdog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMUserWatchdog.h; sourceTree = "<group>"; };
+		204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMUserWatchdog.m; sourceTree = "<group>"; };
+		2066BE10102B139B00A61AAE /* ZKMRMTextLayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMTextLayerManager.h; sourceTree = "<group>"; };
+		2066BE11102B139B00A61AAE /* ZKMRMTextLayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMTextLayerManager.m; sourceTree = "<group>"; };
+		2066BE2C102B16E400A61AAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		2066BE32102B192C00A61AAE /* ZKMRMBorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMBorderlessWindow.h; sourceTree = "<group>"; };
+		2066BE33102B192C00A61AAE /* ZKMRMBorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMBorderlessWindow.m; sourceTree = "<group>"; };
+		20A22AC510149A3C007C43A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		20A22AC610149A3C007C43A1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		20A22AC710149A3C007C43A1 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		20A22AC810149A3C007C43A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		20A22AC910149A3C007C43A1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		20A22ACA10149A3C007C43A1 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		20A22ACB10149A3C007C43A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		20A22ACC10149A3C007C43A1 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		20A22ACD10149A3C007C43A1 /* Syncretism.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Syncretism.xcodeproj; path = ../../Syncretism/Syncretism.xcodeproj; sourceTree = SOURCE_ROOT; };
+		20A22B8810149F88007C43A1 /* ZKMRMMuseumSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMMuseumSystem.h; sourceTree = "<group>"; };
+		20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMMuseumSystem.m; sourceTree = "<group>"; };
+		20A22B8C10149FCE007C43A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/ZirkoniumMuseum.xib; sourceTree = "<group>"; };
+		20A22B961014A018007C43A1 /* ZKMMDPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMMDPiece.h; sourceTree = "<group>"; };
+		20A22B971014A018007C43A1 /* ZKMMDPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMMDPiece.m; sourceTree = "<group>"; };
+		20A22BA81014A222007C43A1 /* ZKMRMPlaybackPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRMPlaybackPiece.h; sourceTree = "<group>"; };
+		20A22BA91014A222007C43A1 /* ZKMRMPlaybackPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRMPlaybackPiece.m; sourceTree = "<group>"; };
+		20B9BED71057F2DC00EF80B6 /* LanBox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LanBox.c; sourceTree = "<group>"; };
+		20B9BED81057F2DC00EF80B6 /* LanBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanBox.h; sourceTree = "<group>"; };
+		20B9BED91057F2DC00EF80B6 /* ZKMRLMixerLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLMixerLight.h; sourceTree = "<group>"; };
+		20B9BEDA1057F2DC00EF80B6 /* ZKMRLMixerLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLMixerLight.m; sourceTree = "<group>"; };
+		20B9BEDB1057F2DC00EF80B6 /* ZKMRLOutputDMX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLOutputDMX.h; sourceTree = "<group>"; };
+		20B9BEDC1057F2DC00EF80B6 /* ZKMRLOutputDMX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLOutputDMX.m; sourceTree = "<group>"; };
+		20B9BEDD1057F2DC00EF80B6 /* ZKMRLPannerLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLPannerLight.h; sourceTree = "<group>"; };
+		20B9BEDE1057F2DC00EF80B6 /* ZKMRLPannerLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLPannerLight.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* ZirkoniumMuseum_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZirkoniumMuseum_Prefix.pch; sourceTree = "<group>"; };
+		7006A1F2130B14540022DE65 /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVBasics.framework; path = ../../Zirkonium/Frameworks/VVBasics.framework; sourceTree = SOURCE_ROOT; };
+		7006A1F3130B14540022DE65 /* VVMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVMIDI.framework; path = ../../Zirkonium/Frameworks/VVMIDI.framework; sourceTree = SOURCE_ROOT; };
+		7006A1F4130B14540022DE65 /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = ../../Zirkonium/Frameworks/VVOSC.framework; sourceTree = SOURCE_ROOT; };
+		70A0CAE0136A67CE00076A6B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B425756913E82F0D00C6800F /* OSCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCController.h; sourceTree = "<group>"; };
+		B425756A13E82F0D00C6800F /* OSCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCController.m; sourceTree = "<group>"; };
+		B425756B13E82F0D00C6800F /* ZKMRNContainerArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNContainerArrayController.h; sourceTree = "<group>"; };
+		B425756C13E82F0D00C6800F /* ZKMRNContainerArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNContainerArrayController.m; sourceTree = "<group>"; };
+		B425756D13E82F0D00C6800F /* ZKMRNEventsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNEventsArrayController.h; sourceTree = "<group>"; };
+		B425756E13E82F0D00C6800F /* ZKMRNEventsArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNEventsArrayController.m; sourceTree = "<group>"; };
+		B425756F13E82F0D00C6800F /* ZKMRNGroupsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNGroupsArrayController.h; sourceTree = "<group>"; };
+		B425757013E82F0D00C6800F /* ZKMRNGroupsArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNGroupsArrayController.m; sourceTree = "<group>"; };
+		B425757313E82F0D00C6800F /* ZKMRNManagedObjectExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNManagedObjectExtensions.h; sourceTree = "<group>"; };
+		B425757413E82F0D00C6800F /* ZKMRNManagedObjectExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNManagedObjectExtensions.m; sourceTree = "<group>"; };
+		B425757513E82F0D00C6800F /* ZKMRNPieceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNPieceDocument.h; sourceTree = "<group>"; };
+		B425757613E82F0D00C6800F /* ZKMRNPieceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNPieceDocument.m; sourceTree = "<group>"; };
+		B425757713E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNPieceDocumentWindowController.h; sourceTree = "<group>"; };
+		B425757813E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNPieceDocumentWindowController.m; sourceTree = "<group>"; };
+		B425757913E82F0D00C6800F /* ZKMRNPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNPreferencesController.h; sourceTree = "<group>"; };
+		B425757A13E82F0D00C6800F /* ZKMRNPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNPreferencesController.m; sourceTree = "<group>"; };
+		B425757B13E82F0D00C6800F /* ZKMRNStudioSetupDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNStudioSetupDocument.h; sourceTree = "<group>"; };
+		B425757C13E82F0D00C6800F /* ZKMRNStudioSetupDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNStudioSetupDocument.m; sourceTree = "<group>"; };
+		B425757D13E82F0D00C6800F /* ZKMRNTestSourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNTestSourceController.h; sourceTree = "<group>"; };
+		B425757E13E82F0D00C6800F /* ZKMRNTestSourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNTestSourceController.m; sourceTree = "<group>"; };
+		B425757F13E82F0D00C6800F /* ZKMRNZirkoniumSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNZirkoniumSystem.h; sourceTree = "<group>"; };
+		B425758013E82F0D00C6800F /* ZKMRNZirkoniumSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNZirkoniumSystem.m; sourceTree = "<group>"; };
+		B425758113E82F0D00C6800F /* ZKMRNZirkoniumUISystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNZirkoniumUISystem.h; sourceTree = "<group>"; };
+		B425758213E82F0D00C6800F /* ZKMRNZirkoniumUISystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNZirkoniumUISystem.m; sourceTree = "<group>"; };
+		B425758613E82F0D00C6800F /* InputSetup 2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "InputSetup 2.xcdatamodel"; sourceTree = "<group>"; };
+		B425758713E82F0D00C6800F /* InputSetup.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = InputSetup.xcdatamodel; sourceTree = "<group>"; };
+		B425758813E82F0D00C6800F /* ZKMRNAbstractInOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNAbstractInOutPatch.h; sourceTree = "<group>"; };
+		B425758913E82F0D00C6800F /* ZKMRNAbstractInOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNAbstractInOutPatch.m; sourceTree = "<group>"; };
+		B425758A13E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNAbstractInOutPatchChannel.h; sourceTree = "<group>"; };
+		B425758B13E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNAbstractInOutPatchChannel.m; sourceTree = "<group>"; };
+		B425758C13E82F0D00C6800F /* ZKMRNDirectOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNDirectOutPatch.h; sourceTree = "<group>"; };
+		B425758D13E82F0D00C6800F /* ZKMRNDirectOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNDirectOutPatch.m; sourceTree = "<group>"; };
+		B425758E13E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNDirectOutPatchChannel.h; sourceTree = "<group>"; };
+		B425758F13E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNDirectOutPatchChannel.m; sourceTree = "<group>"; };
+		B425759013E82F0D00C6800F /* ZKMRNInputPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNInputPatch.h; sourceTree = "<group>"; };
+		B425759113E82F0D00C6800F /* ZKMRNInputPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNInputPatch.m; sourceTree = "<group>"; };
+		B425759213E82F0D00C6800F /* ZKMRNOutputPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNOutputPatch.h; sourceTree = "<group>"; };
+		B425759313E82F0D00C6800F /* ZKMRNOutputPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNOutputPatch.m; sourceTree = "<group>"; };
+		B425759413E82F0D00C6800F /* ZKMRNOutputPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNOutputPatchChannel.h; sourceTree = "<group>"; };
+		B425759513E82F0D00C6800F /* ZKMRNOutputPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNOutputPatchChannel.m; sourceTree = "<group>"; };
+		B425759813E82F0D00C6800F /* PieceDocument 2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "PieceDocument 2.xcdatamodel"; sourceTree = "<group>"; };
+		B425759913E82F0D00C6800F /* PieceDocument 3.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "PieceDocument 3.xcdatamodel"; sourceTree = "<group>"; };
+		B425759A13E82F0D00C6800F /* PieceDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = PieceDocument.xcdatamodel; sourceTree = "<group>"; };
+		B425759B13E82F0D00C6800F /* ZKMRNAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNAudioSource.h; sourceTree = "<group>"; };
+		B425759C13E82F0D00C6800F /* ZKMRNAudioSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNAudioSource.m; sourceTree = "<group>"; };
+		B425759D13E82F0D00C6800F /* ZKMRNCartesianEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNCartesianEvent.h; sourceTree = "<group>"; };
+		B425759E13E82F0D00C6800F /* ZKMRNCartesianEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNCartesianEvent.m; sourceTree = "<group>"; };
+		B425759F13E82F0D00C6800F /* ZKMRNChannelGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNChannelGroup.h; sourceTree = "<group>"; };
+		B42575A013E82F0D00C6800F /* ZKMRNChannelGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNChannelGroup.m; sourceTree = "<group>"; };
+		B42575A113E82F0D00C6800F /* ZKMRNEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNEvent.h; sourceTree = "<group>"; };
+		B42575A213E82F0D00C6800F /* ZKMRNEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNEvent.m; sourceTree = "<group>"; };
+		B42575A313E82F0D00C6800F /* ZKMRNFileSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNFileSource.h; sourceTree = "<group>"; };
+		B42575A413E82F0D00C6800F /* ZKMRNFileSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNFileSource.m; sourceTree = "<group>"; };
+		B42575A513E82F0D00C6800F /* ZKMRNGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNGraph.h; sourceTree = "<group>"; };
+		B42575A613E82F0D00C6800F /* ZKMRNGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNGraph.m; sourceTree = "<group>"; };
+		B42575A713E82F0D00C6800F /* ZKMRNGraphChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNGraphChannel.h; sourceTree = "<group>"; };
+		B42575A813E82F0D00C6800F /* ZKMRNGraphChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNGraphChannel.m; sourceTree = "<group>"; };
+		B42575A913E82F0D00C6800F /* ZKMRNInputSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNInputSource.h; sourceTree = "<group>"; };
+		B42575AA13E82F0D00C6800F /* ZKMRNInputSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNInputSource.m; sourceTree = "<group>"; };
+		B42575AB13E82F0D00C6800F /* ZKMRNPositionEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNPositionEvent.h; sourceTree = "<group>"; };
+		B42575AC13E82F0D00C6800F /* ZKMRNPositionEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNPositionEvent.m; sourceTree = "<group>"; };
+		B42575AD13E82F0D00C6800F /* ZKMRNTestSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNTestSource.h; sourceTree = "<group>"; };
+		B42575AE13E82F0D00C6800F /* ZKMRNTestSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNTestSource.m; sourceTree = "<group>"; };
+		B42575B013E82F0D00C6800F /* CoreDataWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataWorkaround.h; sourceTree = "<group>"; };
+		B42575B113E82F0D00C6800F /* CoreDataWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataWorkaround.m; sourceTree = "<group>"; };
+		B42575B313E82F0D00C6800F /* StudioSetup 2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "StudioSetup 2.xcdatamodel"; sourceTree = "<group>"; };
+		B42575B413E82F0D00C6800F /* StudioSetup.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = StudioSetup.xcdatamodel; sourceTree = "<group>"; };
+		B42575B513E82F0D00C6800F /* ZKMRNChannelMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNChannelMap.h; sourceTree = "<group>"; };
+		B42575B613E82F0D00C6800F /* ZKMRNChannelMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNChannelMap.m; sourceTree = "<group>"; };
+		B42575B713E82F0D00C6800F /* ZKMRNRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNRoom.h; sourceTree = "<group>"; };
+		B42575B813E82F0D00C6800F /* ZKMRNRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNRoom.m; sourceTree = "<group>"; };
+		B42575B913E82F0D00C6800F /* ZKMRNSimpleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSimpleMap.h; sourceTree = "<group>"; };
+		B42575BA13E82F0D00C6800F /* ZKMRNSimpleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSimpleMap.m; sourceTree = "<group>"; };
+		B42575BB13E82F0D00C6800F /* ZKMRNSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeaker.h; sourceTree = "<group>"; };
+		B42575BC13E82F0D00C6800F /* ZKMRNSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeaker.m; sourceTree = "<group>"; };
+		B42575BD13E82F0D00C6800F /* ZKMRNSpeakerRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeakerRing.h; sourceTree = "<group>"; };
+		B42575BE13E82F0D00C6800F /* ZKMRNSpeakerRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeakerRing.m; sourceTree = "<group>"; };
+		B42575BF13E82F0D00C6800F /* ZKMRNSpeakerSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpeakerSetup.h; sourceTree = "<group>"; };
+		B42575C013E82F0D00C6800F /* ZKMRNSpeakerSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpeakerSetup.m; sourceTree = "<group>"; };
+		B42575C213E82F0D00C6800F /* D3_zkm_La_sw.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = D3_zkm_La_sw.pdf; sourceTree = "<group>"; };
+		B42575C313E82F0D00C6800F /* defaultsetup.zrkstu */ = {isa = PBXFileReference; lastKnownFileType = file; path = defaultsetup.zrkstu; sourceTree = "<group>"; };
+		B42575C413E82F0D00C6800F /* defaultstudio.zrkstu */ = {isa = PBXFileReference; lastKnownFileType = file; path = defaultstudio.zrkstu; sourceTree = "<group>"; };
+		B42575C513E82F0D00C6800F /* LegacyMetadata.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LegacyMetadata.plist; sourceTree = "<group>"; };
+		B42575C613E82F0D00C6800F /* LegacyMetadataV2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LegacyMetadataV2.plist; sourceTree = "<group>"; };
+		B42575C713E82F0D00C6800F /* minus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-8.png"; sourceTree = "<group>"; };
+		B42575C813E82F0D00C6800F /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		B42575C913E82F0D00C6800F /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
+		B42575CA13E82F0D00C6800F /* RecordOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordOff.png; sourceTree = "<group>"; };
+		B42575CB13E82F0D00C6800F /* RecordOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordOn.png; sourceTree = "<group>"; };
+		B42575CC13E82F0D00C6800F /* Rewind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rewind.png; sourceTree = "<group>"; };
+		B42575CD13E82F0D00C6800F /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		B42575CE13E82F0D00C6800F /* studio.zrkstu */ = {isa = PBXFileReference; lastKnownFileType = file; path = studio.zrkstu; sourceTree = "<group>"; };
+		B42575CF13E82F0D00C6800F /* studio2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = studio2.zip; sourceTree = "<group>"; };
+		B42575D013E82F0D00C6800F /* Zirkonium-file.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Zirkonium-file.icns"; sourceTree = "<group>"; };
+		B42575D113E82F0D00C6800F /* Zirkonium.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Zirkonium.icns; sourceTree = "<group>"; };
+		B42575D413E82F0D00C6800F /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
+		B42575D513E82F0D00C6800F /* ZKMORLoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORLoggerClient.h; sourceTree = "<group>"; };
+		B42575D613E82F0D00C6800F /* ZKMORLoggerClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORLoggerClient.mm; sourceTree = "<group>"; };
+		B42575D713E82F0D00C6800F /* ZKMRNChannelMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNChannelMapView.h; sourceTree = "<group>"; };
+		B42575D813E82F0D00C6800F /* ZKMRNChannelMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNChannelMapView.m; sourceTree = "<group>"; };
+		B42575D913E82F0D00C6800F /* ZKMRNDomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNDomeView.h; sourceTree = "<group>"; };
+		B42575DA13E82F0D00C6800F /* ZKMRNDomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNDomeView.m; sourceTree = "<group>"; };
+		B42575DB13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNDomeViewCameraAdjustment.h; sourceTree = "<group>"; };
+		B42575DC13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNDomeViewCameraAdjustment.m; sourceTree = "<group>"; };
+		B42575DD13E82F0D00C6800F /* ZKMRNGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNGradientView.h; sourceTree = "<group>"; };
+		B42575DE13E82F0D00C6800F /* ZKMRNGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNGradientView.m; sourceTree = "<group>"; };
+		B42575DF13E82F0D00C6800F /* ZKMRNLightTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNLightTableView.h; sourceTree = "<group>"; };
+		B42575E013E82F0D00C6800F /* ZKMRNLightTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNLightTableView.m; sourceTree = "<group>"; };
+		B42575E113E82F0D00C6800F /* ZKMRNOpenGLShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNOpenGLShapes.h; sourceTree = "<group>"; };
+		B42575E213E82F0D00C6800F /* ZKMRNOpenGLShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNOpenGLShapes.m; sourceTree = "<group>"; };
+		B42575E313E82F0D00C6800F /* ZKMRNOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNOpenGLView.h; sourceTree = "<group>"; };
+		B42575E413E82F0D00C6800F /* ZKMRNOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNOpenGLView.m; sourceTree = "<group>"; };
+		B42575E513E82F0D00C6800F /* ZKMRNSpatializerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpatializerView.h; sourceTree = "<group>"; };
+		B42575E613E82F0D00C6800F /* ZKMRNSpatializerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpatializerView.m; sourceTree = "<group>"; };
+		B42575E713E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNSpatializerViewCameraAdjustment.h; sourceTree = "<group>"; };
+		B42575E813E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNSpatializerViewCameraAdjustment.m; sourceTree = "<group>"; };
+		B42575E913E82F0D00C6800F /* ZKMRNTimeWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNTimeWatch.h; sourceTree = "<group>"; };
+		B42575EA13E82F0D00C6800F /* ZKMRNTimeWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNTimeWatch.m; sourceTree = "<group>"; };
+		B42575EB13E82F0D00C6800F /* ZKMRNSpeakerSetupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNSpeakerSetupView.h; path = ../../Zirkonium/ZKMRNSpeakerSetupView.h; sourceTree = SOURCE_ROOT; };
+		B42575EC13E82F0D00C6800F /* ZKMRNSpeakerSetupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNSpeakerSetupView.m; path = ../../Zirkonium/ZKMRNSpeakerSetupView.m; sourceTree = SOURCE_ROOT; };
+		B42575ED13E82F0D00C6800F /* ZKMRNTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNTextures.h; path = ../../Zirkonium/ZKMRNTextures.h; sourceTree = SOURCE_ROOT; };
+		B42575EE13E82F0D00C6800F /* ZKMRNTextures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNTextures.m; path = ../../Zirkonium/ZKMRNTextures.m; sourceTree = SOURCE_ROOT; };
+		B425764413E830C700C6800F /* MuseumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuseumView.h; sourceTree = "<group>"; };
+		B425764513E830C700C6800F /* MuseumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuseumView.m; sourceTree = "<group>"; };
+		B425C0DA13D038A600F44256 /* ZirkoniumMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZirkoniumMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43F4B6613E989FA0094D4AD /* ZKMMDDocument 2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "ZKMMDDocument 2.xcdatamodel"; sourceTree = "<group>"; };
+		B43F4B6713E989FA0094D4AD /* ZKMMDDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = ZKMMDDocument.xcdatamodel; sourceTree = "<group>"; };
+		B43F4B6813E989FA0094D4AD /* ZKMMDDocument1-1.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "ZKMMDDocument1-1.xcdatamodel"; sourceTree = "<group>"; };
+		B43F4B6A13E98A180094D4AD /* ZKMMDDocument10-2.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; name = "ZKMMDDocument10-2.xcmappingmodel"; path = "../MuseumDomDB/ZKMMDDocument10-2.xcmappingmodel"; sourceTree = SOURCE_ROOT; };
+		B43F4B6B13E98A180094D4AD /* ZKMMDDocument10-11.xcmappingmodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcmappingmodel; name = "ZKMMDDocument10-11.xcmappingmodel"; path = "../MuseumDomDB/ZKMMDDocument10-11.xcmappingmodel"; sourceTree = SOURCE_ROOT; };
+		B48CC0DD1455996100A3F13A /* FileSourcesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileSourcesController.h; path = ../../Zirkonium/Widgets/FileSourcesController.h; sourceTree = SOURCE_ROOT; };
+		B48CC0DE1455996100A3F13A /* FileSourcesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileSourcesController.m; path = ../../Zirkonium/Widgets/FileSourcesController.m; sourceTree = SOURCE_ROOT; };
+		B48CC0DF1455996100A3F13A /* NSString+PathResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+PathResolver.h"; path = "../../Zirkonium/Widgets/NSString+PathResolver.h"; sourceTree = SOURCE_ROOT; };
+		B48CC0E01455996100A3F13A /* NSString+PathResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+PathResolver.m"; path = "../../Zirkonium/Widgets/NSString+PathResolver.m"; sourceTree = SOURCE_ROOT; };
+		B48CC1151455A9D700A3F13A /* PauseMuseum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseMuseum.png; sourceTree = "<group>"; };
+		B48CC1161455A9D700A3F13A /* PlayMuseum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayMuseum.png; sourceTree = "<group>"; };
+		B4A2AEA714597CDC0008DDF6 /* Volume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volume.png; sourceTree = "<group>"; };
+		B4BCAACF13D5C9320066F1C7 /* ItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemView.h; sourceTree = "<group>"; };
+		B4BCAAD013D5C9320066F1C7 /* ItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemView.m; sourceTree = "<group>"; };
+		B4C66E2713D6DBBF0055E138 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		B4C66E2813D6DBBF0055E138 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		B4EEB9EC13EA9DBB005610D9 /* LightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightController.h; path = ../../Zirkonium/LightController.h; sourceTree = SOURCE_ROOT; };
+		B4EEB9ED13EA9DBB005610D9 /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LightController.m; path = ../../Zirkonium/LightController.m; sourceTree = SOURCE_ROOT; };
+		B4EEBA1913EA9F7B005610D9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../Zirkonium/English.lproj/ZKMRNPreferences.nib; sourceTree = SOURCE_ROOT; };
+		B4EEBA1B13EA9F7B005610D9 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../Zirkonium/English.lproj/ZKMRNStudioSetupDocument.nib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				20A22AD010149A3C007C43A1 /* Cocoa.framework in Frameworks */,
+				20A22AD110149A3C007C43A1 /* CoreAudio.framework in Frameworks */,
+				20A22AD210149A3C007C43A1 /* AudioUnit.framework in Frameworks */,
+				20A22AD310149A3C007C43A1 /* AudioToolbox.framework in Frameworks */,
+				20A22AD410149A3C007C43A1 /* CoreFoundation.framework in Frameworks */,
+				20A22AD510149A3C007C43A1 /* CoreServices.framework in Frameworks */,
+				20A22AD610149A3C007C43A1 /* CoreData.framework in Frameworks */,
+				20A22AD710149A3C007C43A1 /* OpenGL.framework in Frameworks */,
+				20A22AE110149A41007C43A1 /* Syncretism.framework in Frameworks */,
+				2066BE2D102B16E400A61AAE /* QuartzCore.framework in Frameworks */,
+				7006A1F5130B14540022DE65 /* VVBasics.framework in Frameworks */,
+				7006A1F6130B14540022DE65 /* VVMIDI.framework in Frameworks */,
+				7006A1F7130B14540022DE65 /* VVOSC.framework in Frameworks */,
+				70A0CAE1136A67CE00076A6B /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70A0CAE0136A67CE00076A6B /* GLUT.framework */,
+				2066BE2C102B16E400A61AAE /* QuartzCore.framework */,
+				20A22AC510149A3C007C43A1 /* Cocoa.framework */,
+				20A22AC610149A3C007C43A1 /* CoreAudio.framework */,
+				20A22AC710149A3C007C43A1 /* AudioUnit.framework */,
+				20A22AC810149A3C007C43A1 /* AudioToolbox.framework */,
+				20A22AC910149A3C007C43A1 /* CoreFoundation.framework */,
+				20A22ACA10149A3C007C43A1 /* CoreServices.framework */,
+				20A22ACB10149A3C007C43A1 /* CoreData.framework */,
+				20A22ACC10149A3C007C43A1 /* OpenGL.framework */,
+				20A22ACD10149A3C007C43A1 /* Syncretism.xcodeproj */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		20A22ACE10149A3C007C43A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A22ADC10149A3C007C43A1 /* Syncretism.framework */,
+				20A22ADE10149A3C007C43A1 /* SyncretismTest.octest */,
+				20A22AE010149A3C007C43A1 /* SyncretismTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20A22B8710149F88007C43A1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				20B9BED61057F2DC00EF80B6 /* DMX */,
+				20A22B8810149F88007C43A1 /* ZKMRMMuseumSystem.h */,
+				20A22B8910149F88007C43A1 /* ZKMRMMuseumSystem.m */,
+				20A22BA81014A222007C43A1 /* ZKMRMPlaybackPiece.h */,
+				20A22BA91014A222007C43A1 /* ZKMRMPlaybackPiece.m */,
+				2066BE10102B139B00A61AAE /* ZKMRMTextLayerManager.h */,
+				2066BE11102B139B00A61AAE /* ZKMRMTextLayerManager.m */,
+				2066BE32102B192C00A61AAE /* ZKMRMBorderlessWindow.h */,
+				2066BE33102B192C00A61AAE /* ZKMRMBorderlessWindow.m */,
+				204768C810501B2A000E25C5 /* ZKMRMPlaybackMode.h */,
+				204768C910501B2A000E25C5 /* ZKMRMPlaybackMode.m */,
+				204768D210501CD6000E25C5 /* ZKMRMUserWatchdog.h */,
+				204768D310501CD6000E25C5 /* ZKMRMUserWatchdog.m */,
+				2014F3901059330000CAD0CD /* ZKMRMLightController.h */,
+				2014F3911059330000CAD0CD /* ZKMRMLightController.m */,
+				B4BCAACF13D5C9320066F1C7 /* ItemView.h */,
+				B4BCAAD013D5C9320066F1C7 /* ItemView.m */,
+				B4C66E2713D6DBBF0055E138 /* AppDelegate.h */,
+				B4C66E2813D6DBBF0055E138 /* AppDelegate.m */,
+				B425764413E830C700C6800F /* MuseumView.h */,
+				B425764513E830C700C6800F /* MuseumView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		20A22B941014A018007C43A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B43F4B6A13E98A180094D4AD /* ZKMMDDocument10-2.xcmappingmodel */,
+				B43F4B6B13E98A180094D4AD /* ZKMMDDocument10-11.xcmappingmodel */,
+				B43F4B6513E989FA0094D4AD /* ZKMMDDocument.xcdatamodeld */,
+				20A22B961014A018007C43A1 /* ZKMMDPiece.h */,
+				20A22B971014A018007C43A1 /* ZKMMDPiece.m */,
+			);
+			name = Models;
+			path = ../MuseumDomDB/Source/Models;
+			sourceTree = SOURCE_ROOT;
+		};
+		20A22B9A1014A01D007C43A1 /* MuseumDB */ = {
+			isa = PBXGroup;
+			children = (
+				20A22B941014A018007C43A1 /* Models */,
+			);
+			name = MuseumDB;
+			sourceTree = "<group>";
+		};
+		20B9BED61057F2DC00EF80B6 /* DMX */ = {
+			isa = PBXGroup;
+			children = (
+				20B9BED71057F2DC00EF80B6 /* LanBox.c */,
+				20B9BED81057F2DC00EF80B6 /* LanBox.h */,
+				20B9BED91057F2DC00EF80B6 /* ZKMRLMixerLight.h */,
+				20B9BEDA1057F2DC00EF80B6 /* ZKMRLMixerLight.m */,
+				20B9BEDB1057F2DC00EF80B6 /* ZKMRLOutputDMX.h */,
+				20B9BEDC1057F2DC00EF80B6 /* ZKMRLOutputDMX.m */,
+				20B9BEDD1057F2DC00EF80B6 /* ZKMRLPannerLight.h */,
+				20B9BEDE1057F2DC00EF80B6 /* ZKMRLPannerLight.m */,
+			);
+			path = DMX;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ZirkoniumMuseum */ = {
+			isa = PBXGroup;
+			children = (
+				20A22B8710149F88007C43A1 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				B425C0DB13D038A600F44256 /* Products */,
+			);
+			name = ZirkoniumMuseum;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B425763713E82F1100C6800F /* Zirkonium (Reference) */,
+				20A22B9A1014A01D007C43A1 /* MuseumDB */,
+				7006A205130B14E70022DE65 /* ZirkoniumLicht */,
+				32CA4F630368D1EE00C91783 /* ZirkoniumMuseum_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B48CC1141455A9D700A3F13A /* images */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				20A22B8B10149FCE007C43A1 /* ZirkoniumMuseum.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				7006A1F2130B14540022DE65 /* VVBasics.framework */,
+				7006A1F3130B14540022DE65 /* VVMIDI.framework */,
+				7006A1F4130B14540022DE65 /* VVOSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7006A205130B14E70022DE65 /* ZirkoniumLicht */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ZirkoniumLicht;
+			path = ../../ZirkoniumLicht;
+			sourceTree = "<group>";
+		};
+		B425756813E82F0D00C6800F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B48CC0DD1455996100A3F13A /* FileSourcesController.h */,
+				B48CC0DE1455996100A3F13A /* FileSourcesController.m */,
+				B48CC0DF1455996100A3F13A /* NSString+PathResolver.h */,
+				B48CC0E01455996100A3F13A /* NSString+PathResolver.m */,
+				B4EEB9EC13EA9DBB005610D9 /* LightController.h */,
+				B4EEB9ED13EA9DBB005610D9 /* LightController.m */,
+				B425756913E82F0D00C6800F /* OSCController.h */,
+				B425756A13E82F0D00C6800F /* OSCController.m */,
+				B425756B13E82F0D00C6800F /* ZKMRNContainerArrayController.h */,
+				B425756C13E82F0D00C6800F /* ZKMRNContainerArrayController.m */,
+				B425756D13E82F0D00C6800F /* ZKMRNEventsArrayController.h */,
+				B425756E13E82F0D00C6800F /* ZKMRNEventsArrayController.m */,
+				B425756F13E82F0D00C6800F /* ZKMRNGroupsArrayController.h */,
+				B425757013E82F0D00C6800F /* ZKMRNGroupsArrayController.m */,
+				B425757313E82F0D00C6800F /* ZKMRNManagedObjectExtensions.h */,
+				B425757413E82F0D00C6800F /* ZKMRNManagedObjectExtensions.m */,
+				B425757513E82F0D00C6800F /* ZKMRNPieceDocument.h */,
+				B425757613E82F0D00C6800F /* ZKMRNPieceDocument.m */,
+				B425757713E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.h */,
+				B425757813E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.m */,
+				B425757913E82F0D00C6800F /* ZKMRNPreferencesController.h */,
+				B425757A13E82F0D00C6800F /* ZKMRNPreferencesController.m */,
+				B425757B13E82F0D00C6800F /* ZKMRNStudioSetupDocument.h */,
+				B425757C13E82F0D00C6800F /* ZKMRNStudioSetupDocument.m */,
+				B425757D13E82F0D00C6800F /* ZKMRNTestSourceController.h */,
+				B425757E13E82F0D00C6800F /* ZKMRNTestSourceController.m */,
+				B425757F13E82F0D00C6800F /* ZKMRNZirkoniumSystem.h */,
+				B425758013E82F0D00C6800F /* ZKMRNZirkoniumSystem.m */,
+				B425758113E82F0D00C6800F /* ZKMRNZirkoniumUISystem.h */,
+				B425758213E82F0D00C6800F /* ZKMRNZirkoniumUISystem.m */,
+			);
+			name = Controllers;
+			path = ../../Zirkonium/Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		B425758313E82F0D00C6800F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B425758413E82F0D00C6800F /* InputSetup */,
+				B425759613E82F0D00C6800F /* Piece */,
+				B42575AF13E82F0D00C6800F /* StudioSetup */,
+			);
+			name = Model;
+			path = ../../Zirkonium/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		B425758413E82F0D00C6800F /* InputSetup */ = {
+			isa = PBXGroup;
+			children = (
+				B425758513E82F0D00C6800F /* InputSetup.xcdatamodeld */,
+				B425758813E82F0D00C6800F /* ZKMRNAbstractInOutPatch.h */,
+				B425758913E82F0D00C6800F /* ZKMRNAbstractInOutPatch.m */,
+				B425758A13E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.h */,
+				B425758B13E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.m */,
+				B425758C13E82F0D00C6800F /* ZKMRNDirectOutPatch.h */,
+				B425758D13E82F0D00C6800F /* ZKMRNDirectOutPatch.m */,
+				B425758E13E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.h */,
+				B425758F13E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.m */,
+				B425759013E82F0D00C6800F /* ZKMRNInputPatch.h */,
+				B425759113E82F0D00C6800F /* ZKMRNInputPatch.m */,
+				B425759213E82F0D00C6800F /* ZKMRNOutputPatch.h */,
+				B425759313E82F0D00C6800F /* ZKMRNOutputPatch.m */,
+				B425759413E82F0D00C6800F /* ZKMRNOutputPatchChannel.h */,
+				B425759513E82F0D00C6800F /* ZKMRNOutputPatchChannel.m */,
+			);
+			path = InputSetup;
+			sourceTree = "<group>";
+		};
+		B425759613E82F0D00C6800F /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				B425759713E82F0D00C6800F /* PieceDocument.xcdatamodeld */,
+				B425759B13E82F0D00C6800F /* ZKMRNAudioSource.h */,
+				B425759C13E82F0D00C6800F /* ZKMRNAudioSource.m */,
+				B425759D13E82F0D00C6800F /* ZKMRNCartesianEvent.h */,
+				B425759E13E82F0D00C6800F /* ZKMRNCartesianEvent.m */,
+				B425759F13E82F0D00C6800F /* ZKMRNChannelGroup.h */,
+				B42575A013E82F0D00C6800F /* ZKMRNChannelGroup.m */,
+				B42575A113E82F0D00C6800F /* ZKMRNEvent.h */,
+				B42575A213E82F0D00C6800F /* ZKMRNEvent.m */,
+				B42575A313E82F0D00C6800F /* ZKMRNFileSource.h */,
+				B42575A413E82F0D00C6800F /* ZKMRNFileSource.m */,
+				B42575A513E82F0D00C6800F /* ZKMRNGraph.h */,
+				B42575A613E82F0D00C6800F /* ZKMRNGraph.m */,
+				B42575A713E82F0D00C6800F /* ZKMRNGraphChannel.h */,
+				B42575A813E82F0D00C6800F /* ZKMRNGraphChannel.m */,
+				B42575A913E82F0D00C6800F /* ZKMRNInputSource.h */,
+				B42575AA13E82F0D00C6800F /* ZKMRNInputSource.m */,
+				B42575AB13E82F0D00C6800F /* ZKMRNPositionEvent.h */,
+				B42575AC13E82F0D00C6800F /* ZKMRNPositionEvent.m */,
+				B42575AD13E82F0D00C6800F /* ZKMRNTestSource.h */,
+				B42575AE13E82F0D00C6800F /* ZKMRNTestSource.m */,
+			);
+			path = Piece;
+			sourceTree = "<group>";
+		};
+		B42575AF13E82F0D00C6800F /* StudioSetup */ = {
+			isa = PBXGroup;
+			children = (
+				B42575B013E82F0D00C6800F /* CoreDataWorkaround.h */,
+				B42575B113E82F0D00C6800F /* CoreDataWorkaround.m */,
+				B42575B213E82F0D00C6800F /* StudioSetup.xcdatamodeld */,
+				B42575B513E82F0D00C6800F /* ZKMRNChannelMap.h */,
+				B42575B613E82F0D00C6800F /* ZKMRNChannelMap.m */,
+				B42575B713E82F0D00C6800F /* ZKMRNRoom.h */,
+				B42575B813E82F0D00C6800F /* ZKMRNRoom.m */,
+				B42575B913E82F0D00C6800F /* ZKMRNSimpleMap.h */,
+				B42575BA13E82F0D00C6800F /* ZKMRNSimpleMap.m */,
+				B42575BB13E82F0D00C6800F /* ZKMRNSpeaker.h */,
+				B42575BC13E82F0D00C6800F /* ZKMRNSpeaker.m */,
+				B42575BD13E82F0D00C6800F /* ZKMRNSpeakerRing.h */,
+				B42575BE13E82F0D00C6800F /* ZKMRNSpeakerRing.m */,
+				B42575BF13E82F0D00C6800F /* ZKMRNSpeakerSetup.h */,
+				B42575C013E82F0D00C6800F /* ZKMRNSpeakerSetup.m */,
+			);
+			path = StudioSetup;
+			sourceTree = "<group>";
+		};
+		B42575C113E82F0D00C6800F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B42575C213E82F0D00C6800F /* D3_zkm_La_sw.pdf */,
+				B42575C313E82F0D00C6800F /* defaultsetup.zrkstu */,
+				B42575C413E82F0D00C6800F /* defaultstudio.zrkstu */,
+				B42575C513E82F0D00C6800F /* LegacyMetadata.plist */,
+				B42575C613E82F0D00C6800F /* LegacyMetadataV2.plist */,
+				B42575C713E82F0D00C6800F /* minus-8.png */,
+				B42575C813E82F0D00C6800F /* Play.png */,
+				B42575C913E82F0D00C6800F /* plus-8.png */,
+				B42575CA13E82F0D00C6800F /* RecordOff.png */,
+				B42575CB13E82F0D00C6800F /* RecordOn.png */,
+				B42575CC13E82F0D00C6800F /* Rewind.png */,
+				B42575CD13E82F0D00C6800F /* Stop.png */,
+				B42575CE13E82F0D00C6800F /* studio.zrkstu */,
+				B42575CF13E82F0D00C6800F /* studio2.zip */,
+				B42575D013E82F0D00C6800F /* Zirkonium-file.icns */,
+				B42575D113E82F0D00C6800F /* Zirkonium.icns */,
+				B42575D213E82F0D00C6800F /* zsourceimages */,
+			);
+			name = Resources;
+			path = ../../Zirkonium/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		B42575D213E82F0D00C6800F /* zsourceimages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = zsourceimages;
+			sourceTree = "<group>";
+		};
+		B42575D313E82F0D00C6800F /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B42575D413E82F0D00C6800F /* CAAtomicStack.h */,
+				B42575D513E82F0D00C6800F /* ZKMORLoggerClient.h */,
+				B42575D613E82F0D00C6800F /* ZKMORLoggerClient.mm */,
+				B42575D713E82F0D00C6800F /* ZKMRNChannelMapView.h */,
+				B42575D813E82F0D00C6800F /* ZKMRNChannelMapView.m */,
+				B42575D913E82F0D00C6800F /* ZKMRNDomeView.h */,
+				B42575DA13E82F0D00C6800F /* ZKMRNDomeView.m */,
+				B42575DB13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.h */,
+				B42575DC13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.m */,
+				B42575DD13E82F0D00C6800F /* ZKMRNGradientView.h */,
+				B42575DE13E82F0D00C6800F /* ZKMRNGradientView.m */,
+				B42575DF13E82F0D00C6800F /* ZKMRNLightTableView.h */,
+				B42575E013E82F0D00C6800F /* ZKMRNLightTableView.m */,
+				B42575E113E82F0D00C6800F /* ZKMRNOpenGLShapes.h */,
+				B42575E213E82F0D00C6800F /* ZKMRNOpenGLShapes.m */,
+				B42575E313E82F0D00C6800F /* ZKMRNOpenGLView.h */,
+				B42575E413E82F0D00C6800F /* ZKMRNOpenGLView.m */,
+				B42575E513E82F0D00C6800F /* ZKMRNSpatializerView.h */,
+				B42575E613E82F0D00C6800F /* ZKMRNSpatializerView.m */,
+				B42575E713E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.h */,
+				B42575E813E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.m */,
+				B42575E913E82F0D00C6800F /* ZKMRNTimeWatch.h */,
+				B42575EA13E82F0D00C6800F /* ZKMRNTimeWatch.m */,
+			);
+			name = Widgets;
+			path = ../../Zirkonium/Widgets;
+			sourceTree = SOURCE_ROOT;
+		};
+		B425763713E82F1100C6800F /* Zirkonium (Reference) */ = {
+			isa = PBXGroup;
+			children = (
+				B4EEBA1E13EA9F80005610D9 /* UI */,
+				B42575EB13E82F0D00C6800F /* ZKMRNSpeakerSetupView.h */,
+				B42575EC13E82F0D00C6800F /* ZKMRNSpeakerSetupView.m */,
+				B42575ED13E82F0D00C6800F /* ZKMRNTextures.h */,
+				B42575EE13E82F0D00C6800F /* ZKMRNTextures.m */,
+				B42575D313E82F0D00C6800F /* Widgets */,
+				B42575C113E82F0D00C6800F /* Resources */,
+				B425758313E82F0D00C6800F /* Model */,
+				B425756813E82F0D00C6800F /* Controllers */,
+			);
+			name = "Zirkonium (Reference)";
+			sourceTree = "<group>";
+		};
+		B425C0DB13D038A600F44256 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B425C0DA13D038A600F44256 /* ZirkoniumMuseum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48CC1141455A9D700A3F13A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B4A2AEA714597CDC0008DDF6 /* Volume.png */,
+				B48CC1151455A9D700A3F13A /* PauseMuseum.png */,
+				B48CC1161455A9D700A3F13A /* PlayMuseum.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B4EEBA1E13EA9F80005610D9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B4EEBA1813EA9F7B005610D9 /* ZKMRNPreferences.nib */,
+				B4EEBA1A13EA9F7B005610D9 /* ZKMRNStudioSetupDocument.nib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* ZirkoniumMuseum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ZirkoniumMuseum" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				20A22AEE10149AD4007C43A1 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZirkoniumMuseum;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ZirkoniumMuseum;
+			productReference = B425C0DA13D038A600F44256 /* ZirkoniumMuseum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZirkoniumMuseum" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ZirkoniumMuseum */;
+			productRefGroup = B425C0DB13D038A600F44256 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 20A22ACE10149A3C007C43A1 /* Products */;
+					ProjectRef = 20A22ACD10149A3C007C43A1 /* Syncretism.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ZirkoniumMuseum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		20A22ADC10149A3C007C43A1 /* Syncretism.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Syncretism.framework;
+			remoteRef = 20A22ADB10149A3C007C43A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		20A22ADE10149A3C007C43A1 /* SyncretismTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SyncretismTest.octest;
+			remoteRef = 20A22ADD10149A3C007C43A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		20A22AE010149A3C007C43A1 /* SyncretismTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SyncretismTestTool;
+			remoteRef = 20A22ADF10149A3C007C43A1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				20A22B8D10149FCE007C43A1 /* ZirkoniumMuseum.xib in Resources */,
+				B425761913E82F0D00C6800F /* D3_zkm_La_sw.pdf in Resources */,
+				B425761A13E82F0D00C6800F /* defaultsetup.zrkstu in Resources */,
+				B425761B13E82F0D00C6800F /* defaultstudio.zrkstu in Resources */,
+				B425761C13E82F0D00C6800F /* LegacyMetadata.plist in Resources */,
+				B425761D13E82F0D00C6800F /* LegacyMetadataV2.plist in Resources */,
+				B425761E13E82F0D00C6800F /* minus-8.png in Resources */,
+				B425761F13E82F0D00C6800F /* Play.png in Resources */,
+				B425762013E82F0D00C6800F /* plus-8.png in Resources */,
+				B425762113E82F0D00C6800F /* RecordOff.png in Resources */,
+				B425762213E82F0D00C6800F /* RecordOn.png in Resources */,
+				B425762313E82F0D00C6800F /* Rewind.png in Resources */,
+				B425762413E82F0D00C6800F /* Stop.png in Resources */,
+				B425762513E82F0D00C6800F /* studio.zrkstu in Resources */,
+				B425762613E82F0D00C6800F /* studio2.zip in Resources */,
+				B425762713E82F0D00C6800F /* Zirkonium-file.icns in Resources */,
+				B425762813E82F0D00C6800F /* Zirkonium.icns in Resources */,
+				B4EEBA1C13EA9F7B005610D9 /* ZKMRNPreferences.nib in Resources */,
+				B4EEBA1D13EA9F7B005610D9 /* ZKMRNStudioSetupDocument.nib in Resources */,
+				B48CC1171455A9D700A3F13A /* PauseMuseum.png in Resources */,
+				B48CC1181455A9D700A3F13A /* PlayMuseum.png in Resources */,
+				B4A2AEA814597CDC0008DDF6 /* Volume.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				20A22B8A10149F88007C43A1 /* ZKMRMMuseumSystem.m in Sources */,
+				20A22B991014A018007C43A1 /* ZKMMDPiece.m in Sources */,
+				20A22BAA1014A222007C43A1 /* ZKMRMPlaybackPiece.m in Sources */,
+				2066BE12102B139B00A61AAE /* ZKMRMTextLayerManager.m in Sources */,
+				2066BE34102B192C00A61AAE /* ZKMRMBorderlessWindow.m in Sources */,
+				204768CA10501B2A000E25C5 /* ZKMRMPlaybackMode.m in Sources */,
+				204768D410501CD6000E25C5 /* ZKMRMUserWatchdog.m in Sources */,
+				20B9BEDF1057F2DC00EF80B6 /* LanBox.c in Sources */,
+				20B9BEE01057F2DC00EF80B6 /* ZKMRLMixerLight.m in Sources */,
+				20B9BEE11057F2DC00EF80B6 /* ZKMRLOutputDMX.m in Sources */,
+				20B9BEE21057F2DC00EF80B6 /* ZKMRLPannerLight.m in Sources */,
+				2014F3921059330000CAD0CD /* ZKMRMLightController.m in Sources */,
+				B4BCAAD113D5C9320066F1C7 /* ItemView.m in Sources */,
+				B4C66E2913D6DBBF0055E138 /* AppDelegate.m in Sources */,
+				B42575F113E82F0D00C6800F /* OSCController.m in Sources */,
+				B42575F213E82F0D00C6800F /* ZKMRNContainerArrayController.m in Sources */,
+				B42575F313E82F0D00C6800F /* ZKMRNEventsArrayController.m in Sources */,
+				B42575F413E82F0D00C6800F /* ZKMRNGroupsArrayController.m in Sources */,
+				B42575F613E82F0D00C6800F /* ZKMRNManagedObjectExtensions.m in Sources */,
+				B42575F713E82F0D00C6800F /* ZKMRNPieceDocument.m in Sources */,
+				B42575F813E82F0D00C6800F /* ZKMRNPieceDocumentWindowController.m in Sources */,
+				B42575F913E82F0D00C6800F /* ZKMRNPreferencesController.m in Sources */,
+				B42575FA13E82F0D00C6800F /* ZKMRNStudioSetupDocument.m in Sources */,
+				B42575FB13E82F0D00C6800F /* ZKMRNTestSourceController.m in Sources */,
+				B42575FC13E82F0D00C6800F /* ZKMRNZirkoniumSystem.m in Sources */,
+				B42575FD13E82F0D00C6800F /* ZKMRNZirkoniumUISystem.m in Sources */,
+				B42575FE13E82F0D00C6800F /* InputSetup.xcdatamodeld in Sources */,
+				B42575FF13E82F0D00C6800F /* ZKMRNAbstractInOutPatch.m in Sources */,
+				B425760013E82F0D00C6800F /* ZKMRNAbstractInOutPatchChannel.m in Sources */,
+				B425760113E82F0D00C6800F /* ZKMRNDirectOutPatch.m in Sources */,
+				B425760213E82F0D00C6800F /* ZKMRNDirectOutPatchChannel.m in Sources */,
+				B425760313E82F0D00C6800F /* ZKMRNInputPatch.m in Sources */,
+				B425760413E82F0D00C6800F /* ZKMRNOutputPatch.m in Sources */,
+				B425760513E82F0D00C6800F /* ZKMRNOutputPatchChannel.m in Sources */,
+				B425760613E82F0D00C6800F /* PieceDocument.xcdatamodeld in Sources */,
+				B425760713E82F0D00C6800F /* ZKMRNAudioSource.m in Sources */,
+				B425760813E82F0D00C6800F /* ZKMRNCartesianEvent.m in Sources */,
+				B425760913E82F0D00C6800F /* ZKMRNChannelGroup.m in Sources */,
+				B425760A13E82F0D00C6800F /* ZKMRNEvent.m in Sources */,
+				B425760B13E82F0D00C6800F /* ZKMRNFileSource.m in Sources */,
+				B425760C13E82F0D00C6800F /* ZKMRNGraph.m in Sources */,
+				B425760D13E82F0D00C6800F /* ZKMRNGraphChannel.m in Sources */,
+				B425760E13E82F0D00C6800F /* ZKMRNInputSource.m in Sources */,
+				B425760F13E82F0D00C6800F /* ZKMRNPositionEvent.m in Sources */,
+				B425761013E82F0D00C6800F /* ZKMRNTestSource.m in Sources */,
+				B425761113E82F0D00C6800F /* CoreDataWorkaround.m in Sources */,
+				B425761213E82F0D00C6800F /* StudioSetup.xcdatamodeld in Sources */,
+				B425761313E82F0D00C6800F /* ZKMRNChannelMap.m in Sources */,
+				B425761413E82F0D00C6800F /* ZKMRNRoom.m in Sources */,
+				B425761513E82F0D00C6800F /* ZKMRNSimpleMap.m in Sources */,
+				B425761613E82F0D00C6800F /* ZKMRNSpeaker.m in Sources */,
+				B425761713E82F0D00C6800F /* ZKMRNSpeakerRing.m in Sources */,
+				B425761813E82F0D00C6800F /* ZKMRNSpeakerSetup.m in Sources */,
+				B425762913E82F0D00C6800F /* ZKMORLoggerClient.mm in Sources */,
+				B425762A13E82F0D00C6800F /* ZKMRNChannelMapView.m in Sources */,
+				B425762B13E82F0D00C6800F /* ZKMRNDomeView.m in Sources */,
+				B425762C13E82F0D00C6800F /* ZKMRNDomeViewCameraAdjustment.m in Sources */,
+				B425762D13E82F0D00C6800F /* ZKMRNGradientView.m in Sources */,
+				B425762E13E82F0D00C6800F /* ZKMRNLightTableView.m in Sources */,
+				B425762F13E82F0D00C6800F /* ZKMRNOpenGLShapes.m in Sources */,
+				B425763013E82F0D00C6800F /* ZKMRNOpenGLView.m in Sources */,
+				B425763113E82F0D00C6800F /* ZKMRNSpatializerView.m in Sources */,
+				B425763213E82F0D00C6800F /* ZKMRNSpatializerViewCameraAdjustment.m in Sources */,
+				B425763313E82F0D00C6800F /* ZKMRNTimeWatch.m in Sources */,
+				B425763413E82F0D00C6800F /* ZKMRNSpeakerSetupView.m in Sources */,
+				B425763513E82F0D00C6800F /* ZKMRNTextures.m in Sources */,
+				B425764613E830C700C6800F /* MuseumView.m in Sources */,
+				B43F4B6913E989FA0094D4AD /* ZKMMDDocument.xcdatamodeld in Sources */,
+				B43F4B6C13E98A180094D4AD /* ZKMMDDocument10-2.xcmappingmodel in Sources */,
+				B43F4B6D13E98A180094D4AD /* ZKMMDDocument10-11.xcmappingmodel in Sources */,
+				B4EEB9EE13EA9DBB005610D9 /* LightController.m in Sources */,
+				B48CC0E11455996100A3F13A /* FileSourcesController.m in Sources */,
+				B48CC0E21455996100A3F13A /* NSString+PathResolver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		20A22B8B10149FCE007C43A1 /* ZirkoniumMuseum.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A22B8C10149FCE007C43A1 /* English */,
+			);
+			name = ZirkoniumMuseum.xib;
+			sourceTree = "<group>";
+		};
+		B4EEBA1813EA9F7B005610D9 /* ZKMRNPreferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EEBA1913EA9F7B005610D9 /* English */,
+			);
+			name = ZKMRNPreferences.nib;
+			sourceTree = "<group>";
+		};
+		B4EEBA1A13EA9F7B005610D9 /* ZKMRNStudioSetupDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EEBA1B13EA9F7B005610D9 /* English */,
+			);
+			name = ZKMRNStudioSetupDocument.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Zirkonium/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZirkoniumMuseum_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../../Zirkonium/oscpack;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ZirkoniumMuseum;
+				SYMROOT = ../../build;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Zirkonium/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZirkoniumMuseum_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../../Zirkonium/oscpack;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ZirkoniumMuseum;
+				SYMROOT = ../../build;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = oscpack;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = oscpack;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "ZirkoniumMuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZirkoniumMuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B425758513E82F0D00C6800F /* InputSetup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B425758613E82F0D00C6800F /* InputSetup 2.xcdatamodel */,
+				B425758713E82F0D00C6800F /* InputSetup.xcdatamodel */,
+			);
+			currentVersion = B425758613E82F0D00C6800F /* InputSetup 2.xcdatamodel */;
+			path = InputSetup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B425759713E82F0D00C6800F /* PieceDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B425759813E82F0D00C6800F /* PieceDocument 2.xcdatamodel */,
+				B425759913E82F0D00C6800F /* PieceDocument 3.xcdatamodel */,
+				B425759A13E82F0D00C6800F /* PieceDocument.xcdatamodel */,
+			);
+			currentVersion = B425759813E82F0D00C6800F /* PieceDocument 2.xcdatamodel */;
+			path = PieceDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B42575B213E82F0D00C6800F /* StudioSetup.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B42575B313E82F0D00C6800F /* StudioSetup 2.xcdatamodel */,
+				B42575B413E82F0D00C6800F /* StudioSetup.xcdatamodel */,
+			);
+			currentVersion = B42575B313E82F0D00C6800F /* StudioSetup 2.xcdatamodel */;
+			path = StudioSetup.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B43F4B6513E989FA0094D4AD /* ZKMMDDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B43F4B6613E989FA0094D4AD /* ZKMMDDocument 2.xcdatamodel */,
+				B43F4B6713E989FA0094D4AD /* ZKMMDDocument.xcdatamodel */,
+				B43F4B6813E989FA0094D4AD /* ZKMMDDocument1-1.xcdatamodel */,
+			);
+			currentVersion = B43F4B6613E989FA0094D4AD /* ZKMMDDocument 2.xcdatamodel */;
+			path = ZKMMDDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

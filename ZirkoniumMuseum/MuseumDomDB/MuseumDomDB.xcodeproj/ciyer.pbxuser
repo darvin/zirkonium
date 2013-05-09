@@ -1,0 +1,130 @@
+// !$*UTF8*$!
+{
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 7079DA7A1301E6B1001C9CB5 /* MuseumDomDB */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* MuseumDomDB */;
+		codeSenseManager = 7079DA861301E6B6001C9CB5 /* Code sense */;
+		executables = (
+			7079DA7A1301E6B1001C9CB5 /* MuseumDomDB */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322169854;
+			PBXWorkspaceStateSaveDate = 322169854;
+		};
+		perUserProjectItems = {
+			7008152B1332A9C20073B36B /* PBXTextBookmark */ = 7008152B1332A9C20073B36B /* PBXTextBookmark */;
+			70582DA11333EC03006787F3 /* PBXTextBookmark */ = 70582DA11333EC03006787F3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7079DA851301E6B6001C9CB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* ZKMMDDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 3926}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1851, 1038}";
+			sepNavWindowFrame = "{{15, 153}, {1088, 620}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* ZKMMDDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 273}}";
+			sepNavSelRange = "{95, 0}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	7008152B1332A9C20073B36B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* ZKMMDDocument.h */;
+		name = "ZKMMDDocument.h: 8";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 332;
+		vrLoc = 0;
+	};
+	70582DA11333EC03006787F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4AEFDCFA73011CA2CEA /* ZKMMDDocument.h */;
+		name = "ZKMMDDocument.h: 6";
+		rLen = 0;
+		rLoc = 95;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	7079DA7A1301E6B1001C9CB5 /* MuseumDomDB */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MuseumDomDB;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7079DA851301E6B6001C9CB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7079DA861301E6B6001C9CB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D15AC270486D014006FF6A4 /* MuseumDomDB */ = {
+		activeExec = 0;
+		executables = (
+			7079DA7A1301E6B1001C9CB5 /* MuseumDomDB */,
+		);
+	};
+}

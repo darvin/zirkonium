@@ -1,0 +1,65 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf420
+{\fonttbl\f0\fnil\fcharset77 Monaco;}
+{\colortbl;\red255\green255\blue255;\red191\green0\blue0;\red0\green0\blue191;\red96\green96\blue96;
+}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs18 \cf2 //\cf0 \
+\cf2 // 	Stress Test\cf0 \
+\cf2 //\cf0 \
+\cf2 // 	Send a lot of messages to Zirkonium in a short period of time and see how it reacts.\cf0 \
+\cf2 //  	\cf0 \
+(\
+\cf2 // spans\cf0 \
+\cf3 var\cf0  s;\
+\cf3 var\cf0  numChannels = 8;\
+\cf3 var\cf0  positions;\
+\
+~azspan = 0.0; ~znspan = 0.0;\
+s = \cf3 List\cf0 .new;\
+s.add(0.5); s.add(0.5);\
+positions = \cf3 List\cf0 .new;\
+\cf2 // generate initial positions\cf0 \
+numChannels.do \{ \cf3 arg\cf0  i; positions.add([2.0.rand, 0.5.rand]) \};\
+\
+\
+	\cf2 // Connection to Zirkonium\cf0 \
+z = \cf3 NetAddr\cf0 (\cf4 "localhost"\cf0 , 50808);\
+	\cf2 // update frequency\cf0 \
+f = 1.0;\
+t = \cf3 Task\cf0 (\{\
+	\cf3 inf\cf0 .do\{\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 		positions.do \{ \cf3 arg\cf0  pos, i;\
+			\cf3 var\cf0  adel, zdel;\
+			adel = 0.05.rand2;\
+			zdel = 0.05.rand2;\
+			pos.put(0, pos.at(0) + adel);\
+			pos.put(1, pos.at(1) + zdel);\
+			z.sendMsg(\cf4 "/pan/az"\cf0 , i, pos.at(0), pos.at(1), ~azspan, ~znspan, 1.0);\
+		\};\
+		f.wait;\
+	\}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 \});\
+)\
+\
+\cf2 // start the task\cf0 \
+t.start;\
+\
+\cf2 // adjust the update frequency\cf0 \
+f = 0.5;\
+f = 0.1;\
+f = 0.05;\
+f = 0.02;\
+\
+~azspan = 0.1; ~znspan = 0.1;\
+~azspan = 0.2; ~znspan = 0.05;\
+~azspan = 0.5; ~znspan = 0.2;\
+~azspan = 0.0; ~znspan = 0.0;\
+\
+\
+\cf2 // stop\cf0 \
+t.stop;\
+\
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ZirkoniumMuseum' target in the 'ZirkoniumMuseum' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

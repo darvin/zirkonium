@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36142EBE0C4FA016008F15F1 /* ZKMRLMixerLightTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36142EBD0C4FA016008F15F1 /* ZKMRLMixerLightTest.m */; };
+		36142EC60C4FA027008F15F1 /* LanBox.c in Sources */ = {isa = PBXBuildFile; fileRef = 36142EC00C4FA027008F15F1 /* LanBox.c */; };
+		36142EC70C4FA027008F15F1 /* ZKMRLMixerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 36142EC30C4FA027008F15F1 /* ZKMRLMixerLight.m */; };
+		36142EC80C4FA027008F15F1 /* ZKMRLOutputDMX.m in Sources */ = {isa = PBXBuildFile; fileRef = 36142EC50C4FA027008F15F1 /* ZKMRLOutputDMX.m */; };
+		36142EC90C4FA027008F15F1 /* LanBox.c in Sources */ = {isa = PBXBuildFile; fileRef = 36142EC00C4FA027008F15F1 /* LanBox.c */; };
+		36142ECA0C4FA027008F15F1 /* ZKMRLMixerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 36142EC30C4FA027008F15F1 /* ZKMRLMixerLight.m */; };
+		36142ECB0C4FA027008F15F1 /* ZKMRLOutputDMX.m in Sources */ = {isa = PBXBuildFile; fileRef = 36142EC50C4FA027008F15F1 /* ZKMRLOutputDMX.m */; };
+		36142F230C4FA293008F15F1 /* Syncretism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36142F1E0C4FA28F008F15F1 /* Syncretism.framework */; };
+		36142F3C0C4FB642008F15F1 /* ZKMRLPannerLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 36142F3B0C4FB642008F15F1 /* ZKMRLPannerLight.m */; };
+		3628BC000C4FDB23004FA5B4 /* ZKMRLLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3628BBFF0C4FDB23004FA5B4 /* ZKMRLLightView.m */; };
+		3628BC150C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3628BC140C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.m */; };
+		3654FB760C5145220091CCFB /* ZKMRLLightSetupDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654FB750C5145220091CCFB /* ZKMRLLightSetupDocument.m */; };
+		3654FB820C5145E00091CCFB /* ZKMRLLightSetupDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3654FB800C5145E00091CCFB /* ZKMRLLightSetupDocument.nib */; };
+		36A4A35C0C550A5F00176D98 /* Syncretism.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 36142F1E0C4FA28F008F15F1 /* Syncretism.framework */; };
+		36A4A3770C550A8700176D98 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A4A3760C550A8700176D98 /* OpenGL.framework */; };
+		770B37ED0679A11B001EADE2 /* ZirkoniumLicht_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* ZirkoniumLicht_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* ZirkoniumLicht_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* ZirkoniumLicht_AppDelegate.m */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B405907313DD9A9800891C09 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B405907213DD9A9800891C09 /* GLUT.framework */; };
+		B40592CA13DDA77900891C09 /* VVBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B405924413DDA77900891C09 /* VVBasics.framework */; };
+		B40592CB13DDA77900891C09 /* VVMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B405924513DDA77900891C09 /* VVMIDI.framework */; };
+		B40592CC13DDA77900891C09 /* VVOSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B405924613DDA77900891C09 /* VVOSC.framework */; };
+		B405936413DDA87300891C09 /* VVBasics.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B405924413DDA77900891C09 /* VVBasics.framework */; };
+		B405936513DDA87300891C09 /* VVMIDI.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B405924513DDA77900891C09 /* VVMIDI.framework */; };
+		B405936613DDA87300891C09 /* VVOSC.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = B405924613DDA77900891C09 /* VVOSC.framework */; };
+		B405943B13DDD0CC00891C09 /* ZKMRLOSCController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B405943A13DDD0CC00891C09 /* ZKMRLOSCController.mm */; };
+		B40594CB13DDDEE400891C09 /* ZKMRNDomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B40594C613DDDEE400891C09 /* ZKMRNDomeView.m */; };
+		B40594CC13DDDEE400891C09 /* ZKMRNOpenGLShapes.m in Sources */ = {isa = PBXBuildFile; fileRef = B40594C813DDDEE400891C09 /* ZKMRNOpenGLShapes.m */; };
+		B40594CD13DDDEE400891C09 /* ZKMRNOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B40594CA13DDDEE400891C09 /* ZKMRNOpenGLView.m */; };
+		B40594D213DDDF1000891C09 /* ZKMRNSpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = B40594D113DDDF1000891C09 /* ZKMRNSpeaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36142F1D0C4FA28F008F15F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36142F170C4FA28F008F15F1 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+		36142F1F0C4FA28F008F15F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36142F170C4FA28F008F15F1 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 366964510AEE89B100E4EAC9;
+			remoteInfo = SyncretismTest;
+		};
+		36142F210C4FA28F008F15F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36142F170C4FA28F008F15F1 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36226F490B3AC10A009CAA75;
+			remoteInfo = SyncretismTestTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36A4A3560C550A4400176D98 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B405936413DDA87300891C09 /* VVBasics.framework in Copy Frameworks */,
+				B405936513DDA87300891C09 /* VVMIDI.framework in Copy Frameworks */,
+				B405936613DDA87300891C09 /* VVOSC.framework in Copy Frameworks */,
+				36A4A35C0C550A5F00176D98 /* Syncretism.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* ZirkoniumLicht_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZirkoniumLicht_Prefix.pch; sourceTree = "<group>"; };
+		36142EB10C4F9F88008F15F1 /* TestZirkoniumLicht.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZirkoniumLicht.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36142EB20C4F9F88008F15F1 /* TestZirkoniumLicht-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestZirkoniumLicht-Info.plist"; sourceTree = "<group>"; };
+		36142EBC0C4FA016008F15F1 /* ZKMRLMixerLightTest.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMRLMixerLightTest.h; sourceTree = "<group>"; };
+		36142EBD0C4FA016008F15F1 /* ZKMRLMixerLightTest.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMRLMixerLightTest.m; sourceTree = "<group>"; };
+		36142EC00C4FA027008F15F1 /* LanBox.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = LanBox.c; sourceTree = "<group>"; };
+		36142EC10C4FA027008F15F1 /* LanBox.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LanBox.h; sourceTree = "<group>"; };
+		36142EC20C4FA027008F15F1 /* ZKMRLMixerLight.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMRLMixerLight.h; sourceTree = "<group>"; };
+		36142EC30C4FA027008F15F1 /* ZKMRLMixerLight.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMRLMixerLight.m; sourceTree = "<group>"; };
+		36142EC40C4FA027008F15F1 /* ZKMRLOutputDMX.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMRLOutputDMX.h; sourceTree = "<group>"; };
+		36142EC50C4FA027008F15F1 /* ZKMRLOutputDMX.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMRLOutputDMX.m; sourceTree = "<group>"; };
+		36142F170C4FA28F008F15F1 /* Syncretism.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Syncretism.xcodeproj; path = ../Syncretism/Syncretism.xcodeproj; sourceTree = SOURCE_ROOT; };
+		36142F3A0C4FB642008F15F1 /* ZKMRLPannerLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLPannerLight.h; sourceTree = "<group>"; };
+		36142F3B0C4FB642008F15F1 /* ZKMRLPannerLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLPannerLight.m; sourceTree = "<group>"; };
+		3628BBFE0C4FDB23004FA5B4 /* ZKMRLLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLLightView.h; sourceTree = "<group>"; };
+		3628BBFF0C4FDB23004FA5B4 /* ZKMRLLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLLightView.m; sourceTree = "<group>"; };
+		3628BC130C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLZirkoniumLightSystem.h; sourceTree = "<group>"; };
+		3628BC140C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLZirkoniumLightSystem.m; sourceTree = "<group>"; };
+		3654FB740C5145220091CCFB /* ZKMRLLightSetupDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLLightSetupDocument.h; sourceTree = "<group>"; };
+		3654FB750C5145220091CCFB /* ZKMRLLightSetupDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRLLightSetupDocument.m; sourceTree = "<group>"; };
+		3654FB810C5145E00091CCFB /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ZKMRLLightSetupDocument.nib; sourceTree = "<group>"; };
+		36A4A3760C550A8700176D98 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		770B37EC0679A11B001EADE2 /* ZirkoniumLicht_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = ZirkoniumLicht_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* ZirkoniumLicht_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZirkoniumLicht_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* ZirkoniumLicht_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZirkoniumLicht_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* ZirkoniumLicht.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZirkoniumLicht.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B405907213DD9A9800891C09 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B405924413DDA77900891C09 /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVBasics.framework; path = ../Zirkonium/Frameworks/VVBasics.framework; sourceTree = "<group>"; };
+		B405924513DDA77900891C09 /* VVMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVMIDI.framework; path = ../Zirkonium/Frameworks/VVMIDI.framework; sourceTree = "<group>"; };
+		B405924613DDA77900891C09 /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = ../Zirkonium/Frameworks/VVOSC.framework; sourceTree = "<group>"; };
+		B405943913DDD0CC00891C09 /* ZKMRLOSCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRLOSCController.h; sourceTree = "<group>"; };
+		B405943A13DDD0CC00891C09 /* ZKMRLOSCController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMRLOSCController.mm; sourceTree = "<group>"; };
+		B40594C513DDDEE400891C09 /* ZKMRNDomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNDomeView.h; path = ../ZirkoniumOld/Widgets/ZKMRNDomeView.h; sourceTree = SOURCE_ROOT; };
+		B40594C613DDDEE400891C09 /* ZKMRNDomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNDomeView.m; path = ../ZirkoniumOld/Widgets/ZKMRNDomeView.m; sourceTree = SOURCE_ROOT; };
+		B40594C713DDDEE400891C09 /* ZKMRNOpenGLShapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNOpenGLShapes.h; path = ../ZirkoniumOld/Widgets/ZKMRNOpenGLShapes.h; sourceTree = SOURCE_ROOT; };
+		B40594C813DDDEE400891C09 /* ZKMRNOpenGLShapes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNOpenGLShapes.m; path = ../ZirkoniumOld/Widgets/ZKMRNOpenGLShapes.m; sourceTree = SOURCE_ROOT; };
+		B40594C913DDDEE400891C09 /* ZKMRNOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNOpenGLView.h; path = ../ZirkoniumOld/Widgets/ZKMRNOpenGLView.h; sourceTree = SOURCE_ROOT; };
+		B40594CA13DDDEE400891C09 /* ZKMRNOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNOpenGLView.m; path = ../ZirkoniumOld/Widgets/ZKMRNOpenGLView.m; sourceTree = SOURCE_ROOT; };
+		B40594D013DDDF1000891C09 /* ZKMRNSpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNSpeaker.h; path = ../ZirkoniumOld/Model/StudioSetup/ZKMRNSpeaker.h; sourceTree = SOURCE_ROOT; };
+		B40594D113DDDF1000891C09 /* ZKMRNSpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNSpeaker.m; path = ../ZirkoniumOld/Model/StudioSetup/ZKMRNSpeaker.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36142EAE0C4F9F88008F15F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				36142F230C4FA293008F15F1 /* Syncretism.framework in Frameworks */,
+				36A4A3770C550A8700176D98 /* OpenGL.framework in Frameworks */,
+				B405907313DD9A9800891C09 /* GLUT.framework in Frameworks */,
+				B40592CA13DDA77900891C09 /* VVBasics.framework in Frameworks */,
+				B40592CB13DDA77900891C09 /* VVMIDI.framework in Frameworks */,
+				B40592CC13DDA77900891C09 /* VVOSC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B40594A413DDDD7600891C09 /* ZirkoniumOld */,
+				36142EBF0C4FA027008F15F1 /* DMX */,
+				77C8280B06725ACE000B614F /* ZirkoniumLicht_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* ZirkoniumLicht_AppDelegate.m */,
+				3628BC130C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.h */,
+				3628BC140C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.m */,
+				3654FB740C5145220091CCFB /* ZKMRLLightSetupDocument.h */,
+				3654FB750C5145220091CCFB /* ZKMRLLightSetupDocument.m */,
+				B405943913DDD0CC00891C09 /* ZKMRLOSCController.h */,
+				B405943A13DDD0CC00891C09 /* ZKMRLOSCController.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B405924413DDA77900891C09 /* VVBasics.framework */,
+				B405924513DDA77900891C09 /* VVMIDI.framework */,
+				B405924613DDA77900891C09 /* VVOSC.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				36A4A3760C550A8700176D98 /* OpenGL.framework */,
+				B405907213DD9A9800891C09 /* GLUT.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* ZirkoniumLicht.app */,
+				36142EB10C4F9F88008F15F1 /* TestZirkoniumLicht.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ZirkoniumLicht */ = {
+			isa = PBXGroup;
+			children = (
+				7756732906782D8800D1FEB8 /* Models */,
+				361430690C4FCEFD008F15F1 /* Widgets */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				36142EBB0C4FA016008F15F1 /* ZirkoniumLiteTestSource */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				36142EB20C4F9F88008F15F1 /* TestZirkoniumLicht-Info.plist */,
+			);
+			name = ZirkoniumLicht;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ZirkoniumLicht_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				3654FB800C5145E00091CCFB /* ZKMRLLightSetupDocument.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				36142F170C4FA28F008F15F1 /* Syncretism.xcodeproj */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36142EBB0C4FA016008F15F1 /* ZirkoniumLiteTestSource */ = {
+			isa = PBXGroup;
+			children = (
+				36142EBC0C4FA016008F15F1 /* ZKMRLMixerLightTest.h */,
+				36142EBD0C4FA016008F15F1 /* ZKMRLMixerLightTest.m */,
+			);
+			path = ZirkoniumLiteTestSource;
+			sourceTree = "<group>";
+		};
+		36142EBF0C4FA027008F15F1 /* DMX */ = {
+			isa = PBXGroup;
+			children = (
+				36142EC10C4FA027008F15F1 /* LanBox.h */,
+				36142EC00C4FA027008F15F1 /* LanBox.c */,
+				36142EC20C4FA027008F15F1 /* ZKMRLMixerLight.h */,
+				36142EC30C4FA027008F15F1 /* ZKMRLMixerLight.m */,
+				36142EC40C4FA027008F15F1 /* ZKMRLOutputDMX.h */,
+				36142EC50C4FA027008F15F1 /* ZKMRLOutputDMX.m */,
+				36142F3A0C4FB642008F15F1 /* ZKMRLPannerLight.h */,
+				36142F3B0C4FB642008F15F1 /* ZKMRLPannerLight.m */,
+			);
+			path = DMX;
+			sourceTree = "<group>";
+		};
+		36142F180C4FA28F008F15F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36142F1E0C4FA28F008F15F1 /* Syncretism.framework */,
+				36142F200C4FA28F008F15F1 /* SyncretismTest.octest */,
+				36142F220C4FA28F008F15F1 /* SyncretismTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361430690C4FCEFD008F15F1 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				3628BBFE0C4FDB23004FA5B4 /* ZKMRLLightView.h */,
+				3628BBFF0C4FDB23004FA5B4 /* ZKMRLLightView.m */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* ZirkoniumLicht_DataModel.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B40594A413DDDD7600891C09 /* ZirkoniumOld */ = {
+			isa = PBXGroup;
+			children = (
+				B40594D013DDDF1000891C09 /* ZKMRNSpeaker.h */,
+				B40594D113DDDF1000891C09 /* ZKMRNSpeaker.m */,
+				B40594C513DDDEE400891C09 /* ZKMRNDomeView.h */,
+				B40594C613DDDEE400891C09 /* ZKMRNDomeView.m */,
+				B40594C713DDDEE400891C09 /* ZKMRNOpenGLShapes.h */,
+				B40594C813DDDEE400891C09 /* ZKMRNOpenGLShapes.m */,
+				B40594C913DDDEE400891C09 /* ZKMRNOpenGLView.h */,
+				B40594CA13DDDEE400891C09 /* ZKMRNOpenGLView.m */,
+			);
+			name = ZirkoniumOld;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36142EB00C4F9F88008F15F1 /* TestZirkoniumLicht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36142EB30C4F9F88008F15F1 /* Build configuration list for PBXNativeTarget "TestZirkoniumLicht" */;
+			buildPhases = (
+				36142EAC0C4F9F88008F15F1 /* Resources */,
+				36142EAD0C4F9F88008F15F1 /* Sources */,
+				36142EAE0C4F9F88008F15F1 /* Frameworks */,
+				36142EAF0C4F9F88008F15F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestZirkoniumLicht;
+			productName = TestZirkoniumLicht;
+			productReference = 36142EB10C4F9F88008F15F1 /* TestZirkoniumLicht.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* ZirkoniumLicht */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "ZirkoniumLicht" */;
+			buildPhases = (
+				36A4A3560C550A4400176D98 /* Copy Frameworks */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZirkoniumLicht;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ZirkoniumLicht;
+			productReference = 8D1107320486CEB800E47090 /* ZirkoniumLicht.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "ZirkoniumLicht" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ZirkoniumLicht */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36142F180C4FA28F008F15F1 /* Products */;
+					ProjectRef = 36142F170C4FA28F008F15F1 /* Syncretism.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* ZirkoniumLicht */,
+				36142EB00C4F9F88008F15F1 /* TestZirkoniumLicht */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		36142F1E0C4FA28F008F15F1 /* Syncretism.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Syncretism.framework;
+			remoteRef = 36142F1D0C4FA28F008F15F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36142F200C4FA28F008F15F1 /* SyncretismTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SyncretismTest.octest;
+			remoteRef = 36142F1F0C4FA28F008F15F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36142F220C4FA28F008F15F1 /* SyncretismTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SyncretismTestTool;
+			remoteRef = 36142F210C4FA28F008F15F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36142EAC0C4F9F88008F15F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				3654FB820C5145E00091CCFB /* ZKMRLLightSetupDocument.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36142EAF0C4F9F88008F15F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36142EAD0C4F9F88008F15F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36142EBE0C4FA016008F15F1 /* ZKMRLMixerLightTest.m in Sources */,
+				36142EC60C4FA027008F15F1 /* LanBox.c in Sources */,
+				36142EC70C4FA027008F15F1 /* ZKMRLMixerLight.m in Sources */,
+				36142EC80C4FA027008F15F1 /* ZKMRLOutputDMX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* ZirkoniumLicht_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* ZirkoniumLicht_DataModel.xcdatamodel in Sources */,
+				36142EC90C4FA027008F15F1 /* LanBox.c in Sources */,
+				36142ECA0C4FA027008F15F1 /* ZKMRLMixerLight.m in Sources */,
+				36142ECB0C4FA027008F15F1 /* ZKMRLOutputDMX.m in Sources */,
+				36142F3C0C4FB642008F15F1 /* ZKMRLPannerLight.m in Sources */,
+				3628BC000C4FDB23004FA5B4 /* ZKMRLLightView.m in Sources */,
+				3628BC150C4FDC54004FA5B4 /* ZKMRLZirkoniumLightSystem.m in Sources */,
+				3654FB760C5145220091CCFB /* ZKMRLLightSetupDocument.m in Sources */,
+				B405943B13DDD0CC00891C09 /* ZKMRLOSCController.mm in Sources */,
+				B40594CB13DDDEE400891C09 /* ZKMRNDomeView.m in Sources */,
+				B40594CC13DDDEE400891C09 /* ZKMRNOpenGLShapes.m in Sources */,
+				B40594CD13DDDEE400891C09 /* ZKMRNOpenGLView.m in Sources */,
+				B40594D213DDDF1000891C09 /* ZKMRNSpeaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		3654FB800C5145E00091CCFB /* ZKMRLLightSetupDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3654FB810C5145E00091CCFB /* English */,
+			);
+			name = ZKMRLLightSetupDocument.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Zirkonium/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZirkoniumLicht_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../Zirkonium/oscpack;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ZirkoniumLicht;
+				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/SharedPrecompiledHeaders";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Zirkonium/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZirkoniumLicht_Prefix.pch;
+				HEADER_SEARCH_PATHS = ../Zirkonium/oscpack;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = ZirkoniumLicht;
+				SHARED_PRECOMPS_DIR = "$(CACHE_ROOT)/SharedPrecompiledHeaders";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		36142EB40C4F9F88008F15F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZirkoniumLicht_Prefix.pch;
+				INFOPLIST_FILE = "TestZirkoniumLicht-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestZirkoniumLicht;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		36142EB50C4F9F88008F15F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZirkoniumLicht_Prefix.pch;
+				INFOPLIST_FILE = "TestZirkoniumLicht-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = TestZirkoniumLicht;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "ZirkoniumLicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "ZirkoniumLicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36142EB30C4F9F88008F15F1 /* Build configuration list for PBXNativeTarget "TestZirkoniumLicht" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36142EB40C4F9F88008F15F1 /* Debug */,
+				36142EB50C4F9F88008F15F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

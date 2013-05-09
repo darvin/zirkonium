@@ -1,0 +1,112 @@
+// !$*UTF8*$!
+{
+	20AC866D0BDE651800F80DE1 /* HALPlugInTest */ = {
+		activeExec = 0;
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5E2ED08C165686D800361D4C /* Zirkonium */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* Zirkonium */;
+		codeSenseManager = 5E2ED0C8165686E000361D4C /* Code sense */;
+		executables = (
+			5E2ED08C165686D800361D4C /* Zirkonium */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 374769368;
+			PBXWorkspaceStateSaveDate = 374769368;
+		};
+		sourceControlManager = 5E2ED0C7165686E000361D4C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	366F335E0C16D97D006E9565 /* ZirkPipe */ = {
+		activeExec = 0;
+	};
+	36797D360BA00AA500772FB3 /* Zirkonium-All */ = {
+		activeExec = 0;
+	};
+	36ED86CE0BA1C1B8004C8429 /* Zirk2 */ = {
+		activeExec = 0;
+	};
+	36F40C940B95E51400025E81 /* HALPlugIn */ = {
+		activeExec = 0;
+	};
+	514E9DF8081EBF9C009B8CD9 /* Zirkonium Spotlight Importer */ = {
+		activeExec = 0;
+	};
+	5E2ED08C165686D800361D4C /* Zirkonium */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Zirkonium;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5E2ED0C7165686E000361D4C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5E2ED0C8165686E000361D4C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8D15AC270486D014006FF6A4 /* Zirkonium */ = {
+		activeExec = 0;
+		executables = (
+			5E2ED08C165686D800361D4C /* Zirkonium */,
+		);
+	};
+	CC127B7D0FB9BAFD00B59131 /* CocoaDomeView */ = {
+		activeExec = 0;
+	};
+	CC5F2DFD0FBB2C7600FF208C /* Zirkalloy */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = F48C49AA1192E1CE00D03006 /* SyncretismTestTool */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+		codeSenseManager = F48C49E31192E20C00D03006 /* Code sense */;
+		executables = (
+			F48C49AA1192E1CE00D03006 /* SyncretismTestTool */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					487,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 295205916;
+			PBXWorkspaceStateSaveDate = 295205916;
+		};
+		perUserProjectItems = {
+			F405524C11987AD90085CD75 /* PBXTextBookmark */ = F405524C11987AD90085CD75 /* PBXTextBookmark */;
+			F405524D11987AD90085CD75 /* PBXTextBookmark */ = F405524D11987AD90085CD75 /* PBXTextBookmark */;
+			F405524F11987AD90085CD75 /* PBXTextBookmark */ = F405524F11987AD90085CD75 /* PBXTextBookmark */;
+			F405525011987AD90085CD75 /* PBXTextBookmark */ = F405525011987AD90085CD75 /* PBXTextBookmark */;
+			F405527911987ED90085CD75 /* PBXTextBookmark */ = F405527911987ED90085CD75 /* PBXTextBookmark */;
+			F405527A11987ED90085CD75 /* PBXTextBookmark */ = F405527A11987ED90085CD75 /* PBXTextBookmark */;
+			F405527B11987ED90085CD75 /* PBXTextBookmark */ = F405527B11987ED90085CD75 /* PBXTextBookmark */;
+			F405527C11987ED90085CD75 /* PBXTextBookmark */ = F405527C11987ED90085CD75 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F48C49E21192E20C00D03006 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {846, 1358}}";
+			sepNavSelRange = "{2568, 69}";
+			sepNavVisRange = "{2204, 708}";
+		};
+	};
+	2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 2478}}";
+			sepNavSelRange = "{2552, 4}";
+			sepNavVisRange = "{4785, 645}";
+		};
+	};
+	2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 8498}}";
+			sepNavSelRange = "{5930, 4}";
+			sepNavVisRange = "{4939, 419}";
+		};
+	};
+	36226F480B3AC10A009CAA75 /* SyncretismTestTool */ = {
+		activeExec = 0;
+		executables = (
+			F48C49AA1192E1CE00D03006 /* SyncretismTestTool */,
+		);
+	};
+	366964500AEE89B100E4EAC9 /* SyncretismTest */ = {
+		activeExec = 0;
+	};
+	36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {665, 3780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 623}";
+		};
+	};
+	36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 12362}}";
+			sepNavSelRange = "{16264, 32}";
+			sepNavVisRange = "{22356, 1626}";
+			sepNavWindowFrame = "{{15, 38}, {906, 789}}";
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* Syncretism */ = {
+		activeExec = 0;
+	};
+	F405524C11987AD90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */;
+		name = "CAAudioUnitZKM.h: 74";
+		rLen = 69;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 2204;
+	};
+	F405524D11987AD90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */;
+		name = "ZKMNRPanner.m: 408";
+		rLen = 32;
+		rLoc = 16264;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 16638;
+	};
+	F405524F11987AD90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */;
+		name = "CAAudioUnitZKM.h: 74";
+		rLen = 69;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 708;
+		vrLoc = 2204;
+	};
+	F405525011987AD90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */;
+		name = "ZKMNRPanner.m: 408";
+		rLen = 32;
+		rLoc = 16264;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 16638;
+	};
+	F405527911987ED90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */;
+		name = "ZKMORMixerMatrix.h: 63";
+		rLen = 4;
+		rLoc = 2552;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 4785;
+	};
+	F405527A11987ED90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */;
+		name = "ZKMNRPanner.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 0;
+	};
+	F405527B11987ED90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */;
+		name = "ZKMORMixerMatrix.h: 63";
+		rLen = 4;
+		rLoc = 2552;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 4785;
+	};
+	F405527C11987ED90085CD75 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */;
+		name = "ZKMNRPanner.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 0;
+	};
+	F48C49AA1192E1CE00D03006 /* SyncretismTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SyncretismTestTool;
+		sourceDirectories = (
+		);
+	};
+	F48C49E21192E20C00D03006 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	F48C49E31192E20C00D03006 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361902800AA82EDB00D65985 /* ZKMMPQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3619027D0AA82EDB00D65985 /* ZKMMPQueue.h */; };
+		362B40B00AA48C3700F7ED42 /* CAAtomicStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 362B40AF0AA48C3700F7ED42 /* CAAtomicStack.h */; };
+		36D5F44A0A9350EF00C1A73E /* ZKMORLogger.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36D5F4480A9350EF00C1A73E /* ZKMORLogger.h */; };
+		36D5F46D0A9352EE00C1A73E /* ZKMORLoggerCPP.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36D5F46B0A9352EE00C1A73E /* ZKMORLoggerCPP.h */; };
+		36D5F46E0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D5F46C0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp */; };
+		36D5F5460A93619F00C1A73E /* ZKMORLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D5F5440A93619F00C1A73E /* ZKMORLogger.cpp */; };
+		36D5F59E0A93658C00C1A73E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D5F59D0A93658C00C1A73E /* CoreServices.framework */; };
+		36D5F61F0A936A8300C1A73E /* ZKMORLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D5F5440A93619F00C1A73E /* ZKMORLogger.cpp */; };
+		36D5F6200A936A8400C1A73E /* ZKMORLoggerCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36D5F46C0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp */; };
+		36D5F67A0A936C8000C1A73E /* ZKMORLoggerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D5F6220A936A9C00C1A73E /* ZKMORLoggerTest.mm */; };
+		36D5F7110A936CA300C1A73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		36D5F7120A936CA300C1A73E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36D5F59D0A93658C00C1A73E /* CoreServices.framework */; };
+		36D5F7730A936E4600C1A73E /* SycamoreLogPrinter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36D5F7710A936E4600C1A73E /* SycamoreLogPrinter.h */; };
+		36D5F7740A936E4600C1A73E /* SycamoreLogPrinter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36D5F7720A936E4600C1A73E /* SycamoreLogPrinter.mm */; };
+		8DD76F9A0486AA7600D96B5E /* SycamoreLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* SycamoreLog.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				36D5F44A0A9350EF00C1A73E /* ZKMORLogger.h in CopyFiles */,
+				36D5F46D0A9352EE00C1A73E /* ZKMORLoggerCPP.h in CopyFiles */,
+				36D5F7730A936E4600C1A73E /* SycamoreLogPrinter.h in CopyFiles */,
+				362B40B00AA48C3700F7ED42 /* CAAtomicStack.h in CopyFiles */,
+				361902800AA82EDB00D65985 /* ZKMMPQueue.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* SycamoreLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SycamoreLog.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* SycamoreLog_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SycamoreLog_Prefix.pch; sourceTree = "<group>"; };
+		3619027D0AA82EDB00D65985 /* ZKMMPQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMMPQueue.h; sourceTree = "<group>"; };
+		362B40AF0AA48C3700F7ED42 /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAAtomicStack.h; path = ../Tiger/PublicUtility/CAAtomicStack.h; sourceTree = SOURCE_ROOT; };
+		36D5F4480A9350EF00C1A73E /* ZKMORLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORLogger.h; sourceTree = "<group>"; };
+		36D5F46B0A9352EE00C1A73E /* ZKMORLoggerCPP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORLoggerCPP.h; sourceTree = "<group>"; };
+		36D5F46C0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLoggerCPP.cpp; sourceTree = "<group>"; };
+		36D5F5440A93619F00C1A73E /* ZKMORLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLogger.cpp; sourceTree = "<group>"; };
+		36D5F59D0A93658C00C1A73E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		36D5F61A0A936A6D00C1A73E /* SycamoreLogTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SycamoreLogTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D5F61B0A936A6D00C1A73E /* SycamoreLogTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SycamoreLogTest-Info.plist"; sourceTree = "<group>"; };
+		36D5F6210A936A9C00C1A73E /* ZKMORLoggerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORLoggerTest.h; sourceTree = "<group>"; };
+		36D5F6220A936A9C00C1A73E /* ZKMORLoggerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORLoggerTest.mm; sourceTree = "<group>"; };
+		36D5F7710A936E4600C1A73E /* SycamoreLogPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SycamoreLogPrinter.h; sourceTree = "<group>"; };
+		36D5F7720A936E4600C1A73E /* SycamoreLogPrinter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SycamoreLogPrinter.mm; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* SycamoreLog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SycamoreLog; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36D5F6170A936A6D00C1A73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5F7110A936CA300C1A73E /* Foundation.framework in Frameworks */,
+				36D5F7120A936CA300C1A73E /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				36D5F59E0A93658C00C1A73E /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SycamoreLog */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				36D5F61B0A936A6D00C1A73E /* SycamoreLogTest-Info.plist */,
+			);
+			name = SycamoreLog;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32A70AAB03705E1F00C91783 /* SycamoreLog_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* SycamoreLog.m */,
+				36D5F7710A936E4600C1A73E /* SycamoreLogPrinter.h */,
+				36D5F7720A936E4600C1A73E /* SycamoreLogPrinter.mm */,
+				36D5F4230A934EEF00C1A73E /* SycamoreLogSource */,
+				36D5F4E80A935B3900C1A73E /* SycamoreLogTest */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				36D5F59D0A93658C00C1A73E /* CoreServices.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* SycamoreLog */,
+				36D5F61A0A936A6D00C1A73E /* SycamoreLogTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36D5F4230A934EEF00C1A73E /* SycamoreLogSource */ = {
+			isa = PBXGroup;
+			children = (
+				3619027D0AA82EDB00D65985 /* ZKMMPQueue.h */,
+				36D5F4480A9350EF00C1A73E /* ZKMORLogger.h */,
+				36D5F5440A93619F00C1A73E /* ZKMORLogger.cpp */,
+				36D5F46B0A9352EE00C1A73E /* ZKMORLoggerCPP.h */,
+				36D5F46C0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp */,
+				362B40AF0AA48C3700F7ED42 /* CAAtomicStack.h */,
+			);
+			path = SycamoreLogSource;
+			sourceTree = "<group>";
+		};
+		36D5F4E80A935B3900C1A73E /* SycamoreLogTest */ = {
+			isa = PBXGroup;
+			children = (
+				36D5F6210A936A9C00C1A73E /* ZKMORLoggerTest.h */,
+				36D5F6220A936A9C00C1A73E /* ZKMORLoggerTest.mm */,
+			);
+			path = SycamoreLogTest;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D5F6190A936A6D00C1A73E /* SycamoreLogTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D5F61C0A936A6E00C1A73E /* Build configuration list for PBXNativeTarget "SycamoreLogTest" */;
+			buildPhases = (
+				36D5F6150A936A6D00C1A73E /* Resources */,
+				36D5F6160A936A6D00C1A73E /* Sources */,
+				36D5F6170A936A6D00C1A73E /* Frameworks */,
+				36D5F6180A936A6D00C1A73E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SycamoreLogTest;
+			productName = SycamoreLogTest;
+			productReference = 36D5F61A0A936A6D00C1A73E /* SycamoreLogTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DD76F960486AA7600D96B5E /* SycamoreLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "SycamoreLog" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SycamoreLog;
+			productInstallPath = "$(HOME)/bin";
+			productName = SycamoreLog;
+			productReference = 8DD76FA10486AA7600D96B5E /* SycamoreLog */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "SycamoreLog" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SycamoreLog */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* SycamoreLog */,
+				36D5F6190A936A6D00C1A73E /* SycamoreLogTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36D5F6150A936A6D00C1A73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D5F6180A936A6D00C1A73E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36D5F6160A936A6D00C1A73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36D5F61F0A936A8300C1A73E /* ZKMORLogger.cpp in Sources */,
+				36D5F6200A936A8400C1A73E /* ZKMORLoggerCPP.cpp in Sources */,
+				36D5F67A0A936C8000C1A73E /* ZKMORLoggerTest.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* SycamoreLog.m in Sources */,
+				36D5F46E0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp in Sources */,
+				36D5F5460A93619F00C1A73E /* ZKMORLogger.cpp in Sources */,
+				36D5F7740A936E4600C1A73E /* SycamoreLogPrinter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SycamoreLog_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = SycamoreLog;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SycamoreLog_Prefix.pch;
+				INSTALL_PATH = "$(HOME)/bin";
+				PRODUCT_NAME = SycamoreLog;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		36D5F61D0A936A6E00C1A73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SycamoreLogTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreLogTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		36D5F61E0A936A6E00C1A73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SycamoreLogTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreLogTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "SycamoreLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "SycamoreLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36D5F61C0A936A6E00C1A73E /* Build configuration list for PBXNativeTarget "SycamoreLogTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36D5F61D0A936A6E00C1A73E /* Debug */,
+				36D5F61E0A936A6E00C1A73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

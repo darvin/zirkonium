@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                NewAudioObjectBrowserWindow = id; 
+                NewFilePlayerWindow = id; 
+                NewIOCycleTelemetryWindow = id; 
+                NewInputWindow = id; 
+                NewVolumeCurveWindow = id; 
+                ShowAggregateDeviceEditor = id; 
+                ShowSystemWindow = id; 
+            }; 
+            CLASS = HLApplicationDelegate; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,39 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = ZKMRLLightView; LANGUAGE = ObjC; SUPERCLASS = ZKMRNDomeView; }, 
+        {CLASS = ZKMRNDomeView; LANGUAGE = ObjC; SUPERCLASS = ZKMRNOpenGLView; }, 
+        {CLASS = ZKMRNOpenGLTexture; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ZKMRNOpenGLView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {
+            CLASS = ZKMRNSpeakerCubeTexture; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = ZKMRNSpeakerTexture; 
+        }, 
+        {
+            CLASS = ZKMRNSpeakerRectangleTexture; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = ZKMRNSpeakerTexture; 
+        }, 
+        {CLASS = ZKMRNSpeakerSetupView; LANGUAGE = ObjC; SUPERCLASS = ZKMRNDomeView; }, 
+        {
+            CLASS = ZKMRNSpeakerTexture; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = ZKMRNOpenGLTexture; 
+        }, 
+        {
+            CLASS = ZKMRNVirtualSourceTexture; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = ZKMRNSpeakerTexture; 
+        }, 
+        {
+            ACTIONS = {openPreferences = id; saveAction = id; }; 
+            CLASS = "ZirkoniumLicht_AppDelegate"; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {lightView = ZKMRLLightView; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

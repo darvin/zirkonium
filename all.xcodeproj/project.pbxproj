@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CC1B3CE00FB0B0E700F200F5 /* Application */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CC1B3CEC0FB0B13800F200F5 /* Build configuration list for PBXAggregateTarget "Application" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CC3033390FB0D94F003F279E /* PBXTargetDependency */,
+				CC30333B0FB0D953003F279E /* PBXTargetDependency */,
+				CC30333D0FB0D956003F279E /* PBXTargetDependency */,
+				CC30333F0FB0D958003F279E /* PBXTargetDependency */,
+			);
+			name = Application;
+			productName = "Full Dependencies";
+		};
+		CC1B3CF30FB0B1D100F200F5 /* Tests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CC1B3D070FB0B1F200F200F5 /* Build configuration list for PBXAggregateTarget "Tests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CC30335F0FB0DA69003F279E /* PBXTargetDependency */,
+				CC3033560FB0D9E9003F279E /* PBXTargetDependency */,
+				CC3033540FB0D9E6003F279E /* PBXTargetDependency */,
+				CC3033580FB0D9EC003F279E /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+		};
+		CC3035220FB0E56F003F279E /* Deploy Audio Unit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CC30352F0FB0E5D5003F279E /* Build configuration list for PBXAggregateTarget "Deploy Audio Unit" */;
+			buildPhases = (
+				CC30352E0FB0E5D5003F279E /* CopyFiles */,
+			);
+			dependencies = (
+				CC3035280FB0E57D003F279E /* PBXTargetDependency */,
+			);
+			name = "Deploy Audio Unit";
+			productName = "Audio Unit";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0B78BB0FB0B2F900398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C7C0FB0AF4600F200F5 /* Zirkonium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D15AC370486D014006FF6A4;
+			remoteInfo = Zirkonium;
+		};
+		CC0B78CC0FB0B30900398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+		CC0B78CE0FB0B30900398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 366964510AEE89B100E4EAC9;
+			remoteInfo = SyncretismTest;
+		};
+		CC0B78D00FB0B30900398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36226F490B3AC10A009CAA75;
+			remoteInfo = SyncretismTestTool;
+		};
+		CC0B78DD0FB0B31100398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+		CC0B78DF0FB0B31100398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36944A4D0A9CBFF100770B32;
+			remoteInfo = SycamoreTest;
+		};
+		CC0B78E10FB0B31100398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36EC508D0A9DA123007DF698;
+			remoteInfo = SycamoreTestTool;
+		};
+		CC0B78E30FB0B31100398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 363044610A9EEAAE009518F1;
+			remoteInfo = SycmoreDebugTest;
+		};
+		CC0B78E50FB0B31100398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3652A54D0AAC97E7003D3818;
+			remoteInfo = SycamoreFileExample;
+		};
+		CC0B78E70FB0B31100398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36841DCF0AD3B35900D04417;
+			remoteInfo = SycamoreListAUExample;
+		};
+		CC0B78F00FB0B31900398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = SycamoreLog;
+		};
+		CC0B78F20FB0B31900398AB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36D5F61A0A936A6D00C1A73E;
+			remoteInfo = SycamoreLogTest;
+		};
+		CC3033380FB0D94F003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F960486AA7600D96B5E;
+			remoteInfo = SycamoreLog;
+		};
+		CC30333A0FB0D953003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+		CC30333C0FB0D956003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+		CC30333E0FB0D958003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C7C0FB0AF4600F200F5 /* Zirkonium.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
+			remoteInfo = Zirkonium;
+		};
+		CC3033530FB0D9E6003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 36944A4C0A9CBFF100770B32;
+			remoteInfo = SycamoreTest;
+		};
+		CC3033550FB0D9E9003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 36D5F6190A936A6D00C1A73E;
+			remoteInfo = SycamoreLogTest;
+		};
+		CC3033570FB0D9EC003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 366964500AEE89B100E4EAC9;
+			remoteInfo = SyncretismTest;
+		};
+		CC30335E0FB0DA69003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 36EC508C0A9DA123007DF698;
+			remoteInfo = SycamoreTestTool;
+		};
+		CC3035270FB0E57D003F279E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1B3C3A0FB0AAC300F200F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1B3CE00FB0B0E700F200F5;
+			remoteInfo = Application;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC30352E0FB0E5D5003F279E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Audio/Plug-Ins/Components";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SycamoreLog.xcodeproj; path = SycamoreLog/SycamoreLog.xcodeproj; sourceTree = "<group>"; };
+		CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sycamore.xcodeproj; path = Sycamore/Sycamore.xcodeproj; sourceTree = "<group>"; };
+		CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; name = Syncretism.xcodeproj; path = Syncretism/Syncretism.xcodeproj; sourceTree = "<group>"; };
+		CC1B3C7C0FB0AF4600F200F5 /* Zirkonium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zirkonium.xcodeproj; path = Zirkonium/Zirkonium.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CC0B78B20FB0B2F900398AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B78BC0FB0B2F900398AB4 /* Zirkonium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0B78C70FB0B30900398AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B78CD0FB0B30900398AB4 /* Syncretism.framework */,
+				CC0B78CF0FB0B30900398AB4 /* SyncretismTest.octest */,
+				CC0B78D10FB0B30900398AB4 /* SyncretismTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0B78D50FB0B31100398AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B78DE0FB0B31100398AB4 /* Sycamore.framework */,
+				CC0B78E00FB0B31100398AB4 /* SycamoreTest.octest */,
+				CC0B78E20FB0B31100398AB4 /* SycamoreTestTool */,
+				CC0B78E40FB0B31100398AB4 /* SycmoreDebugTest */,
+				CC0B78E60FB0B31100398AB4 /* SycamoreFileExample */,
+				CC0B78E80FB0B31100398AB4 /* SycamoreListAUExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC0B78EC0FB0B31900398AB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B78F10FB0B31900398AB4 /* SycamoreLog */,
+				CC0B78F30FB0B31900398AB4 /* SycamoreLogTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1B3C380FB0AAC300F200F5 = {
+			isa = PBXGroup;
+			children = (
+				CC1B3C7C0FB0AF4600F200F5 /* Zirkonium.xcodeproj */,
+				CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */,
+				CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */,
+				CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		CC1B3C3A0FB0AAC300F200F5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CC1B3C3D0FB0AAC300F200F5 /* Build configuration list for PBXProject "all" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = CC1B3C380FB0AAC300F200F5;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CC0B78D50FB0B31100398AB4 /* Products */;
+					ProjectRef = CC1B3C540FB0AF3800F200F5 /* Sycamore.xcodeproj */;
+				},
+				{
+					ProductGroup = CC0B78EC0FB0B31900398AB4 /* Products */;
+					ProjectRef = CC1B3C480FB0AF2C00F200F5 /* SycamoreLog.xcodeproj */;
+				},
+				{
+					ProductGroup = CC0B78C70FB0B30900398AB4 /* Products */;
+					ProjectRef = CC1B3C6C0FB0AF3F00F200F5 /* Syncretism.xcodeproj */;
+				},
+				{
+					ProductGroup = CC0B78B20FB0B2F900398AB4 /* Products */;
+					ProjectRef = CC1B3C7C0FB0AF4600F200F5 /* Zirkonium.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CC1B3CE00FB0B0E700F200F5 /* Application */,
+				CC1B3CF30FB0B1D100F200F5 /* Tests */,
+				CC3035220FB0E56F003F279E /* Deploy Audio Unit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CC0B78BC0FB0B2F900398AB4 /* Zirkonium.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Zirkonium.app;
+			remoteRef = CC0B78BB0FB0B2F900398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78CD0FB0B30900398AB4 /* Syncretism.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Syncretism.framework;
+			remoteRef = CC0B78CC0FB0B30900398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78CF0FB0B30900398AB4 /* SyncretismTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SyncretismTest.octest;
+			remoteRef = CC0B78CE0FB0B30900398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78D10FB0B30900398AB4 /* SyncretismTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SyncretismTestTool;
+			remoteRef = CC0B78D00FB0B30900398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78DE0FB0B31100398AB4 /* Sycamore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Sycamore.framework;
+			remoteRef = CC0B78DD0FB0B31100398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78E00FB0B31100398AB4 /* SycamoreTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SycamoreTest.octest;
+			remoteRef = CC0B78DF0FB0B31100398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78E20FB0B31100398AB4 /* SycamoreTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SycamoreTestTool;
+			remoteRef = CC0B78E10FB0B31100398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78E40FB0B31100398AB4 /* SycmoreDebugTest */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SycmoreDebugTest;
+			remoteRef = CC0B78E30FB0B31100398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78E60FB0B31100398AB4 /* SycamoreFileExample */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SycamoreFileExample;
+			remoteRef = CC0B78E50FB0B31100398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78E80FB0B31100398AB4 /* SycamoreListAUExample */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SycamoreListAUExample;
+			remoteRef = CC0B78E70FB0B31100398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78F10FB0B31900398AB4 /* SycamoreLog */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SycamoreLog;
+			remoteRef = CC0B78F00FB0B31900398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CC0B78F30FB0B31900398AB4 /* SycamoreLogTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SycamoreLogTest.octest;
+			remoteRef = CC0B78F20FB0B31900398AB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		CC3033390FB0D94F003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SycamoreLog;
+			targetProxy = CC3033380FB0D94F003F279E /* PBXContainerItemProxy */;
+		};
+		CC30333B0FB0D953003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sycamore;
+			targetProxy = CC30333A0FB0D953003F279E /* PBXContainerItemProxy */;
+		};
+		CC30333D0FB0D956003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Syncretism;
+			targetProxy = CC30333C0FB0D956003F279E /* PBXContainerItemProxy */;
+		};
+		CC30333F0FB0D958003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zirkonium;
+			targetProxy = CC30333E0FB0D958003F279E /* PBXContainerItemProxy */;
+		};
+		CC3033540FB0D9E6003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SycamoreTest;
+			targetProxy = CC3033530FB0D9E6003F279E /* PBXContainerItemProxy */;
+		};
+		CC3033560FB0D9E9003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SycamoreLogTest;
+			targetProxy = CC3033550FB0D9E9003F279E /* PBXContainerItemProxy */;
+		};
+		CC3033580FB0D9EC003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SyncretismTest;
+			targetProxy = CC3033570FB0D9EC003F279E /* PBXContainerItemProxy */;
+		};
+		CC30335F0FB0DA69003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SycamoreTestTool;
+			targetProxy = CC30335E0FB0DA69003F279E /* PBXContainerItemProxy */;
+		};
+		CC3035280FB0E57D003F279E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1B3CE00FB0B0E700F200F5 /* Application */;
+			targetProxy = CC3035270FB0E57D003F279E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC1B3C3B0FB0AAC300F200F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		CC1B3C3C0FB0AAC300F200F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+		CC1B3CE10FB0B0E700F200F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Full Dependencies";
+			};
+			name = Debug;
+		};
+		CC1B3CE20FB0B0E700F200F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Full Dependencies";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		CC1B3CF40FB0B1D100F200F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Tests;
+			};
+			name = Debug;
+		};
+		CC1B3CF50FB0B1D100F200F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Tests;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		CC3035230FB0E56F003F279E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Audio Unit";
+			};
+			name = Debug;
+		};
+		CC3035240FB0E56F003F279E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Audio Unit";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1B3C3D0FB0AAC300F200F5 /* Build configuration list for PBXProject "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B3C3B0FB0AAC300F200F5 /* Debug */,
+				CC1B3C3C0FB0AAC300F200F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1B3CEC0FB0B13800F200F5 /* Build configuration list for PBXAggregateTarget "Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B3CE10FB0B0E700F200F5 /* Debug */,
+				CC1B3CE20FB0B0E700F200F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1B3D070FB0B1F200F200F5 /* Build configuration list for PBXAggregateTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1B3CF40FB0B1D100F200F5 /* Debug */,
+				CC1B3CF50FB0B1D100F200F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC30352F0FB0E5D5003F279E /* Build configuration list for PBXAggregateTarget "Deploy Audio Unit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3035230FB0E56F003F279E /* Debug */,
+				CC3035240FB0E56F003F279E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1B3C3A0FB0AAC300F200F5 /* Project object */;
+}

@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {DevicePopUpAction = id; }; 
+            CLASS = HLDeviceMenuController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mDelegate = id; mDevicePopUp = NSPopUpButton; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                DeviceInfoButtonAction = id; 
+                VolumePopUpAction = id; 
+                VolumeSliderAction = id; 
+            }; 
+            CLASS = HLVolumeCurveWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                mDeviceInfoButton = NSButton; 
+                mDeviceMenuController = HLDeviceMenuController; 
+                mVolume0CurvePopUp = NSPopUpButton; 
+                mVolume0Slider = NSSlider; 
+                mVolume0TextField = NSTextField; 
+                mVolume1CurvePopUp = NSPopUpButton; 
+                mVolume1Slider = NSSlider; 
+                mVolume1TextField = NSTextField; 
+                mVolume2CurvePopUp = NSPopUpButton; 
+                mVolume2Slider = NSSlider; 
+                mVolume2TextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,1627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC8F8C01185ECBC00ECE5FE /* CAHALTelemetry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC8F8BF1185ECBC00ECE5FE /* CAHALTelemetry.h */; };
+		206223080ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 206223070ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m */; };
+		360B98500C01D161005D532D /* ZKMORAudioUnitParameterSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE51FA0BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m */; };
+		361237F80B8CB84000E551AC /* Sycamore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Sycamore.framework */; };
+		361907A10AA885F700D65985 /* ZKMORZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 3619079E0AA885F700D65985 /* ZKMORZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361907A20AA885F700D65985 /* ZKMORZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3619079F0AA885F700D65985 /* ZKMORZone.cpp */; };
+		361907AB0AA888DD00D65985 /* ZKMMPQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 361907AA0AA888DC00D65985 /* ZKMMPQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361AC8D50A9E14A400E9C876 /* ZKMORAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 361AC8D10A9E14A400E9C876 /* ZKMORAudioUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361AC8D60A9E14A400E9C876 /* ZKMORAudioUnit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361AC8D20A9E14A400E9C876 /* ZKMORAudioUnit.mm */; };
+		361AC9520A9E1EE500E9C876 /* CAAudioUnitZKM.h in Headers */ = {isa = PBXBuildFile; fileRef = 361AC94E0A9E1EE500E9C876 /* CAAudioUnitZKM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361AC9530A9E1EE500E9C876 /* CAAudioUnitZKM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361AC94F0A9E1EE500E9C876 /* CAAudioUnitZKM.cpp */; };
+		361AC9F00A9E248300E9C876 /* CAAudioUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361AC9EC0A9E248300E9C876 /* CAAudioUnit.cpp */; };
+		361AC9F10A9E248300E9C876 /* CAAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 361AC9ED0A9E248300E9C876 /* CAAudioUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361AC9FB0A9E24A900E9C876 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */; };
+		361AC9FC0A9E24A900E9C876 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */; };
+		361AC9FD0A9E24A900E9C876 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */; };
+		361ACA240A9E24CB00E9C876 /* CAComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361ACA1D0A9E24CB00E9C876 /* CAComponent.cpp */; };
+		361ACA250A9E24CB00E9C876 /* CAComponentDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361ACA1E0A9E24CB00E9C876 /* CAComponentDescription.cpp */; };
+		361ACA260A9E24CB00E9C876 /* CAComponentDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 361ACA1F0A9E24CB00E9C876 /* CAComponentDescription.h */; };
+		361ACA430A9E254000E9C876 /* AUOutputBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361ACA3F0A9E254000E9C876 /* AUOutputBL.cpp */; };
+		361ACA440A9E254000E9C876 /* AUOutputBL.h in Headers */ = {isa = PBXBuildFile; fileRef = 361ACA400A9E254000E9C876 /* AUOutputBL.h */; };
+		361ACA7A0A9E261900E9C876 /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361ACA730A9E261800E9C876 /* CAAudioChannelLayout.cpp */; };
+		361ACA7B0A9E261900E9C876 /* CAAudioChannelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 361ACA740A9E261800E9C876 /* CAAudioChannelLayout.h */; };
+		361ACA7C0A9E261900E9C876 /* CAAudioChannelLayoutObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 361ACA750A9E261900E9C876 /* CAAudioChannelLayoutObject.cpp */; };
+		361ACA8E0A9E266B00E9C876 /* ZKMORMixer3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 361ACA8A0A9E266B00E9C876 /* ZKMORMixer3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361ACA8F0A9E266B00E9C876 /* ZKMORMixer3D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361ACA8B0A9E266B00E9C876 /* ZKMORMixer3D.mm */; };
+		361ACB4C0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361ACB4B0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m */; };
+		361ACB4D0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361ACB4B0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m */; };
+		361C34190AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C34180AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m */; };
+		361C341A0AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C34180AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m */; };
+		361F3E740AA338F70087726A /* ZKMORGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 366088330A9F367E006FDB9A /* ZKMORGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361F3E750AA338F70087726A /* ZKMORGraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = 366088340A9F367E006FDB9A /* ZKMORGraph.mm */; };
+		361F405C0AA35D740087726A /* ZKMORRenderSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 361F40590AA35D740087726A /* ZKMORRenderSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361F405D0AA35D740087726A /* ZKMORRenderSimulator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361F405A0AA35D740087726A /* ZKMORRenderSimulator.mm */; };
+		3621B2560B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3621B2550B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm */; };
+		3621B2570B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3621B2550B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm */; };
+		3621B2BE0B6FA0AB00729026 /* CAAudioTimeStamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3621B2BC0B6FA0AB00729026 /* CAAudioTimeStamp.cpp */; };
+		3621B2BF0B6FA0AB00729026 /* CAAudioTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3621B2BD0B6FA0AB00729026 /* CAAudioTimeStamp.h */; };
+		3626EAAC0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626EAAB0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m */; };
+		3626EAAD0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626EAAB0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m */; };
+		3626EBE60ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626EBE50ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m */; };
+		3626EBE70ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626EBE50ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m */; };
+		362B41150AA4907900F7ED42 /* CAAtomicStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 362B41140AA4907900F7ED42 /* CAAtomicStack.h */; };
+		362B42820AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B42810AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m */; };
+		362B42830AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B42810AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m */; };
+		362B42940AA49AE600F7ED42 /* ZKMORGraphTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B42930AA49AE600F7ED42 /* ZKMORGraphTest.m */; };
+		362B42950AA49AE600F7ED42 /* ZKMORGraphTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 362B42930AA49AE600F7ED42 /* ZKMORGraphTest.m */; };
+		363044650A9EEAC1009518F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */; };
+		363044660A9EEAC1009518F1 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448320A9C9FA100770B32 /* AudioUnit.framework */; };
+		363044670A9EEAC1009518F1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448330A9C9FA100770B32 /* CoreAudio.framework */; };
+		363044680A9EEAC2009518F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		363044690A9EEAC2009518F1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448390A9C9FAF00770B32 /* CoreServices.framework */; };
+		363044750A9EEAF9009518F1 /* Sycamore.h in Headers */ = {isa = PBXBuildFile; fileRef = 363044730A9EEAF9009518F1 /* Sycamore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363044950A9EEBA9009518F1 /* Sycamore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Sycamore.framework */; };
+		3633D6BE0AB5C5DB0029B2AB /* ZKMORFileReaderTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C0D08D0AB5C3FE008EC728 /* ZKMORFileReaderTest.mm */; };
+		363D393A0AAD83E800556B94 /* CAAudioFileFormats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 363D39380AAD83E800556B94 /* CAAudioFileFormats.cpp */; };
+		363D393B0AAD83E800556B94 /* CAAudioFileFormats.h in Headers */ = {isa = PBXBuildFile; fileRef = 363D39390AAD83E800556B94 /* CAAudioFileFormats.h */; };
+		363E16840AADAC5C00753BF3 /* ZKMORLogPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 363E16810AADAC5C00753BF3 /* ZKMORLogPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363E16850AADAC5C00753BF3 /* ZKMORLogPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 363E16820AADAC5C00753BF3 /* ZKMORLogPrinter.cpp */; };
+		363E19A70AADD78700753BF3 /* ZKMORFileStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 363E19A40AADD78700753BF3 /* ZKMORFileStreamer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363E19A80AADD78700753BF3 /* ZKMORFileStreamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 363E19A50AADD78700753BF3 /* ZKMORFileStreamer.cpp */; };
+		363E19C80AADD8B100753BF3 /* CAAudioFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 363E19C50AADD8B100753BF3 /* CAAudioFile.cpp */; };
+		363E19C90AADD8B100753BF3 /* CAAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 363E19C60AADD8B100753BF3 /* CAAudioFile.h */; };
+		363E1A420AADE3D900753BF3 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 363E1A3F0AADE3D900753BF3 /* CAXException.cpp */; };
+		363E1A430AADE3D900753BF3 /* CAXException.h in Headers */ = {isa = PBXBuildFile; fileRef = 363E1A400AADE3D900753BF3 /* CAXException.h */; };
+		363F43940AE797CF009FBD61 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365484B50ABAF2CB00121C98 /* QuickTime.framework */; };
+		363F43950AE797CF009FBD61 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3654849B0ABAF2A100121C98 /* QTKit.framework */; };
+		363F43960AE797D0009FBD61 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365485010ABAF2D000121C98 /* QuartzCore.framework */; };
+		364B50A10B55633800B509E7 /* ZKMORClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B509E0B55633800B509E7 /* ZKMORClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364B50A20B55633800B509E7 /* ZKMORClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B509F0B55633800B509E7 /* ZKMORClock.m */; };
+		364B50B20B5563D100B509E7 /* ZKMOROutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B50AF0B5563D100B509E7 /* ZKMOROutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364B50B30B5563D100B509E7 /* ZKMOROutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B50B00B5563D100B509E7 /* ZKMOROutput.m */; };
+		3652A3BA0AAC7692003D3818 /* ZKMMPRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652A3B90AAC7692003D3818 /* ZKMMPRingBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3652A4270AAC826E003D3818 /* CAGuard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652A4210AAC826E003D3818 /* CAGuard.cpp */; };
+		3652A4280AAC826E003D3818 /* CAGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652A4220AAC826E003D3818 /* CAGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3652A4290AAC826E003D3818 /* CAPThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652A4230AAC826E003D3818 /* CAPThread.cpp */; };
+		3652A42A0AAC826E003D3818 /* CAPThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652A4240AAC826E003D3818 /* CAPThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3652A43D0AAC82E9003D3818 /* CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652A4370AAC82E9003D3818 /* CAHostTimeBase.cpp */; };
+		3652A43E0AAC82E9003D3818 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652A4380AAC82E9003D3818 /* CAHostTimeBase.h */; };
+		3652A43F0AAC82E9003D3818 /* CAMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652A4390AAC82E9003D3818 /* CAMutex.cpp */; };
+		3652A4400AAC82E9003D3818 /* CAMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652A43A0AAC82E9003D3818 /* CAMutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3652A53A0AAC96EA003D3818 /* CABufferList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3652A5370AAC96EA003D3818 /* CABufferList.cpp */; };
+		3652A53B0AAC96EA003D3818 /* CABufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 3652A5380AAC96EA003D3818 /* CABufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3652A5530AAC9801003D3818 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448320A9C9FA100770B32 /* AudioUnit.framework */; };
+		3652A5540AAC9801003D3818 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448330A9C9FA100770B32 /* CoreAudio.framework */; };
+		3652A5550AAC9802003D3818 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		3652A5560AAC9802003D3818 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448390A9C9FAF00770B32 /* CoreServices.framework */; };
+		3652A5570AAC9803003D3818 /* Sycamore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Sycamore.framework */; };
+		3652A5580AAC9804003D3818 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */; };
+		3654839A0ABAD8EC00121C98 /* ZKMORQuickTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 365483970ABAD8EC00121C98 /* ZKMORQuickTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3654839B0ABAD8EC00121C98 /* ZKMORQuickTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 365483980ABAD8EC00121C98 /* ZKMORQuickTime.mm */; };
+		365483BA0ABADB4900121C98 /* ZKMORQTReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 365483B70ABADB4900121C98 /* ZKMORQTReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365483BB0ABADB4900121C98 /* ZKMORQTReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 365483B80ABADB4900121C98 /* ZKMORQTReader.mm */; };
+		365484A90ABAF2A100121C98 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3654849B0ABAF2A100121C98 /* QTKit.framework */; };
+		365484AA0ABAF2A100121C98 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3654849B0ABAF2A100121C98 /* QTKit.framework */; };
+		365484D80ABAF2CB00121C98 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365484B50ABAF2CB00121C98 /* QuickTime.framework */; };
+		365484D90ABAF2CB00121C98 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365484B50ABAF2CB00121C98 /* QuickTime.framework */; };
+		365485020ABAF2D000121C98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365485010ABAF2D000121C98 /* QuartzCore.framework */; };
+		365485030ABAF2D000121C98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365485010ABAF2D000121C98 /* QuartzCore.framework */; };
+		366086BC0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366086BB0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m */; };
+		366086BD0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366086BB0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m */; };
+		366086C20A9F2B60006FDB9A /* Sycamore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Sycamore.framework */; };
+		3662E1E00ABB0E15005FF495 /* ZKMORThreadBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 3662E1DE0ABB0E15005FF495 /* ZKMORThreadBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3662E1E10ABB0E15005FF495 /* ZKMORThreadBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3662E1DF0ABB0E15005FF495 /* ZKMORThreadBridge.cpp */; };
+		366EB76E0AD1402C00350D69 /* ZKMORAudioFileOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 366EB76B0AD1402C00350D69 /* ZKMORAudioFileOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366EB76F0AD1402C00350D69 /* ZKMORAudioFileOutput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 366EB76C0AD1402C00350D69 /* ZKMORAudioFileOutput.mm */; };
+		366EB9D20AD1737200350D69 /* ZKMORAudioFileOutputTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EB9D10AD1737200350D69 /* ZKMORAudioFileOutputTest.m */; };
+		366EB9D30AD1737200350D69 /* ZKMORAudioFileOutputTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366EB9D10AD1737200350D69 /* ZKMORAudioFileOutputTest.m */; };
+		366FA1E00AB83FD600F33335 /* SycamoreOverview.txt in Resources */ = {isa = PBXBuildFile; fileRef = 366FA1DF0AB83FD600F33335 /* SycamoreOverview.txt */; };
+		3678D98B0AA606A7002BA3BB /* ZKMORDeviceOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3678D9880AA606A7002BA3BB /* ZKMORDeviceOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3678D98C0AA606A7002BA3BB /* ZKMORDeviceOutput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3678D9890AA606A7002BA3BB /* ZKMORDeviceOutput.mm */; };
+		367A94590AADE5940014AE32 /* CAMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 367A94580AADE5940014AE32 /* CAMath.h */; };
+		36841DE80AD3B3D300D04417 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448390A9C9FAF00770B32 /* CoreServices.framework */; };
+		36841DE90AD3B3D300D04417 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		36841DEA0AD3B3D300D04417 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448330A9C9FA100770B32 /* CoreAudio.framework */; };
+		36841DEB0AD3B3D400D04417 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448320A9C9FA100770B32 /* AudioUnit.framework */; };
+		36841DEC0AD3B3D400D04417 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */; };
+		36841DEE0AD3B3DC00D04417 /* Sycamore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Sycamore.framework */; };
+		36841DF30AD3B40600D04417 /* ZKMORListAUExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 36841DF20AD3B40600D04417 /* ZKMORListAUExample.m */; };
+		3686FDE20C00D7E70017E7D9 /* ZKMORGuardRT.h in Headers */ = {isa = PBXBuildFile; fileRef = 3686FDE00C00D7E70017E7D9 /* ZKMORGuardRT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3686FDE30C00D7E70017E7D9 /* ZKMORGuardRT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3686FDE10C00D7E70017E7D9 /* ZKMORGuardRT.cpp */; };
+		3687E4190A9EF48900223615 /* ZKMORDebugTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3687E4180A9EF48900223615 /* ZKMORDebugTest.mm */; };
+		3687E49C0A9EF61700223615 /* ZKMORMixerMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 3687E49A0A9EF61700223615 /* ZKMORMixerMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3687E49D0A9EF61700223615 /* ZKMORMixerMatrix.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3687E49B0A9EF61700223615 /* ZKMORMixerMatrix.mm */; };
+		369446630A9C874C00770B32 /* ZKMORLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3694465E0A9C874C00770B32 /* ZKMORLogger.cpp */; };
+		369446650A9C874C00770B32 /* ZKMORLoggerCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369446600A9C874C00770B32 /* ZKMORLoggerCPP.cpp */; };
+		369446660A9C874C00770B32 /* ZKMORLoggerCPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 369446610A9C874C00770B32 /* ZKMORLoggerCPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3694467C0A9C882900770B32 /* ZKMORConduit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3694467A0A9C882900770B32 /* ZKMORConduit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3694467D0A9C882900770B32 /* ZKMORConduit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3694467B0A9C882900770B32 /* ZKMORConduit.mm */; };
+		3694472A0A9C98F100770B32 /* ZKMORUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 369447280A9C98F100770B32 /* ZKMORUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3694472B0A9C98F100770B32 /* ZKMORUtilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369447290A9C98F100770B32 /* ZKMORUtilities.mm */; };
+		369447740A9C9F0300770B32 /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 369447730A9C9F0300770B32 /* CAStreamBasicDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		369447760A9C9F1300770B32 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 369447750A9C9F1300770B32 /* CAStreamBasicDescription.cpp */; };
+		369448340A9C9FA100770B32 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448320A9C9FA100770B32 /* AudioUnit.framework */; };
+		369448350A9C9FA100770B32 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448330A9C9FA100770B32 /* CoreAudio.framework */; };
+		3694483A0A9C9FAF00770B32 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448390A9C9FAF00770B32 /* CoreServices.framework */; };
+		369448A00A9CA3F200770B32 /* ZKMORException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3694489E0A9CA3F200770B32 /* ZKMORException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		369448A10A9CA3F200770B32 /* ZKMORException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3694489F0A9CA3F200770B32 /* ZKMORException.m */; };
+		36944A540A9CC00300770B32 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448330A9C9FA100770B32 /* CoreAudio.framework */; };
+		36944A550A9CC00300770B32 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448320A9C9FA100770B32 /* AudioUnit.framework */; };
+		36944A560A9CC00400770B32 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448390A9C9FAF00770B32 /* CoreServices.framework */; };
+		36944A570A9CC00400770B32 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		36944A630A9CC06E00770B32 /* ZKMORConduitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36944A620A9CC06E00770B32 /* ZKMORConduitTest.m */; };
+		36A5DE380ABECD2A006B08DA /* ZKMORAudioUnitMirror.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A5DE360ABECD2A006B08DA /* ZKMORAudioUnitMirror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A5DE390ABECD2A006B08DA /* ZKMORAudioUnitMirror.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5DE370ABECD2A006B08DA /* ZKMORAudioUnitMirror.m */; };
+		36A5DF380ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5DF370ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m */; };
+		36A5DF390ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5DF370ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m */; };
+		36A5DF5A0ABEF617006B08DA /* ZKMORAudioUnitSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A5DF580ABEF617006B08DA /* ZKMORAudioUnitSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A5DF5B0ABEF617006B08DA /* ZKMORAudioUnitSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36A5DF590ABEF617006B08DA /* ZKMORAudioUnitSystem.mm */; };
+		36AB0F090AAF3B8E00881DF8 /* ZKMORLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3694465F0A9C874C00770B32 /* ZKMORLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36AF31A10AB86AB900E650F3 /* ZKMORAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AF319F0AB86AB900E650F3 /* ZKMORAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36AF31A20AB86AB900E650F3 /* ZKMORAudioFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36AF31A00AB86AB900E650F3 /* ZKMORAudioFile.mm */; };
+		36BC0E870AB879F900BBEC19 /* ZKMORAudioFileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BC0E860AB879F900BBEC19 /* ZKMORAudioFileTest.m */; };
+		36BC0E880AB879F900BBEC19 /* ZKMORAudioFileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BC0E860AB879F900BBEC19 /* ZKMORAudioFileTest.m */; };
+		36C0D08E0AB5C3FE008EC728 /* ZKMORFileReaderTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36C0D08D0AB5C3FE008EC728 /* ZKMORFileReaderTest.mm */; };
+		36E5F3160AD684F400A0B6CE /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36E5F3140AD684F400A0B6CE /* CADebugMacros.cpp */; };
+		36E5F3170AD684F400A0B6CE /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E5F3150AD684F400A0B6CE /* CADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E8DE200ABB06E700EF0F9F /* ZKMORQTPlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8DE1D0ABB06E700EF0F9F /* ZKMORQTPlayerTest.m */; };
+		36E8DE790ABB08E200EF0F9F /* ZKMORQTPlayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E8DE1D0ABB06E700EF0F9F /* ZKMORQTPlayerTest.m */; };
+		36EC4FED0A9D9970007DF698 /* ZKMORAudioHardwareSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC4FEB0A9D9970007DF698 /* ZKMORAudioHardwareSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC4FEE0A9D9970007DF698 /* ZKMORAudioHardwareSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EC4FEC0A9D9970007DF698 /* ZKMORAudioHardwareSystem.mm */; };
+		36EC50360A9D9F16007DF698 /* ZKMORUtilitiesTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EC50330A9D9F16007DF698 /* ZKMORUtilitiesTest.mm */; };
+		36EC50950A9DA12C007DF698 /* ZKMORConduitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36944A620A9CC06E00770B32 /* ZKMORConduitTest.m */; };
+		36EC50960A9DA12D007DF698 /* ZKMORUtilitiesTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EC50330A9D9F16007DF698 /* ZKMORUtilitiesTest.mm */; };
+		36EC509F0A9DA15E007DF698 /* ZKMORTestToolDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC509E0A9DA15E007DF698 /* ZKMORTestToolDriver.m */; };
+		36EC50BA0A9DA202007DF698 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448390A9C9FAF00770B32 /* CoreServices.framework */; };
+		36EC50BB0A9DA203007DF698 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		36EC50BC0A9DA203007DF698 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448320A9C9FA100770B32 /* AudioUnit.framework */; };
+		36EC50C40A9DA203007DF698 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369448330A9C9FA100770B32 /* CoreAudio.framework */; };
+		36EC51170A9DA561007DF698 /* ZKMORCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC51130A9DA561007DF698 /* ZKMORCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC51180A9DA561007DF698 /* ZKMORCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC51140A9DA561007DF698 /* ZKMORCore.m */; };
+		36EC54010A9DAE31007DF698 /* CAAudioHardwareDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC53F50A9DAE31007DF698 /* CAAudioHardwareDevice.cpp */; };
+		36EC54020A9DAE31007DF698 /* CAAudioHardwareDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC53F60A9DAE31007DF698 /* CAAudioHardwareDevice.h */; };
+		36EC54030A9DAE31007DF698 /* CAAudioHardwareStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC53F70A9DAE31007DF698 /* CAAudioHardwareStream.cpp */; };
+		36EC54040A9DAE31007DF698 /* CAAudioHardwareStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC53F80A9DAE31007DF698 /* CAAudioHardwareStream.h */; };
+		36EC54050A9DAE31007DF698 /* CAAudioHardwareSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36EC53F90A9DAE31007DF698 /* CAAudioHardwareSystem.cpp */; };
+		36EC54060A9DAE31007DF698 /* CAAudioHardwareSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC53FA0A9DAE31007DF698 /* CAAudioHardwareSystem.h */; };
+		36EC55230A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC55220A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m */; };
+		36EC55240A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC55220A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m */; };
+		36EC55440A9DBB27007DF698 /* ZKMORNoise.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC55420A9DBB27007DF698 /* ZKMORNoise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC55450A9DBB27007DF698 /* ZKMORNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC55430A9DBB27007DF698 /* ZKMORNoise.m */; };
+		36EC556A0A9DD95D007DF698 /* ZKMORNoiseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC55690A9DD95D007DF698 /* ZKMORNoiseTest.m */; };
+		36EC556B0A9DD95D007DF698 /* ZKMORNoiseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EC55690A9DD95D007DF698 /* ZKMORNoiseTest.m */; };
+		36EE51D50BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EE51D30BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EE51D60BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EE51D40BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm */; };
+		36EE52240BFC92A500F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE51FA0BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3620AE520C0D9ECE006C5684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+		363E17C70AADB7A500753BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+		363E18A10AADCA2200753BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+		363E18A30AADCA2A00753BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+		36841DEF0AD3B3E700D04417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Sycamore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DC8F8BF1185ECBC00ECE5FE /* CAHALTelemetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHALTelemetry.h; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		206223070ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = ZKMORFilePlayAndReadExamples.m; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* Sycamore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sycamore_Prefix.pch; sourceTree = "<group>"; };
+		3619079E0AA885F700D65985 /* ZKMORZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORZone.h; sourceTree = "<group>"; };
+		3619079F0AA885F700D65985 /* ZKMORZone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORZone.cpp; sourceTree = "<group>"; };
+		361907AA0AA888DC00D65985 /* ZKMMPQueue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMMPQueue.h; sourceTree = "<group>"; };
+		361AC8D10A9E14A400E9C876 /* ZKMORAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnit.h; sourceTree = "<group>"; };
+		361AC8D20A9E14A400E9C876 /* ZKMORAudioUnit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnit.mm; sourceTree = "<group>"; };
+		361AC94E0A9E1EE500E9C876 /* CAAudioUnitZKM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAudioUnitZKM.h; sourceTree = "<group>"; };
+		361AC94F0A9E1EE500E9C876 /* CAAudioUnitZKM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioUnitZKM.cpp; sourceTree = "<group>"; };
+		361AC9EC0A9E248300E9C876 /* CAAudioUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioUnit.cpp; sourceTree = "<group>"; };
+		361AC9ED0A9E248300E9C876 /* CAAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioUnit.h; sourceTree = "<group>"; };
+		361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		361ACA1D0A9E24CB00E9C876 /* CAComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponent.cpp; sourceTree = "<group>"; };
+		361ACA1E0A9E24CB00E9C876 /* CAComponentDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponentDescription.cpp; sourceTree = "<group>"; };
+		361ACA1F0A9E24CB00E9C876 /* CAComponentDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAComponentDescription.h; sourceTree = "<group>"; };
+		361ACA3F0A9E254000E9C876 /* AUOutputBL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputBL.cpp; sourceTree = "<group>"; };
+		361ACA400A9E254000E9C876 /* AUOutputBL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUOutputBL.h; sourceTree = "<group>"; };
+		361ACA730A9E261800E9C876 /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
+		361ACA740A9E261800E9C876 /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
+		361ACA750A9E261900E9C876 /* CAAudioChannelLayoutObject.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayoutObject.cpp; sourceTree = "<group>"; };
+		361ACA8A0A9E266B00E9C876 /* ZKMORMixer3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORMixer3D.h; sourceTree = "<group>"; };
+		361ACA8B0A9E266B00E9C876 /* ZKMORMixer3D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORMixer3D.mm; sourceTree = "<group>"; };
+		361ACB4A0A9E2D6B00E9C876 /* ZKMORMixer3DTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORMixer3DTest.h; sourceTree = "<group>"; };
+		361ACB4B0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORMixer3DTest.m; sourceTree = "<group>"; };
+		361C34170AA73B6E008A5B73 /* ZKMORDeviceOutputTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORDeviceOutputTest.h; sourceTree = "<group>"; };
+		361C34180AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORDeviceOutputTest.m; sourceTree = "<group>"; };
+		361F40590AA35D740087726A /* ZKMORRenderSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORRenderSimulator.h; sourceTree = "<group>"; };
+		361F405A0AA35D740087726A /* ZKMORRenderSimulator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORRenderSimulator.mm; sourceTree = "<group>"; };
+		3621B2540B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFilePlayerParallelTest.h; sourceTree = "<group>"; };
+		3621B2550B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioFilePlayerParallelTest.mm; sourceTree = "<group>"; };
+		3621B2BC0B6FA0AB00729026 /* CAAudioTimeStamp.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioTimeStamp.cpp; sourceTree = "<group>"; };
+		3621B2BD0B6FA0AB00729026 /* CAAudioTimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioTimeStamp.h; sourceTree = "<group>"; };
+		3626EAAA0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFilePlayerTest.h; sourceTree = "<group>"; };
+		3626EAAB0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioFilePlayerTest.m; sourceTree = "<group>"; };
+		3626EBE40ABAB977007633F1 /* ZKMORAudioFileRecorderTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFileRecorderTest.h; sourceTree = "<group>"; };
+		3626EBE50ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioFileRecorderTest.m; sourceTree = "<group>"; };
+		362B41140AA4907900F7ED42 /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
+		362B42800AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAbstractProcessorTest.h; sourceTree = "<group>"; };
+		362B42810AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAbstractProcessorTest.m; sourceTree = "<group>"; };
+		362B42920AA49AE600F7ED42 /* ZKMORGraphTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORGraphTest.h; sourceTree = "<group>"; };
+		362B42930AA49AE600F7ED42 /* ZKMORGraphTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORGraphTest.m; sourceTree = "<group>"; };
+		363044610A9EEAAE009518F1 /* SycmoreDebugTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SycmoreDebugTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		363044730A9EEAF9009518F1 /* Sycamore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sycamore.h; sourceTree = "<group>"; };
+		363D39380AAD83E800556B94 /* CAAudioFileFormats.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioFileFormats.cpp; sourceTree = "<group>"; };
+		363D39390AAD83E800556B94 /* CAAudioFileFormats.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioFileFormats.h; sourceTree = "<group>"; };
+		363E16810AADAC5C00753BF3 /* ZKMORLogPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORLogPrinter.h; sourceTree = "<group>"; };
+		363E16820AADAC5C00753BF3 /* ZKMORLogPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLogPrinter.cpp; sourceTree = "<group>"; };
+		363E19A40AADD78700753BF3 /* ZKMORFileStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORFileStreamer.h; sourceTree = "<group>"; };
+		363E19A50AADD78700753BF3 /* ZKMORFileStreamer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORFileStreamer.cpp; sourceTree = "<group>"; };
+		363E19C50AADD8B100753BF3 /* CAAudioFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioFile.cpp; path = "AudioFile-new/CAAudioFile.cpp"; sourceTree = "<group>"; };
+		363E19C60AADD8B100753BF3 /* CAAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAAudioFile.h; path = "AudioFile-new/CAAudioFile.h"; sourceTree = "<group>"; };
+		363E1A3F0AADE3D900753BF3 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		363E1A400AADE3D900753BF3 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		364B509E0B55633800B509E7 /* ZKMORClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORClock.h; sourceTree = "<group>"; };
+		364B509F0B55633800B509E7 /* ZKMORClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORClock.m; sourceTree = "<group>"; };
+		364B50AF0B5563D100B509E7 /* ZKMOROutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMOROutput.h; sourceTree = "<group>"; };
+		364B50B00B5563D100B509E7 /* ZKMOROutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMOROutput.m; sourceTree = "<group>"; };
+		3652A3B90AAC7692003D3818 /* ZKMMPRingBuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 30; path = ZKMMPRingBuffer.h; sourceTree = "<group>"; };
+		3652A4210AAC826E003D3818 /* CAGuard.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAGuard.cpp; sourceTree = "<group>"; };
+		3652A4220AAC826E003D3818 /* CAGuard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAGuard.h; sourceTree = "<group>"; };
+		3652A4230AAC826E003D3818 /* CAPThread.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAPThread.cpp; sourceTree = "<group>"; };
+		3652A4240AAC826E003D3818 /* CAPThread.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAPThread.h; sourceTree = "<group>"; };
+		3652A4370AAC82E9003D3818 /* CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAHostTimeBase.cpp; sourceTree = "<group>"; };
+		3652A4380AAC82E9003D3818 /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		3652A4390AAC82E9003D3818 /* CAMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAMutex.cpp; sourceTree = "<group>"; };
+		3652A43A0AAC82E9003D3818 /* CAMutex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAMutex.h; sourceTree = "<group>"; };
+		3652A5370AAC96EA003D3818 /* CABufferList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CABufferList.cpp; sourceTree = "<group>"; };
+		3652A5380AAC96EA003D3818 /* CABufferList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CABufferList.h; sourceTree = "<group>"; };
+		3652A54D0AAC97E7003D3818 /* SycamoreFileExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SycamoreFileExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		365483970ABAD8EC00121C98 /* ZKMORQuickTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORQuickTime.h; sourceTree = "<group>"; };
+		365483980ABAD8EC00121C98 /* ZKMORQuickTime.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORQuickTime.mm; sourceTree = "<group>"; };
+		365483B70ABADB4900121C98 /* ZKMORQTReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORQTReader.h; sourceTree = "<group>"; };
+		365483B80ABADB4900121C98 /* ZKMORQTReader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORQTReader.mm; sourceTree = "<group>"; };
+		3654849B0ABAF2A100121C98 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		365484B50ABAF2CB00121C98 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		365485010ABAF2D000121C98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		366086BA0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORMixerMatrixTest.h; sourceTree = "<group>"; };
+		366086BB0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORMixerMatrixTest.m; sourceTree = "<group>"; };
+		366088330A9F367E006FDB9A /* ZKMORGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORGraph.h; sourceTree = "<group>"; };
+		366088340A9F367E006FDB9A /* ZKMORGraph.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORGraph.mm; sourceTree = "<group>"; };
+		3662E1DE0ABB0E15005FF495 /* ZKMORThreadBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORThreadBridge.h; sourceTree = "<group>"; };
+		3662E1DF0ABB0E15005FF495 /* ZKMORThreadBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORThreadBridge.cpp; sourceTree = "<group>"; };
+		366EB76B0AD1402C00350D69 /* ZKMORAudioFileOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFileOutput.h; sourceTree = "<group>"; };
+		366EB76C0AD1402C00350D69 /* ZKMORAudioFileOutput.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioFileOutput.mm; sourceTree = "<group>"; };
+		366EB9D00AD1737200350D69 /* ZKMORAudioFileOutputTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFileOutputTest.h; sourceTree = "<group>"; };
+		366EB9D10AD1737200350D69 /* ZKMORAudioFileOutputTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioFileOutputTest.m; sourceTree = "<group>"; };
+		366FA1DF0AB83FD600F33335 /* SycamoreOverview.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SycamoreOverview.txt; sourceTree = "<group>"; };
+		3678D9880AA606A7002BA3BB /* ZKMORDeviceOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORDeviceOutput.h; sourceTree = "<group>"; };
+		3678D9890AA606A7002BA3BB /* ZKMORDeviceOutput.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORDeviceOutput.mm; sourceTree = "<group>"; };
+		367A94580AADE5940014AE32 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		36841DCF0AD3B35900D04417 /* SycamoreListAUExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SycamoreListAUExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		36841DF20AD3B40600D04417 /* ZKMORListAUExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORListAUExample.m; sourceTree = "<group>"; };
+		3686FDE00C00D7E70017E7D9 /* ZKMORGuardRT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORGuardRT.h; sourceTree = "<group>"; };
+		3686FDE10C00D7E70017E7D9 /* ZKMORGuardRT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORGuardRT.cpp; sourceTree = "<group>"; };
+		3687E4180A9EF48900223615 /* ZKMORDebugTest.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORDebugTest.mm; sourceTree = "<group>"; };
+		3687E49A0A9EF61700223615 /* ZKMORMixerMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORMixerMatrix.h; sourceTree = "<group>"; };
+		3687E49B0A9EF61700223615 /* ZKMORMixerMatrix.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORMixerMatrix.mm; sourceTree = "<group>"; };
+		3694465E0A9C874C00770B32 /* ZKMORLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLogger.cpp; sourceTree = "<group>"; };
+		3694465F0A9C874C00770B32 /* ZKMORLogger.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORLogger.h; sourceTree = "<group>"; };
+		369446600A9C874C00770B32 /* ZKMORLoggerCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLoggerCPP.cpp; sourceTree = "<group>"; };
+		369446610A9C874C00770B32 /* ZKMORLoggerCPP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORLoggerCPP.h; sourceTree = "<group>"; };
+		3694467A0A9C882900770B32 /* ZKMORConduit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORConduit.h; sourceTree = "<group>"; };
+		3694467B0A9C882900770B32 /* ZKMORConduit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORConduit.mm; sourceTree = "<group>"; };
+		369447280A9C98F100770B32 /* ZKMORUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORUtilities.h; sourceTree = "<group>"; };
+		369447290A9C98F100770B32 /* ZKMORUtilities.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORUtilities.mm; sourceTree = "<group>"; };
+		369447730A9C9F0300770B32 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		369447750A9C9F1300770B32 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		369448320A9C9FA100770B32 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		369448330A9C9FA100770B32 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		369448390A9C9FAF00770B32 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		3694489E0A9CA3F200770B32 /* ZKMORException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORException.h; sourceTree = "<group>"; };
+		3694489F0A9CA3F200770B32 /* ZKMORException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORException.m; sourceTree = "<group>"; };
+		36944A4D0A9CBFF100770B32 /* SycamoreTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SycamoreTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36944A4E0A9CBFF100770B32 /* SycamoreTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SycamoreTest-Info.plist"; sourceTree = "<group>"; };
+		36944A610A9CC06E00770B32 /* ZKMORConduitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORConduitTest.h; sourceTree = "<group>"; };
+		36944A620A9CC06E00770B32 /* ZKMORConduitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORConduitTest.m; sourceTree = "<group>"; };
+		36A5DE360ABECD2A006B08DA /* ZKMORAudioUnitMirror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitMirror.h; sourceTree = "<group>"; };
+		36A5DE370ABECD2A006B08DA /* ZKMORAudioUnitMirror.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioUnitMirror.m; sourceTree = "<group>"; };
+		36A5DF360ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitMirrorTest.h; sourceTree = "<group>"; };
+		36A5DF370ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioUnitMirrorTest.m; sourceTree = "<group>"; };
+		36A5DF580ABEF617006B08DA /* ZKMORAudioUnitSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitSystem.h; sourceTree = "<group>"; };
+		36A5DF590ABEF617006B08DA /* ZKMORAudioUnitSystem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnitSystem.mm; sourceTree = "<group>"; };
+		36AF319F0AB86AB900E650F3 /* ZKMORAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFile.h; sourceTree = "<group>"; };
+		36AF31A00AB86AB900E650F3 /* ZKMORAudioFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioFile.mm; sourceTree = "<group>"; };
+		36BC0E850AB879F900BBEC19 /* ZKMORAudioFileTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFileTest.h; sourceTree = "<group>"; };
+		36BC0E860AB879F900BBEC19 /* ZKMORAudioFileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioFileTest.m; sourceTree = "<group>"; };
+		36C0D08C0AB5C3FE008EC728 /* ZKMORFileReaderTest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = ZKMORFileReaderTest.h; sourceTree = "<group>"; };
+		36C0D08D0AB5C3FE008EC728 /* ZKMORFileReaderTest.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ZKMORFileReaderTest.mm; sourceTree = "<group>"; };
+		36E5F3140AD684F400A0B6CE /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		36E5F3150AD684F400A0B6CE /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		36E8DE1C0ABB06E700EF0F9F /* ZKMORQTPlayerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORQTPlayerTest.h; sourceTree = "<group>"; };
+		36E8DE1D0ABB06E700EF0F9F /* ZKMORQTPlayerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORQTPlayerTest.m; sourceTree = "<group>"; };
+		36EC4FEB0A9D9970007DF698 /* ZKMORAudioHardwareSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioHardwareSystem.h; sourceTree = "<group>"; };
+		36EC4FEC0A9D9970007DF698 /* ZKMORAudioHardwareSystem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioHardwareSystem.mm; sourceTree = "<group>"; };
+		36EC50320A9D9F16007DF698 /* ZKMORUtilitiesTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORUtilitiesTest.h; sourceTree = "<group>"; };
+		36EC50330A9D9F16007DF698 /* ZKMORUtilitiesTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORUtilitiesTest.mm; sourceTree = "<group>"; };
+		36EC508D0A9DA123007DF698 /* SycamoreTestTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SycamoreTestTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		36EC509E0A9DA15E007DF698 /* ZKMORTestToolDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORTestToolDriver.m; sourceTree = "<group>"; };
+		36EC51130A9DA561007DF698 /* ZKMORCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORCore.h; sourceTree = "<group>"; };
+		36EC51140A9DA561007DF698 /* ZKMORCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORCore.m; sourceTree = "<group>"; };
+		36EC53F50A9DAE31007DF698 /* CAAudioHardwareDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareDevice.cpp; sourceTree = "<group>"; };
+		36EC53F60A9DAE31007DF698 /* CAAudioHardwareDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareDevice.h; sourceTree = "<group>"; };
+		36EC53F70A9DAE31007DF698 /* CAAudioHardwareStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareStream.cpp; sourceTree = "<group>"; };
+		36EC53F80A9DAE31007DF698 /* CAAudioHardwareStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareStream.h; sourceTree = "<group>"; };
+		36EC53F90A9DAE31007DF698 /* CAAudioHardwareSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareSystem.cpp; sourceTree = "<group>"; };
+		36EC53FA0A9DAE31007DF698 /* CAAudioHardwareSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareSystem.h; sourceTree = "<group>"; };
+		36EC55210A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioHardwareSystemTest.h; sourceTree = "<group>"; };
+		36EC55220A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioHardwareSystemTest.m; sourceTree = "<group>"; };
+		36EC55420A9DBB27007DF698 /* ZKMORNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORNoise.h; sourceTree = "<group>"; };
+		36EC55430A9DBB27007DF698 /* ZKMORNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORNoise.m; sourceTree = "<group>"; };
+		36EC55680A9DD95D007DF698 /* ZKMORNoiseTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORNoiseTest.h; sourceTree = "<group>"; };
+		36EC55690A9DD95D007DF698 /* ZKMORNoiseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORNoiseTest.m; sourceTree = "<group>"; };
+		36EE51D30BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitParameterScheduler.h; sourceTree = "<group>"; };
+		36EE51D40BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnitParameterScheduler.mm; sourceTree = "<group>"; };
+		36EE51F90BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitParameterSchedulerTest.h; sourceTree = "<group>"; };
+		36EE51FA0BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioUnitParameterSchedulerTest.m; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* Sycamore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sycamore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3630445F0A9EEAAE009518F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363044650A9EEAC1009518F1 /* AudioToolbox.framework in Frameworks */,
+				363044660A9EEAC1009518F1 /* AudioUnit.framework in Frameworks */,
+				363044670A9EEAC1009518F1 /* CoreAudio.framework in Frameworks */,
+				363044680A9EEAC2009518F1 /* Cocoa.framework in Frameworks */,
+				363044690A9EEAC2009518F1 /* CoreServices.framework in Frameworks */,
+				363044950A9EEBA9009518F1 /* Sycamore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3652A54B0AAC97E7003D3818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3652A5530AAC9801003D3818 /* AudioUnit.framework in Frameworks */,
+				3652A5540AAC9801003D3818 /* CoreAudio.framework in Frameworks */,
+				3652A5550AAC9802003D3818 /* Cocoa.framework in Frameworks */,
+				3652A5560AAC9802003D3818 /* CoreServices.framework in Frameworks */,
+				3652A5570AAC9803003D3818 /* Sycamore.framework in Frameworks */,
+				3652A5580AAC9804003D3818 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36841DCD0AD3B35900D04417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36841DE80AD3B3D300D04417 /* CoreServices.framework in Frameworks */,
+				36841DE90AD3B3D300D04417 /* Cocoa.framework in Frameworks */,
+				36841DEA0AD3B3D300D04417 /* CoreAudio.framework in Frameworks */,
+				36841DEB0AD3B3D400D04417 /* AudioUnit.framework in Frameworks */,
+				36841DEC0AD3B3D400D04417 /* AudioToolbox.framework in Frameworks */,
+				36841DEE0AD3B3DC00D04417 /* Sycamore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36944A4A0A9CBFF100770B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36944A540A9CC00300770B32 /* CoreAudio.framework in Frameworks */,
+				36944A550A9CC00300770B32 /* AudioUnit.framework in Frameworks */,
+				36944A560A9CC00400770B32 /* CoreServices.framework in Frameworks */,
+				36944A570A9CC00400770B32 /* Cocoa.framework in Frameworks */,
+				361AC9FB0A9E24A900E9C876 /* AudioToolbox.framework in Frameworks */,
+				366086C20A9F2B60006FDB9A /* Sycamore.framework in Frameworks */,
+				363F43940AE797CF009FBD61 /* QuickTime.framework in Frameworks */,
+				363F43950AE797CF009FBD61 /* QTKit.framework in Frameworks */,
+				363F43960AE797D0009FBD61 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EC508B0A9DA123007DF698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EC50BA0A9DA202007DF698 /* CoreServices.framework in Frameworks */,
+				36EC50BB0A9DA203007DF698 /* Cocoa.framework in Frameworks */,
+				36EC50BC0A9DA203007DF698 /* AudioUnit.framework in Frameworks */,
+				36EC50C40A9DA203007DF698 /* CoreAudio.framework in Frameworks */,
+				361AC9FC0A9E24A900E9C876 /* AudioToolbox.framework in Frameworks */,
+				365484A90ABAF2A100121C98 /* QTKit.framework in Frameworks */,
+				365484D80ABAF2CB00121C98 /* QuickTime.framework in Frameworks */,
+				365485020ABAF2D000121C98 /* QuartzCore.framework in Frameworks */,
+				361237F80B8CB84000E551AC /* Sycamore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				369448340A9C9FA100770B32 /* AudioUnit.framework in Frameworks */,
+				369448350A9C9FA100770B32 /* CoreAudio.framework in Frameworks */,
+				3694483A0A9C9FAF00770B32 /* CoreServices.framework in Frameworks */,
+				361AC9FD0A9E24A900E9C876 /* AudioToolbox.framework in Frameworks */,
+				365484AA0ABAF2A100121C98 /* QTKit.framework in Frameworks */,
+				365484D90ABAF2CB00121C98 /* QuickTime.framework in Frameworks */,
+				365485030ABAF2D000121C98 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* Sycamore.framework */,
+				36944A4D0A9CBFF100770B32 /* SycamoreTest.octest */,
+				36EC508D0A9DA123007DF698 /* SycamoreTestTool */,
+				363044610A9EEAAE009518F1 /* SycmoreDebugTest */,
+				3652A54D0AAC97E7003D3818 /* SycamoreFileExample */,
+				36841DCF0AD3B35900D04417 /* SycamoreListAUExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Sycamore */ = {
+			isa = PBXGroup;
+			children = (
+				3687E4440A9EF52C00223615 /* Sycamore */,
+				3687E4470A9EF55A00223615 /* Tests and Examples */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				36944A4E0A9CBFF100770B32 /* SycamoreTest-Info.plist */,
+			);
+			name = Sycamore;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				369448390A9C9FAF00770B32 /* CoreServices.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+				369448330A9C9FA100770B32 /* CoreAudio.framework */,
+				369448320A9C9FA100770B32 /* AudioUnit.framework */,
+				361AC9FA0A9E24A900E9C876 /* AudioToolbox.framework */,
+				365484B50ABAF2CB00121C98 /* QuickTime.framework */,
+				3654849B0ABAF2A100121C98 /* QTKit.framework */,
+				365485010ABAF2D000121C98 /* QuartzCore.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				369447700A9C9EC500770B32 /* PublicUtility */,
+				32DBCF5E0370ADEE00C91783 /* Sycamore_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3619079C0AA885C100D65985 /* Zone */ = {
+			isa = PBXGroup;
+			children = (
+				3652A3B90AAC7692003D3818 /* ZKMMPRingBuffer.h */,
+				363E19A40AADD78700753BF3 /* ZKMORFileStreamer.h */,
+				363E19A50AADD78700753BF3 /* ZKMORFileStreamer.cpp */,
+				363E16810AADAC5C00753BF3 /* ZKMORLogPrinter.h */,
+				363E16820AADAC5C00753BF3 /* ZKMORLogPrinter.cpp */,
+				365483B70ABADB4900121C98 /* ZKMORQTReader.h */,
+				365483B80ABADB4900121C98 /* ZKMORQTReader.mm */,
+				3662E1DE0ABB0E15005FF495 /* ZKMORThreadBridge.h */,
+				3662E1DF0ABB0E15005FF495 /* ZKMORThreadBridge.cpp */,
+				3619079E0AA885F700D65985 /* ZKMORZone.h */,
+				3619079F0AA885F700D65985 /* ZKMORZone.cpp */,
+			);
+			path = Zone;
+			sourceTree = "<group>";
+		};
+		361AC8D00A9E148300E9C876 /* AudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				361AC94E0A9E1EE500E9C876 /* CAAudioUnitZKM.h */,
+				361AC94F0A9E1EE500E9C876 /* CAAudioUnitZKM.cpp */,
+				361AC8D10A9E14A400E9C876 /* ZKMORAudioUnit.h */,
+				361AC8D20A9E14A400E9C876 /* ZKMORAudioUnit.mm */,
+				36A5DE360ABECD2A006B08DA /* ZKMORAudioUnitMirror.h */,
+				36A5DE370ABECD2A006B08DA /* ZKMORAudioUnitMirror.m */,
+				36EE51D30BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h */,
+				36EE51D40BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm */,
+				36A5DF580ABEF617006B08DA /* ZKMORAudioUnitSystem.h */,
+				36A5DF590ABEF617006B08DA /* ZKMORAudioUnitSystem.mm */,
+				3678D9880AA606A7002BA3BB /* ZKMORDeviceOutput.h */,
+				3678D9890AA606A7002BA3BB /* ZKMORDeviceOutput.mm */,
+				361ACA8A0A9E266B00E9C876 /* ZKMORMixer3D.h */,
+				361ACA8B0A9E266B00E9C876 /* ZKMORMixer3D.mm */,
+				3687E49A0A9EF61700223615 /* ZKMORMixerMatrix.h */,
+				3687E49B0A9EF61700223615 /* ZKMORMixerMatrix.mm */,
+			);
+			path = AudioUnit;
+			sourceTree = "<group>";
+		};
+		361F40510AA35D390087726A /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				361F40590AA35D740087726A /* ZKMORRenderSimulator.h */,
+				361F405A0AA35D740087726A /* ZKMORRenderSimulator.mm */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		366FA1DE0AB83FBD00F33335 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				366FA1DF0AB83FD600F33335 /* SycamoreOverview.txt */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		3687E4170A9EF48900223615 /* SycamoreExamplesSource */ = {
+			isa = PBXGroup;
+			children = (
+				3687E4180A9EF48900223615 /* ZKMORDebugTest.mm */,
+				206223070ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m */,
+				36841DF20AD3B40600D04417 /* ZKMORListAUExample.m */,
+			);
+			path = SycamoreExamplesSource;
+			sourceTree = "<group>";
+		};
+		3687E4440A9EF52C00223615 /* Sycamore */ = {
+			isa = PBXGroup;
+			children = (
+				366FA1DE0AB83FBD00F33335 /* Documentation */,
+				369446750A9C87D000770B32 /* SycamoreSource */,
+				3694465D0A9C874C00770B32 /* SycamoreLogSource */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+			);
+			name = Sycamore;
+			sourceTree = "<group>";
+		};
+		3687E4470A9EF55A00223615 /* Tests and Examples */ = {
+			isa = PBXGroup;
+			children = (
+				36944A600A9CC04300770B32 /* SycamoreTestSource */,
+				3687E4170A9EF48900223615 /* SycamoreExamplesSource */,
+			);
+			name = "Tests and Examples";
+			sourceTree = "<group>";
+		};
+		3694465D0A9C874C00770B32 /* SycamoreLogSource */ = {
+			isa = PBXGroup;
+			children = (
+				361907AA0AA888DC00D65985 /* ZKMMPQueue.h */,
+				3694465F0A9C874C00770B32 /* ZKMORLogger.h */,
+				3694465E0A9C874C00770B32 /* ZKMORLogger.cpp */,
+				369446610A9C874C00770B32 /* ZKMORLoggerCPP.h */,
+				369446600A9C874C00770B32 /* ZKMORLoggerCPP.cpp */,
+			);
+			name = SycamoreLogSource;
+			path = ../SycamoreLog/SycamoreLogSource;
+			sourceTree = "<group>";
+		};
+		369446750A9C87D000770B32 /* SycamoreSource */ = {
+			isa = PBXGroup;
+			children = (
+				363044730A9EEAF9009518F1 /* Sycamore.h */,
+				361AC8D00A9E148300E9C876 /* AudioUnit */,
+				369446760A9C87D000770B32 /* Core */,
+				361F40510AA35D390087726A /* Debugging */,
+				36AF319E0AB86A8B00E650F3 /* FileIO */,
+				36EC55410A9DBB0E007DF698 /* Generators */,
+				36EC4FEA0A9D9948007DF698 /* HAL */,
+				3619079C0AA885C100D65985 /* Zone */,
+			);
+			path = SycamoreSource;
+			sourceTree = "<group>";
+		};
+		369446760A9C87D000770B32 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				364B509E0B55633800B509E7 /* ZKMORClock.h */,
+				364B509F0B55633800B509E7 /* ZKMORClock.m */,
+				3694467A0A9C882900770B32 /* ZKMORConduit.h */,
+				3694467B0A9C882900770B32 /* ZKMORConduit.mm */,
+				36EC51130A9DA561007DF698 /* ZKMORCore.h */,
+				36EC51140A9DA561007DF698 /* ZKMORCore.m */,
+				3694489E0A9CA3F200770B32 /* ZKMORException.h */,
+				3694489F0A9CA3F200770B32 /* ZKMORException.m */,
+				366088330A9F367E006FDB9A /* ZKMORGraph.h */,
+				366088340A9F367E006FDB9A /* ZKMORGraph.mm */,
+				364B50AF0B5563D100B509E7 /* ZKMOROutput.h */,
+				364B50B00B5563D100B509E7 /* ZKMOROutput.m */,
+				369447280A9C98F100770B32 /* ZKMORUtilities.h */,
+				369447290A9C98F100770B32 /* ZKMORUtilities.mm */,
+				3686FDE00C00D7E70017E7D9 /* ZKMORGuardRT.h */,
+				3686FDE10C00D7E70017E7D9 /* ZKMORGuardRT.cpp */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		369447700A9C9EC500770B32 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				0DC8F8BF1185ECBC00ECE5FE /* CAHALTelemetry.h */,
+				361ACA400A9E254000E9C876 /* AUOutputBL.h */,
+				361ACA3F0A9E254000E9C876 /* AUOutputBL.cpp */,
+				362B41140AA4907900F7ED42 /* CAAtomicStack.h */,
+				361ACA740A9E261800E9C876 /* CAAudioChannelLayout.h */,
+				361ACA730A9E261800E9C876 /* CAAudioChannelLayout.cpp */,
+				361ACA750A9E261900E9C876 /* CAAudioChannelLayoutObject.cpp */,
+				363E19C60AADD8B100753BF3 /* CAAudioFile.h */,
+				363E19C50AADD8B100753BF3 /* CAAudioFile.cpp */,
+				363D39390AAD83E800556B94 /* CAAudioFileFormats.h */,
+				363D39380AAD83E800556B94 /* CAAudioFileFormats.cpp */,
+				36EC53F60A9DAE31007DF698 /* CAAudioHardwareDevice.h */,
+				36EC53F50A9DAE31007DF698 /* CAAudioHardwareDevice.cpp */,
+				36EC53F80A9DAE31007DF698 /* CAAudioHardwareStream.h */,
+				36EC53F70A9DAE31007DF698 /* CAAudioHardwareStream.cpp */,
+				36EC53FA0A9DAE31007DF698 /* CAAudioHardwareSystem.h */,
+				36EC53F90A9DAE31007DF698 /* CAAudioHardwareSystem.cpp */,
+				3621B2BD0B6FA0AB00729026 /* CAAudioTimeStamp.h */,
+				3621B2BC0B6FA0AB00729026 /* CAAudioTimeStamp.cpp */,
+				361AC9ED0A9E248300E9C876 /* CAAudioUnit.h */,
+				361AC9EC0A9E248300E9C876 /* CAAudioUnit.cpp */,
+				3652A5380AAC96EA003D3818 /* CABufferList.h */,
+				3652A5370AAC96EA003D3818 /* CABufferList.cpp */,
+				361ACA1D0A9E24CB00E9C876 /* CAComponent.cpp */,
+				361ACA1F0A9E24CB00E9C876 /* CAComponentDescription.h */,
+				361ACA1E0A9E24CB00E9C876 /* CAComponentDescription.cpp */,
+				36E5F3150AD684F400A0B6CE /* CADebugMacros.h */,
+				36E5F3140AD684F400A0B6CE /* CADebugMacros.cpp */,
+				3652A4220AAC826E003D3818 /* CAGuard.h */,
+				3652A4210AAC826E003D3818 /* CAGuard.cpp */,
+				3652A4380AAC82E9003D3818 /* CAHostTimeBase.h */,
+				3652A4370AAC82E9003D3818 /* CAHostTimeBase.cpp */,
+				367A94580AADE5940014AE32 /* CAMath.h */,
+				3652A43A0AAC82E9003D3818 /* CAMutex.h */,
+				3652A4390AAC82E9003D3818 /* CAMutex.cpp */,
+				3652A4240AAC826E003D3818 /* CAPThread.h */,
+				3652A4230AAC826E003D3818 /* CAPThread.cpp */,
+				369447730A9C9F0300770B32 /* CAStreamBasicDescription.h */,
+				369447750A9C9F1300770B32 /* CAStreamBasicDescription.cpp */,
+				363E1A400AADE3D900753BF3 /* CAXException.h */,
+				363E1A3F0AADE3D900753BF3 /* CAXException.cpp */,
+			);
+			name = PublicUtility;
+			path = ../Tiger/PublicUtility;
+			sourceTree = "<group>";
+		};
+		36944A600A9CC04300770B32 /* SycamoreTestSource */ = {
+			isa = PBXGroup;
+			children = (
+				362B42800AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.h */,
+				362B42810AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m */,
+				36BC0E850AB879F900BBEC19 /* ZKMORAudioFileTest.h */,
+				36BC0E860AB879F900BBEC19 /* ZKMORAudioFileTest.m */,
+				366EB9D00AD1737200350D69 /* ZKMORAudioFileOutputTest.h */,
+				366EB9D10AD1737200350D69 /* ZKMORAudioFileOutputTest.m */,
+				3626EAAA0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.h */,
+				3626EAAB0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m */,
+				3621B2540B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.h */,
+				3621B2550B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm */,
+				3626EBE40ABAB977007633F1 /* ZKMORAudioFileRecorderTest.h */,
+				3626EBE50ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m */,
+				36EC55210A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.h */,
+				36EC55220A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m */,
+				36A5DF360ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.h */,
+				36A5DF370ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m */,
+				36EE51F90BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.h */,
+				36EE51FA0BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m */,
+				36944A610A9CC06E00770B32 /* ZKMORConduitTest.h */,
+				36944A620A9CC06E00770B32 /* ZKMORConduitTest.m */,
+				361C34170AA73B6E008A5B73 /* ZKMORDeviceOutputTest.h */,
+				361C34180AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m */,
+				36C0D08C0AB5C3FE008EC728 /* ZKMORFileReaderTest.h */,
+				36C0D08D0AB5C3FE008EC728 /* ZKMORFileReaderTest.mm */,
+				362B42920AA49AE600F7ED42 /* ZKMORGraphTest.h */,
+				362B42930AA49AE600F7ED42 /* ZKMORGraphTest.m */,
+				361ACB4A0A9E2D6B00E9C876 /* ZKMORMixer3DTest.h */,
+				361ACB4B0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m */,
+				366086BA0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.h */,
+				366086BB0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m */,
+				36EC55680A9DD95D007DF698 /* ZKMORNoiseTest.h */,
+				36EC55690A9DD95D007DF698 /* ZKMORNoiseTest.m */,
+				36E8DE1C0ABB06E700EF0F9F /* ZKMORQTPlayerTest.h */,
+				36E8DE1D0ABB06E700EF0F9F /* ZKMORQTPlayerTest.m */,
+				36EC50320A9D9F16007DF698 /* ZKMORUtilitiesTest.h */,
+				36EC50330A9D9F16007DF698 /* ZKMORUtilitiesTest.mm */,
+				36EC509E0A9DA15E007DF698 /* ZKMORTestToolDriver.m */,
+			);
+			path = SycamoreTestSource;
+			sourceTree = "<group>";
+		};
+		36AF319E0AB86A8B00E650F3 /* FileIO */ = {
+			isa = PBXGroup;
+			children = (
+				36AF319F0AB86AB900E650F3 /* ZKMORAudioFile.h */,
+				36AF31A00AB86AB900E650F3 /* ZKMORAudioFile.mm */,
+				365483970ABAD8EC00121C98 /* ZKMORQuickTime.h */,
+				365483980ABAD8EC00121C98 /* ZKMORQuickTime.mm */,
+				366EB76B0AD1402C00350D69 /* ZKMORAudioFileOutput.h */,
+				366EB76C0AD1402C00350D69 /* ZKMORAudioFileOutput.mm */,
+			);
+			path = FileIO;
+			sourceTree = "<group>";
+		};
+		36EC4FEA0A9D9948007DF698 /* HAL */ = {
+			isa = PBXGroup;
+			children = (
+				36EC4FEB0A9D9970007DF698 /* ZKMORAudioHardwareSystem.h */,
+				36EC4FEC0A9D9970007DF698 /* ZKMORAudioHardwareSystem.mm */,
+			);
+			path = HAL;
+			sourceTree = "<group>";
+		};
+		36EC55410A9DBB0E007DF698 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				36EC55420A9DBB27007DF698 /* ZKMORNoise.h */,
+				36EC55430A9DBB27007DF698 /* ZKMORNoise.m */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369446660A9C874C00770B32 /* ZKMORLoggerCPP.h in Headers */,
+				3694467C0A9C882900770B32 /* ZKMORConduit.h in Headers */,
+				3694472A0A9C98F100770B32 /* ZKMORUtilities.h in Headers */,
+				369447740A9C9F0300770B32 /* CAStreamBasicDescription.h in Headers */,
+				369448A00A9CA3F200770B32 /* ZKMORException.h in Headers */,
+				36EC4FED0A9D9970007DF698 /* ZKMORAudioHardwareSystem.h in Headers */,
+				36EC51170A9DA561007DF698 /* ZKMORCore.h in Headers */,
+				36EC54020A9DAE31007DF698 /* CAAudioHardwareDevice.h in Headers */,
+				36EC54040A9DAE31007DF698 /* CAAudioHardwareStream.h in Headers */,
+				36EC54060A9DAE31007DF698 /* CAAudioHardwareSystem.h in Headers */,
+				36EC55440A9DBB27007DF698 /* ZKMORNoise.h in Headers */,
+				361AC8D50A9E14A400E9C876 /* ZKMORAudioUnit.h in Headers */,
+				361AC9520A9E1EE500E9C876 /* CAAudioUnitZKM.h in Headers */,
+				361AC9F10A9E248300E9C876 /* CAAudioUnit.h in Headers */,
+				361ACA260A9E24CB00E9C876 /* CAComponentDescription.h in Headers */,
+				361ACA440A9E254000E9C876 /* AUOutputBL.h in Headers */,
+				361ACA7B0A9E261900E9C876 /* CAAudioChannelLayout.h in Headers */,
+				361ACA8E0A9E266B00E9C876 /* ZKMORMixer3D.h in Headers */,
+				363044750A9EEAF9009518F1 /* Sycamore.h in Headers */,
+				3687E49C0A9EF61700223615 /* ZKMORMixerMatrix.h in Headers */,
+				361F3E740AA338F70087726A /* ZKMORGraph.h in Headers */,
+				361F405C0AA35D740087726A /* ZKMORRenderSimulator.h in Headers */,
+				362B41150AA4907900F7ED42 /* CAAtomicStack.h in Headers */,
+				3678D98B0AA606A7002BA3BB /* ZKMORDeviceOutput.h in Headers */,
+				361907A10AA885F700D65985 /* ZKMORZone.h in Headers */,
+				361907AB0AA888DD00D65985 /* ZKMMPQueue.h in Headers */,
+				3652A3BA0AAC7692003D3818 /* ZKMMPRingBuffer.h in Headers */,
+				3652A4280AAC826E003D3818 /* CAGuard.h in Headers */,
+				3652A42A0AAC826E003D3818 /* CAPThread.h in Headers */,
+				3652A43E0AAC82E9003D3818 /* CAHostTimeBase.h in Headers */,
+				3652A4400AAC82E9003D3818 /* CAMutex.h in Headers */,
+				3652A53B0AAC96EA003D3818 /* CABufferList.h in Headers */,
+				363D393B0AAD83E800556B94 /* CAAudioFileFormats.h in Headers */,
+				363E16840AADAC5C00753BF3 /* ZKMORLogPrinter.h in Headers */,
+				363E19A70AADD78700753BF3 /* ZKMORFileStreamer.h in Headers */,
+				363E19C90AADD8B100753BF3 /* CAAudioFile.h in Headers */,
+				363E1A430AADE3D900753BF3 /* CAXException.h in Headers */,
+				367A94590AADE5940014AE32 /* CAMath.h in Headers */,
+				36AB0F090AAF3B8E00881DF8 /* ZKMORLogger.h in Headers */,
+				36AF31A10AB86AB900E650F3 /* ZKMORAudioFile.h in Headers */,
+				3654839A0ABAD8EC00121C98 /* ZKMORQuickTime.h in Headers */,
+				365483BA0ABADB4900121C98 /* ZKMORQTReader.h in Headers */,
+				3662E1E00ABB0E15005FF495 /* ZKMORThreadBridge.h in Headers */,
+				36A5DE380ABECD2A006B08DA /* ZKMORAudioUnitMirror.h in Headers */,
+				36A5DF5A0ABEF617006B08DA /* ZKMORAudioUnitSystem.h in Headers */,
+				366EB76E0AD1402C00350D69 /* ZKMORAudioFileOutput.h in Headers */,
+				36E5F3170AD684F400A0B6CE /* CADebugMacros.h in Headers */,
+				364B50A10B55633800B509E7 /* ZKMORClock.h in Headers */,
+				364B50B20B5563D100B509E7 /* ZKMOROutput.h in Headers */,
+				3621B2BF0B6FA0AB00729026 /* CAAudioTimeStamp.h in Headers */,
+				36EE51D50BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h in Headers */,
+				3686FDE20C00D7E70017E7D9 /* ZKMORGuardRT.h in Headers */,
+				0DC8F8C01185ECBC00ECE5FE /* CAHALTelemetry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		363044600A9EEAAE009518F1 /* SycmoreDebugTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3630446E0A9EEAE0009518F1 /* Build configuration list for PBXNativeTarget "SycmoreDebugTest" */;
+			buildPhases = (
+				3630445E0A9EEAAE009518F1 /* Sources */,
+				3630445F0A9EEAAE009518F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363E18A20AADCA2200753BF3 /* PBXTargetDependency */,
+			);
+			name = SycmoreDebugTest;
+			productName = SycmoreDebugTest;
+			productReference = 363044610A9EEAAE009518F1 /* SycmoreDebugTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		3652A54C0AAC97E7003D3818 /* SycamoreFileExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3652A55B0AAC9821003D3818 /* Build configuration list for PBXNativeTarget "SycamoreFileExample" */;
+			buildPhases = (
+				3652A54A0AAC97E7003D3818 /* Sources */,
+				3652A54B0AAC97E7003D3818 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363E17C80AADB7A500753BF3 /* PBXTargetDependency */,
+			);
+			name = SycamoreFileExample;
+			productName = SycamoreFileTest;
+			productReference = 3652A54D0AAC97E7003D3818 /* SycamoreFileExample */;
+			productType = "com.apple.product-type.tool";
+		};
+		36841DCE0AD3B35900D04417 /* SycamoreListAUExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36841DD40AD3B36900D04417 /* Build configuration list for PBXNativeTarget "SycamoreListAUExample" */;
+			buildPhases = (
+				36841DCC0AD3B35900D04417 /* Sources */,
+				36841DCD0AD3B35900D04417 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36841DF00AD3B3E700D04417 /* PBXTargetDependency */,
+			);
+			name = SycamoreListAUExample;
+			productName = SycamoreListAUExample;
+			productReference = 36841DCF0AD3B35900D04417 /* SycamoreListAUExample */;
+			productType = "com.apple.product-type.tool";
+		};
+		36944A4C0A9CBFF100770B32 /* SycamoreTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36944A4F0A9CBFF200770B32 /* Build configuration list for PBXNativeTarget "SycamoreTest" */;
+			buildPhases = (
+				36944A480A9CBFF100770B32 /* Resources */,
+				36944A490A9CBFF100770B32 /* Sources */,
+				36944A4A0A9CBFF100770B32 /* Frameworks */,
+				36944A4B0A9CBFF100770B32 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				363E18A40AADCA2A00753BF3 /* PBXTargetDependency */,
+			);
+			name = SycamoreTest;
+			productName = SycamoreTest;
+			productReference = 36944A4D0A9CBFF100770B32 /* SycamoreTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		36EC508C0A9DA123007DF698 /* SycamoreTestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36EC509B0A9DA157007DF698 /* Build configuration list for PBXNativeTarget "SycamoreTestTool" */;
+			buildPhases = (
+				36EC508A0A9DA123007DF698 /* Sources */,
+				36EC508B0A9DA123007DF698 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3620AE530C0D9ECE006C5684 /* PBXTargetDependency */,
+			);
+			name = SycamoreTestTool;
+			productName = SycamoreTestTool;
+			productReference = 36EC508D0A9DA123007DF698 /* SycamoreTestTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DC2EF4F0486A6940098B216 /* Sycamore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Sycamore" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sycamore;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = Sycamore;
+			productReference = 8DC2EF5B0486A6940098B216 /* Sycamore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Sycamore" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* Sycamore */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* Sycamore */,
+				36944A4C0A9CBFF100770B32 /* SycamoreTest */,
+				36EC508C0A9DA123007DF698 /* SycamoreTestTool */,
+				363044600A9EEAAE009518F1 /* SycmoreDebugTest */,
+				3652A54C0AAC97E7003D3818 /* SycamoreFileExample */,
+				36841DCE0AD3B35900D04417 /* SycamoreListAUExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36944A480A9CBFF100770B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				366FA1E00AB83FD600F33335 /* SycamoreOverview.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36944A4B0A9CBFF100770B32 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3630445E0A9EEAAE009518F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3687E4190A9EF48900223615 /* ZKMORDebugTest.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3652A54A0AAC97E7003D3818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206223080ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36841DCC0AD3B35900D04417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36841DF30AD3B40600D04417 /* ZKMORListAUExample.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36944A490A9CBFF100770B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36944A630A9CC06E00770B32 /* ZKMORConduitTest.m in Sources */,
+				36EC50360A9D9F16007DF698 /* ZKMORUtilitiesTest.mm in Sources */,
+				36EC55240A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m in Sources */,
+				36EC556A0A9DD95D007DF698 /* ZKMORNoiseTest.m in Sources */,
+				361ACB4C0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m in Sources */,
+				366086BC0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m in Sources */,
+				362B42830AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m in Sources */,
+				362B42950AA49AE600F7ED42 /* ZKMORGraphTest.m in Sources */,
+				361C341A0AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m in Sources */,
+				3633D6BE0AB5C5DB0029B2AB /* ZKMORFileReaderTest.mm in Sources */,
+				36BC0E880AB879F900BBEC19 /* ZKMORAudioFileTest.m in Sources */,
+				3626EAAD0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m in Sources */,
+				3626EBE70ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m in Sources */,
+				36E8DE790ABB08E200EF0F9F /* ZKMORQTPlayerTest.m in Sources */,
+				36A5DF390ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m in Sources */,
+				366EB9D30AD1737200350D69 /* ZKMORAudioFileOutputTest.m in Sources */,
+				3621B2570B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm in Sources */,
+				36EE52240BFC92A500F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36EC508A0A9DA123007DF698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EC50950A9DA12C007DF698 /* ZKMORConduitTest.m in Sources */,
+				36EC50960A9DA12D007DF698 /* ZKMORUtilitiesTest.mm in Sources */,
+				36EC509F0A9DA15E007DF698 /* ZKMORTestToolDriver.m in Sources */,
+				36EC55230A9DBA5F007DF698 /* ZKMORAudioHardwareSystemTest.m in Sources */,
+				36EC556B0A9DD95D007DF698 /* ZKMORNoiseTest.m in Sources */,
+				361ACB4D0A9E2D6B00E9C876 /* ZKMORMixer3DTest.m in Sources */,
+				366086BD0A9F2B30006FDB9A /* ZKMORMixerMatrixTest.m in Sources */,
+				362B42820AA49A1F00F7ED42 /* ZKMORAbstractProcessorTest.m in Sources */,
+				362B42940AA49AE600F7ED42 /* ZKMORGraphTest.m in Sources */,
+				361C34190AA73B6E008A5B73 /* ZKMORDeviceOutputTest.m in Sources */,
+				36C0D08E0AB5C3FE008EC728 /* ZKMORFileReaderTest.mm in Sources */,
+				36BC0E870AB879F900BBEC19 /* ZKMORAudioFileTest.m in Sources */,
+				3626EAAC0ABAA15C007633F1 /* ZKMORAudioFilePlayerTest.m in Sources */,
+				3626EBE60ABAB977007633F1 /* ZKMORAudioFileRecorderTest.m in Sources */,
+				36E8DE200ABB06E700EF0F9F /* ZKMORQTPlayerTest.m in Sources */,
+				36A5DF380ABEF515006B08DA /* ZKMORAudioUnitMirrorTest.m in Sources */,
+				366EB9D20AD1737200350D69 /* ZKMORAudioFileOutputTest.m in Sources */,
+				3621B2560B6F9BD600729026 /* ZKMORAudioFilePlayerParallelTest.mm in Sources */,
+				360B98500C01D161005D532D /* ZKMORAudioUnitParameterSchedulerTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369446630A9C874C00770B32 /* ZKMORLogger.cpp in Sources */,
+				369446650A9C874C00770B32 /* ZKMORLoggerCPP.cpp in Sources */,
+				3694467D0A9C882900770B32 /* ZKMORConduit.mm in Sources */,
+				3694472B0A9C98F100770B32 /* ZKMORUtilities.mm in Sources */,
+				369447760A9C9F1300770B32 /* CAStreamBasicDescription.cpp in Sources */,
+				369448A10A9CA3F200770B32 /* ZKMORException.m in Sources */,
+				36EC4FEE0A9D9970007DF698 /* ZKMORAudioHardwareSystem.mm in Sources */,
+				36EC51180A9DA561007DF698 /* ZKMORCore.m in Sources */,
+				36EC54010A9DAE31007DF698 /* CAAudioHardwareDevice.cpp in Sources */,
+				36EC54030A9DAE31007DF698 /* CAAudioHardwareStream.cpp in Sources */,
+				36EC54050A9DAE31007DF698 /* CAAudioHardwareSystem.cpp in Sources */,
+				36EC55450A9DBB27007DF698 /* ZKMORNoise.m in Sources */,
+				361AC8D60A9E14A400E9C876 /* ZKMORAudioUnit.mm in Sources */,
+				361AC9530A9E1EE500E9C876 /* CAAudioUnitZKM.cpp in Sources */,
+				361AC9F00A9E248300E9C876 /* CAAudioUnit.cpp in Sources */,
+				361ACA240A9E24CB00E9C876 /* CAComponent.cpp in Sources */,
+				361ACA250A9E24CB00E9C876 /* CAComponentDescription.cpp in Sources */,
+				361ACA430A9E254000E9C876 /* AUOutputBL.cpp in Sources */,
+				361ACA7A0A9E261900E9C876 /* CAAudioChannelLayout.cpp in Sources */,
+				361ACA7C0A9E261900E9C876 /* CAAudioChannelLayoutObject.cpp in Sources */,
+				361ACA8F0A9E266B00E9C876 /* ZKMORMixer3D.mm in Sources */,
+				3687E49D0A9EF61700223615 /* ZKMORMixerMatrix.mm in Sources */,
+				361F3E750AA338F70087726A /* ZKMORGraph.mm in Sources */,
+				361F405D0AA35D740087726A /* ZKMORRenderSimulator.mm in Sources */,
+				3678D98C0AA606A7002BA3BB /* ZKMORDeviceOutput.mm in Sources */,
+				361907A20AA885F700D65985 /* ZKMORZone.cpp in Sources */,
+				3652A4270AAC826E003D3818 /* CAGuard.cpp in Sources */,
+				3652A4290AAC826E003D3818 /* CAPThread.cpp in Sources */,
+				3652A43D0AAC82E9003D3818 /* CAHostTimeBase.cpp in Sources */,
+				3652A43F0AAC82E9003D3818 /* CAMutex.cpp in Sources */,
+				3652A53A0AAC96EA003D3818 /* CABufferList.cpp in Sources */,
+				363D393A0AAD83E800556B94 /* CAAudioFileFormats.cpp in Sources */,
+				363E16850AADAC5C00753BF3 /* ZKMORLogPrinter.cpp in Sources */,
+				363E19A80AADD78700753BF3 /* ZKMORFileStreamer.cpp in Sources */,
+				363E19C80AADD8B100753BF3 /* CAAudioFile.cpp in Sources */,
+				363E1A420AADE3D900753BF3 /* CAXException.cpp in Sources */,
+				36AF31A20AB86AB900E650F3 /* ZKMORAudioFile.mm in Sources */,
+				3654839B0ABAD8EC00121C98 /* ZKMORQuickTime.mm in Sources */,
+				365483BB0ABADB4900121C98 /* ZKMORQTReader.mm in Sources */,
+				3662E1E10ABB0E15005FF495 /* ZKMORThreadBridge.cpp in Sources */,
+				36A5DE390ABECD2A006B08DA /* ZKMORAudioUnitMirror.m in Sources */,
+				36A5DF5B0ABEF617006B08DA /* ZKMORAudioUnitSystem.mm in Sources */,
+				366EB76F0AD1402C00350D69 /* ZKMORAudioFileOutput.mm in Sources */,
+				36E5F3160AD684F400A0B6CE /* CADebugMacros.cpp in Sources */,
+				364B50A20B55633800B509E7 /* ZKMORClock.m in Sources */,
+				364B50B30B5563D100B509E7 /* ZKMOROutput.m in Sources */,
+				3621B2BE0B6FA0AB00729026 /* CAAudioTimeStamp.cpp in Sources */,
+				36EE51D60BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm in Sources */,
+				3686FDE30C00D7E70017E7D9 /* ZKMORGuardRT.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3620AE530C0D9ECE006C5684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Sycamore */;
+			targetProxy = 3620AE520C0D9ECE006C5684 /* PBXContainerItemProxy */;
+		};
+		363E17C80AADB7A500753BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Sycamore */;
+			targetProxy = 363E17C70AADB7A500753BF3 /* PBXContainerItemProxy */;
+		};
+		363E18A20AADCA2200753BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Sycamore */;
+			targetProxy = 363E18A10AADCA2200753BF3 /* PBXContainerItemProxy */;
+		};
+		363E18A40AADCA2A00753BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Sycamore */;
+			targetProxy = 363E18A30AADCA2A00753BF3 /* PBXContainerItemProxy */;
+		};
+		36841DF00AD3B3E700D04417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Sycamore */;
+			targetProxy = 36841DEF0AD3B3E700D04417 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sycamore_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = Sycamore;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sycamore_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
+				PRODUCT_NAME = Sycamore;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		3630446F0A9EEAE0009518F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = SycmoreDebugTest;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		363044700A9EEAE0009518F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				PREBINDING = NO;
+				PRODUCT_NAME = SycmoreDebugTest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		3652A55C0AAC9821003D3818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreFileExample;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		3652A55D0AAC9821003D3818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreFileExample;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		36841DD50AD3B36900D04417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreListAUExample;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		36841DD60AD3B36900D04417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreListAUExample;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		36944A500A9CBFF200770B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SycamoreTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		36944A510A9CBFF200770B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SycamoreTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		36EC509C0A9DA157007DF698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreTestTool;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		36EC509D0A9DA157007DF698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SycamoreTestTool;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Sycamore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Sycamore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3630446E0A9EEAE0009518F1 /* Build configuration list for PBXNativeTarget "SycmoreDebugTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3630446F0A9EEAE0009518F1 /* Debug */,
+				363044700A9EEAE0009518F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3652A55B0AAC9821003D3818 /* Build configuration list for PBXNativeTarget "SycamoreFileExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3652A55C0AAC9821003D3818 /* Debug */,
+				3652A55D0AAC9821003D3818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36841DD40AD3B36900D04417 /* Build configuration list for PBXNativeTarget "SycamoreListAUExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36841DD50AD3B36900D04417 /* Debug */,
+				36841DD60AD3B36900D04417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36944A4F0A9CBFF200770B32 /* Build configuration list for PBXNativeTarget "SycamoreTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36944A500A9CBFF200770B32 /* Debug */,
+				36944A510A9CBFF200770B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36EC509B0A9DA157007DF698 /* Build configuration list for PBXNativeTarget "SycamoreTestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EC509C0A9DA157007DF698 /* Debug */,
+				36EC509D0A9DA157007DF698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeBuildStyle = 363ECB6B0C05219200076403 /* Development */;
+		activeExecutable = 36226F4A0B3AC10A009CAA75 /* SyncretismTestTool */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+		addToTargets = (
+			8DC2EF4F0486A6940098B216 /* Syncretism */,
+		);
+		breakpoints = (
+			3611157F0BBAC4E500314FB9 /* ZKMORAudioFileOutput.mm:20 */,
+		);
+		breakpointsGroup = 3669648D0AEE8B2800E4EAC9 /* XCBreakpointsBucket */;
+		codeSenseManager = 3631DB160AEE2416001DC5CC /* Code sense */;
+		executables = (
+			36226F4A0B3AC10A009CAA75 /* SyncretismTestTool */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					57.5835,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					60,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					172,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					186.2085,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					112,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					10,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 206899869;
+			PBXWorkspaceStateSaveDate = 206899869;
+		};
+		sourceControlManager = 3631DB150AEE2416001DC5CC /* Source Control */;
+		userBuildSettings = {
+			OBJROOT = /Volumes/data/dom2buildproducts;
+		};
+	};
+	2020CDB20AF6AEDA004E30A7 /* Sycamore.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 546}}";
+			sepNavSelRange = "{841, 0}";
+			sepNavVisRect = "{{0, 0}, {740, 533}}";
+		};
+	};
+	2020CDB70AF6AEDA004E30A7 /* ZKMORAudioUnit.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 6076}}";
+			sepNavSelRange = "{6404, 158}";
+			sepNavVisRect = "{{0, 2698}, {740, 195}}";
+		};
+	};
+	2020CDB80AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1442}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {740, 533}}";
+		};
+	};
+	2020CDB90AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 7728}}";
+			sepNavSelRange = "{1928, 13}";
+			sepNavVisRect = "{{0, 722}, {740, 195}}";
+		};
+	};
+	2020CDBA0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 770}}";
+			sepNavSelRange = "{481, 20}";
+			sepNavVisRect = "{{0, 176}, {740, 195}}";
+		};
+	};
+	2020CDBC0AF6AEDA004E30A7 /* ZKMORMixer3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1274}}";
+			sepNavSelRange = "{329, 7}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1016, 4256}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRect = "{{0, 465}, {711, 429}}";
+		};
+	};
+	2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 2352}}";
+			sepNavSelRange = "{1716, 0}";
+			sepNavVisRect = "{{0, 154}, {1013, 632}}";
+		};
+	};
+	2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 8190}}";
+			sepNavSelRange = "{14279, 0}";
+			sepNavVisRect = "{{0, 6472}, {779, 608}}";
+		};
+	};
+	2020CDC00AF6AEDA004E30A7 /* ZKMORDeviceOutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 1988}}";
+			sepNavSelRange = "{1236, 0}";
+			sepNavVisRect = "{{0, 255}, {711, 429}}";
+		};
+	};
+	2020CDC10AF6AEDA004E30A7 /* ZKMORDeviceOutput.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 10654}}";
+			sepNavSelRange = "{3381, 0}";
+			sepNavVisRect = "{{0, 1459}, {711, 429}}";
+		};
+	};
+	2020CDC30AF6AEDA004E30A7 /* ZKMORConduit.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 6286}}";
+			sepNavSelRange = "{1733, 0}";
+			sepNavVisRect = "{{0, 712}, {805, 530}}";
+		};
+	};
+	2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 8386}}";
+			sepNavSelRange = "{15042, 0}";
+			sepNavVisRect = "{{0, 6776}, {740, 195}}";
+		};
+	};
+	2020CDC50AF6AEDA004E30A7 /* ZKMORCore.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 616}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRect = "{{0, 8}, {779, 608}}";
+		};
+	};
+	2020CDC60AF6AEDA004E30A7 /* ZKMORCore.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 533}}";
+			sepNavSelRange = "{351, 70}";
+			sepNavVisRect = "{{0, 0}, {740, 533}}";
+		};
+	};
+	2020CDC70AF6AEDA004E30A7 /* ZKMORException.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 672}}";
+			sepNavSelRange = "{567, 0}";
+			sepNavVisRect = "{{0, 40}, {1013, 632}}";
+		};
+	};
+	2020CDC90AF6AEDA004E30A7 /* ZKMORGraph.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 3024}}";
+			sepNavSelRange = "{742, 0}";
+			sepNavVisRect = "{{0, 227}, {805, 530}}";
+		};
+	};
+	2020CDCA0AF6AEDA004E30A7 /* ZKMORGraph.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 8820}}";
+			sepNavSelRange = "{14030, 11}";
+			sepNavVisRect = "{{0, 5426}, {740, 195}}";
+		};
+	};
+	2020CDCB0AF6AEDA004E30A7 /* ZKMORUtilities.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 602}}";
+			sepNavSelRange = "{620, 0}";
+			sepNavVisRect = "{{0, 158}, {711, 444}}";
+		};
+	};
+	2020CDCC0AF6AEDA004E30A7 /* ZKMORUtilities.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 2590}}";
+			sepNavSelRange = "{6075, 0}";
+			sepNavVisRect = "{{0, 1806}, {711, 764}}";
+		};
+	};
+	2020CDCE0AF6AEDA004E30A7 /* ZKMORRenderSimulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	2020CDD10AF6AEDA004E30A7 /* ZKMORAudioFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 2562}}";
+			sepNavSelRange = "{783, 25}";
+			sepNavVisRect = "{{0, 468}, {740, 195}}";
+		};
+	};
+	2020CDD20AF6AEDA004E30A7 /* ZKMORAudioFile.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 10024}}";
+			sepNavSelRange = "{14054, 0}";
+			sepNavVisRect = "{{0, 6011}, {884, 200}}";
+		};
+	};
+	2020CDD30AF6AEDA004E30A7 /* ZKMORQuickTime.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1092}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRect = "{{0, 3}, {805, 530}}";
+		};
+	};
+	2020CDD40AF6AEDA004E30A7 /* ZKMORQuickTime.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 3290}}";
+			sepNavSelRange = "{3907, 18}";
+			sepNavVisRect = "{{0, 1717}, {740, 195}}";
+		};
+	};
+	2020CDD50AF6AEDA004E30A7 /* ZKMORAudioFileOutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1106}}";
+			sepNavSelRange = "{570, 0}";
+			sepNavVisRect = "{{0, 302}, {740, 195}}";
+		};
+	};
+	2020CDD60AF6AEDA004E30A7 /* ZKMORAudioFileOutput.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 3612}}";
+			sepNavSelRange = "{1405, 0}";
+			sepNavVisRect = "{{0, 540}, {740, 195}}";
+		};
+	};
+	2020CDD80AF6AEDA004E30A7 /* ZKMORNoise.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 714}}";
+			sepNavSelRange = "{718, 14}";
+			sepNavVisRect = "{{0, 168}, {740, 533}}";
+		};
+	};
+	2020CDD90AF6AEDA004E30A7 /* ZKMORNoise.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 2660}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {740, 533}}";
+		};
+	};
+	2020CDDB0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1806}}";
+			sepNavSelRange = "{409, 68}";
+			sepNavVisRect = "{{0, 0}, {1013, 632}}";
+		};
+	};
+	2020CDDC0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 10794}}";
+			sepNavSelRange = "{22423, 22}";
+			sepNavVisRect = "{{0, 8905}, {1013, 632}}";
+		};
+	};
+	2020CDDE0AF6AEDA004E30A7 /* ZKMMPRingBuffer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 1694}}";
+			sepNavSelRange = "{1469, 0}";
+			sepNavVisRect = "{{0, 929}, {884, 200}}";
+		};
+	};
+	2020CDDF0AF6AEDA004E30A7 /* ZKMORFileStreamer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2100}}";
+			sepNavSelRange = "{825, 43}";
+			sepNavVisRect = "{{0, 439}, {884, 200}}";
+		};
+	};
+	2020CDE00AF6AEDA004E30A7 /* ZKMORFileStreamer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 3402}}";
+			sepNavSelRange = "{309, 7}";
+			sepNavVisRect = "{{0, 96}, {884, 200}}";
+		};
+	};
+	2020CDE10AF6AEDA004E30A7 /* ZKMORLogPrinter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1134}}";
+			sepNavSelRange = "{1624, 6}";
+			sepNavVisRect = "{{0, 601}, {740, 533}}";
+		};
+	};
+	2020CDE20AF6AEDB004E30A7 /* ZKMORLogPrinter.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1540}}";
+			sepNavSelRange = "{1287, 14}";
+			sepNavVisRect = "{{0, 722}, {740, 195}}";
+		};
+	};
+	2020CDE30AF6AEDB004E30A7 /* ZKMORQTReader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1918}}";
+			sepNavSelRange = "{1317, 0}";
+			sepNavVisRect = "{{0, 501}, {805, 530}}";
+		};
+	};
+	2020CDE40AF6AEDB004E30A7 /* ZKMORQTReader.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 5558}}";
+			sepNavSelRange = "{3876, 0}";
+			sepNavVisRect = "{{0, 1828}, {740, 195}}";
+		};
+	};
+	2020CDE50AF6AEDB004E30A7 /* ZKMORThreadBridge.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 1442}}";
+			sepNavSelRange = "{2667, 0}";
+			sepNavVisRect = "{{0, 1025}, {884, 200}}";
+		};
+	};
+	2020CDE60AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 2100}}";
+			sepNavSelRange = "{555, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	2020CDE70AF6AEDB004E30A7 /* ZKMORZone.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 3360}}";
+			sepNavSelRange = "{5205, 21}";
+			sepNavVisRect = "{{0, 2346}, {740, 195}}";
+		};
+	};
+	2020CDE80AF6AEDB004E30A7 /* ZKMORZone.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 5026}}";
+			sepNavSelRange = "{3039, 0}";
+			sepNavVisRect = "{{0, 1702}, {740, 195}}";
+		};
+	};
+	2020CE1A0AF6AEEB004E30A7 /* ZKMMPQueue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 2800}}";
+			sepNavSelRange = "{254, 0}";
+			sepNavVisRect = "{{0, 38}, {1013, 746}}";
+		};
+	};
+	2020CE1B0AF6AEEB004E30A7 /* ZKMORLogger.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 1890}}";
+			sepNavSelRange = "{1763, 117}";
+			sepNavVisRect = "{{0, 522}, {779, 608}}";
+		};
+	};
+	2020CE1C0AF6AEEB004E30A7 /* ZKMORLogger.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 1008}}";
+			sepNavSelRange = "{1086, 0}";
+			sepNavVisRect = "{{0, 400}, {779, 608}}";
+		};
+	};
+	2020CE1D0AF6AEEB004E30A7 /* ZKMORLoggerCPP.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 2996}}";
+			sepNavSelRange = "{1654, 0}";
+			sepNavVisRect = "{{0, 490}, {779, 608}}";
+		};
+	};
+	2020CE1E0AF6AEEB004E30A7 /* ZKMORLoggerCPP.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 3164}}";
+			sepNavSelRange = "{1925, 0}";
+			sepNavVisRect = "{{0, 529}, {779, 608}}";
+		};
+	};
+	2020CE2D0AF6AF0D004E30A7 /* AUOutputBL.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1624}}";
+			sepNavSelRange = "{3235, 54}";
+			sepNavVisRect = "{{0, 604}, {805, 530}}";
+		};
+	};
+	2020CE2E0AF6AF0D004E30A7 /* AUOutputBL.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 2282}}";
+			sepNavSelRange = "{4587, 47}";
+			sepNavVisRect = "{{0, 1529}, {740, 195}}";
+		};
+	};
+	2020CE2F0AF6AF0D004E30A7 /* CAAtomicStack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1876}}";
+			sepNavSelRange = "{3317, 18}";
+			sepNavVisRect = "{{0, 726}, {1013, 746}}";
+		};
+	};
+	2020CE330AF6AF0E004E30A7 /* CAAudioFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 6398}}";
+			sepNavSelRange = "{4552, 4}";
+			sepNavVisRect = "{{0, 1247}, {740, 195}}";
+		};
+	};
+	2020CE340AF6AF0E004E30A7 /* CAAudioFile.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 15288}}";
+			sepNavSelRange = "{6470, 4}";
+			sepNavVisRect = "{{0, 2710}, {740, 195}}";
+		};
+	};
+	2020CE460AF6AF0E004E30A7 /* CAGuard.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1806}}";
+			sepNavSelRange = "{3884, 0}";
+			sepNavVisRect = "{{0, 0}, {740, 533}}";
+		};
+	};
+	2020CE4F0AF6AF0E004E30A7 /* CAStreamBasicDescription.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 3206}}";
+			sepNavSelRange = "{7136, 32}";
+			sepNavVisRect = "{{0, 2066}, {805, 530}}";
+		};
+	};
+	2020CE510AF6AF0E004E30A7 /* CAXException.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 2226}}";
+			sepNavSelRange = "{4163, 0}";
+			sepNavVisRect = "{{0, 1232}, {805, 530}}";
+		};
+	};
+	3611157F0BBAC4E500314FB9 /* ZKMORAudioFileOutput.mm:20 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2020CDD60AF6AEDA004E30A7 /* ZKMORAudioFileOutput.mm */;
+		functionName = "GetCStringForURL()";
+		hitCount = 1;
+		lineNumber = 20;
+		modificationTime = 206898132.756084;
+		state = 1;
+	};
+	3612EE680B54019900E98AC9 /* ZKMNREventScheduler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 2240}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRect = "{{0, 1615}, {779, 608}}";
+		};
+	};
+	3612EE690B54019900E98AC9 /* ZKMNREventScheduler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 3024}}";
+			sepNavSelRange = "{7051, 0}";
+			sepNavVisRect = "{{0, 2416}, {779, 608}}";
+		};
+	};
+	361E0A6D0B5810D400634685 /* ZKMNRPannerEvent.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 980}}";
+			sepNavSelRange = "{773, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 764}}";
+		};
+	};
+	361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 1358}}";
+			sepNavSelRange = "{1283, 6}";
+			sepNavVisRect = "{{0, 59}, {779, 608}}";
+		};
+	};
+	36226EA30B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{437, 20}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1638}}";
+			sepNavSelRange = "{2843, 0}";
+			sepNavVisRect = "{{0, 1204}, {740, 195}}";
+		};
+	};
+	36226F480B3AC10A009CAA75 /* SyncretismTestTool */ = {
+		activeExec = 0;
+		executables = (
+			36226F4A0B3AC10A009CAA75 /* SyncretismTestTool */,
+		);
+	};
+	36226F4A0B3AC10A009CAA75 /* SyncretismTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SyncretismTestTool;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	36226F540B3AC144009CAA75 /* ZKMNRTestToolDriver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{643, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	3631DB150AEE2416001DC5CC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+		};
+		scmType = scm.subversion;
+	};
+	3631DB160AEE2416001DC5CC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3631DB5E0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 1974}}";
+			sepNavSelRange = "{2216, 32}";
+			sepNavVisRect = "{{0, 283}, {779, 608}}";
+		};
+	};
+	3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 5040}}";
+			sepNavSelRange = "{752, 0}";
+			sepNavVisRect = "{{0, 179}, {779, 608}}";
+		};
+	};
+	3631DB870AEE2757001DC5CC /* ZKMNRCoordinates.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 2702}}";
+			sepNavSelRange = "{4989, 0}";
+			sepNavVisRect = "{{0, 1450}, {1013, 746}}";
+		};
+	};
+	3631DB880AEE2757001DC5CC /* ZKMNRCoordinates.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 3668}}";
+			sepNavSelRange = "{8212, 0}";
+			sepNavVisRect = "{{0, 3138}, {805, 530}}";
+		};
+	};
+	364AA1DB0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 588}}";
+			sepNavSelRange = "{457, 0}";
+			sepNavVisRect = "{{0, 16}, {805, 530}}";
+		};
+	};
+	364AA1DC0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1260}}";
+			sepNavSelRange = "{2281, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	364AC81A0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 784}}";
+			sepNavSelRange = "{170, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 444}}";
+		};
+	};
+	364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 1330}}";
+			sepNavSelRange = "{677, 0}";
+			sepNavVisRect = "{{0, 323}, {711, 429}}";
+		};
+	};
+	364B4C810B55450D00B509E7 /* ZKMNREventSchedulerTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{348, 26}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 1680}}";
+			sepNavSelRange = "{3682, 0}";
+			sepNavVisRect = "{{0, 1072}, {779, 608}}";
+		};
+	};
+	364B50FE0B55652800B509E7 /* ZKMORClock.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 742}}";
+			sepNavSelRange = "{872, 0}";
+			sepNavVisRect = "{{0, 212}, {805, 530}}";
+		};
+	};
+	364B50FF0B55652800B509E7 /* ZKMORClock.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1484}}";
+			sepNavSelRange = "{1230, 0}";
+			sepNavVisRect = "{{0, 522}, {805, 530}}";
+		};
+	};
+	364B51000B55652800B509E7 /* ZKMOROutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 1204}}";
+			sepNavSelRange = "{1049, 0}";
+			sepNavVisRect = "{{0, 551}, {805, 530}}";
+		};
+	};
+	364B51010B55652800B509E7 /* ZKMOROutput.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 966}}";
+			sepNavSelRange = "{1192, 0}";
+			sepNavVisRect = "{{0, 436}, {805, 530}}";
+		};
+	};
+	365A3ECE0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 429}}";
+			sepNavSelRange = "{243, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+		};
+	};
+	365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1058, 2898}}";
+			sepNavSelRange = "{7273, 0}";
+			sepNavVisRect = "{{0, 2449}, {884, 185}}";
+		};
+	};
+	366717370B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{258, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {758, 2814}}";
+			sepNavSelRange = "{536, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 429}}";
+		};
+	};
+	366964500AEE89B100E4EAC9 /* SyncretismTest */ = {
+		activeExec = 0;
+	};
+	3669645B0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 533}}";
+			sepNavSelRange = "{243, 0}";
+			sepNavVisRect = "{{0, 0}, {740, 533}}";
+		};
+	};
+	3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 2100}}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	366964680AEE8A4F00E4EAC9 /* Syncretism.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 630}}";
+			sepNavSelRange = "{401, 0}";
+			sepNavVisRect = "{{0, 168}, {884, 200}}";
+		};
+	};
+	3669648D0AEE8B2800E4EAC9 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = Syncretism;
+		objects = (
+			3611157F0BBAC4E500314FB9 /* ZKMORAudioFileOutput.mm:20 */,
+		);
+	};
+	366D76540B2ACA1100F07F47 /* triangle.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 224154}}";
+			sepNavSelRange = "{3599, 0}";
+			sepNavVisRect = "{{0, 526}, {740, 533}}";
+		};
+	};
+	366D77130B2AD75800F07F47 /* ZKMNRPannerTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 764}}";
+			sepNavSelRange = "{282, 0}";
+			sepNavVisRect = "{{0, 0}, {711, 764}}";
+		};
+	};
+	366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {711, 2576}}";
+			sepNavSelRange = "{1719, 30}";
+			sepNavVisRect = "{{0, 1458}, {711, 764}}";
+		};
+	};
+	3686FEB60C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 644}}";
+			sepNavSelRange = "{339, 0}";
+			sepNavVisRect = "{{0, 36}, {779, 608}}";
+		};
+	};
+	3686FEB70C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 4914}}";
+			sepNavSelRange = "{6935, 0}";
+			sepNavVisRect = "{{0, 2991}, {779, 608}}";
+		};
+	};
+	369270960B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{403, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 2254}}";
+			sepNavSelRange = "{3767, 0}";
+			sepNavVisRect = "{{0, 1769}, {884, 200}}";
+		};
+	};
+	36B37E340B247CDA006F5521 /* ZKMNRValueTransformerTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {805, 530}}";
+			sepNavSelRange = "{246, 0}";
+			sepNavVisRect = "{{0, 0}, {805, 530}}";
+		};
+	};
+	36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 756}}";
+			sepNavSelRange = "{535, 51}";
+			sepNavVisRect = "{{0, 168}, {884, 200}}";
+		};
+	};
+	36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 3612}}";
+			sepNavSelRange = "{4959, 0}";
+			sepNavVisRect = "{{0, 1685}, {779, 608}}";
+		};
+	};
+	36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 12082}}";
+			sepNavSelRange = "{15459, 34}";
+			sepNavVisRect = "{{0, 5261}, {779, 608}}";
+		};
+	};
+	36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 896}}";
+			sepNavSelRange = "{847, 0}";
+			sepNavVisRect = "{{0, 150}, {1013, 746}}";
+		};
+	};
+	36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1013, 1092}}";
+			sepNavSelRange = "{1060, 0}";
+			sepNavVisRect = "{{0, 346}, {1013, 746}}";
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* Syncretism */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = ZKMRNChannelMapView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {CLASS = ZKMRNDomeView; LANGUAGE = ObjC; SUPERCLASS = ZKMRNOpenGLView; }, 
+        {CLASS = ZKMRNOpenGLView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }, 
+        {CLASS = ZKMRNSpatializerView; LANGUAGE = ObjC; SUPERCLASS = ZKMRNDomeView; }, 
+        {CLASS = ZKMRNSpeakerCubeTexture; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = ZKMRNSpeakerPositionsController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {CLASS = ZKMRNSpeakerSetupView; LANGUAGE = ObjC; SUPERCLASS = ZKMRNDomeView; }, 
+        {
+            ACTIONS = {resetRotation = id; xRotation = id; yRotation = id; }; 
+            CLASS = ZKMRNStudioSetupDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                channelMapView = ZKMRNChannelMapView; 
+                domeViewIdeal = ZKMRNSpeakerSetupView; 
+                domeViewInRoom = ZKMRNSpeakerSetupView; 
+                speakerPositionsController = NSArrayController; 
+                speakerRingsController = NSArrayController; 
+                speakerSetupController = NSArrayController; 
+            }; 
+            SUPERCLASS = NSPersistentDocument; 
+        }
+    ); 
+    IBVersion = 1; 
+}

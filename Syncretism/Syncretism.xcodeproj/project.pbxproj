@@ -1,0 +1,1338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2020CDE90AF6AEDB004E30A7 /* Sycamore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDB20AF6AEDA004E30A7 /* Sycamore.h */; };
+		2020CDEA0AF6AEDB004E30A7 /* CAAudioUnitZKM.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDEB0AF6AEDB004E30A7 /* CAAudioUnitZKM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDB50AF6AEDA004E30A7 /* CAAudioUnitZKM.cpp */; };
+		2020CDEC0AF6AEDB004E30A7 /* ZKMORAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDB60AF6AEDA004E30A7 /* ZKMORAudioUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDED0AF6AEDB004E30A7 /* ZKMORAudioUnit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDB70AF6AEDA004E30A7 /* ZKMORAudioUnit.mm */; };
+		2020CDEE0AF6AEDB004E30A7 /* ZKMORAudioUnitMirror.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDB80AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDEF0AF6AEDB004E30A7 /* ZKMORAudioUnitMirror.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDB90AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.m */; };
+		2020CDF00AF6AEDB004E30A7 /* ZKMORAudioUnitSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDBA0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDF10AF6AEDB004E30A7 /* ZKMORAudioUnitSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDBB0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.mm */; };
+		2020CDF20AF6AEDB004E30A7 /* ZKMORMixer3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDBC0AF6AEDA004E30A7 /* ZKMORMixer3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDF30AF6AEDB004E30A7 /* ZKMORMixer3D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */; };
+		2020CDF40AF6AEDB004E30A7 /* ZKMORMixerMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDF50AF6AEDB004E30A7 /* ZKMORMixerMatrix.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */; };
+		2020CDF60AF6AEDB004E30A7 /* ZKMORDeviceOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDC00AF6AEDA004E30A7 /* ZKMORDeviceOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDF70AF6AEDB004E30A7 /* ZKMORDeviceOutput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDC10AF6AEDA004E30A7 /* ZKMORDeviceOutput.mm */; };
+		2020CDF80AF6AEDB004E30A7 /* ZKMORConduit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDC30AF6AEDA004E30A7 /* ZKMORConduit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDF90AF6AEDB004E30A7 /* ZKMORConduit.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */; };
+		2020CDFA0AF6AEDB004E30A7 /* ZKMORCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDC50AF6AEDA004E30A7 /* ZKMORCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDFB0AF6AEDB004E30A7 /* ZKMORCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDC60AF6AEDA004E30A7 /* ZKMORCore.m */; };
+		2020CDFC0AF6AEDB004E30A7 /* ZKMORException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDC70AF6AEDA004E30A7 /* ZKMORException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDFD0AF6AEDB004E30A7 /* ZKMORException.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDC80AF6AEDA004E30A7 /* ZKMORException.m */; };
+		2020CDFE0AF6AEDB004E30A7 /* ZKMORGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDC90AF6AEDA004E30A7 /* ZKMORGraph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CDFF0AF6AEDB004E30A7 /* ZKMORGraph.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDCA0AF6AEDA004E30A7 /* ZKMORGraph.mm */; };
+		2020CE000AF6AEDB004E30A7 /* ZKMORUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDCB0AF6AEDA004E30A7 /* ZKMORUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE010AF6AEDB004E30A7 /* ZKMORUtilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDCC0AF6AEDA004E30A7 /* ZKMORUtilities.mm */; };
+		2020CE020AF6AEDB004E30A7 /* ZKMORRenderSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDCE0AF6AEDA004E30A7 /* ZKMORRenderSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE030AF6AEDB004E30A7 /* ZKMORRenderSimulator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDCF0AF6AEDA004E30A7 /* ZKMORRenderSimulator.mm */; };
+		2020CE040AF6AEDB004E30A7 /* ZKMORAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDD10AF6AEDA004E30A7 /* ZKMORAudioFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE050AF6AEDB004E30A7 /* ZKMORAudioFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDD20AF6AEDA004E30A7 /* ZKMORAudioFile.mm */; };
+		2020CE060AF6AEDB004E30A7 /* ZKMORQuickTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDD30AF6AEDA004E30A7 /* ZKMORQuickTime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE070AF6AEDB004E30A7 /* ZKMORQuickTime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDD40AF6AEDA004E30A7 /* ZKMORQuickTime.mm */; };
+		2020CE080AF6AEDB004E30A7 /* ZKMORAudioFileOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDD50AF6AEDA004E30A7 /* ZKMORAudioFileOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE090AF6AEDB004E30A7 /* ZKMORAudioFileOutput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDD60AF6AEDA004E30A7 /* ZKMORAudioFileOutput.mm */; };
+		2020CE0A0AF6AEDB004E30A7 /* ZKMORNoise.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDD80AF6AEDA004E30A7 /* ZKMORNoise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE0B0AF6AEDB004E30A7 /* ZKMORNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDD90AF6AEDA004E30A7 /* ZKMORNoise.m */; };
+		2020CE0C0AF6AEDB004E30A7 /* ZKMORAudioHardwareSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDDB0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE0D0AF6AEDB004E30A7 /* ZKMORAudioHardwareSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDDC0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.mm */; };
+		2020CE0E0AF6AEDB004E30A7 /* ZKMMPRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDDE0AF6AEDA004E30A7 /* ZKMMPRingBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE0F0AF6AEDB004E30A7 /* ZKMORFileStreamer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDDF0AF6AEDA004E30A7 /* ZKMORFileStreamer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE100AF6AEDB004E30A7 /* ZKMORFileStreamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDE00AF6AEDA004E30A7 /* ZKMORFileStreamer.cpp */; };
+		2020CE110AF6AEDB004E30A7 /* ZKMORLogPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDE10AF6AEDA004E30A7 /* ZKMORLogPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE120AF6AEDB004E30A7 /* ZKMORLogPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDE20AF6AEDB004E30A7 /* ZKMORLogPrinter.cpp */; };
+		2020CE130AF6AEDB004E30A7 /* ZKMORQTReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDE30AF6AEDB004E30A7 /* ZKMORQTReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE140AF6AEDB004E30A7 /* ZKMORQTReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDE40AF6AEDB004E30A7 /* ZKMORQTReader.mm */; };
+		2020CE150AF6AEDB004E30A7 /* ZKMORThreadBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDE50AF6AEDB004E30A7 /* ZKMORThreadBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE160AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDE60AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp */; };
+		2020CE170AF6AEDB004E30A7 /* ZKMORZone.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CDE70AF6AEDB004E30A7 /* ZKMORZone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE180AF6AEDB004E30A7 /* ZKMORZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CDE80AF6AEDB004E30A7 /* ZKMORZone.cpp */; };
+		2020CE200AF6AEEB004E30A7 /* ZKMMPQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE1A0AF6AEEB004E30A7 /* ZKMMPQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE210AF6AEEB004E30A7 /* ZKMORLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE1B0AF6AEEB004E30A7 /* ZKMORLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE220AF6AEEB004E30A7 /* ZKMORLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE1C0AF6AEEB004E30A7 /* ZKMORLogger.cpp */; };
+		2020CE230AF6AEEB004E30A7 /* ZKMORLoggerCPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE1D0AF6AEEB004E30A7 /* ZKMORLoggerCPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE240AF6AEEB004E30A7 /* ZKMORLoggerCPP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE1E0AF6AEEB004E30A7 /* ZKMORLoggerCPP.cpp */; };
+		2020CE530AF6AF0E004E30A7 /* AUOutputBL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE2D0AF6AF0D004E30A7 /* AUOutputBL.h */; };
+		2020CE540AF6AF0E004E30A7 /* AUOutputBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE2E0AF6AF0D004E30A7 /* AUOutputBL.cpp */; };
+		2020CE550AF6AF0E004E30A7 /* CAAtomicStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE2F0AF6AF0D004E30A7 /* CAAtomicStack.h */; };
+		2020CE560AF6AF0E004E30A7 /* CAAudioChannelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE300AF6AF0D004E30A7 /* CAAudioChannelLayout.h */; };
+		2020CE570AF6AF0E004E30A7 /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE310AF6AF0D004E30A7 /* CAAudioChannelLayout.cpp */; };
+		2020CE580AF6AF0E004E30A7 /* CAAudioChannelLayoutObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE320AF6AF0D004E30A7 /* CAAudioChannelLayoutObject.cpp */; };
+		2020CE590AF6AF0E004E30A7 /* CAAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE330AF6AF0E004E30A7 /* CAAudioFile.h */; };
+		2020CE5A0AF6AF0E004E30A7 /* CAAudioFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE340AF6AF0E004E30A7 /* CAAudioFile.cpp */; };
+		2020CE5B0AF6AF0E004E30A7 /* CAAudioFileFormats.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE350AF6AF0E004E30A7 /* CAAudioFileFormats.h */; };
+		2020CE5C0AF6AF0E004E30A7 /* CAAudioFileFormats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE360AF6AF0E004E30A7 /* CAAudioFileFormats.cpp */; };
+		2020CE5D0AF6AF0E004E30A7 /* CAAudioHardwareDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE370AF6AF0E004E30A7 /* CAAudioHardwareDevice.h */; };
+		2020CE5E0AF6AF0E004E30A7 /* CAAudioHardwareDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE380AF6AF0E004E30A7 /* CAAudioHardwareDevice.cpp */; };
+		2020CE5F0AF6AF0E004E30A7 /* CAAudioHardwareStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE390AF6AF0E004E30A7 /* CAAudioHardwareStream.h */; };
+		2020CE600AF6AF0E004E30A7 /* CAAudioHardwareStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE3A0AF6AF0E004E30A7 /* CAAudioHardwareStream.cpp */; };
+		2020CE610AF6AF0E004E30A7 /* CAAudioHardwareSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE3B0AF6AF0E004E30A7 /* CAAudioHardwareSystem.h */; };
+		2020CE620AF6AF0E004E30A7 /* CAAudioHardwareSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE3C0AF6AF0E004E30A7 /* CAAudioHardwareSystem.cpp */; };
+		2020CE630AF6AF0E004E30A7 /* CAAudioUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE3D0AF6AF0E004E30A7 /* CAAudioUnit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE640AF6AF0E004E30A7 /* CAAudioUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE3E0AF6AF0E004E30A7 /* CAAudioUnit.cpp */; };
+		2020CE650AF6AF0E004E30A7 /* CABufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE3F0AF6AF0E004E30A7 /* CABufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE660AF6AF0E004E30A7 /* CABufferList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE400AF6AF0E004E30A7 /* CABufferList.cpp */; };
+		2020CE670AF6AF0E004E30A7 /* CAComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE410AF6AF0E004E30A7 /* CAComponent.cpp */; };
+		2020CE680AF6AF0E004E30A7 /* CAComponentDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE420AF6AF0E004E30A7 /* CAComponentDescription.h */; };
+		2020CE690AF6AF0E004E30A7 /* CAComponentDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE430AF6AF0E004E30A7 /* CAComponentDescription.cpp */; };
+		2020CE6A0AF6AF0E004E30A7 /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE440AF6AF0E004E30A7 /* CADebugMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE6B0AF6AF0E004E30A7 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE450AF6AF0E004E30A7 /* CADebugMacros.cpp */; };
+		2020CE6C0AF6AF0E004E30A7 /* CAGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE460AF6AF0E004E30A7 /* CAGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE6D0AF6AF0E004E30A7 /* CAGuard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE470AF6AF0E004E30A7 /* CAGuard.cpp */; };
+		2020CE6E0AF6AF0E004E30A7 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE480AF6AF0E004E30A7 /* CAHostTimeBase.h */; };
+		2020CE6F0AF6AF0E004E30A7 /* CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE490AF6AF0E004E30A7 /* CAHostTimeBase.cpp */; };
+		2020CE700AF6AF0E004E30A7 /* CAMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE4A0AF6AF0E004E30A7 /* CAMath.h */; };
+		2020CE710AF6AF0E004E30A7 /* CAMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE4B0AF6AF0E004E30A7 /* CAMutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE720AF6AF0E004E30A7 /* CAMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE4C0AF6AF0E004E30A7 /* CAMutex.cpp */; };
+		2020CE730AF6AF0E004E30A7 /* CAPThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE4D0AF6AF0E004E30A7 /* CAPThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE740AF6AF0E004E30A7 /* CAPThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE4E0AF6AF0E004E30A7 /* CAPThread.cpp */; };
+		2020CE750AF6AF0E004E30A7 /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE4F0AF6AF0E004E30A7 /* CAStreamBasicDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2020CE760AF6AF0E004E30A7 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE500AF6AF0E004E30A7 /* CAStreamBasicDescription.cpp */; };
+		2020CE770AF6AF0E004E30A7 /* CAXException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2020CE510AF6AF0E004E30A7 /* CAXException.h */; };
+		2020CE780AF6AF0E004E30A7 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2020CE520AF6AF0E004E30A7 /* CAXException.cpp */; };
+		2020CFA60AF6B236004E30A7 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CF9F0AF6B236004E30A7 /* CoreServices.framework */; };
+		2020CFA70AF6B236004E30A7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CFA00AF6B236004E30A7 /* CoreAudio.framework */; };
+		2020CFA80AF6B236004E30A7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CFA10AF6B236004E30A7 /* AudioUnit.framework */; };
+		2020CFA90AF6B236004E30A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CFA20AF6B236004E30A7 /* AudioToolbox.framework */; };
+		2020CFAA0AF6B236004E30A7 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CFA30AF6B236004E30A7 /* QuickTime.framework */; };
+		2020CFAB0AF6B236004E30A7 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CFA40AF6B236004E30A7 /* QTKit.framework */; };
+		2020CFAC0AF6B236004E30A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2020CFA50AF6B236004E30A7 /* QuartzCore.framework */; };
+		20A3D4340D2DB47400973E50 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A3D4330D2DB47400973E50 /* SenTestingKit.framework */; };
+		3612EE6A0B54019900E98AC9 /* ZKMNREventScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3612EE680B54019900E98AC9 /* ZKMNREventScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3612EE6B0B54019900E98AC9 /* ZKMNREventScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3612EE690B54019900E98AC9 /* ZKMNREventScheduler.m */; };
+		361E0A6F0B5810D400634685 /* ZKMNRPannerEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 361E0A6D0B5810D400634685 /* ZKMNRPannerEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		361E0A700B5810D400634685 /* ZKMNRPannerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */; };
+		36226EA50B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */; };
+		36226F550B3AC144009CAA75 /* ZKMNRTestToolDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 36226F540B3AC144009CAA75 /* ZKMNRTestToolDriver.m */; };
+		36226F5B0B3AC15E009CAA75 /* ZKMNRSpeakerLayoutSimulatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */; };
+		36226F8D0B3AC178009CAA75 /* Syncretism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Syncretism.framework */; };
+		36226FA20B3AC1BD009CAA75 /* ZKMNRAbstractProcessorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */; };
+		36226FA40B3AC1C1009CAA75 /* ZKMNRCoordinatesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */; };
+		36226FA50B3AC1C1009CAA75 /* ZKMNRPannerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */; };
+		36226FA60B3AC1C2009CAA75 /* ZKMNRSpeakerLayoutTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */; };
+		36226FA70B3AC1C3009CAA75 /* ZKMNRValueTransformerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */; };
+		3631DB600AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3631DB5E0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3631DB610AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */; };
+		3631DB890AEE2757001DC5CC /* ZKMNRCoordinates.h in Headers */ = {isa = PBXBuildFile; fileRef = 3631DB870AEE2757001DC5CC /* ZKMNRCoordinates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3631DB8A0AEE2757001DC5CC /* ZKMNRCoordinates.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3631DB880AEE2757001DC5CC /* ZKMNRCoordinates.mm */; };
+		364AA1DD0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 364AA1DB0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364AA1DE0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 364AA1DC0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm */; };
+		364AC81C0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 364AC81A0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364AC81D0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */; };
+		364B4C830B55450D00B509E7 /* ZKMNREventSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */; };
+		364B4C840B55450D00B509E7 /* ZKMNREventSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */; };
+		364B51020B55652800B509E7 /* ZKMORClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B50FE0B55652800B509E7 /* ZKMORClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364B51030B55652800B509E7 /* ZKMORClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B50FF0B55652800B509E7 /* ZKMORClock.m */; };
+		364B51040B55652800B509E7 /* ZKMOROutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B51000B55652800B509E7 /* ZKMOROutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364B51050B55652800B509E7 /* ZKMOROutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 364B51010B55652800B509E7 /* ZKMOROutput.m */; };
+		365A3ED00AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */; };
+		366717390B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */; };
+		366964590AEE89DA00E4EAC9 /* Syncretism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* Syncretism.framework */; };
+		3669645D0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */; };
+		3669646A0AEE8A4F00E4EAC9 /* Syncretism.h in Headers */ = {isa = PBXBuildFile; fileRef = 366964680AEE8A4F00E4EAC9 /* Syncretism.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		366D765B0B2ACA1100F07F47 /* triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 366D76540B2ACA1100F07F47 /* triangle.c */; };
+		366D765C0B2ACA1100F07F47 /* triangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 366D76550B2ACA1100F07F47 /* triangle.h */; };
+		366D77150B2AD75800F07F47 /* ZKMNRPannerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */; };
+		3686FEB80C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3686FEB60C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3686FEB90C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3686FEB70C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm */; };
+		3686FEBC0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3686FEBA0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp */; };
+		3686FEBD0C00E0BA0017E7D9 /* ZKMORGuardRT.h in Headers */ = {isa = PBXBuildFile; fileRef = 3686FEBB0C00E0BA0017E7D9 /* ZKMORGuardRT.h */; };
+		369270980B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */; };
+		369270990B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */; };
+		36B37E5F0B248516006F5521 /* ZKMNRValueTransformerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */; };
+		36EC1CDF0B26FAB3009A8611 /* ZKMNRPanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC1CE00B26FAB3009A8611 /* ZKMNRPanner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */; };
+		36FE42920AF0A3580017B68E /* ZKMNRLinearAlgebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36FE42930AF0A3580017B68E /* ZKMNRLinearAlgebra.c in Sources */ = {isa = PBXBuildFile; fileRef = 36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */; };
+		36FE42B30AF0A4080017B68E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FE42B20AF0A4080017B68E /* Accelerate.framework */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		B4B75BCA125F5AD2008455AF /* libtet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B75BC9125F5AD2008455AF /* libtet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361A76990B70FFBE0014163D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+		366964560AEE89C700E4EAC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Syncretism;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2020CDB20AF6AEDA004E30A7 /* Sycamore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Sycamore.h; sourceTree = "<group>"; };
+		2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioUnitZKM.h; sourceTree = "<group>"; };
+		2020CDB50AF6AEDA004E30A7 /* CAAudioUnitZKM.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioUnitZKM.cpp; sourceTree = "<group>"; };
+		2020CDB60AF6AEDA004E30A7 /* ZKMORAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnit.h; sourceTree = "<group>"; };
+		2020CDB70AF6AEDA004E30A7 /* ZKMORAudioUnit.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnit.mm; sourceTree = "<group>"; };
+		2020CDB80AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitMirror.h; sourceTree = "<group>"; };
+		2020CDB90AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioUnitMirror.m; sourceTree = "<group>"; };
+		2020CDBA0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitSystem.h; sourceTree = "<group>"; };
+		2020CDBB0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnitSystem.mm; sourceTree = "<group>"; };
+		2020CDBC0AF6AEDA004E30A7 /* ZKMORMixer3D.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORMixer3D.h; sourceTree = "<group>"; };
+		2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORMixer3D.mm; sourceTree = "<group>"; };
+		2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORMixerMatrix.h; sourceTree = "<group>"; };
+		2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORMixerMatrix.mm; sourceTree = "<group>"; };
+		2020CDC00AF6AEDA004E30A7 /* ZKMORDeviceOutput.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORDeviceOutput.h; sourceTree = "<group>"; };
+		2020CDC10AF6AEDA004E30A7 /* ZKMORDeviceOutput.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORDeviceOutput.mm; sourceTree = "<group>"; };
+		2020CDC30AF6AEDA004E30A7 /* ZKMORConduit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORConduit.h; sourceTree = "<group>"; };
+		2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORConduit.mm; sourceTree = "<group>"; };
+		2020CDC50AF6AEDA004E30A7 /* ZKMORCore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORCore.h; sourceTree = "<group>"; };
+		2020CDC60AF6AEDA004E30A7 /* ZKMORCore.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMORCore.m; sourceTree = "<group>"; };
+		2020CDC70AF6AEDA004E30A7 /* ZKMORException.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORException.h; sourceTree = "<group>"; };
+		2020CDC80AF6AEDA004E30A7 /* ZKMORException.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMORException.m; sourceTree = "<group>"; };
+		2020CDC90AF6AEDA004E30A7 /* ZKMORGraph.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORGraph.h; sourceTree = "<group>"; };
+		2020CDCA0AF6AEDA004E30A7 /* ZKMORGraph.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORGraph.mm; sourceTree = "<group>"; };
+		2020CDCB0AF6AEDA004E30A7 /* ZKMORUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORUtilities.h; sourceTree = "<group>"; };
+		2020CDCC0AF6AEDA004E30A7 /* ZKMORUtilities.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORUtilities.mm; sourceTree = "<group>"; };
+		2020CDCE0AF6AEDA004E30A7 /* ZKMORRenderSimulator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORRenderSimulator.h; sourceTree = "<group>"; };
+		2020CDCF0AF6AEDA004E30A7 /* ZKMORRenderSimulator.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORRenderSimulator.mm; sourceTree = "<group>"; };
+		2020CDD10AF6AEDA004E30A7 /* ZKMORAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFile.h; sourceTree = "<group>"; };
+		2020CDD20AF6AEDA004E30A7 /* ZKMORAudioFile.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioFile.mm; sourceTree = "<group>"; };
+		2020CDD30AF6AEDA004E30A7 /* ZKMORQuickTime.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORQuickTime.h; sourceTree = "<group>"; };
+		2020CDD40AF6AEDA004E30A7 /* ZKMORQuickTime.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORQuickTime.mm; sourceTree = "<group>"; };
+		2020CDD50AF6AEDA004E30A7 /* ZKMORAudioFileOutput.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioFileOutput.h; sourceTree = "<group>"; };
+		2020CDD60AF6AEDA004E30A7 /* ZKMORAudioFileOutput.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioFileOutput.mm; sourceTree = "<group>"; };
+		2020CDD80AF6AEDA004E30A7 /* ZKMORNoise.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORNoise.h; sourceTree = "<group>"; };
+		2020CDD90AF6AEDA004E30A7 /* ZKMORNoise.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMORNoise.m; sourceTree = "<group>"; };
+		2020CDDB0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioHardwareSystem.h; sourceTree = "<group>"; };
+		2020CDDC0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioHardwareSystem.mm; sourceTree = "<group>"; };
+		2020CDDE0AF6AEDA004E30A7 /* ZKMMPRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMMPRingBuffer.h; sourceTree = "<group>"; };
+		2020CDDF0AF6AEDA004E30A7 /* ZKMORFileStreamer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORFileStreamer.h; sourceTree = "<group>"; };
+		2020CDE00AF6AEDA004E30A7 /* ZKMORFileStreamer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORFileStreamer.cpp; sourceTree = "<group>"; };
+		2020CDE10AF6AEDA004E30A7 /* ZKMORLogPrinter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORLogPrinter.h; sourceTree = "<group>"; };
+		2020CDE20AF6AEDB004E30A7 /* ZKMORLogPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLogPrinter.cpp; sourceTree = "<group>"; };
+		2020CDE30AF6AEDB004E30A7 /* ZKMORQTReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORQTReader.h; sourceTree = "<group>"; };
+		2020CDE40AF6AEDB004E30A7 /* ZKMORQTReader.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORQTReader.mm; sourceTree = "<group>"; };
+		2020CDE50AF6AEDB004E30A7 /* ZKMORThreadBridge.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORThreadBridge.h; sourceTree = "<group>"; };
+		2020CDE60AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORThreadBridge.cpp; sourceTree = "<group>"; };
+		2020CDE70AF6AEDB004E30A7 /* ZKMORZone.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORZone.h; sourceTree = "<group>"; };
+		2020CDE80AF6AEDB004E30A7 /* ZKMORZone.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORZone.cpp; sourceTree = "<group>"; };
+		2020CE1A0AF6AEEB004E30A7 /* ZKMMPQueue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMMPQueue.h; sourceTree = "<group>"; };
+		2020CE1B0AF6AEEB004E30A7 /* ZKMORLogger.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORLogger.h; sourceTree = "<group>"; };
+		2020CE1C0AF6AEEB004E30A7 /* ZKMORLogger.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLogger.cpp; sourceTree = "<group>"; };
+		2020CE1D0AF6AEEB004E30A7 /* ZKMORLoggerCPP.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORLoggerCPP.h; sourceTree = "<group>"; };
+		2020CE1E0AF6AEEB004E30A7 /* ZKMORLoggerCPP.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORLoggerCPP.cpp; sourceTree = "<group>"; };
+		2020CE2D0AF6AF0D004E30A7 /* AUOutputBL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUOutputBL.h; sourceTree = "<group>"; };
+		2020CE2E0AF6AF0D004E30A7 /* AUOutputBL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputBL.cpp; sourceTree = "<group>"; };
+		2020CE2F0AF6AF0D004E30A7 /* CAAtomicStack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAtomicStack.h; sourceTree = "<group>"; };
+		2020CE300AF6AF0D004E30A7 /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
+		2020CE310AF6AF0D004E30A7 /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
+		2020CE320AF6AF0D004E30A7 /* CAAudioChannelLayoutObject.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayoutObject.cpp; sourceTree = "<group>"; };
+		2020CE330AF6AF0E004E30A7 /* CAAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CAAudioFile.h; path = "AudioFile-new/CAAudioFile.h"; sourceTree = "<group>"; };
+		2020CE340AF6AF0E004E30A7 /* CAAudioFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CAAudioFile.cpp; path = "AudioFile-new/CAAudioFile.cpp"; sourceTree = "<group>"; };
+		2020CE350AF6AF0E004E30A7 /* CAAudioFileFormats.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioFileFormats.h; sourceTree = "<group>"; };
+		2020CE360AF6AF0E004E30A7 /* CAAudioFileFormats.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioFileFormats.cpp; sourceTree = "<group>"; };
+		2020CE370AF6AF0E004E30A7 /* CAAudioHardwareDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareDevice.h; sourceTree = "<group>"; };
+		2020CE380AF6AF0E004E30A7 /* CAAudioHardwareDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareDevice.cpp; sourceTree = "<group>"; };
+		2020CE390AF6AF0E004E30A7 /* CAAudioHardwareStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareStream.h; sourceTree = "<group>"; };
+		2020CE3A0AF6AF0E004E30A7 /* CAAudioHardwareStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareStream.cpp; sourceTree = "<group>"; };
+		2020CE3B0AF6AF0E004E30A7 /* CAAudioHardwareSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareSystem.h; sourceTree = "<group>"; };
+		2020CE3C0AF6AF0E004E30A7 /* CAAudioHardwareSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareSystem.cpp; sourceTree = "<group>"; };
+		2020CE3D0AF6AF0E004E30A7 /* CAAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioUnit.h; sourceTree = "<group>"; };
+		2020CE3E0AF6AF0E004E30A7 /* CAAudioUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioUnit.cpp; sourceTree = "<group>"; };
+		2020CE3F0AF6AF0E004E30A7 /* CABufferList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CABufferList.h; sourceTree = "<group>"; };
+		2020CE400AF6AF0E004E30A7 /* CABufferList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CABufferList.cpp; sourceTree = "<group>"; };
+		2020CE410AF6AF0E004E30A7 /* CAComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponent.cpp; sourceTree = "<group>"; };
+		2020CE420AF6AF0E004E30A7 /* CAComponentDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAComponentDescription.h; sourceTree = "<group>"; };
+		2020CE430AF6AF0E004E30A7 /* CAComponentDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponentDescription.cpp; sourceTree = "<group>"; };
+		2020CE440AF6AF0E004E30A7 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		2020CE450AF6AF0E004E30A7 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		2020CE460AF6AF0E004E30A7 /* CAGuard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAGuard.h; sourceTree = "<group>"; };
+		2020CE470AF6AF0E004E30A7 /* CAGuard.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAGuard.cpp; sourceTree = "<group>"; };
+		2020CE480AF6AF0E004E30A7 /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		2020CE490AF6AF0E004E30A7 /* CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAHostTimeBase.cpp; sourceTree = "<group>"; };
+		2020CE4A0AF6AF0E004E30A7 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		2020CE4B0AF6AF0E004E30A7 /* CAMutex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAMutex.h; sourceTree = "<group>"; };
+		2020CE4C0AF6AF0E004E30A7 /* CAMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAMutex.cpp; sourceTree = "<group>"; };
+		2020CE4D0AF6AF0E004E30A7 /* CAPThread.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAPThread.h; sourceTree = "<group>"; };
+		2020CE4E0AF6AF0E004E30A7 /* CAPThread.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAPThread.cpp; sourceTree = "<group>"; };
+		2020CE4F0AF6AF0E004E30A7 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		2020CE500AF6AF0E004E30A7 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		2020CE510AF6AF0E004E30A7 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		2020CE520AF6AF0E004E30A7 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		2020CF9F0AF6B236004E30A7 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		2020CFA00AF6B236004E30A7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		2020CFA10AF6B236004E30A7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		2020CFA20AF6B236004E30A7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		2020CFA30AF6B236004E30A7 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		2020CFA40AF6B236004E30A7 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		2020CFA50AF6B236004E30A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		20A3D4330D2DB47400973E50 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /System/Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* Syncretism_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Syncretism_Prefix.pch; sourceTree = "<group>"; };
+		3612EE680B54019900E98AC9 /* ZKMNREventScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNREventScheduler.h; sourceTree = "<group>"; };
+		3612EE690B54019900E98AC9 /* ZKMNREventScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNREventScheduler.m; sourceTree = "<group>"; };
+		361E0A6D0B5810D400634685 /* ZKMNRPannerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRPannerEvent.h; sourceTree = "<group>"; };
+		361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRPannerEvent.m; sourceTree = "<group>"; };
+		36226EA30B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRAbstractProcessorTest.h; sourceTree = "<group>"; };
+		36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRAbstractProcessorTest.m; sourceTree = "<group>"; };
+		36226F490B3AC10A009CAA75 /* SyncretismTestTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SyncretismTestTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		36226F540B3AC144009CAA75 /* ZKMNRTestToolDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRTestToolDriver.m; sourceTree = "<group>"; };
+		3631DB5E0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRSpeakerLayout.h; sourceTree = "<group>"; };
+		3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRSpeakerLayout.m; sourceTree = "<group>"; };
+		3631DB870AEE2757001DC5CC /* ZKMNRCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRCoordinates.h; sourceTree = "<group>"; };
+		3631DB880AEE2757001DC5CC /* ZKMNRCoordinates.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMNRCoordinates.mm; sourceTree = "<group>"; };
+		364AA1DB0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRValueTransformer.h; sourceTree = "<group>"; };
+		364AA1DC0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMNRValueTransformer.mm; sourceTree = "<group>"; };
+		364AC81A0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRSpeakerLayoutSimulator.h; sourceTree = "<group>"; };
+		364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRSpeakerLayoutSimulator.m; sourceTree = "<group>"; };
+		364B4C810B55450D00B509E7 /* ZKMNREventSchedulerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNREventSchedulerTest.h; sourceTree = "<group>"; };
+		364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNREventSchedulerTest.m; sourceTree = "<group>"; };
+		364B50FE0B55652800B509E7 /* ZKMORClock.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORClock.h; sourceTree = "<group>"; };
+		364B50FF0B55652800B509E7 /* ZKMORClock.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMORClock.m; sourceTree = "<group>"; };
+		364B51000B55652800B509E7 /* ZKMOROutput.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMOROutput.h; sourceTree = "<group>"; };
+		364B51010B55652800B509E7 /* ZKMOROutput.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZKMOROutput.m; sourceTree = "<group>"; };
+		365A3ECE0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRSpeakerLayoutTest.h; sourceTree = "<group>"; };
+		365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMNRSpeakerLayoutTest.mm; sourceTree = "<group>"; };
+		366717370B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRSpeakerLayoutSimulatorTest.h; sourceTree = "<group>"; };
+		366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRSpeakerLayoutSimulatorTest.m; sourceTree = "<group>"; };
+		366964510AEE89B100E4EAC9 /* SyncretismTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyncretismTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366964520AEE89B100E4EAC9 /* SyncretismTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncretismTest-Info.plist"; sourceTree = "<group>"; };
+		3669645B0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRCoordinatesTest.h; sourceTree = "<group>"; };
+		3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRCoordinatesTest.m; sourceTree = "<group>"; };
+		366964680AEE8A4F00E4EAC9 /* Syncretism.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Syncretism.h; sourceTree = "<group>"; };
+		366D76540B2ACA1100F07F47 /* triangle.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = triangle.c; sourceTree = "<group>"; };
+		366D76550B2ACA1100F07F47 /* triangle.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = triangle.h; sourceTree = "<group>"; };
+		366D77130B2AD75800F07F47 /* ZKMNRPannerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRPannerTest.h; sourceTree = "<group>"; };
+		366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRPannerTest.m; sourceTree = "<group>"; };
+		3686FEB60C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitParameterScheduler.h; sourceTree = "<group>"; };
+		3686FEB70C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnitParameterScheduler.mm; sourceTree = "<group>"; };
+		3686FEBA0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ZKMORGuardRT.cpp; sourceTree = "<group>"; };
+		3686FEBB0C00E0BA0017E7D9 /* ZKMORGuardRT.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ZKMORGuardRT.h; sourceTree = "<group>"; };
+		369270960B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRPannerEventTest.h; sourceTree = "<group>"; };
+		369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRPannerEventTest.m; sourceTree = "<group>"; };
+		36B37E340B247CDA006F5521 /* ZKMNRValueTransformerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRValueTransformerTest.h; sourceTree = "<group>"; };
+		36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMNRValueTransformerTest.m; sourceTree = "<group>"; };
+		36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRPanner.h; sourceTree = "<group>"; };
+		36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMNRPanner.mm; sourceTree = "<group>"; };
+		36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRLinearAlgebra.h; sourceTree = "<group>"; };
+		36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZKMNRLinearAlgebra.c; sourceTree = "<group>"; };
+		36FE42B20AF0A4080017B68E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* Syncretism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Syncretism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B75BC9125F5AD2008455AF /* libtet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtet.a; path = TetGenSource/libtet.a; sourceTree = "<group>"; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36226F470B3AC10A009CAA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36226F8D0B3AC178009CAA75 /* Syncretism.framework in Frameworks */,
+				20A3D4340D2DB47400973E50 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3669644E0AEE89B100E4EAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366964590AEE89DA00E4EAC9 /* Syncretism.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				36FE42B30AF0A4080017B68E /* Accelerate.framework in Frameworks */,
+				2020CFA60AF6B236004E30A7 /* CoreServices.framework in Frameworks */,
+				2020CFA70AF6B236004E30A7 /* CoreAudio.framework in Frameworks */,
+				2020CFA80AF6B236004E30A7 /* AudioUnit.framework in Frameworks */,
+				2020CFA90AF6B236004E30A7 /* AudioToolbox.framework in Frameworks */,
+				2020CFAA0AF6B236004E30A7 /* QuickTime.framework in Frameworks */,
+				2020CFAB0AF6B236004E30A7 /* QTKit.framework in Frameworks */,
+				2020CFAC0AF6B236004E30A7 /* QuartzCore.framework in Frameworks */,
+				B4B75BCA125F5AD2008455AF /* libtet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* Syncretism.framework */,
+				366964510AEE89B100E4EAC9 /* SyncretismTest.octest */,
+				36226F490B3AC10A009CAA75 /* SyncretismTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Syncretism */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Syncretism */,
+				3631DB3A0AEE2472001DC5CC /* Tests and Examples */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				366964520AEE89B100E4EAC9 /* SyncretismTest-Info.plist */,
+			);
+			name = Syncretism;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Syncretism */ = {
+			isa = PBXGroup;
+			children = (
+				3631DB370AEE244D001DC5CC /* Documentation */,
+				3631DB380AEE244D001DC5CC /* SyncretismSource */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+			);
+			name = Syncretism;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B75BC9125F5AD2008455AF /* libtet.a */,
+				36FE42B20AF0A4080017B68E /* Accelerate.framework */,
+				2020CF9F0AF6B236004E30A7 /* CoreServices.framework */,
+				2020CFA00AF6B236004E30A7 /* CoreAudio.framework */,
+				2020CFA10AF6B236004E30A7 /* AudioUnit.framework */,
+				2020CFA20AF6B236004E30A7 /* AudioToolbox.framework */,
+				2020CFA30AF6B236004E30A7 /* QuickTime.framework */,
+				2020CFA40AF6B236004E30A7 /* QTKit.framework */,
+				2020CFA50AF6B236004E30A7 /* QuartzCore.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20A3D4330D2DB47400973E50 /* SenTestingKit.framework */,
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2020CDB10AF6AEDA004E30A7 /* SycamoreSource */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDB20AF6AEDA004E30A7 /* Sycamore.h */,
+				2020CDB30AF6AEDA004E30A7 /* AudioUnit */,
+				2020CDC20AF6AEDA004E30A7 /* Core */,
+				2020CDCD0AF6AEDA004E30A7 /* Debugging */,
+				2020CDD00AF6AEDA004E30A7 /* FileIO */,
+				2020CDD70AF6AEDA004E30A7 /* Generators */,
+				2020CDDA0AF6AEDA004E30A7 /* HAL */,
+				2020CDDD0AF6AEDA004E30A7 /* Zone */,
+			);
+			name = SycamoreSource;
+			path = ../Sycamore/SycamoreSource;
+			sourceTree = SOURCE_ROOT;
+		};
+		2020CDB30AF6AEDA004E30A7 /* AudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */,
+				2020CDB50AF6AEDA004E30A7 /* CAAudioUnitZKM.cpp */,
+				2020CDB60AF6AEDA004E30A7 /* ZKMORAudioUnit.h */,
+				2020CDB70AF6AEDA004E30A7 /* ZKMORAudioUnit.mm */,
+				2020CDB80AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.h */,
+				2020CDB90AF6AEDA004E30A7 /* ZKMORAudioUnitMirror.m */,
+				3686FEB60C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h */,
+				3686FEB70C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm */,
+				2020CDBA0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.h */,
+				2020CDBB0AF6AEDA004E30A7 /* ZKMORAudioUnitSystem.mm */,
+				2020CDBC0AF6AEDA004E30A7 /* ZKMORMixer3D.h */,
+				2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */,
+				2020CDBE0AF6AEDA004E30A7 /* ZKMORMixerMatrix.h */,
+				2020CDBF0AF6AEDA004E30A7 /* ZKMORMixerMatrix.mm */,
+				2020CDC00AF6AEDA004E30A7 /* ZKMORDeviceOutput.h */,
+				2020CDC10AF6AEDA004E30A7 /* ZKMORDeviceOutput.mm */,
+			);
+			path = AudioUnit;
+			sourceTree = "<group>";
+		};
+		2020CDC20AF6AEDA004E30A7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				364B50FE0B55652800B509E7 /* ZKMORClock.h */,
+				364B50FF0B55652800B509E7 /* ZKMORClock.m */,
+				2020CDC30AF6AEDA004E30A7 /* ZKMORConduit.h */,
+				2020CDC40AF6AEDA004E30A7 /* ZKMORConduit.mm */,
+				2020CDC50AF6AEDA004E30A7 /* ZKMORCore.h */,
+				2020CDC60AF6AEDA004E30A7 /* ZKMORCore.m */,
+				2020CDC70AF6AEDA004E30A7 /* ZKMORException.h */,
+				2020CDC80AF6AEDA004E30A7 /* ZKMORException.m */,
+				2020CDC90AF6AEDA004E30A7 /* ZKMORGraph.h */,
+				2020CDCA0AF6AEDA004E30A7 /* ZKMORGraph.mm */,
+				364B51000B55652800B509E7 /* ZKMOROutput.h */,
+				364B51010B55652800B509E7 /* ZKMOROutput.m */,
+				2020CDCB0AF6AEDA004E30A7 /* ZKMORUtilities.h */,
+				2020CDCC0AF6AEDA004E30A7 /* ZKMORUtilities.mm */,
+				3686FEBB0C00E0BA0017E7D9 /* ZKMORGuardRT.h */,
+				3686FEBA0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2020CDCD0AF6AEDA004E30A7 /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDCE0AF6AEDA004E30A7 /* ZKMORRenderSimulator.h */,
+				2020CDCF0AF6AEDA004E30A7 /* ZKMORRenderSimulator.mm */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		2020CDD00AF6AEDA004E30A7 /* FileIO */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDD10AF6AEDA004E30A7 /* ZKMORAudioFile.h */,
+				2020CDD20AF6AEDA004E30A7 /* ZKMORAudioFile.mm */,
+				2020CDD30AF6AEDA004E30A7 /* ZKMORQuickTime.h */,
+				2020CDD40AF6AEDA004E30A7 /* ZKMORQuickTime.mm */,
+				2020CDD50AF6AEDA004E30A7 /* ZKMORAudioFileOutput.h */,
+				2020CDD60AF6AEDA004E30A7 /* ZKMORAudioFileOutput.mm */,
+			);
+			path = FileIO;
+			sourceTree = "<group>";
+		};
+		2020CDD70AF6AEDA004E30A7 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDD80AF6AEDA004E30A7 /* ZKMORNoise.h */,
+				2020CDD90AF6AEDA004E30A7 /* ZKMORNoise.m */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		2020CDDA0AF6AEDA004E30A7 /* HAL */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDDB0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.h */,
+				2020CDDC0AF6AEDA004E30A7 /* ZKMORAudioHardwareSystem.mm */,
+			);
+			path = HAL;
+			sourceTree = "<group>";
+		};
+		2020CDDD0AF6AEDA004E30A7 /* Zone */ = {
+			isa = PBXGroup;
+			children = (
+				2020CDDE0AF6AEDA004E30A7 /* ZKMMPRingBuffer.h */,
+				2020CDDF0AF6AEDA004E30A7 /* ZKMORFileStreamer.h */,
+				2020CDE00AF6AEDA004E30A7 /* ZKMORFileStreamer.cpp */,
+				2020CDE10AF6AEDA004E30A7 /* ZKMORLogPrinter.h */,
+				2020CDE20AF6AEDB004E30A7 /* ZKMORLogPrinter.cpp */,
+				2020CDE30AF6AEDB004E30A7 /* ZKMORQTReader.h */,
+				2020CDE40AF6AEDB004E30A7 /* ZKMORQTReader.mm */,
+				2020CDE50AF6AEDB004E30A7 /* ZKMORThreadBridge.h */,
+				2020CDE60AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp */,
+				2020CDE70AF6AEDB004E30A7 /* ZKMORZone.h */,
+				2020CDE80AF6AEDB004E30A7 /* ZKMORZone.cpp */,
+			);
+			path = Zone;
+			sourceTree = "<group>";
+		};
+		2020CE190AF6AEEB004E30A7 /* SycamoreLogSource */ = {
+			isa = PBXGroup;
+			children = (
+				2020CE1A0AF6AEEB004E30A7 /* ZKMMPQueue.h */,
+				2020CE1B0AF6AEEB004E30A7 /* ZKMORLogger.h */,
+				2020CE1C0AF6AEEB004E30A7 /* ZKMORLogger.cpp */,
+				2020CE1D0AF6AEEB004E30A7 /* ZKMORLoggerCPP.h */,
+				2020CE1E0AF6AEEB004E30A7 /* ZKMORLoggerCPP.cpp */,
+			);
+			name = SycamoreLogSource;
+			path = ../SycamoreLog/SycamoreLogSource;
+			sourceTree = SOURCE_ROOT;
+		};
+		2020CE2C0AF6AF0D004E30A7 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				2020CE2D0AF6AF0D004E30A7 /* AUOutputBL.h */,
+				2020CE2E0AF6AF0D004E30A7 /* AUOutputBL.cpp */,
+				2020CE2F0AF6AF0D004E30A7 /* CAAtomicStack.h */,
+				2020CE300AF6AF0D004E30A7 /* CAAudioChannelLayout.h */,
+				2020CE310AF6AF0D004E30A7 /* CAAudioChannelLayout.cpp */,
+				2020CE320AF6AF0D004E30A7 /* CAAudioChannelLayoutObject.cpp */,
+				2020CE330AF6AF0E004E30A7 /* CAAudioFile.h */,
+				2020CE340AF6AF0E004E30A7 /* CAAudioFile.cpp */,
+				2020CE350AF6AF0E004E30A7 /* CAAudioFileFormats.h */,
+				2020CE360AF6AF0E004E30A7 /* CAAudioFileFormats.cpp */,
+				2020CE370AF6AF0E004E30A7 /* CAAudioHardwareDevice.h */,
+				2020CE380AF6AF0E004E30A7 /* CAAudioHardwareDevice.cpp */,
+				2020CE390AF6AF0E004E30A7 /* CAAudioHardwareStream.h */,
+				2020CE3A0AF6AF0E004E30A7 /* CAAudioHardwareStream.cpp */,
+				2020CE3B0AF6AF0E004E30A7 /* CAAudioHardwareSystem.h */,
+				2020CE3C0AF6AF0E004E30A7 /* CAAudioHardwareSystem.cpp */,
+				2020CE3D0AF6AF0E004E30A7 /* CAAudioUnit.h */,
+				2020CE3E0AF6AF0E004E30A7 /* CAAudioUnit.cpp */,
+				2020CE3F0AF6AF0E004E30A7 /* CABufferList.h */,
+				2020CE400AF6AF0E004E30A7 /* CABufferList.cpp */,
+				2020CE410AF6AF0E004E30A7 /* CAComponent.cpp */,
+				2020CE420AF6AF0E004E30A7 /* CAComponentDescription.h */,
+				2020CE430AF6AF0E004E30A7 /* CAComponentDescription.cpp */,
+				2020CE440AF6AF0E004E30A7 /* CADebugMacros.h */,
+				2020CE450AF6AF0E004E30A7 /* CADebugMacros.cpp */,
+				2020CE460AF6AF0E004E30A7 /* CAGuard.h */,
+				2020CE470AF6AF0E004E30A7 /* CAGuard.cpp */,
+				2020CE480AF6AF0E004E30A7 /* CAHostTimeBase.h */,
+				2020CE490AF6AF0E004E30A7 /* CAHostTimeBase.cpp */,
+				2020CE4A0AF6AF0E004E30A7 /* CAMath.h */,
+				2020CE4B0AF6AF0E004E30A7 /* CAMutex.h */,
+				2020CE4C0AF6AF0E004E30A7 /* CAMutex.cpp */,
+				2020CE4D0AF6AF0E004E30A7 /* CAPThread.h */,
+				2020CE4E0AF6AF0E004E30A7 /* CAPThread.cpp */,
+				2020CE4F0AF6AF0E004E30A7 /* CAStreamBasicDescription.h */,
+				2020CE500AF6AF0E004E30A7 /* CAStreamBasicDescription.cpp */,
+				2020CE510AF6AF0E004E30A7 /* CAXException.h */,
+				2020CE520AF6AF0E004E30A7 /* CAXException.cpp */,
+			);
+			name = PublicUtility;
+			path = ../Tiger/PublicUtility;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2020CE190AF6AEEB004E30A7 /* SycamoreLogSource */,
+				2020CE2C0AF6AF0D004E30A7 /* PublicUtility */,
+				2020CDB10AF6AEDA004E30A7 /* SycamoreSource */,
+				366D764F0B2ACA1100F07F47 /* TriangleSource */,
+				B4B75B8C125F4C6F008455AF /* Tetgen */,
+				32DBCF5E0370ADEE00C91783 /* Syncretism_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		3612EE310B54000600E98AC9 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				3612EE680B54019900E98AC9 /* ZKMNREventScheduler.h */,
+				3612EE690B54019900E98AC9 /* ZKMNREventScheduler.m */,
+			);
+			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		3631DB370AEE244D001DC5CC /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		3631DB380AEE244D001DC5CC /* SyncretismSource */ = {
+			isa = PBXGroup;
+			children = (
+				366964680AEE8A4F00E4EAC9 /* Syncretism.h */,
+				364AA1D80B0E1A0D0055C6E9 /* GUI */,
+				3612EE310B54000600E98AC9 /* Scheduler */,
+				36FE428F0AF0A33F0017B68E /* Spatialization */,
+				3631DB5D0AEE259C001DC5CC /* SpeakerLayout */,
+			);
+			path = SyncretismSource;
+			sourceTree = "<group>";
+		};
+		3631DB390AEE244D001DC5CC /* SyncretismTestSource */ = {
+			isa = PBXGroup;
+			children = (
+				36226EA30B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.h */,
+				36226EA40B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m */,
+				3669645B0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.h */,
+				3669645C0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m */,
+				364B4C810B55450D00B509E7 /* ZKMNREventSchedulerTest.h */,
+				364B4C820B55450D00B509E7 /* ZKMNREventSchedulerTest.m */,
+				366D77130B2AD75800F07F47 /* ZKMNRPannerTest.h */,
+				366D77140B2AD75800F07F47 /* ZKMNRPannerTest.m */,
+				369270960B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.h */,
+				369270970B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m */,
+				365A3ECE0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.h */,
+				365A3ECF0AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm */,
+				366717370B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.h */,
+				366717380B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m */,
+				36B37E340B247CDA006F5521 /* ZKMNRValueTransformerTest.h */,
+				36B37E350B247CDA006F5521 /* ZKMNRValueTransformerTest.m */,
+				36226F540B3AC144009CAA75 /* ZKMNRTestToolDriver.m */,
+			);
+			path = SyncretismTestSource;
+			sourceTree = "<group>";
+		};
+		3631DB3A0AEE2472001DC5CC /* Tests and Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3631DB390AEE244D001DC5CC /* SyncretismTestSource */,
+			);
+			name = "Tests and Examples";
+			sourceTree = "<group>";
+		};
+		3631DB5D0AEE259C001DC5CC /* SpeakerLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3631DB870AEE2757001DC5CC /* ZKMNRCoordinates.h */,
+				3631DB880AEE2757001DC5CC /* ZKMNRCoordinates.mm */,
+				3631DB5E0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h */,
+				3631DB5F0AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m */,
+				364AC81A0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.h */,
+				364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */,
+			);
+			path = SpeakerLayout;
+			sourceTree = "<group>";
+		};
+		364AA1D80B0E1A0D0055C6E9 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				364AA1DB0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h */,
+				364AA1DC0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		366D764F0B2ACA1100F07F47 /* TriangleSource */ = {
+			isa = PBXGroup;
+			children = (
+				366D76540B2ACA1100F07F47 /* triangle.c */,
+				366D76550B2ACA1100F07F47 /* triangle.h */,
+			);
+			path = TriangleSource;
+			sourceTree = "<group>";
+		};
+		36FE428F0AF0A33F0017B68E /* Spatialization */ = {
+			isa = PBXGroup;
+			children = (
+				36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */,
+				36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */,
+				36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */,
+				36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */,
+				361E0A6D0B5810D400634685 /* ZKMNRPannerEvent.h */,
+				361E0A6E0B5810D400634685 /* ZKMNRPannerEvent.m */,
+			);
+			path = Spatialization;
+			sourceTree = "<group>";
+		};
+		B4B75B8C125F4C6F008455AF /* Tetgen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tetgen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3631DB600AEE25B4001DC5CC /* ZKMNRSpeakerLayout.h in Headers */,
+				3631DB890AEE2757001DC5CC /* ZKMNRCoordinates.h in Headers */,
+				3669646A0AEE8A4F00E4EAC9 /* Syncretism.h in Headers */,
+				36FE42920AF0A3580017B68E /* ZKMNRLinearAlgebra.h in Headers */,
+				2020CDE90AF6AEDB004E30A7 /* Sycamore.h in Headers */,
+				2020CDEA0AF6AEDB004E30A7 /* CAAudioUnitZKM.h in Headers */,
+				2020CDEC0AF6AEDB004E30A7 /* ZKMORAudioUnit.h in Headers */,
+				2020CDEE0AF6AEDB004E30A7 /* ZKMORAudioUnitMirror.h in Headers */,
+				2020CDF00AF6AEDB004E30A7 /* ZKMORAudioUnitSystem.h in Headers */,
+				2020CDF20AF6AEDB004E30A7 /* ZKMORMixer3D.h in Headers */,
+				2020CDF40AF6AEDB004E30A7 /* ZKMORMixerMatrix.h in Headers */,
+				2020CDF60AF6AEDB004E30A7 /* ZKMORDeviceOutput.h in Headers */,
+				2020CDF80AF6AEDB004E30A7 /* ZKMORConduit.h in Headers */,
+				2020CDFA0AF6AEDB004E30A7 /* ZKMORCore.h in Headers */,
+				2020CDFC0AF6AEDB004E30A7 /* ZKMORException.h in Headers */,
+				2020CDFE0AF6AEDB004E30A7 /* ZKMORGraph.h in Headers */,
+				2020CE000AF6AEDB004E30A7 /* ZKMORUtilities.h in Headers */,
+				2020CE020AF6AEDB004E30A7 /* ZKMORRenderSimulator.h in Headers */,
+				2020CE040AF6AEDB004E30A7 /* ZKMORAudioFile.h in Headers */,
+				2020CE060AF6AEDB004E30A7 /* ZKMORQuickTime.h in Headers */,
+				2020CE080AF6AEDB004E30A7 /* ZKMORAudioFileOutput.h in Headers */,
+				2020CE0A0AF6AEDB004E30A7 /* ZKMORNoise.h in Headers */,
+				2020CE0C0AF6AEDB004E30A7 /* ZKMORAudioHardwareSystem.h in Headers */,
+				2020CE0E0AF6AEDB004E30A7 /* ZKMMPRingBuffer.h in Headers */,
+				2020CE0F0AF6AEDB004E30A7 /* ZKMORFileStreamer.h in Headers */,
+				2020CE110AF6AEDB004E30A7 /* ZKMORLogPrinter.h in Headers */,
+				2020CE130AF6AEDB004E30A7 /* ZKMORQTReader.h in Headers */,
+				2020CE150AF6AEDB004E30A7 /* ZKMORThreadBridge.h in Headers */,
+				2020CE170AF6AEDB004E30A7 /* ZKMORZone.h in Headers */,
+				2020CE200AF6AEEB004E30A7 /* ZKMMPQueue.h in Headers */,
+				2020CE210AF6AEEB004E30A7 /* ZKMORLogger.h in Headers */,
+				2020CE230AF6AEEB004E30A7 /* ZKMORLoggerCPP.h in Headers */,
+				2020CE530AF6AF0E004E30A7 /* AUOutputBL.h in Headers */,
+				2020CE550AF6AF0E004E30A7 /* CAAtomicStack.h in Headers */,
+				2020CE560AF6AF0E004E30A7 /* CAAudioChannelLayout.h in Headers */,
+				2020CE590AF6AF0E004E30A7 /* CAAudioFile.h in Headers */,
+				2020CE5B0AF6AF0E004E30A7 /* CAAudioFileFormats.h in Headers */,
+				2020CE5D0AF6AF0E004E30A7 /* CAAudioHardwareDevice.h in Headers */,
+				2020CE5F0AF6AF0E004E30A7 /* CAAudioHardwareStream.h in Headers */,
+				2020CE610AF6AF0E004E30A7 /* CAAudioHardwareSystem.h in Headers */,
+				2020CE630AF6AF0E004E30A7 /* CAAudioUnit.h in Headers */,
+				2020CE650AF6AF0E004E30A7 /* CABufferList.h in Headers */,
+				2020CE680AF6AF0E004E30A7 /* CAComponentDescription.h in Headers */,
+				2020CE6A0AF6AF0E004E30A7 /* CADebugMacros.h in Headers */,
+				2020CE6C0AF6AF0E004E30A7 /* CAGuard.h in Headers */,
+				2020CE6E0AF6AF0E004E30A7 /* CAHostTimeBase.h in Headers */,
+				2020CE700AF6AF0E004E30A7 /* CAMath.h in Headers */,
+				2020CE710AF6AF0E004E30A7 /* CAMutex.h in Headers */,
+				2020CE730AF6AF0E004E30A7 /* CAPThread.h in Headers */,
+				2020CE750AF6AF0E004E30A7 /* CAStreamBasicDescription.h in Headers */,
+				2020CE770AF6AF0E004E30A7 /* CAXException.h in Headers */,
+				364AA1DD0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.h in Headers */,
+				36EC1CDF0B26FAB3009A8611 /* ZKMNRPanner.h in Headers */,
+				366D765C0B2ACA1100F07F47 /* triangle.h in Headers */,
+				364AC81C0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.h in Headers */,
+				3612EE6A0B54019900E98AC9 /* ZKMNREventScheduler.h in Headers */,
+				364B51020B55652800B509E7 /* ZKMORClock.h in Headers */,
+				364B51040B55652800B509E7 /* ZKMOROutput.h in Headers */,
+				361E0A6F0B5810D400634685 /* ZKMNRPannerEvent.h in Headers */,
+				3686FEB80C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h in Headers */,
+				3686FEBD0C00E0BA0017E7D9 /* ZKMORGuardRT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36226F480B3AC10A009CAA75 /* SyncretismTestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36226F510B3AC13D009CAA75 /* Build configuration list for PBXNativeTarget "SyncretismTestTool" */;
+			buildPhases = (
+				36226F460B3AC10A009CAA75 /* Sources */,
+				36226F470B3AC10A009CAA75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361A769A0B70FFBE0014163D /* PBXTargetDependency */,
+			);
+			name = SyncretismTestTool;
+			productName = SyncretismTestTool;
+			productReference = 36226F490B3AC10A009CAA75 /* SyncretismTestTool */;
+			productType = "com.apple.product-type.tool";
+		};
+		366964500AEE89B100E4EAC9 /* SyncretismTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366964530AEE89B200E4EAC9 /* Build configuration list for PBXNativeTarget "SyncretismTest" */;
+			buildPhases = (
+				3669644C0AEE89B100E4EAC9 /* Resources */,
+				3669644D0AEE89B100E4EAC9 /* Sources */,
+				3669644E0AEE89B100E4EAC9 /* Frameworks */,
+				3669644F0AEE89B100E4EAC9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366964570AEE89C700E4EAC9 /* PBXTargetDependency */,
+			);
+			name = SyncretismTest;
+			productName = SyncretismTest;
+			productReference = 366964510AEE89B100E4EAC9 /* SyncretismTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DC2EF4F0486A6940098B216 /* Syncretism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Syncretism" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Syncretism;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = Syncretism;
+			productReference = 8DC2EF5B0486A6940098B216 /* Syncretism.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Syncretism" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* Syncretism */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* Syncretism */,
+				366964500AEE89B100E4EAC9 /* SyncretismTest */,
+				36226F480B3AC10A009CAA75 /* SyncretismTestTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3669644C0AEE89B100E4EAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3669644F0AEE89B100E4EAC9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36226F460B3AC10A009CAA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36226F550B3AC144009CAA75 /* ZKMNRTestToolDriver.m in Sources */,
+				36226F5B0B3AC15E009CAA75 /* ZKMNRSpeakerLayoutSimulatorTest.m in Sources */,
+				36226FA20B3AC1BD009CAA75 /* ZKMNRAbstractProcessorTest.m in Sources */,
+				36226FA40B3AC1C1009CAA75 /* ZKMNRCoordinatesTest.m in Sources */,
+				36226FA50B3AC1C1009CAA75 /* ZKMNRPannerTest.m in Sources */,
+				36226FA60B3AC1C2009CAA75 /* ZKMNRSpeakerLayoutTest.mm in Sources */,
+				36226FA70B3AC1C3009CAA75 /* ZKMNRValueTransformerTest.m in Sources */,
+				364B4C840B55450D00B509E7 /* ZKMNREventSchedulerTest.m in Sources */,
+				369270990B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3669644D0AEE89B100E4EAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3669645D0AEE89F600E4EAC9 /* ZKMNRCoordinatesTest.m in Sources */,
+				365A3ED00AEF6FA300127550 /* ZKMNRSpeakerLayoutTest.mm in Sources */,
+				36B37E5F0B248516006F5521 /* ZKMNRValueTransformerTest.m in Sources */,
+				366D77150B2AD75800F07F47 /* ZKMNRPannerTest.m in Sources */,
+				366717390B398C2100F04234 /* ZKMNRSpeakerLayoutSimulatorTest.m in Sources */,
+				36226EA50B3A9C80009CAA75 /* ZKMNRAbstractProcessorTest.m in Sources */,
+				364B4C830B55450D00B509E7 /* ZKMNREventSchedulerTest.m in Sources */,
+				369270980B5E5D5F00D8E0AF /* ZKMNRPannerEventTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3631DB610AEE25B4001DC5CC /* ZKMNRSpeakerLayout.m in Sources */,
+				3631DB8A0AEE2757001DC5CC /* ZKMNRCoordinates.mm in Sources */,
+				36FE42930AF0A3580017B68E /* ZKMNRLinearAlgebra.c in Sources */,
+				2020CDEB0AF6AEDB004E30A7 /* CAAudioUnitZKM.cpp in Sources */,
+				2020CDED0AF6AEDB004E30A7 /* ZKMORAudioUnit.mm in Sources */,
+				2020CDEF0AF6AEDB004E30A7 /* ZKMORAudioUnitMirror.m in Sources */,
+				2020CDF10AF6AEDB004E30A7 /* ZKMORAudioUnitSystem.mm in Sources */,
+				2020CDF30AF6AEDB004E30A7 /* ZKMORMixer3D.mm in Sources */,
+				2020CDF50AF6AEDB004E30A7 /* ZKMORMixerMatrix.mm in Sources */,
+				2020CDF70AF6AEDB004E30A7 /* ZKMORDeviceOutput.mm in Sources */,
+				2020CDF90AF6AEDB004E30A7 /* ZKMORConduit.mm in Sources */,
+				2020CDFB0AF6AEDB004E30A7 /* ZKMORCore.m in Sources */,
+				2020CDFD0AF6AEDB004E30A7 /* ZKMORException.m in Sources */,
+				2020CDFF0AF6AEDB004E30A7 /* ZKMORGraph.mm in Sources */,
+				2020CE010AF6AEDB004E30A7 /* ZKMORUtilities.mm in Sources */,
+				2020CE030AF6AEDB004E30A7 /* ZKMORRenderSimulator.mm in Sources */,
+				2020CE050AF6AEDB004E30A7 /* ZKMORAudioFile.mm in Sources */,
+				2020CE070AF6AEDB004E30A7 /* ZKMORQuickTime.mm in Sources */,
+				2020CE090AF6AEDB004E30A7 /* ZKMORAudioFileOutput.mm in Sources */,
+				2020CE0B0AF6AEDB004E30A7 /* ZKMORNoise.m in Sources */,
+				2020CE0D0AF6AEDB004E30A7 /* ZKMORAudioHardwareSystem.mm in Sources */,
+				2020CE100AF6AEDB004E30A7 /* ZKMORFileStreamer.cpp in Sources */,
+				2020CE120AF6AEDB004E30A7 /* ZKMORLogPrinter.cpp in Sources */,
+				2020CE140AF6AEDB004E30A7 /* ZKMORQTReader.mm in Sources */,
+				2020CE160AF6AEDB004E30A7 /* ZKMORThreadBridge.cpp in Sources */,
+				2020CE180AF6AEDB004E30A7 /* ZKMORZone.cpp in Sources */,
+				2020CE220AF6AEEB004E30A7 /* ZKMORLogger.cpp in Sources */,
+				2020CE240AF6AEEB004E30A7 /* ZKMORLoggerCPP.cpp in Sources */,
+				2020CE540AF6AF0E004E30A7 /* AUOutputBL.cpp in Sources */,
+				2020CE570AF6AF0E004E30A7 /* CAAudioChannelLayout.cpp in Sources */,
+				2020CE580AF6AF0E004E30A7 /* CAAudioChannelLayoutObject.cpp in Sources */,
+				2020CE5A0AF6AF0E004E30A7 /* CAAudioFile.cpp in Sources */,
+				2020CE5C0AF6AF0E004E30A7 /* CAAudioFileFormats.cpp in Sources */,
+				2020CE5E0AF6AF0E004E30A7 /* CAAudioHardwareDevice.cpp in Sources */,
+				2020CE600AF6AF0E004E30A7 /* CAAudioHardwareStream.cpp in Sources */,
+				2020CE620AF6AF0E004E30A7 /* CAAudioHardwareSystem.cpp in Sources */,
+				2020CE640AF6AF0E004E30A7 /* CAAudioUnit.cpp in Sources */,
+				2020CE660AF6AF0E004E30A7 /* CABufferList.cpp in Sources */,
+				2020CE670AF6AF0E004E30A7 /* CAComponent.cpp in Sources */,
+				2020CE690AF6AF0E004E30A7 /* CAComponentDescription.cpp in Sources */,
+				2020CE6B0AF6AF0E004E30A7 /* CADebugMacros.cpp in Sources */,
+				2020CE6D0AF6AF0E004E30A7 /* CAGuard.cpp in Sources */,
+				2020CE6F0AF6AF0E004E30A7 /* CAHostTimeBase.cpp in Sources */,
+				2020CE720AF6AF0E004E30A7 /* CAMutex.cpp in Sources */,
+				2020CE740AF6AF0E004E30A7 /* CAPThread.cpp in Sources */,
+				2020CE760AF6AF0E004E30A7 /* CAStreamBasicDescription.cpp in Sources */,
+				2020CE780AF6AF0E004E30A7 /* CAXException.cpp in Sources */,
+				364AA1DE0B0E1A1B0055C6E9 /* ZKMNRValueTransformer.mm in Sources */,
+				36EC1CE00B26FAB3009A8611 /* ZKMNRPanner.mm in Sources */,
+				366D765B0B2ACA1100F07F47 /* triangle.c in Sources */,
+				364AC81D0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m in Sources */,
+				3612EE6B0B54019900E98AC9 /* ZKMNREventScheduler.m in Sources */,
+				364B51030B55652800B509E7 /* ZKMORClock.m in Sources */,
+				364B51050B55652800B509E7 /* ZKMOROutput.m in Sources */,
+				361E0A700B5810D400634685 /* ZKMNRPannerEvent.m in Sources */,
+				3686FEB90C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm in Sources */,
+				3686FEBC0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361A769A0B70FFBE0014163D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+			targetProxy = 361A76990B70FFBE0014163D /* PBXContainerItemProxy */;
+		};
+		366964570AEE89C700E4EAC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+			targetProxy = 366964560AEE89C700E4EAC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Syncretism_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TetGenSource\"";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/TetGenSource\"";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS_QUOTED_FOR_TARGET_1)",
+					"-ltet",
+					"-lm",
+				);
+				OTHER_LDFLAGS_QUOTED_FOR_TARGET_1 = "-L\"$(SRCROOT)/TetGenSource\"";
+				PRODUCT_NAME = Syncretism;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Syncretism_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TetGenSource\"";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/TetGenSource\"";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS_QUOTED_FOR_TARGET_1)",
+					"-ltet",
+					"-lm",
+				);
+				OTHER_LDFLAGS_QUOTED_FOR_TARGET_1 = "-L\"$(SRCROOT)/TetGenSource\"";
+				PRODUCT_NAME = Syncretism;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SYMROOT = ../build;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+		36226F520B3AC13D009CAA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_FRAMEWORKS_DIR)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				LD_RUNPATH_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SyncretismTestTool;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		36226F530B3AC13D009CAA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_FRAMEWORKS_DIR)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = "$(HOME)/bin";
+				LD_RUNPATH_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SyncretismTestTool;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		366964540AEE89B200E4EAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "SyncretismTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SyncretismTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		366964550AEE89B200E4EAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(value)",
+					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "SyncretismTest-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SyncretismTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Syncretism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Syncretism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36226F510B3AC13D009CAA75 /* Build configuration list for PBXNativeTarget "SyncretismTestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36226F520B3AC13D009CAA75 /* Debug */,
+				36226F530B3AC13D009CAA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366964530AEE89B200E4EAC9 /* Build configuration list for PBXNativeTarget "SyncretismTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366964540AEE89B200E4EAC9 /* Debug */,
+				366964550AEE89B200E4EAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

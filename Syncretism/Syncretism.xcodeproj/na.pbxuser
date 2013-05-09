@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0DC8F6411185DFBA00ECE5FE /* SyncretismTestTool */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+		codeSenseManager = 0DC8F6C71185E1D800ECE5FE /* Code sense */;
+		executables = (
+			0DC8F6411185DFBA00ECE5FE /* SyncretismTestTool */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					533,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 295543408;
+			PBXWorkspaceStateSaveDate = 295543408;
+		};
+		perUserProjectItems = {
+			0D16398511906E2400F61FD7 /* PBXTextBookmark */ = 0D16398511906E2400F61FD7 /* PBXTextBookmark */;
+			0D1639A0119166BD00F61FD7 /* PBXTextBookmark */ = 0D1639A0119166BD00F61FD7 /* PBXTextBookmark */;
+			0DB36D54119DA331006175FE /* PBXTextBookmark */ = 0DB36D54119DA331006175FE /* PBXTextBookmark */;
+			0DB36DAB119DA7A1006175FE /* PBXTextBookmark */ = 0DB36DAB119DA7A1006175FE /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0DC8F6C61185E1D800ECE5FE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	0D16398511906E2400F61FD7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */;
+		name = "CAAudioUnitZKM.h: 74";
+		rLen = 0;
+		rLoc = 2568;
+		rType = 0;
+		vrLen = 777;
+		vrLoc = 2229;
+	};
+	0D1639A0119166BD00F61FD7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */;
+		name = "ZKMNRPanner.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1506;
+		vrLoc = 4981;
+	};
+	0DB36D54119DA331006175FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */;
+		rLen = 15;
+		rLoc = 25719;
+		rType = 0;
+	};
+	0DB36DAB119DA7A1006175FE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */;
+		name = "ZKMNRPanner.m: 725";
+		rLen = 0;
+		rLoc = 27782;
+		rType = 0;
+		vrLen = 1346;
+		vrLoc = 27315;
+	};
+	0DC8F6411185DFBA00ECE5FE /* SyncretismTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SyncretismTestTool;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0DC8F6C61185E1D800ECE5FE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0DC8F6C71185E1D800ECE5FE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2020CDB40AF6AEDA004E30A7 /* CAAudioUnitZKM.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1131}}";
+			sepNavSelRange = "{2568, 0}";
+			sepNavVisRange = "{2229, 844}";
+		};
+	};
+	36226F480B3AC10A009CAA75 /* SyncretismTestTool */ = {
+		activeExec = 0;
+		executables = (
+			0DC8F6411185DFBA00ECE5FE /* SyncretismTestTool */,
+		);
+	};
+	366964500AEE89B100E4EAC9 /* SyncretismTest */ = {
+		activeExec = 0;
+	};
+	36EC1CDD0B26FAB3009A8611 /* ZKMNRPanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1020, 3315}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{4981, 1506}";
+		};
+	};
+	36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1384, 11544}}";
+			sepNavSelRange = "{27782, 0}";
+			sepNavVisRange = "{27315, 1346}";
+		};
+	};
+	8DC2EF4F0486A6940098B216 /* Syncretism */ = {
+		activeExec = 0;
+	};
+}

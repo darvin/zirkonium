@@ -1,0 +1,93 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0DC8F63D1185DFB900ECE5FE /* SycamoreLog */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8DD76F960486AA7600D96B5E /* SycamoreLog */;
+		codeSenseManager = 0DC8F6E31185E22C00ECE5FE /* Code sense */;
+		executables = (
+			0DC8F63D1185DFB900ECE5FE /* SycamoreLog */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294053390;
+			PBXWorkspaceStateSaveDate = 294053390;
+		};
+		sourceControlManager = 0DC8F6E21185E22C00ECE5FE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	0DC8F63D1185DFB900ECE5FE /* SycamoreLog */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreLog;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	0DC8F6E21185E22C00ECE5FE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0DC8F6E31185E22C00ECE5FE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	36D5F6190A936A6D00C1A73E /* SycamoreLogTest */ = {
+		activeExec = 0;
+	};
+	8DD76F960486AA7600D96B5E /* SycamoreLog */ = {
+		activeExec = 0;
+		executables = (
+			0DC8F63D1185DFB900ECE5FE /* SycamoreLog */,
+		);
+	};
+}

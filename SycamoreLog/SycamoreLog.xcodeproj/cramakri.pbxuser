@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeBuildStyle = 014CEA4F0018CE4811CA2923 /* Debug */;
+		activeExecutable = 36B179180A9B5B520005E993 /* SycamoreLog */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* SycamoreLog */;
+		addToTargets = (
+			36D5F6190A936A6D00C1A73E /* SycamoreLogTest */,
+			8DD76F960486AA7600D96B5E /* SycamoreLog */,
+		);
+		breakpoints = (
+		);
+		breakpointsGroup = 3694451D0A9C631C00770B32 /* XCBreakpointsBucket */;
+		codeSenseManager = 36B1792A0A9B5B700005E993 /* Code sense */;
+		executables = (
+			36B179180A9B5B520005E993 /* SycamoreLog */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					57.5835,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					187,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					219,
+					20,
+					48.1626,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					10,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 179163450;
+			PBXWorkspaceStateSaveDate = 179163450;
+		};
+		sourceControlManager = 36B179290A9B5B700005E993 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* SycamoreLog.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 696}}";
+			sepNavSelRange = "{383, 0}";
+			sepNavVisRect = "{{0, 0}, {719, 696}}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* SycamoreLog_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 541}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRect = "{{0, 0}, {733, 541}}";
+		};
+	};
+	3619027D0AA82EDB00D65985 /* ZKMMPQueue.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {624, 2674}}";
+			sepNavSelRange = "{1246, 0}";
+			sepNavVisRect = "{{0, 678}, {624, 198}}";
+		};
+	};
+	362B40AF0AA48C3700F7ED42 /* CAAtomicStack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 1708}}";
+			sepNavSelRange = "{1576, 0}";
+			sepNavVisRect = "{{0, 1012}, {719, 696}}";
+		};
+	};
+	3694451D0A9C631C00770B32 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+		);
+	};
+	36B179180A9B5B520005E993 /* SycamoreLog */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreLog;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	36B179290A9B5B700005E993 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+		};
+		scmType = scm.subversion;
+	};
+	36B1792A0A9B5B700005E993 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	36D5F4480A9350EF00C1A73E /* ZKMORLogger.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {897, 1792}}";
+			sepNavSelRange = "{1934, 0}";
+			sepNavVisRect = "{{0, 609}, {897, 710}}";
+		};
+	};
+	36D5F46B0A9352EE00C1A73E /* ZKMORLoggerCPP.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 2940}}";
+			sepNavSelRange = "{4395, 13}";
+			sepNavVisRect = "{{0, 1779}, {719, 696}}";
+		};
+	};
+	36D5F46C0A9352EE00C1A73E /* ZKMORLoggerCPP.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1235, 3318}}";
+			sepNavSelRange = "{6182, 0}";
+			sepNavVisRect = "{{0, 2465}, {1235, 516}}";
+		};
+	};
+	36D5F5440A93619F00C1A73E /* ZKMORLogger.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 924}}";
+			sepNavSelRange = "{1353, 0}";
+			sepNavVisRect = "{{0, 14}, {719, 696}}";
+		};
+	};
+	36D5F6190A936A6D00C1A73E /* SycamoreLogTest */ = {
+		activeExec = 0;
+	};
+	36D5F6210A936A9C00C1A73E /* ZKMORLoggerTest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 541}}";
+			sepNavSelRange = "{269, 0}";
+			sepNavVisRect = "{{0, 0}, {733, 541}}";
+		};
+	};
+	36D5F6220A936A9C00C1A73E /* ZKMORLoggerTest.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {624, 1932}}";
+			sepNavSelRange = "{1133, 58}";
+			sepNavVisRect = "{{0, 678}, {624, 198}}";
+		};
+	};
+	36D5F7710A936E4600C1A73E /* SycamoreLogPrinter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 696}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRect = "{{0, 0}, {719, 696}}";
+		};
+	};
+	36D5F7720A936E4600C1A73E /* SycamoreLogPrinter.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 728}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRect = "{{0, 32}, {719, 696}}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* SycamoreLog */ = {
+		activeExec = 0;
+		executables = (
+			36B179180A9B5B520005E993 /* SycamoreLog */,
+		);
+	};
+}

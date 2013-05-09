@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5EC9E05915B0062F00874F29 /* SycamoreTestTool */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Sycamore */;
+		codeSenseManager = 5EC9E08315B0064E00874F29 /* Code sense */;
+		executables = (
+			5EC9E05915B0062F00874F29 /* SycamoreTestTool */,
+			5EC9E05A15B0062F00874F29 /* SycmoreDebugTest */,
+			5EC9E05B15B0062F00874F29 /* SycamoreFileExample */,
+			5EC9E05C15B0062F00874F29 /* SycamoreListAUExample */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					703,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 365416615;
+			PBXWorkspaceStateSaveDate = 365416615;
+		};
+		perUserProjectItems = {
+			5E77CAC915C7CDEA005F25BF /* PBXTextBookmark */ = 5E77CAC915C7CDEA005F25BF /* PBXTextBookmark */;
+			5E77CACA15C7CDEA005F25BF /* PBXTextBookmark */ = 5E77CACA15C7CDEA005F25BF /* PBXTextBookmark */;
+			5E77CACB15C7CDEA005F25BF /* PBXTextBookmark */ = 5E77CACB15C7CDEA005F25BF /* PBXTextBookmark */;
+			5E77CACC15C7CDEA005F25BF /* PBXTextBookmark */ = 5E77CACC15C7CDEA005F25BF /* PBXTextBookmark */;
+			5E77CBFE15C7D0CA005F25BF /* PBXTextBookmark */ = 5E77CBFE15C7D0CA005F25BF /* PBXTextBookmark */;
+			5E77CC0515C7D128005F25BF /* PBXTextBookmark */ = 5E77CC0515C7D128005F25BF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5EC9E08215B0064E00874F29 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	206223070ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {881, 2106}}";
+			sepNavSelRange = "{3153, 0}";
+			sepNavVisRange = "{559, 1545}";
+		};
+	};
+	361ACA8A0A9E266B00E9C876 /* ZKMORMixer3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1183}}";
+			sepNavSelRange = "{1761, 8}";
+			sepNavVisRange = "{1504, 709}";
+		};
+	};
+	361ACA8B0A9E266B00E9C876 /* ZKMORMixer3D.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 3640}}";
+			sepNavSelRange = "{9948, 0}";
+			sepNavVisRange = "{8878, 2541}";
+		};
+	};
+	363044600A9EEAAE009518F1 /* SycmoreDebugTest */ = {
+		activeExec = 0;
+		executables = (
+			5EC9E05A15B0062F00874F29 /* SycmoreDebugTest */,
+		);
+	};
+	3652A54C0AAC97E7003D3818 /* SycamoreFileExample */ = {
+		activeExec = 0;
+		executables = (
+			5EC9E05B15B0062F00874F29 /* SycamoreFileExample */,
+		);
+	};
+	3678D9880AA606A7002BA3BB /* ZKMORDeviceOutput.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {881, 1911}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3466, 1423}";
+		};
+	};
+	3678D9890AA606A7002BA3BB /* ZKMORDeviceOutput.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1209, 10504}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2444, 1476}";
+		};
+	};
+	36841DCE0AD3B35900D04417 /* SycamoreListAUExample */ = {
+		activeExec = 0;
+		executables = (
+			5EC9E05C15B0062F00874F29 /* SycamoreListAUExample */,
+		);
+	};
+	36944A4C0A9CBFF100770B32 /* SycamoreTest */ = {
+		activeExec = 0;
+	};
+	36AF319F0AB86AB900E650F3 /* ZKMORAudioFile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 2275}}";
+			sepNavSelRange = "{4114, 18}";
+			sepNavVisRange = "{3660, 1156}";
+		};
+	};
+	36AF31A00AB86AB900E650F3 /* ZKMORAudioFile.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 9490}}";
+			sepNavSelRange = "{17560, 18}";
+			sepNavVisRange = "{17189, 950}";
+		};
+	};
+	36EC508C0A9DA123007DF698 /* SycamoreTestTool */ = {
+		activeExec = 0;
+		executables = (
+			5EC9E05915B0062F00874F29 /* SycamoreTestTool */,
+		);
+	};
+	5E77CAC915C7CDEA005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 206223070ABC6B8B00FA769C /* ZKMORFilePlayAndReadExamples.m */;
+		name = "ZKMORFilePlayAndReadExamples.m: 114";
+		rLen = 0;
+		rLoc = 3153;
+		rType = 0;
+		vrLen = 1545;
+		vrLoc = 559;
+	};
+	5E77CACA15C7CDEA005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3678D9880AA606A7002BA3BB /* ZKMORDeviceOutput.h */;
+		name = "ZKMORDeviceOutput.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1423;
+		vrLoc = 3466;
+	};
+	5E77CACB15C7CDEA005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3678D9890AA606A7002BA3BB /* ZKMORDeviceOutput.mm */;
+		name = "ZKMORDeviceOutput.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1476;
+		vrLoc = 2444;
+	};
+	5E77CACC15C7CDEA005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 361ACA8A0A9E266B00E9C876 /* ZKMORMixer3D.h */;
+		name = "ZKMORMixer3D.h: 15";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 809;
+	};
+	5E77CBFE15C7D0CA005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 361ACA8B0A9E266B00E9C876 /* ZKMORMixer3D.mm */;
+		rLen = 38;
+		rLoc = 10184;
+		rType = 0;
+	};
+	5E77CC0515C7D128005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 361ACA8B0A9E266B00E9C876 /* ZKMORMixer3D.mm */;
+		name = "ZKMORMixer3D.mm: 248";
+		rLen = 0;
+		rLoc = 9948;
+		rType = 0;
+		vrLen = 2541;
+		vrLoc = 8878;
+	};
+	5EC9E05915B0062F00874F29 /* SycamoreTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreTestTool;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5EC9E05A15B0062F00874F29 /* SycmoreDebugTest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycmoreDebugTest;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5EC9E05B15B0062F00874F29 /* SycamoreFileExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreFileExample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5EC9E05C15B0062F00874F29 /* SycamoreListAUExample */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SycamoreListAUExample;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5EC9E08215B0064E00874F29 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5EC9E08315B0064E00874F29 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DC2EF4F0486A6940098B216 /* Sycamore */ = {
+		activeExec = 0;
+	};
+}

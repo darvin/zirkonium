@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5E86519B15C7C78C001EB2DD /* SyncretismTestTool */;
+		activeTarget = 8DC2EF4F0486A6940098B216 /* Syncretism */;
+		codeSenseManager = 5E8651B015C7C7AB001EB2DD /* Code sense */;
+		executables = (
+			5E86519B15C7C78C001EB2DD /* SyncretismTestTool */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 365416755;
+			PBXWorkspaceStateSaveDate = 365416755;
+		};
+		perUserProjectItems = {
+			5E77CB9915C7CF72005F25BF /* PBXTextBookmark */ = 5E77CB9915C7CF72005F25BF /* PBXTextBookmark */;
+			5E77CC3A15C7D1BE005F25BF /* PBXTextBookmark */ = 5E77CC3A15C7D1BE005F25BF /* PBXTextBookmark */;
+			5E77CC3B15C7D1BE005F25BF /* PBXTextBookmark */ = 5E77CC3B15C7D1BE005F25BF /* PBXTextBookmark */;
+			5E77CC3C15C7D1BE005F25BF /* PBXTextBookmark */ = 5E77CC3C15C7D1BE005F25BF /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5E8651AF15C7C7AB001EB2DD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2020CDBC0AF6AEDA004E30A7 /* ZKMORMixer3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1183}}";
+			sepNavSelRange = "{1468, 5}";
+			sepNavVisRange = "{805, 1407}";
+		};
+	};
+	2020CDBD0AF6AEDA004E30A7 /* ZKMORMixer3D.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3822}}";
+			sepNavSelRange = "{8477, 22}";
+			sepNavVisRange = "{7348, 2658}";
+		};
+	};
+	36226F480B3AC10A009CAA75 /* SyncretismTestTool */ = {
+		activeExec = 0;
+		executables = (
+			5E86519B15C7C78C001EB2DD /* SyncretismTestTool */,
+		);
+	};
+	364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1235}}";
+			sepNavSelRange = "{2793, 39}";
+			sepNavVisRange = "{1399, 1599}";
+		};
+	};
+	366964500AEE89B100E4EAC9 /* SyncretismTest */ = {
+		activeExec = 0;
+	};
+	36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 11713}}";
+			sepNavSelRange = "{10211, 0}";
+			sepNavVisRange = "{9730, 1754}";
+		};
+	};
+	5E77CB9915C7CF72005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 364AC81B0B395D9300B7BAC4 /* ZKMNRSpeakerLayoutSimulator.m */;
+		name = "ZKMNRSpeakerLayoutSimulator.m: 88";
+		rLen = 39;
+		rLoc = 2793;
+		rType = 0;
+		vrLen = 1859;
+		vrLoc = 1139;
+	};
+	5E77CB9D15C7CF72005F25BF /* ZKMNRCoordinates.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ZKMNRCoordinates.h;
+		path = "/Users/dwagner/zkm/zirkonium_writeable/zirkoniumcode/Zirkonium Branch/git/working/zirkonium/build/Debug/Syncretism.framework/Versions/A/Headers/ZKMNRCoordinates.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2652}}";
+			sepNavSelRange = "{3346, 0}";
+			sepNavVisRange = "{4470, 1187}";
+		};
+	};
+	5E77CC3A15C7D1BE005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5E77CB9D15C7CF72005F25BF /* ZKMNRCoordinates.h */;
+		name = "ZKMNRCoordinates.h: 90";
+		rLen = 0;
+		rLoc = 3346;
+		rType = 0;
+		vrLen = 1187;
+		vrLoc = 4470;
+	};
+	5E77CC3B15C7D1BE005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */;
+		rLen = 9;
+		rLoc = 10610;
+		rType = 0;
+	};
+	5E77CC3C15C7D1BE005F25BF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 36EC1CDE0B26FAB3009A8611 /* ZKMNRPanner.mm */;
+		name = "ZKMNRPanner.mm: 286";
+		rLen = 0;
+		rLoc = 10211;
+		rType = 0;
+		vrLen = 1754;
+		vrLoc = 9730;
+	};
+	5E86519B15C7C78C001EB2DD /* SyncretismTestTool */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SyncretismTestTool;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5E8651AF15C7C7AB001EB2DD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5E8651B015C7C7AB001EB2DD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DC2EF4F0486A6940098B216 /* Syncretism */ = {
+		activeExec = 0;
+	};
+}
