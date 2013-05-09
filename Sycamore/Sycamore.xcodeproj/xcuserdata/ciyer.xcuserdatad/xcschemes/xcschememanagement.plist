@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Sycamore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>SycamoreFileExample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>SycamoreListAUExample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>SycamoreTestTool.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>SycmoreDebugTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>363044600A9EEAAE009518F1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3652A54C0AAC97E7003D3818</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36841DCE0AD3B35900D04417</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36944A4C0A9CBFF100770B32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36EC508C0A9DA123007DF698</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DC2EF4F0486A6940098B216</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

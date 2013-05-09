@@ -153,9 +153,11 @@
 		36FE42920AF0A3580017B68E /* ZKMNRLinearAlgebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36FE42930AF0A3580017B68E /* ZKMNRLinearAlgebra.c in Sources */ = {isa = PBXBuildFile; fileRef = 36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */; };
 		36FE42B30AF0A4080017B68E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FE42B20AF0A4080017B68E /* Accelerate.framework */; };
+		707FF65F1662806900748FBF /* predicates.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 707FF65C1662806900748FBF /* predicates.cxx */; };
+		707FF6601662806900748FBF /* tetgen.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 707FF65D1662806900748FBF /* tetgen.cxx */; };
+		707FF6611662806900748FBF /* tetgen.h in Headers */ = {isa = PBXBuildFile; fileRef = 707FF65E1662806900748FBF /* tetgen.h */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
-		B4B75BCA125F5AD2008455AF /* libtet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B75BC9125F5AD2008455AF /* libtet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -328,9 +330,11 @@
 		36FE42900AF0A3580017B68E /* ZKMNRLinearAlgebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMNRLinearAlgebra.h; sourceTree = "<group>"; };
 		36FE42910AF0A3580017B68E /* ZKMNRLinearAlgebra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZKMNRLinearAlgebra.c; sourceTree = "<group>"; };
 		36FE42B20AF0A4080017B68E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		707FF65C1662806900748FBF /* predicates.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = predicates.cxx; sourceTree = "<group>"; };
+		707FF65D1662806900748FBF /* tetgen.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tetgen.cxx; sourceTree = "<group>"; };
+		707FF65E1662806900748FBF /* tetgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tetgen.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* Syncretism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Syncretism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4B75BC9125F5AD2008455AF /* libtet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtet.a; path = TetGenSource/libtet.a; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -365,7 +369,6 @@
 				2020CFAA0AF6B236004E30A7 /* QuickTime.framework in Frameworks */,
 				2020CFAB0AF6B236004E30A7 /* QTKit.framework in Frameworks */,
 				2020CFAC0AF6B236004E30A7 /* QuartzCore.framework in Frameworks */,
-				B4B75BCA125F5AD2008455AF /* libtet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +429,6 @@
 		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B4B75BC9125F5AD2008455AF /* libtet.a */,
 				36FE42B20AF0A4080017B68E /* Accelerate.framework */,
 				2020CF9F0AF6B236004E30A7 /* CoreServices.framework */,
 				2020CFA00AF6B236004E30A7 /* CoreAudio.framework */,
@@ -750,8 +752,12 @@
 		B4B75B8C125F4C6F008455AF /* Tetgen */ = {
 			isa = PBXGroup;
 			children = (
+				707FF65C1662806900748FBF /* predicates.cxx */,
+				707FF65D1662806900748FBF /* tetgen.cxx */,
+				707FF65E1662806900748FBF /* tetgen.h */,
 			);
 			name = Tetgen;
+			path = TetGenSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -822,6 +828,7 @@
 				361E0A6F0B5810D400634685 /* ZKMNRPannerEvent.h in Headers */,
 				3686FEB80C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.h in Headers */,
 				3686FEBD0C00E0BA0017E7D9 /* ZKMORGuardRT.h in Headers */,
+				707FF6611662806900748FBF /* tetgen.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,6 +1044,8 @@
 				361E0A700B5810D400634685 /* ZKMNRPannerEvent.m in Sources */,
 				3686FEB90C00E0A50017E7D9 /* ZKMORAudioUnitParameterScheduler.mm in Sources */,
 				3686FEBC0C00E0BA0017E7D9 /* ZKMORGuardRT.cpp in Sources */,
+				707FF65F1662806900748FBF /* predicates.cxx in Sources */,
+				707FF6601662806900748FBF /* tetgen.cxx in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1081,6 +1090,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Syncretism_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TetGenSource\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@loader_path/../Frameworks";
@@ -1089,15 +1099,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/TetGenSource\"";
-				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS_QUOTED_FOR_TARGET_1)",
-					"-ltet",
 					"-lm",
 				);
 				OTHER_LDFLAGS_QUOTED_FOR_TARGET_1 = "-L\"$(SRCROOT)/TetGenSource\"";
 				PRODUCT_NAME = Syncretism;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.7;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = framework;
 				ZERO_LINK = YES;
@@ -1115,6 +1124,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Syncretism_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TetGenSource\"";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@loader_path/../Frameworks";
@@ -1123,15 +1133,14 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/TetGenSource\"";
-				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS_QUOTED_FOR_TARGET_1)",
-					"-ltet",
 					"-lm",
 				);
 				OTHER_LDFLAGS_QUOTED_FOR_TARGET_1 = "-L\"$(SRCROOT)/TetGenSource\"";
 				PRODUCT_NAME = Syncretism;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.7;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = framework;
 			};
