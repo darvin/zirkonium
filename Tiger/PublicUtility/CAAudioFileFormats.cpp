@@ -41,6 +41,7 @@
 =============================================================================*/
 
 #include "CAAudioFileFormats.h"
+#include <CoreServices/CoreServices.h>
 #include <algorithm>
 #include <ctype.h>
 

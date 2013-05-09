@@ -7,6 +7,7 @@
 //
 
 #import "ZKMRNTextures.h"
+#import <OpenGL/gl.h>
 
 static void InterpolateHighlight (void* info, float const* inData, float *outData)
 {

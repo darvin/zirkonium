@@ -324,7 +324,9 @@
 		input.pointlist[3*i + 2] = (REAL)(speakerPosition.z) + 0.5;
 	}
 	
-	tetrahedralize("Q", &input, &output, NULL, NULL);
+	tetgenbehavior behavior;
+	behavior.parse_commandline("Q");
+	tetrahedralize(&behavior, &input, &output, NULL, NULL);
 	
 	unsigned numberOfTriangles = output.numberoftrifaces;
 	
@@ -667,7 +669,7 @@
 	float zenithStart = MAX(center.zenith - (span.zenithSpan * 0.5f), 0.f);
 	float zenithEnd = zenithStart + span.zenithSpan;
 	if (zenithEnd > 1.f) zenithStart -= (zenithEnd - 1.f);
-	
+
 	ZKMNRSphericalCoordinate samplePoint = { azimuthStart, zenithStart, 1.f };
 	unsigned i, j;
 	for (i = 0; i < numAzimuthSamples; i++) {
@@ -682,6 +684,24 @@
 		samplePoint.azimuth += minSpan;
 		samplePoint.zenith = zenithStart;		
 	}
+
+	// CR Testing Support for speakers below the audience.
+//	float azimuthStart = center.azimuth - (span.azimuthSpan * 0.5f);
+//	float zenithStart = center.zenith - (span.zenithSpan * 0.5f);
+//	
+//	ZKMNRSphericalCoordinate samplePoint = { azimuthStart, zenithStart, 1.f };
+//	unsigned i, j;
+//	for (i = 0; i < numAzimuthSamples; i++) {
+//		for (j = 0; j < numZenithSamples; j++) {
+//			ZKMNRRectangularCoordinate rectCoord = ZKMNRSphericalCoordinateToRectangular(samplePoint);
+//		
+//			[evaluator pannerSource: self spatialSampleAt: rectCoord];
+//
+//			samplePoint.zenith += minSpan;
+//		}
+//		samplePoint.azimuth += minSpan;
+//		samplePoint.zenith = zenithStart;		
+//	}
 }
 
 - (void)privateExpandRectangularFor:(id <ZKMNRPannerSourceExpanding>)evaluator center:(ZKMNRRectangularCoordinate)center span:(ZKMNRRectangularCoordinateSpan)span
