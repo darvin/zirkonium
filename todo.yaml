@@ -1,0 +1,7 @@
+---
+type: improvement
+summary: Need to be able to tilt display in test and definition view
+text:> 
+	Now that it is possible to specify 3D coordinates for sound sources, it needs to be possible to tilt the speaker display in the test and 3d views so that we can specify zenith values below the listening plane.
+priority: 1
+---
