@@ -259,9 +259,6 @@ NSString* ZKMRNOutputPatchPboardType	= @"ZKMRNOutputPatchPboardType";
 	NSManagedObjectModel *destinationModel = [psc managedObjectModel]; 
 	BOOL pscCompatibile = [destinationModel isConfiguration:configuration compatibleWithStoreMetadata:sourceMetadata]; 
 	
-
-	NSLog(@"Is Persitant Store Compatible: %d", (int)pscCompatibile);
-	
 	// Init ...
 	if (!(self = [super initWithContentsOfURL: absoluteURL ofType: typeName error: outError])) return nil;
 
@@ -620,8 +617,6 @@ NSString* ZKMRNOutputPatchPboardType	= @"ZKMRNOutputPatchPboardType";
 	
     if ((fetchResults != nil) && ([fetchResults count] == 1) && (fetchError == nil))
 	{
-		NSLog(@"Setting OSC Configuration ...");
-		
         [self setOscConfiguration:[fetchResults objectAtIndex:0]];
         return _oscConfiguration;
     } else {
