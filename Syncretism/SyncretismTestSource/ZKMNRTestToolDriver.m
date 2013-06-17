@@ -11,7 +11,7 @@
 
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "ZKMNRPannerEventTest.h"
+#import "ZKMNRPannerTest.h"
 
 int main (int argc, const char * argv[])
 {
@@ -22,7 +22,7 @@ int main (int argc, const char * argv[])
 
 	SenTestSuite* suite = 
 		[SenTestSuite 
-			testSuiteForTestCaseClass: [ZKMNRPannerEventTest class]];
+			testSuiteForTestCaseClass: [ZKMNRPannerTest class]];
 	[suite run];
 
 	[pool release];
