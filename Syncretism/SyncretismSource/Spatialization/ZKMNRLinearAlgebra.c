@@ -10,7 +10,7 @@
 
 
 #import "ZKMNRLinearAlgebra.h"
-#import <vecLib/vecLib.h>
+#import <Accelerate/Accelerate.h>
 
 int ZKMNRSolve(float* A, float* B, unsigned	order)
 {
