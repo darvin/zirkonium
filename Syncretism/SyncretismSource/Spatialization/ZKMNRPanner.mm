@@ -325,7 +325,7 @@
 	}
 	
 	tetgenbehavior behavior;
-	behavior.parse_commandline("Q");
+	behavior.parse_commandline((char *)"Q");
 	tetrahedralize(&behavior, &input, &output, NULL, NULL);
 	
 	unsigned numberOfTriangles = output.numberoftrifaces;
