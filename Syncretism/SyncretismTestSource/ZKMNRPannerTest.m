@@ -417,6 +417,28 @@
 	STAssertEqualsWithAccuracy(speakerPos.zenith, 0.0f, 0.01, @"Speaker position should be { 0.75f, 0.19f, 1.f }");
 	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.75f, 0.f, 1.f }");
 	
+		// { 0.25f, 0.5f, 1.f };
+	point.azimuth = 0.25f;
+	point.zenith = 0.5f;
+	closestSpeaker = [panner speakerClosestToPoint: point];
+	STAssertNotNil(closestSpeaker, @"The speaker closest to point { 0.25f, 0.5f, 1.f } is nil");
+	
+	speakerPos = [closestSpeaker coordPlatonic];
+	STAssertEqualsWithAccuracy(speakerPos.azimuth, 0.25f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.zenith, 0.5f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");
+	
+		// { 0.75f, -0.5f, 1.f };
+	point.azimuth = 0.75f;
+	point.zenith = -0.5f;
+	closestSpeaker = [panner speakerClosestToPoint: point];
+	STAssertNotNil(closestSpeaker, @"The speaker closest to point { 0.75f, -0.5f, 1.f } is nil");
+	
+	speakerPos = [closestSpeaker coordPlatonic];
+	STAssertEqualsWithAccuracy(speakerPos.azimuth, -0.75f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.zenith, -0.5f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");		
+	
 	[panner release];
 }
 
