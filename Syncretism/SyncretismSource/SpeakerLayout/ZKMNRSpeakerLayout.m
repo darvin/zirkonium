@@ -7,6 +7,8 @@
 //
 
 #import "ZKMNRSpeakerLayout.h"
+#import "ZKMORLogger.h"
+#import "ZKMORUtilities.h"
 
 
 @implementation ZKMNRSpeakerPosition
