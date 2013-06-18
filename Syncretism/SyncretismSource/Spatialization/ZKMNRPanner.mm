@@ -341,7 +341,14 @@
 		ZKMNRSpeakerPosition* sp2 = [speakerPositions objectAtIndex: idx2];
 		ZKMNRSpeakerPosition* sp3 = [speakerPositions objectAtIndex: idx3];
 		// see if triangle lies in one plane ...
-		if([sp1 ringNumber]==[sp2 ringNumber] && [sp1 ringNumber]== [sp3 ringNumber]) continue; 
+		if([sp1 ringNumber]==[sp2 ringNumber] && [sp1 ringNumber]== [sp3 ringNumber]) {
+			// ...and is at the base of the dome
+			ZKMNRRectangularCoordinate coord1 = [sp1 coordRectangular];
+			ZKMNRRectangularCoordinate coord2 = [sp2 coordRectangular];
+			ZKMNRRectangularCoordinate coord3 = [sp3 coordRectangular];
+			if (coord1.z == 0 && coord2.z == 0 && coord3.z == 0)
+				continue;
+		}
 		
 		ZKMNRSpeakerMeshElement* meshElement = [[ZKMNRSpeakerMeshElement alloc] init];
 		[meshElement addSpeaker: [speakerPositions objectAtIndex: idx1]];
