@@ -155,6 +155,18 @@
 	[quadLayout release]; [source release];	
 }
 
+- (NSUInteger)countNonZeroMixerCoeffs:(ZKMNRPannerSource *)source
+{
+	float* mixerCoeffs = [source mixerCoefficients];
+	NSUInteger nonZeroCoeffCount = 0;
+	NSUInteger i, count = [source numberOfMixerCoefficients];
+	for (i = 0; i < count; ++i) {
+		if (fabsf(mixerCoeffs[i]) > 0.0001f) nonZeroCoeffCount++;
+	}
+	
+	return nonZeroCoeffCount;
+}
+
 - (void)testPannerCofficientsInSphereLayout
 {
 	ZKMNRSpeakerLayout* sphereLayout = [self sphereLayout];
@@ -170,59 +182,40 @@
 		
 	ZKMNRSphericalCoordinate point = { 0.f, 0.f, 1.f };
 	[source setCenter: point];
-	// straight ahead should have mixer coeffs of [LR LF RF RR] == [0.0, 0.7, 0.7, 0.0]
-	float* mixerCoeffs = [source mixerCoefficients];
-//	STAssertEqualsWithAccuracy(mixerCoeffs[0], 0.f, 0.01, @"LR coeff should be 0.");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[1], 0.7f, 0.01, @"LF coeff should be 0.7");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[2], 0.7f, 0.01, @"RF coeff should be 0.7");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[3], 0.f, 0.01, @"RR coeff should be 0.");
-		
+	// straight ahead should have activate the front two speakers
+	NSUInteger nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
 	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
 		
 	point.azimuth = -1.f;
 	[source setCenter: point];
-	// directly behind should have mixer coeffs of [LR LF RF RR] == [0.7, 0.0, 0.0, 0.7]
-	mixerCoeffs = [source mixerCoefficients];
-//	STAssertEqualsWithAccuracy(mixerCoeffs[0], 0.7f, 0.01, @"LR coeff should be 0.7");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[1], 0.f, 0.01, @"LF coeff should be 0.");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[2], 0.f, 0.01, @"RF coeff should be 0.");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[3], 0.7f, 0.01, @"RR coeff should be 0.7");
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
 		
 	ZKMNRSphericalCoordinateSpan span = { 2.f, 0.f };
 	[source setCenter: point span: span gain: 1.f];
-	// all the speakers should be used here
-	mixerCoeffs = [source mixerCoefficients];
-//	STAssertTrue(mixerCoeffs[0] > 0.f, @"LR coeff should be > 0");
-//	STAssertTrue(mixerCoeffs[1] > 0.f, @"LF coeff should be > 0");
-//	STAssertTrue(mixerCoeffs[2] > 0.f, @"RF coeff should be > 0");
-//	STAssertTrue(mixerCoeffs[3] > 0.f, @"RR coeff should be > 0");
-	
+	// all the speakers in the center ring should be used here
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 4, @"There should be exactly 4 non-zero coefficients.");
 	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
 		
 		
 	point.azimuth = 0.f;
-	point.zenith = 0.5f;
+	point.zenith = 0.2f;
 	span.azimuthSpan = 2.0f;
 	span.zenithSpan = 0.0f;
 	[source setCenter: point span: span gain: 1.f];
-	// directly above with span 2 should have mixer coeffs where everything is greater than 0
-	mixerCoeffs = [source mixerCoefficients];
-	STAssertTrue(mixerCoeffs[0] > 0.f, @"LR coeff should be > 0");
-//	STAssertTrue(mixerCoeffs[1] > 0.f, @"LF coeff should be > 0");
-	STAssertTrue(mixerCoeffs[2] > 0.f, @"RF coeff should be > 0");
-	STAssertTrue(mixerCoeffs[3] > 0.f, @"RR coeff should be > 0");
+	// in the top half with azimuth span of 2 should activate all speakers in the top half
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 7, @"There should be exactly 7 non-zero coefficients.");
 	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
 	
 	ZKMNRRectangularCoordinate rectPoint = { 1.f, 0.f, 0.f };
 	ZKMNRRectangularCoordinateSpan rectSpan = { 0.f, 0.f };
 	[source setCenterRectangular: rectPoint span: rectSpan gain: 1.0];
-	// straight ahead should have mixer coeffs of [LR LF RF RR] == [0.0, 0.7, 0.7, 0.0]
-	mixerCoeffs = [source mixerCoefficients];
-//	STAssertEqualsWithAccuracy(mixerCoeffs[0], 0.f, 0.01, @"LR coeff should be 0.");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[1], 0.7f, 0.01, @"LF coeff should be 0.7");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[2], 0.7f, 0.01, @"RF coeff should be 0.7");
-//	STAssertEqualsWithAccuracy(mixerCoeffs[3], 0.f, 0.01, @"RR coeff should be 0.");
-		
+	// straight ahead should have activate the front two speakers
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
 	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
 	
 	[panner release];
@@ -423,21 +416,33 @@
 	closestSpeaker = [panner speakerClosestToPoint: point];
 	STAssertNotNil(closestSpeaker, @"The speaker closest to point { 0.25f, 0.5f, 1.f } is nil");
 	
-	speakerPos = [closestSpeaker coordPlatonic];
-//	STAssertEqualsWithAccuracy(speakerPos.azimuth, 0.25f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");
-//	STAssertEqualsWithAccuracy(speakerPos.zenith, 0.5f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
-//	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");
-	
 		// { 0.75f, -0.5f, 1.f };
 	point.azimuth = 0.75f;
 	point.zenith = -0.5f;
 	closestSpeaker = [panner speakerClosestToPoint: point];
 	STAssertNotNil(closestSpeaker, @"The speaker closest to point { 0.75f, -0.5f, 1.f } is nil");
 	
+		// { 0.25f, 0.2f, 1.f };
+	point.azimuth = 0.25f;
+	point.zenith = 0.2f;
+	closestSpeaker = [panner speakerClosestToPoint: point];
+	STAssertNotNil(closestSpeaker, @"The speaker closest to point { 0.25f, 0.2f, 1.f } is nil");
+	
 	speakerPos = [closestSpeaker coordPlatonic];
-//	STAssertEqualsWithAccuracy(speakerPos.azimuth, -0.75f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");
-//	STAssertEqualsWithAccuracy(speakerPos.zenith, -0.5f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
-//	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.25f, 0.f, 1.f }");		
+	STAssertEqualsWithAccuracy(speakerPos.azimuth, 0.25f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.zenith, 0.19f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.25f, 0.19f, 1.f }");
+	
+		// { 0.75f, -0.2f, 1.f };
+	point.azimuth = 0.75f;
+	point.zenith = -0.2f;
+	closestSpeaker = [panner speakerClosestToPoint: point];
+	STAssertNotNil(closestSpeaker, @"The speaker closest to point { 0.75f, -0.2f, 1.f } is nil");
+	
+	speakerPos = [closestSpeaker coordPlatonic];
+	STAssertEqualsWithAccuracy(speakerPos.azimuth, 0.75f, 0.01, @"Speaker position should be { 0.75f, -0.19f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.zenith, -0.19f, 0.01, @"Speaker position should be { 0.75f, -0.19f, 1.f }");
+	STAssertEqualsWithAccuracy(speakerPos.radius, 1.f, 0.01, @"Speaker position should be { 0.75f, -0.19f, 1.f }");		
 	
 	[panner release];
 }
