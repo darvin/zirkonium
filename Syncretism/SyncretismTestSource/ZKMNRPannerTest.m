@@ -75,6 +75,20 @@
 	return layout;
 }
 
+- (ZKMNRSpeakerLayout *)bottomHemisphereDomeLayout
+{
+	NSMutableArray* centerRing = [NSMutableArray arrayWithCapacity: 4];
+	[self addQuadraphonicGroupToSpeakers: centerRing zCoord: 0.f scale: 1.f];
+
+	NSMutableArray* bottomRing = [NSMutableArray arrayWithCapacity: 4];
+	[self addQuadraphonicGroupToSpeakers: bottomRing zCoord: -0.5f scale: 0.5f];
+	
+	ZKMNRSpeakerLayout* layout = [[ZKMNRSpeakerLayout alloc] init];
+	[layout setSpeakerLayoutName: @"Bottom8"];
+	[layout setSpeakerPositionRings: [NSArray arrayWithObjects: centerRing, bottomRing, nil]];
+	return layout;
+}
+
 - (void)testPannerCofficientsInQuadLayout
 {
 	ZKMNRSpeakerLayout* quadLayout = [self quadraphonicLayout];
@@ -209,6 +223,64 @@
 	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
 	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 7, @"There should be exactly 7 non-zero coefficients.");
 	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
+	
+	ZKMNRRectangularCoordinate rectPoint = { 1.f, 0.f, 0.f };
+	ZKMNRRectangularCoordinateSpan rectSpan = { 0.f, 0.f };
+	[source setCenterRectangular: rectPoint span: rectSpan gain: 1.0];
+	// straight ahead should have activate the front two speakers
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
+	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
+	
+	[panner release];
+}
+
+- (void)testPannerCofficientsInBottomHemisphereDomeLayout
+{
+	ZKMNRSpeakerLayout* bottomDomeLayout = [self bottomHemisphereDomeLayout];
+	ZKMNRVBAPPanner* panner = [[ZKMNRVBAPPanner alloc] init];
+	[panner setSpeakerLayout: bottomDomeLayout];
+	[bottomDomeLayout release];
+	
+	ZKMNRPannerSource* source = [[ZKMNRPannerSource alloc] init];
+	[panner registerPannerSource: source];
+	[source release];
+	
+	STAssertTrue([source numberOfMixerCoefficients] == 8, @"A panner position on a bottom hemisphere dome should have 8 coeffs");
+		
+	ZKMNRSphericalCoordinate point = { 0.f, 0.f, 1.f };
+	[source setCenter: point];
+	// straight ahead should have activate the front two speakers
+	NSUInteger nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
+	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
+		
+	point.azimuth = -1.f;
+	[source setCenter: point];
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
+		
+	ZKMNRSphericalCoordinateSpan span = { 0.f, 0.f };
+	point.azimuth = 0.f;
+	point.zenith = 0.2f;
+	span.azimuthSpan = 0.0f;
+	span.zenithSpan = 0.0f;
+	[source setCenter: point span: span gain: 1.f];
+	// in the top half no speakers should be activated any speakers
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 0, @"There should be no non-zero coefficients.");
+	
+		
+	point.azimuth = 0.f;
+	point.zenith = -0.2f;
+	span.azimuthSpan = 0.0f;
+	span.zenithSpan = 0.0f;
+	[source setCenter: point span: span gain: 1.f];
+	// in the bottom half 2 speakers should be activated this sound source
+	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
+	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
+	
 	
 	ZKMNRRectangularCoordinate rectPoint = { 1.f, 0.f, 0.f };
 	ZKMNRRectangularCoordinateSpan rectSpan = { 0.f, 0.f };

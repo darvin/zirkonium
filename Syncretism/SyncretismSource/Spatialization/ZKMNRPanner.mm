@@ -621,6 +621,7 @@
 	
 	_mixerCoefficients = (float*) malloc(_numberOfMixerCoefficients * sizeof(float));
 	_isPlanar = [[_panner speakerLayout] isPlanar];
+	_hasBottomHemisphere = [[_panner speakerLayout] hasBottomHemisphere];
 		// recompute the coefficients
 	[self setCenter: _center span: _span gain: _gain];
 }
@@ -670,10 +671,18 @@
 		// increase the num samples to insure the function runs at least once (must happen after the above line)
 	++numAzimuthSamples; ++numZenithSamples;
 	
-		// fold the center zenith to the top hemisphere. N.B. the setter clamps the zenith span to a max of 0.5.
-	center.zenith = ZKMORFold0ToMax(center.zenith, 1.f);
+	float zenithStart;
+	if (_hasBottomHemisphere) {
+		center.zenith = ZKMORFold(center.zenith, -1.f, 1.f);
+		zenithStart = ZKMORClamp(center.zenith, -0.5f, 0.5f);
+	} else {
+		center.zenith = ZKMORFold0ToMax(center.zenith, 1.f);
+		zenithStart = MAX(center.zenith - (span.zenithSpan * 0.5f), 0.f);
+	}
+	
+		// If there is no bottom hemisphere, fold the center zenith to the top hemisphere. N.B. the setter clamps the zenith span to a max of 0.5.
+		// If there is a bottom hemisphere, fold the center zenith to [-0.5, 0.5]. N.B. the setter clamps the zenith span to a max of 0.5.
 	float azimuthStart = center.azimuth - (span.azimuthSpan * 0.5f);
-	float zenithStart = MAX(center.zenith - (span.zenithSpan * 0.5f), 0.f);
 	float zenithEnd = zenithStart + span.zenithSpan;
 	if (zenithEnd > 1.f) zenithStart -= (zenithEnd - 1.f);
 

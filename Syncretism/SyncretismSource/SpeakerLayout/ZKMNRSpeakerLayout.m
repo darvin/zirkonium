@@ -274,6 +274,22 @@
 	return YES;
 }
 
+- (BOOL)hasBottomHemisphere
+{
+	if([_speakerPositionRings count]<2) {
+		return NO;
+	}
+
+	// any speakers below z = 0?
+	unsigned i, count = [_speakerPositions count];
+	for (i = 0; i < count; i++) {
+		ZKMNRRectangularCoordinate coord = [[_speakerPositions objectAtIndex: i] coordRectangular];
+		if (coord.z < 0.f) return YES;
+	}
+		
+	return NO;
+}
+
 #pragma mark _____ ZKMNRSpeakerLayoutEditing
 - (void)beginEditing 
 { 

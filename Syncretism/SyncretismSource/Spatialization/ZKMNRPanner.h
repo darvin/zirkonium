@@ -129,6 +129,7 @@
 @interface ZKMNRPannerSource : NSObject <ZKMNRTimeDependent> {
 	ZKMNRVBAPPanner*	_panner;
 	BOOL				_isPlanar;
+	BOOL				_hasBottomHemisphere;
 		/// The number of mixer coefficients is the same as the panner's 
 		///	number of speakers.
 	unsigned			_numberOfMixerCoefficients;

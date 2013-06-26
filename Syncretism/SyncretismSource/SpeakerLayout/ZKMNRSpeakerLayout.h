@@ -116,6 +116,8 @@
 //  Queries
 	// Are all the speakers in one plane?
 - (BOOL)isPlanar;
+	// Are some speakers below z=0?
+- (BOOL)hasBottomHemisphere;
 
 @end
 
