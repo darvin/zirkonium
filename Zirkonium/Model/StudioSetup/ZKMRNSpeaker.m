@@ -75,9 +75,6 @@
 
 -(NSNumber*)positionZ
 {
-	if(0==[[[self valueForKey:@"speakerRing"] ringNumber] intValue]) {
-		return[NSNumber numberWithFloat:0.0]; 
-	}	
 	[self willAccessValueForKey: @"positionZ"];
 	NSNumber* value = [self primitiveValueForKey:@"positionZ"];
 	[self didAccessValueForKey: @"positionZ"];
