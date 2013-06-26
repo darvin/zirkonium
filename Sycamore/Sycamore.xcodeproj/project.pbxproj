@@ -193,6 +193,7 @@
 		36EE51D50BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 36EE51D30BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36EE51D60BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36EE51D40BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm */; };
 		36EE52240BFC92A500F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE51FA0BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m */; };
+		701EAC26177A7F240041BDBB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701EAC25177A7F240041BDBB /* SenTestingKit.framework */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -397,6 +398,7 @@
 		36EE51D40BFC8CFC00F09AB4 /* ZKMORAudioUnitParameterScheduler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZKMORAudioUnitParameterScheduler.mm; sourceTree = "<group>"; };
 		36EE51F90BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMORAudioUnitParameterSchedulerTest.h; sourceTree = "<group>"; };
 		36EE51FA0BFC911200F09AB4 /* ZKMORAudioUnitParameterSchedulerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMORAudioUnitParameterSchedulerTest.m; sourceTree = "<group>"; };
+		701EAC25177A7F240041BDBB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /System/Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* Sycamore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sycamore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -462,6 +464,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701EAC26177A7F240041BDBB /* SenTestingKit.framework in Frameworks */,
 				36EC50BA0A9DA202007DF698 /* CoreServices.framework in Frameworks */,
 				36EC50BB0A9DA203007DF698 /* Cocoa.framework in Frameworks */,
 				36EC50BC0A9DA203007DF698 /* AudioUnit.framework in Frameworks */,
@@ -508,6 +511,7 @@
 		0867D691FE84028FC02AAC07 /* Sycamore */ = {
 			isa = PBXGroup;
 			children = (
+				701EAC25177A7F240041BDBB /* SenTestingKit.framework */,
 				3687E4440A9EF52C00223615 /* Sycamore */,
 				3687E4470A9EF55A00223615 /* Tests and Examples */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -1296,14 +1300,16 @@
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
 				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.7;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
@@ -1312,14 +1318,16 @@
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
 				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx10.7;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
@@ -1337,6 +1345,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SycmoreDebugTest;
 				ZERO_LINK = YES;
@@ -1353,6 +1369,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INSTALL_PATH = "$(HOME)/bin";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-framework",
+					SenTestingKit,
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SycmoreDebugTest;
 				ZERO_LINK = NO;
@@ -1513,6 +1537,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_FRAMEWORKS_DIR)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -1521,6 +1550,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "$(HOME)/bin";
+				LD_RUNPATH_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -1539,12 +1570,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_FRAMEWORKS_DIR)\"";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "$(HOME)/bin";
+				LD_RUNPATH_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
