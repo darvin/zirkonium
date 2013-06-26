@@ -12,7 +12,7 @@
 
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "ZKMORAudioFileRecorderTest.h"
+#import "ZKMORUtilitiesTest.h"
 
 int main (int argc, const char * argv[])
 {
@@ -24,7 +24,7 @@ int main (int argc, const char * argv[])
 	SenTestSuite* suite;
 	suite = 
 		[SenTestSuite 
-			testSuiteForTestCaseClass: [ZKMORAudioFileRecorderTest class]];
+			testSuiteForTestCaseClass: [ZKMORUtilitiesTest class]];
 	if (!suite) NSLog(@"Suite is nil!");
 	[suite run];
 	

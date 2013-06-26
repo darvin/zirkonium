@@ -180,6 +180,13 @@ float	ZKMORFold0ToMax(float value, float max)
 	return value;
 }
 
+float	ZKMORFold(float value, float min, float max)
+{
+	float valueMinusMin = value - min;
+	float folded = ZKMORFold0ToMax(valueMinusMin, max - min);
+	return folded + min;
+}
+
 	/// clamp a value to the range [min, max]
 float	ZKMORClamp(float value, float min, float max)
 {

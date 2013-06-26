@@ -39,6 +39,8 @@ float	ZKMORFRand();
 float	ZKMORWrap0ToMax(float value, float max);
 	/// fold a value to the range [0, max]
 float	ZKMORFold0ToMax(float value, float max);
+	// fold a value to the range [-min, max]
+float	ZKMORFold(float value, float min, float max);
 	/// clamp a value to the range [min, max]
 float	ZKMORClamp(float value, float min, float max);
 	/// return the value between startValue and endValue at percent

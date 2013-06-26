@@ -100,6 +100,9 @@
 - (void)testFold
 {
 	STAssertEqualsWithAccuracy(ZKMORFold0ToMax(1.1f, 1.f), 0.9f, 0.0001f, @"ZKMORFold0ToMax(1.1f, 1.f) should return 0.9f");
+	STAssertEqualsWithAccuracy(ZKMORFold(1.1f, 1.f, 2.f), 1.1f, 0.0001f, @"ZKMORFold(1.1f, 1.f, 2.f) should return 1.1f");
+	STAssertEqualsWithAccuracy(ZKMORFold(0.9f, 1.f, 2.f), 1.1f, 0.0001f, @"ZKMORFold(0.9f, 1.f, 2.f) should return 1.1f");
+	STAssertEqualsWithAccuracy(ZKMORFold(-1.1f, -1.f, 1.f), -0.9f, 0.0001f, @"ZKMORFold(-1.1f, -1.f, 1.f) should return -0.9f");
 }
 
 - (void)testClamp
