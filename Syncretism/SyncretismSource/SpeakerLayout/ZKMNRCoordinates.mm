@@ -69,6 +69,16 @@ ZKMNRSphericalCoordinate ZKMNRRectangularCoordinateCPP::LiftToSphere() const
 	return sphereCoord;
 }
 
+ZKMNRSphericalCoordinate ZKMNRRectangularCoordinateCPP::DropToSphere() const
+{
+	ZKMNRRectangularCoordinateCPP rect = *this;
+	rect.z = sqrtf(1 - (MIN(1, x * x + y * y)));
+	ZKMNRSphericalCoordinateCPP sphereCoord = rect.AsSpherical();
+	sphereCoord.zenith *= -1.;
+	sphereCoord.radius = 1;
+	return sphereCoord;
+}
+
 ZKMNRRectangularCoordinateCPP ZKMNRRectangularCoordinateCPP::operator +(ZKMNRRectangularCoordinateCPP right)
 {
 	return ZKMNRRectangularCoordinateCPP(	this->x + right.x,
@@ -124,6 +134,12 @@ ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateLiftedToSphere(ZKMNRRectangularCoo
 {
 	ZKMNRRectangularCoordinateCPP point = coord;
 	return point.LiftToSphere();
+}
+
+ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateDroppedToSphere(ZKMNRRectangularCoordinate coord)
+{
+	ZKMNRRectangularCoordinateCPP point = coord;
+	return point.DropToSphere();
 }
 
 ZKMNRSphericalCoordinate	ZKMNRRectangularCoordinateToCircular(ZKMNRRectangularCoordinate coord)

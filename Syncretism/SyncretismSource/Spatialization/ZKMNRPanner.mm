@@ -506,7 +506,7 @@
 	
 	// massage the incoming data
 	span.azimuthSpan = ZKMORClamp(span.azimuthSpan, 0.f, 2.f);
-	span.zenithSpan = ZKMORClamp(span.zenithSpan, 0.f, 0.5f);
+	span.zenithSpan = ZKMORClamp(span.zenithSpan, 0.f, 1.f);
 	
 	_center = center; _span = span; _gain = gain;
 	memset(_mixerCoefficients, 0, _numberOfMixerCoefficients * sizeof(float));
@@ -674,7 +674,7 @@
 	float zenithStart;
 	if (_hasBottomHemisphere) {
 		center.zenith = ZKMORFold(center.zenith, -1.f, 1.f);
-		zenithStart = ZKMORClamp(center.zenith, -0.5f, 0.5f);
+		zenithStart = ZKMORClamp(center.zenith - (span.zenithSpan * 0.5f), -0.5f, 0.5f);
 	} else {
 		center.zenith = ZKMORFold0ToMax(center.zenith, 1.f);
 		zenithStart = MAX(center.zenith - (span.zenithSpan * 0.5f), 0.f);
@@ -691,7 +691,9 @@
 	for (i = 0; i < numAzimuthSamples; i++) {
 		for (j = 0; j < numZenithSamples; j++) {
 			ZKMNRRectangularCoordinate rectCoord = ZKMNRSphericalCoordinateToRectangular(samplePoint);
-			if (rectCoord.z < 0.f) rectCoord.z = 0.f;
+			if (!_hasBottomHemisphere) {
+				if (rectCoord.z < 0.f) rectCoord.z = 0.f;
+			}
 		
 			[evaluator pannerSource: self spatialSampleAt: rectCoord];
 
@@ -700,24 +702,6 @@
 		samplePoint.azimuth += minSpan;
 		samplePoint.zenith = zenithStart;		
 	}
-
-	// CR Testing Support for speakers below the audience.
-//	float azimuthStart = center.azimuth - (span.azimuthSpan * 0.5f);
-//	float zenithStart = center.zenith - (span.zenithSpan * 0.5f);
-//	
-//	ZKMNRSphericalCoordinate samplePoint = { azimuthStart, zenithStart, 1.f };
-//	unsigned i, j;
-//	for (i = 0; i < numAzimuthSamples; i++) {
-//		for (j = 0; j < numZenithSamples; j++) {
-//			ZKMNRRectangularCoordinate rectCoord = ZKMNRSphericalCoordinateToRectangular(samplePoint);
-//		
-//			[evaluator pannerSource: self spatialSampleAt: rectCoord];
-//
-//			samplePoint.zenith += minSpan;
-//		}
-//		samplePoint.azimuth += minSpan;
-//		samplePoint.zenith = zenithStart;		
-//	}
 }
 
 - (void)privateExpandRectangularFor:(id <ZKMNRPannerSourceExpanding>)evaluator center:(ZKMNRRectangularCoordinate)center span:(ZKMNRRectangularCoordinateSpan)span
@@ -742,6 +726,7 @@
 	unsigned i, j;
 	for (i = 0; i < numXSamples; i++) {
 		for (j = 0; j < numYSamples; j++) {
+			// TODO SPHERE Fix this implementation to support z values below 0
 			ZKMNRRectangularCoordinate rectCoord = ZKMNRSphericalCoordinateToRectangular(ZKMNRPlanarCoordinateLiftedToSphere(samplePoint));
 				// make sure we are in the upper half of the sphere
 			if (rectCoord.z < 0.f) rectCoord.z = 0.f;

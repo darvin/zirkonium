@@ -85,6 +85,8 @@ ZKMNRSphericalCoordinate	ZKMNRRectangularCoordinateToSpherical(ZKMNRRectangularC
 ZKMNRRectangularCoordinate	ZKMNRSphericalCoordinateToRectangular(ZKMNRSphericalCoordinate coord);
 		/// takes a coordinate in the XY plane and lifts it to the unit sphere
 ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateLiftedToSphere(ZKMNRRectangularCoordinate coord);
+		/// takes a coordinate in the XY plane and drops it to the unit sphere
+ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateDroppedToSphere(ZKMNRRectangularCoordinate coord);
 
 //  Returns a Spherical Coordinate where R is the planar radius, and zenith is undefined
 ZKMNRSphericalCoordinate	ZKMNRRectangularCoordinateToCircular(ZKMNRRectangularCoordinate coord);
@@ -169,7 +171,10 @@ public:
 	
 //  Conversion
 	ZKMNRSphericalCoordinate AsSpherical() const;
+		// Pull the coordinate up to the top of the sphere
 	ZKMNRSphericalCoordinate LiftToSphere() const;
+		// Drop the coordinate down to the bottom of the sphere
+	ZKMNRSphericalCoordinate DropToSphere() const;
 	
 //  Mathematical operations
 	float Magnitude() { return sqrtf((x*x + y*y + z*z)); }
