@@ -26,6 +26,7 @@ NSString* ZKMRNGraphNumberOfDirectOutsChanged = @"ZKMRNGraphNumberOfDirectOutsCh
 #pragma mark _____ NSManagedObject overrides
 + (void)initialize
 {
+	// TODO Switch to using keyPathsForValuesAffectingValueForKey
 	[self setKeys: [NSArray arrayWithObject: @"duration"] triggerChangeNotificationsForDependentKey: @"durationHH"];
 	[self setKeys: [NSArray arrayWithObject: @"duration"] triggerChangeNotificationsForDependentKey: @"durationMM"];
 	[self setKeys: [NSArray arrayWithObject: @"duration"] triggerChangeNotificationsForDependentKey: @"durationSS"];
