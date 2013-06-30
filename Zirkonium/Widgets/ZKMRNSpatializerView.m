@@ -39,7 +39,7 @@
 	self.isPositionIdeal = YES;
 	self.isRotateZenith = NO;
 	self.isShowingInitial = NO;
-	self.useCamera = NO; 
+	self.useCamera = YES;
 	
 	_camAdjust = [[ZKMRNSpatializerViewCameraAdjustment alloc] init];
 	
@@ -251,10 +251,18 @@
 					//Draw source volume level by a scaled circle
 					glPushMatrix();
 					glScalef(v, v, v);
-					[_circle drawCircle];				
+					[_circle drawCircle];
 					glPopMatrix();
 				}
 			[self billboardEnd];
+			if (_isHitTesting) {
+				//Draw Invisible Speaker for Hit Testing ...
+				glColor4f(0.0, 0.0, 0.0, 0.0);
+				glPushMatrix();
+				glScalef(0.2f, 0.2f, 0.3f);
+				[_cube drawSquare];
+				glPopMatrix();
+			}
 		}
 		else { 
 			glPushMatrix();	
@@ -269,15 +277,14 @@
 					[_circle drawCircle];				
 					glPopMatrix();
 				}
-			
-			//Draw Invisible Speaker for Hit Testing ...
-			glColor4f(0.0, 0.0, 0.0, 0.0);
-			glPushMatrix();	
-			glScalef(0.2f, 0.2f, 0.3f);
-			[_cube drawSquare];
-			glPopMatrix();
-
-			
+			if (_isHitTesting) {
+				//Draw Invisible Speaker for Hit Testing ...
+				glColor4f(0.0, 0.0, 0.0, 0.0);
+				glPushMatrix();
+				glScalef(0.2f, 0.2f, 0.3f);
+				[_cube drawSquare];
+				glPopMatrix();
+			}
 		}
 	glPopMatrix();
 }
@@ -308,7 +315,7 @@
 	_selectedSource = nil; 
 	_didDrag = NO;
 
-	[self drawDisplay]; 
+	[self drawDisplay];
 	(_isDoubleBuffered) ? [[self openGLContext] flushBuffer] : glFlush();
 	
 	[self restoreOpenGLContext];
@@ -320,34 +327,28 @@
 
 	NSPoint mouseLocation;
 	mouseLocation = [self convertPoint: [theEvent locationInWindow] fromView: nil];
-
-
-	if(self.useCamera) {
 	
-		[self setXRotation:([_camAdjust xRotation] + [theEvent deltaX])];
-		[self setYRotation:([_camAdjust yRotation] - [theEvent deltaY])];
-	
-	} else {
-
+	if(_selectedSource)
+	{
 		ZKMNRSphericalCoordinate center;
 		ZKMNRRectangularCoordinate dragPosition;
+		center = self.isShowingInitial ? [_selectedSource initialCenter] : [_selectedSource center];
+		dragPosition = ZKMNRSphericalCoordinateToRectangular(center);
+		[self getOpenGLCoord: &dragPosition forWindowLocation: mouseLocation];
+		center = ZKMNRPlanarCoordinateLiftedToSphere(dragPosition);
+		self.isShowingInitial ? [_selectedSource setInitialCenter: center] : [_selectedSource setCenter: center];
 		
-		if(_selectedSource)
-		{
-			center = self.isShowingInitial ? [_selectedSource initialCenter] : [_selectedSource center];
-			dragPosition = ZKMNRSphericalCoordinateToRectangular(center);
-			[self getOpenGLCoord: &dragPosition forWindowLocation: mouseLocation];
-			center = ZKMNRPlanarCoordinateLiftedToSphere(dragPosition);
-			self.isShowingInitial ? [_selectedSource setInitialCenter: center] : [_selectedSource setCenter: center];
-			
-			[self drawDisplay]; 
-			(_isDoubleBuffered) ? [[self openGLContext] flushBuffer] : glFlush();
-			
-			[_panner updatePanningToMixer];
-			if (_delegateGetsMoves) [self.delegate view: self movedPannerSource: _selectedSource toPoint: center];
-			_didDrag = YES;
-		}
+		[self drawDisplay];
+		(_isDoubleBuffered) ? [[self openGLContext] flushBuffer] : glFlush();
+
+		[_panner updatePanningToMixer];
+		if (_delegateGetsMoves) [self.delegate view: self movedPannerSource: _selectedSource toPoint: center];
+		_didDrag = YES;
+	} else if (self.useCamera) {
+		[self setXRotation:([_camAdjust xRotation] + [theEvent deltaX])];
+		[self setYRotation:([_camAdjust yRotation] - [theEvent deltaY])];
 	}
+
 		
 	[self restoreOpenGLContext];
 }

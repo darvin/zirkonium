@@ -40,6 +40,7 @@ typedef struct {
 	BOOL	_isDoubleBuffered;
 	GLuint	_selectBuffer[64];
 	NSOpenGLContext*	_savedOpenGLContext;
+	BOOL	_isHitTesting;
 }
 
 //  Internal Functions

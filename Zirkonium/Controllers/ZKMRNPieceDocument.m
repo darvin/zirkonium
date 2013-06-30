@@ -290,7 +290,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	[spatializerView setDelegate: self];
 	[initialSpatializerView setDelegate: self];
 	
-	initialSpatializerView.useCamera = NO; 
+	initialSpatializerView.useCamera = YES;
 	
 	[spatializerView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];
 	[initialSpatializerView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];

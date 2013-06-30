@@ -7,6 +7,7 @@
 //
 
 #import "ZKMRNOpenGLView.h"
+#import <OpenGL/glu.h>
 
 
 @implementation ZKMRNOpenGLView
@@ -53,7 +54,8 @@
 	[[NSUserDefaultsController sharedUserDefaultsController] addObserver:self forKeyPath:@"values.showIDNumbers" options:0 context:nil]; 
 	[[NSUserDefaultsController sharedUserDefaultsController] addObserver:self forKeyPath:@"values.showIDVolumes" options:0 context:nil]; 
 	[[NSUserDefaultsController sharedUserDefaultsController] addObserver:self forKeyPath:@"values.showSpeakersNumbering" options:0 context:nil]; 
-	[[NSUserDefaultsController sharedUserDefaultsController] addObserver:self forKeyPath:@"values.speakersNumberingMode" options:0 context:nil]; 
+	[[NSUserDefaultsController sharedUserDefaultsController] addObserver:self forKeyPath:@"values.speakersNumberingMode" options:0 context:nil];
+	_isHitTesting = NO;
 }
 
 -(void)awakeFromNib
@@ -139,10 +141,12 @@
 	glLoadIdentity();
 	[self setModelViewMatrix];
 	glInitNames();
+	_isHitTesting = YES;
 }
 
 - (ZKMRNHitRecords)endHitTesting
 {
+	_isHitTesting = NO;
 	glMatrixMode(GL_PROJECTION);
 	glPopMatrix();
 	glMatrixMode(GL_MODELVIEW);
