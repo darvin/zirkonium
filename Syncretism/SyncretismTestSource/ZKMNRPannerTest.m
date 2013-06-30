@@ -278,7 +278,7 @@
 	[source setCenter: point span: span gain: 1.f];
 	// in the bottom half 2 speakers should be activated this sound source
 	nonZeroCoeffCount = [self countNonZeroMixerCoeffs: source];
-	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 2, @"There should be exactly 2 non-zero coefficients.");
+	STAssertEquals(nonZeroCoeffCount, (NSUInteger) 3, @"There should be exactly 3 non-zero coefficients.");
 	STAssertEqualsWithAccuracy([source pannerGain], 1.f, 0.001, @"Panning should not change the gain");
 	
 	
