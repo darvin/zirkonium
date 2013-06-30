@@ -55,7 +55,7 @@ typedef enum
 	ZKMRNDomeViewCameraAdjustment*	_cameraAdjustment; 
 	
 	ZKMNRSpeakerLayout*			_speakerLayout;
-	ZKMRNSpeakerCubeTexture*	_speakerTexture;
+	ZKMRNSpeakerTexture*	_speakerTexture;
 	ZKMRNOpenGLCube*			_cube;
 	ZKMRNOpenGLString*			_glString;
 	
