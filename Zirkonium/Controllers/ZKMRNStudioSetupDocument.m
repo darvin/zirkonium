@@ -10,6 +10,7 @@
 #import "ZKMRNDomeView.h"
 #import "ZKMRNChannelMapView.h"
 #import "ZKMRNSpeakerRing.h"
+#import "ZKMRNSpeakerSetup.h"
 #import "ZKMRNManagedObjectExtensions.h"
 #import "ZKMRNZirkoniumSystem.h"
 #import "ZKMRNTestSourceController.h"
@@ -379,7 +380,6 @@ NSString* ZKMRNOutputPatchPboardType	= @"ZKMRNOutputPatchPboardType";
 			[pboard setPropertyList: [mo dictionaryRepresentation] forType: ZKMRNSpeakerSetupPboardType];
 			[pboard setString: [NSString stringWithFormat: @"SpeakerSetup %@", [mo dictionaryRepresentation]] forType: NSStringPboardType];
 			if ([pboard availableTypeFromArray: [NSArray arrayWithObject: ZKMRNSpeakerSetupPboardType]]) { NSLog(@"Type available"); }
-			NSDictionary* dict = [pboard propertyListForType:ZKMRNSpeakerSetupPboardType];
 		}	break;
 		case kStudioSetupUITag_InputPatch:
 		{
