@@ -726,10 +726,19 @@
 	unsigned i, j;
 	for (i = 0; i < numXSamples; i++) {
 		for (j = 0; j < numYSamples; j++) {
-			// TODO SPHERE Fix this implementation to support z values below 0
-			ZKMNRRectangularCoordinate rectCoord = ZKMNRSphericalCoordinateToRectangular(ZKMNRPlanarCoordinateLiftedToSphere(samplePoint));
+			ZKMNRRectangularCoordinate rectCoord;
+			if (_hasBottomHemisphere) {
+				ZKMNRSphericalCoordinate sphereCoord;
+				if (center.z < 0.f)
+					sphereCoord = ZKMNRPlanarCoordinateDroppedToSphere(samplePoint);
+				else
+					sphereCoord = ZKMNRPlanarCoordinateLiftedToSphere(samplePoint);
+				rectCoord = ZKMNRSphericalCoordinateToRectangular(sphereCoord);
+			} else {
+				rectCoord = ZKMNRSphericalCoordinateToRectangular(ZKMNRPlanarCoordinateLiftedToSphere(samplePoint));
 				// make sure we are in the upper half of the sphere
-			if (rectCoord.z < 0.f) rectCoord.z = 0.f;
+				if (rectCoord.z < 0.f) rectCoord.z = 0.f;
+			}
 			[evaluator pannerSource: self spatialSampleAt: rectCoord];
 			samplePoint.y += minSpan;
 		}
