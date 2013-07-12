@@ -12,18 +12,43 @@
 
 @implementation ZKMRNAbstractInOutPatchChannel
 
+- (void)setSourceChannel:(NSNumber *)sourceChannel
+{
+	NSError* error; 
+	if([self checkSourceChannel:&sourceChannel error:&error])
+	{
+		[self willChangeValueForKey: @"sourceChannel"];
+		[self setPrimitiveValue: sourceChannel forKey: @"sourceChannel"];
+		[self didChangeValueForKey: @"sourceChannel"];
+		[[NSNotificationCenter defaultCenter] postNotificationName: @"ZKMRNOutputPatchChangedNotification" object: self];
+	}
+	else {
+		int button = [self handleAlert:error];
+		switch(button) {
+			case NSAlertFirstButtonReturn:
+				// handle Cancel ...
+				break;
+			case NSAlertSecondButtonReturn:
+				// handle Swap ...
+				
+				[[NSNotificationCenter defaultCenter] postNotificationName: @"ZKMRNOutputPatchChangedNotification" object: self];
+				break;
+			case NSAlertThirdButtonReturn:
+				// handle Nullify ...
+				
+				[[NSNotificationCenter defaultCenter] postNotificationName: @"ZKMRNOutputPatchChangedNotification" object: self];
+				break;
+		}
+
+	}
+}
+
 //  Accessors
--(void)setInterfaceIndex:(NSNumber*)interfaceIndex
+-(void)setInterfaceIndex:(NSNumber *)interfaceIndex
 {
 	// Bug fix ... changing the interface index will update the source channel
 	// thats why the source channel first needs to be set by custom setter methode ... (JB)
-	[self setSourceChannel:interfaceIndex]; 
-	
-	if([[self valueForKey:@"sourceChannel"] intValue] == interfaceIndex) {
-		[self willChangeValueForKey:@"interfaceIndex"];
-		[self setPrimitiveValue: interfaceIndex forKey: @"interfaceIndex"]; 
-		[self didChangeValueForKey:@"interfaceIndex"];
-	} 
+	[self setSourceChannel: interfaceIndex]; 
 }
 
 -(NSNumber*)interfaceIndex
@@ -52,8 +77,9 @@
 	NSManagedObject* patch; 
 	if([[self entityName] isEqualToString:@"OutputPatchChannel"]) {
 		patch = [self valueForKey:@"patch"];
-	} 
-	else if([[self entityName] isEqualToString:@"DirectOutPatchChannel"]) {
+	} else if([[self entityName] isEqualToString:@"DirectOutPatchChannel"]) {
+		patch = [self valueForKey:@"outputPatch"];
+	} else if([[self entityName] isEqualToString:@"BassOutPatchChannel"]) {
 		patch = [self valueForKey:@"outputPatch"];
 	}
 	
@@ -195,6 +221,10 @@
 	
 	return button;
 }
+
+
+// Subclass Responsibility
+- (NSString *)entityName { return nil; }
 
 
 

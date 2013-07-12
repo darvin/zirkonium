@@ -16,8 +16,11 @@
 //-(void)setPatch:(ZKMRNAbstractInOutPatch*)patch;
 //-(ZKMRNAbstractInOutPatch*)patch;
 
--(BOOL)checkSourceChannel:(id *)ioValue error:(NSError **)outError;
--(int)handleAlert:(NSError*)error;
+- (void)setSourceChannel:(NSNumber *)sourceChannel;
+- (BOOL)checkSourceChannel:(id *)ioValue error:(NSError **)outError;
+- (int)handleAlert:(NSError*)error;
 
+// Subclass Responsibilities
+- (NSString *)entityName;
 
 @end
