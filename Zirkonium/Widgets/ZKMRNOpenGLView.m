@@ -83,7 +83,7 @@
 - (void)prepareOpenGL
 {
 	NSOpenGLPixelFormat* pixelFormat = [self pixelFormat];
-	long isDoubleBuffered;
+	GLint isDoubleBuffered;
 	[pixelFormat getValues: &isDoubleBuffered forAttribute: NSOpenGLPFADoubleBuffer forVirtualScreen: 0];
 	_isDoubleBuffered = isDoubleBuffered;
 	

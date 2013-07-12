@@ -11,6 +11,7 @@
 
 @interface ZKMRNSpeaker (ZKMRNSpeakerPrivate)
 - (void)updateSpeakerPosition;
+-(ZKMNRSpeakerPosition*)primitiveSpeakerPosition;
 @end
 
 
