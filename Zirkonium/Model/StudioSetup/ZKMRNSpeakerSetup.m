@@ -9,6 +9,7 @@
 #import "ZKMRNSpeakerSetup.h"
 #import "ZKMRNSpeaker.h"
 #import "ZKMRNManagedObjectExtensions.h"
+#import "ZKMRNZirkoniumSystem.h"
 
 @class ZKMRNZirkoniumSystem;
 @implementation ZKMRNSpeakerSetup

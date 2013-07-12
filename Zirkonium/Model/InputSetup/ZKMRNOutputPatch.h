@@ -22,4 +22,9 @@
 - (void)increaseDirectOutChannelsTo:(unsigned)numberOfChannels;
 - (void)decreaseDirectOutChannelsTo:(unsigned)numberOfChannels;
 
+- (NSUInteger)numberOfBassOuts;
+- (void)setNumberOfBassOuts:(NSNumber *)numberOfChannels;
+- (void)increaseBassOutChannelsTo:(unsigned)numberOfChannels;
+- (void)decreaseBassOutChannelsTo:(unsigned)numberOfChannels;
+
 @end

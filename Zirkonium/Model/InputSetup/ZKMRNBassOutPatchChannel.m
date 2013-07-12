@@ -10,4 +10,20 @@
 
 @implementation ZKMRNBassOutPatchChannel
 
+- (NSString *)entityName { return @"BassOutPatchChannel"; }
+
+- (float)gain
+{
+	// TODO BASS OUT store this
+	return 0.05f;
+}
+
+- (void)setGain:(float)gain
+{
+	[self willChangeValueForKey: @"gain"];
+	[self setPrimitiveValue: [NSNumber numberWithFloat: gain] forKey: @"gain"];
+	[self didChangeValueForKey: @"gain"];
+	[[NSNotificationCenter defaultCenter] postNotificationName: @"ZKMRNOutputPatchChangedNotification" object: self];
+}
+
 @end

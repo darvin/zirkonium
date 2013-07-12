@@ -635,6 +635,8 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 		}		
 	}
 	
+	// TODO BASS OUT Add the bass outs
+	
 	
 	[_deviceOutput setChannelMap: channelMap];
 	
@@ -662,6 +664,7 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 		//jens
 		if([self outputPatch]) {
 			numberOfOutputChannels+=[[_outputPatch valueForKey:@"numberOfDirectOuts"] intValue];
+			// TODO BASS OUT Add the bass outputs here
 		}
 		
 		[_spatializationMixer uninitialize];

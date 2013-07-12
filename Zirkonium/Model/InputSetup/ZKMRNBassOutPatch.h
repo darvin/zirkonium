@@ -6,8 +6,13 @@
 //
 //
 
+#import <Cocoa/Cocoa.h>
 #import "ZKMRNAbstractInOutPatch.h"
 
-@interface ZKMRNBassOutPatch : ZKMRNAbstractInOutPatch
+@interface ZKMRNBassOutPatch : ZKMRNAbstractInOutPatch {
+
+}
+
+- (unsigned)numberOfChannels;
 
 @end

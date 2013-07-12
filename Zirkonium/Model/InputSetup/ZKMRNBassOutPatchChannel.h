@@ -8,6 +8,13 @@
 
 #import "ZKMRNAbstractInOutPatchChannel.h"
 
-@interface ZKMRNBassOutPatchChannel : ZKMRNAbstractInOutPatchChannel
+@interface ZKMRNBassOutPatchChannel : ZKMRNAbstractInOutPatchChannel {
+
+}
+
+- (NSString *)entityName;
+
+- (float)gain;
+- (void)setGain:(float)gain;
 
 @end

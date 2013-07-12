@@ -20,7 +20,8 @@
 }
 
 - (NSString *)patchChannelEntityName { return @"OutputPatchChannel"; } 
-- (NSString *)directOutChannelEntityName { return @"DirectOutPatchChannel"; } 
+- (NSString *)directOutChannelEntityName { return @"DirectOutPatchChannel"; }
+- (NSString *)bassOutChannelEntityName { return @"BassOutPatchChannel"; }
 - (NSArray *)channelDescriptionsArray { return [[[ZKMRNZirkoniumSystem sharedZirkoniumSystem] audioOutputDevice] outputChannelNames]; }
 - (NSString *)patchDefaultName { return @"Output Patch"; }
 
@@ -125,6 +126,56 @@
 		[aChannel setPrimitiveValue:[[channels objectAtIndex:i] valueForKey:@"sourceChannel"] forKey:@"sourceChannel"];
 		i++;
 	}
+}
+
+- (NSUInteger)numberOfBassOuts
+{
+	return [[self valueForKey: @"numberOfBassOuts"] count];
+}
+
+- (void)setNumberOfBassOuts:(NSNumber *)numberOfChannels
+{
+	[self willChangeValueForKey: @"numberOfBassOuts"];
+	[self setPrimitiveValue: numberOfChannels forKey: @"numberOfBassOuts"];
+	[self didChangeValueForKey: @"numberOfBassOuts"];
+	
+	// add or remove channels to match the number of channels
+	unsigned count = [[self valueForKey: @"bassOutChannels"] count];
+	if (count < [numberOfChannels unsignedIntValue])
+		[self increaseBassOutChannelsTo: [numberOfChannels unsignedIntValue]];
+	else
+		[self decreaseBassOutChannelsTo: [numberOfChannels unsignedIntValue]];
+		
+	[[NSNotificationCenter defaultCenter] postNotificationName: @"ZKMRNOutputPatchChangedNotification" object:nil];	
+}
+
+- (void)increaseBassOutChannelsTo:(unsigned)numberOfChannels
+{
+	NSMutableSet* bassOutChannels = [self mutableSetValueForKey: @"bassOutChannels"];
+	unsigned i, count = [bassOutChannels count];
+	
+	NSManagedObjectContext* moc = [self managedObjectContext];	
+	NSManagedObject* channel;
+	
+	for (i = count; i < numberOfChannels; i++) {
+		channel = [NSEntityDescription insertNewObjectForEntityForName: [self bassOutChannelEntityName] inManagedObjectContext: moc];
+		[channel setValue: [NSNumber numberWithUnsignedInt: i] forKey: @"patchChannel"];
+		//[channel setValue: [NSNumber numberWithUnsignedInt: i] forKey: @"sourceChannel"]; //initialy not defined
+		[bassOutChannels addObject: channel];		
+	}
+}
+
+- (void)decreaseBassOutChannelsTo:(unsigned)numberOfChannels
+{
+	NSManagedObject* channel;
+
+	NSEnumerator* channels = [[self valueForKey: @"bassOutChannels"] objectEnumerator];
+	NSMutableSet* toKeep = [[NSMutableSet alloc] init];
+	while (channel = [channels nextObject]) {
+		unsigned int patchChannel = [[channel valueForKey: @"patchChannel"] unsignedIntValue];
+		if (patchChannel < numberOfChannels) [toKeep addObject: channel];
+	}
+	[self setValue: toKeep forKey: @"bassOutChannels"];
 }
 
 @end
