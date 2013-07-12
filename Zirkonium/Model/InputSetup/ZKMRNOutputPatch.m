@@ -130,7 +130,7 @@
 
 - (NSUInteger)numberOfBassOuts
 {
-	return [[self valueForKey: @"numberOfBassOuts"] count];
+	return [[self primitiveValueForKey: @"numberOfBassOuts"] intValue];
 }
 
 - (void)setNumberOfBassOuts:(NSNumber *)numberOfChannels

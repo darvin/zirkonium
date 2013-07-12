@@ -664,7 +664,7 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 		//jens
 		if([self outputPatch]) {
 			numberOfOutputChannels+=[[_outputPatch valueForKey:@"numberOfDirectOuts"] intValue];
-			// TODO BASS OUT Add the bass outputs here
+			numberOfOutputChannels += [_outputPatch numberOfBassOuts];
 		}
 		
 		[_spatializationMixer uninitialize];
