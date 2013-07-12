@@ -58,6 +58,8 @@
 		36EB96AA0B021E22006332FC /* ZKMRNChannelMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EB96A80B021E22006332FC /* ZKMRNChannelMap.m */; };
 		36EB97C30B0241C6006332FC /* ZKMRNChannelMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EB97C10B0241C6006332FC /* ZKMRNChannelMapView.m */; };
 		36EE15480B2568F8001D079E /* ZKMRNEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE15460B2568F8001D079E /* ZKMRNEvent.m */; };
+		7087DD55178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7087DD54178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m */; };
+		70DC96D5178E522C008A74F3 /* ZKMRNBassOutPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DC96D4178E522C008A74F3 /* ZKMRNBassOutPatch.m */; };
 		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		B405920713DDA61700891C09 /* ZKMRNGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B405920413DDA61700891C09 /* ZKMRNGradientView.m */; };
@@ -255,6 +257,10 @@
 		36FE44180AF0DB960017B68E /* StudioSetup.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = StudioSetup.xcdatamodel; sourceTree = "<group>"; };
 		514E9E2D081EC793009B8CD9 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		7087DD53178ECB27001223F2 /* ZKMRNBassOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNBassOutPatchChannel.h; sourceTree = "<group>"; };
+		7087DD54178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNBassOutPatchChannel.m; sourceTree = "<group>"; };
+		70DC96D3178E522B008A74F3 /* ZKMRNBassOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNBassOutPatch.h; sourceTree = "<group>"; };
+		70DC96D4178E522C008A74F3 /* ZKMRNBassOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNBassOutPatch.m; sourceTree = "<group>"; };
 		775BDEF0067A8BF0009058FE /* PieceDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = PieceDocument.xcdatamodel; sourceTree = "<group>"; };
 		7788DA0506752A1600599AAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		8D15AC370486D014006FF6A4 /* Zirkonium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zirkonium.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -492,6 +498,8 @@
 				B467EC2C11C8E1710005EA20 /* InputSetup.xcdatamodeld */,
 				36E9C0E10B81F6800076E77F /* ZKMRNAbstractInOutPatch.h */,
 				36E9C0E20B81F6800076E77F /* ZKMRNAbstractInOutPatch.m */,
+				70DC96D3178E522B008A74F3 /* ZKMRNBassOutPatch.h */,
+				70DC96D4178E522C008A74F3 /* ZKMRNBassOutPatch.m */,
 				36E9C08C0B81F34E0076E77F /* ZKMRNDirectOutPatch.h */,
 				36E9C08D0B81F34E0076E77F /* ZKMRNDirectOutPatch.m */,
 				3692CBF70B4D85C6009B56D4 /* ZKMRNInputPatch.h */,
@@ -500,6 +508,8 @@
 				360F82800B7375CF0032E5F9 /* ZKMRNOutputPatch.m */,
 				B4A83C9C0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.h */,
 				B4A83C9D0FFC969000B013D7 /* ZKMRNAbstractInOutPatchChannel.m */,
+				7087DD53178ECB27001223F2 /* ZKMRNBassOutPatchChannel.h */,
+				7087DD54178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m */,
 				360F86610B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.h */,
 				360F86620B73B2DD0032E5F9 /* ZKMRNOutputPatchChannel.m */,
 				B421FD830FFB65680034C10E /* ZKMRNDirectOutPatchChannel.h */,
@@ -859,6 +869,8 @@
 				B457B32713E9980300CE117F /* LightController.m in Sources */,
 				B4CF257A1451A4C200449A7E /* FileSourcesController.m in Sources */,
 				B4CF25F71451C21900449A7E /* NSString+PathResolver.m in Sources */,
+				70DC96D5178E522C008A74F3 /* ZKMRNBassOutPatch.m in Sources */,
+				7087DD55178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
