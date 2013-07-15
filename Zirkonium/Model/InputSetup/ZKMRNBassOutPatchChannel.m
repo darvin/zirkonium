@@ -14,7 +14,7 @@
 
 - (float)gain
 {
-	// TODO BASS OUT store this
+	// TODO BASS OUT should store this value
 	return 0.05f;
 }
 
