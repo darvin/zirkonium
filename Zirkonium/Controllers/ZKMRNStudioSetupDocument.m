@@ -258,7 +258,7 @@ NSString* ZKMRNOutputPatchPboardType	= @"ZKMRNOutputPatchPboardType";
 	// Destination Model ...
 	NSString *configuration = nil ; 
 	NSManagedObjectModel *destinationModel = [psc managedObjectModel]; 
-	BOOL pscCompatibile = [destinationModel isConfiguration:configuration compatibleWithStoreMetadata:sourceMetadata]; 
+//	BOOL pscCompatibile = [destinationModel isConfiguration:configuration compatibleWithStoreMetadata:sourceMetadata];
 	
 	// Init ...
 	if (!(self = [super initWithContentsOfURL: absoluteURL ofType: typeName error: outError])) return nil;
