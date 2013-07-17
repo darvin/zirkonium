@@ -117,6 +117,15 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
     return self;
 }
 
+- (id)managedObjectModel
+{
+	NSBundle *bundle = [NSBundle mainBundle];
+    NSString *modelPath = [bundle pathForResource: @"PieceDocument" ofType: @"momd"];
+    NSManagedObjectModel *managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL: [NSURL fileURLWithPath: modelPath]];
+	
+    return managedObjectModel;
+}
+
 
 // From NSDocument Reference: You can override this method to perform initialization that must be done when creating 
 // new documents but should not be done when opening existing documents. 
@@ -236,17 +245,22 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	return self;
 }
 
-- (BOOL)configurePersistentStoreCoordinatorForURL:(NSURL *)url ofType:(NSString *)fileType error:(NSError **)error
-{
-	BOOL success = [super configurePersistentStoreCoordinatorForURL: url ofType: fileType error: error];
-	
-	if (!success) 
-	{
-		
-		return NO;
-		
-	}
+- (BOOL)configurePersistentStoreCoordinatorForURL:(NSURL *)url ofType:(NSString *)fileType modelConfiguration:(NSString *)configuration storeOptions:(NSDictionary *)storeOptions error:(NSError **)error
+{	
+    NSMutableDictionary *newStoreOptions =
+		(storeOptions == nil) ?
+			[NSMutableDictionary dictionary] :
+			[storeOptions mutableCopy];
+			
+    [newStoreOptions setObject: [NSNumber numberWithBool: YES] forKey:NSMigratePersistentStoresAutomaticallyOption];
+    [newStoreOptions setObject: [NSNumber numberWithBool: YES] forKey:NSInferMappingModelAutomaticallyOption];
 
+    BOOL success = [super configurePersistentStoreCoordinatorForURL:url ofType:fileType modelConfiguration:configuration storeOptions:newStoreOptions error:error];
+	if (!success) {
+		if (error) NSLog(@"Could not open file %@ : %@", url, *error);
+		return success;
+	}
+	
 	// set the version number for a new document
 	NSPersistentStoreCoordinator* psc = [[self managedObjectContext] persistentStoreCoordinator];
 	id pStore = [psc persistentStoreForURL: url];

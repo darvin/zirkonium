@@ -213,7 +213,7 @@ NSString* ZKMRNOutputPatchPboardType	= @"ZKMRNOutputPatchPboardType";
 	return self;
 }
 
-- (BOOL) configurePersistentStoreCoordinatorForURL: (NSURL *)url ofType: (NSString *) fileType modelConfiguration: (NSString *) configuration storeOptions: (NSDictionary *) storeOptions error: (NSError **)error
+- (BOOL)configurePersistentStoreCoordinatorForURL: (NSURL *)url ofType: (NSString *) fileType modelConfiguration: (NSString *) configuration storeOptions: (NSDictionary *) storeOptions error: (NSError **)error
 {
 	NSMutableDictionary *options = nil;
 	

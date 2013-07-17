@@ -622,6 +622,7 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 	
 	if ([self outputPatch]) {
 		// add the direct outs
+		NSUInteger directOutsCount = 0;
 		NSEnumerator* directOuts = [[_outputPatch valueForKey: @"directOutChannels"] objectEnumerator];
 		NSManagedObject* directOutChannel;
 		while (directOutChannel = [directOuts nextObject]) {
@@ -631,12 +632,30 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 				unsigned deviceOutput = [sourceChannel unsignedIntValue];
 				unsigned zirkOutput = numberOfSpeakers + [[directOutChannel valueForKey: @"patchChannel"] unsignedIntValue];
 				if (deviceOutput < count) [channelMap replaceObjectAtIndex: deviceOutput withObject: [NSNumber numberWithInt: zirkOutput]];
+				++directOutsCount;
 			}
-		}		
-	}
-	
-	// TODO BASS OUT Add the bass outs
-	
+		}
+		
+		// add the bass outs
+		NSEnumerator* bassOuts = [[_outputPatch valueForKey: @"bassOutChannels"] objectEnumerator];
+		NSManagedObject* bassOutChannel;
+		while (bassOutChannel = [bassOuts nextObject]) {
+			NSNumber* sourceChannel = [bassOutChannel valueForKey: @"sourceChannel"];
+			if(sourceChannel)
+			{
+				unsigned deviceOutput = [sourceChannel unsignedIntValue];
+				unsigned zirkOutput = numberOfSpeakers + directOutsCount + [[bassOutChannel valueForKey: @"patchChannel"] unsignedIntValue];
+				if (deviceOutput < count) {
+					[channelMap replaceObjectAtIndex: deviceOutput withObject: [NSNumber numberWithInt: zirkOutput]];
+						// Activate bass outs
+					unsigned j;
+					for (j = 0; j < numberOfSpeakers + directOutsCount; ++j) {
+						[_spatializationMixer setVolume: 1.f forCrosspointInput: j output: zirkOutput];
+					}
+				}
+			}
+		}
+	}	
 	
 	[_deviceOutput setChannelMap: channelMap];
 	
