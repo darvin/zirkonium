@@ -56,7 +56,10 @@
 
 -(BOOL)isActive
 {
-	NSSet* graphDirectOuts = [[[ZKMRNZirkoniumSystem sharedZirkoniumSystem] currentPieceDocument] graphDirectOuts];
+	ZKMRNPieceDocument *document = [[ZKMRNZirkoniumSystem sharedZirkoniumSystem] currentPieceDocument];
+	if (!document) return NO;
+	
+	NSSet* graphDirectOuts = [document graphDirectOuts];
 	
 	if(graphDirectOuts)
 	{

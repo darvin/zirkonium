@@ -1371,6 +1371,8 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	initialSpatializerView = nil;
 	visualizerWindowView = nil;
 	[mainWindow unregisterDraggedTypes];
+	if (self == [[ZKMRNZirkoniumSystem sharedZirkoniumSystem] currentPieceDocument])
+		[[ZKMRNZirkoniumSystem sharedZirkoniumSystem] setCurrentPieceDocument: nil];
 }
 
 - (void)windowDidBecomeKey:(NSNotification *)notification
