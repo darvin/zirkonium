@@ -12,16 +12,16 @@
 
 - (NSString *)entityName { return @"BassOutPatchChannel"; }
 
-- (float)gain
+- (NSNumber *)gain
 {
 	// TODO BASS OUT should store this value
-	return 0.05f;
+	return [NSNumber numberWithFloat: 0.05f];
 }
 
-- (void)setGain:(float)gain
+- (void)setGain:(NSNumber *)gain
 {
 	[self willChangeValueForKey: @"gain"];
-	[self setPrimitiveValue: [NSNumber numberWithFloat: gain] forKey: @"gain"];
+	[self setPrimitiveValue: gain forKey: @"gain"];
 	[self didChangeValueForKey: @"gain"];
 	[[NSNotificationCenter defaultCenter] postNotificationName: @"ZKMRNOutputPatchChangedNotification" object: self];
 }

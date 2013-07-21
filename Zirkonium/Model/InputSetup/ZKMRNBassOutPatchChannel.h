@@ -14,7 +14,7 @@
 
 - (NSString *)entityName;
 
-- (float)gain;
-- (void)setGain:(float)gain;
+- (NSNumber *)gain;
+- (void)setGain:(NSNumber *)gain;
 
 @end

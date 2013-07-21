@@ -650,13 +650,17 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 						// Activate bass outs
 					unsigned j;
 					for (j = 0; j < numberOfSpeakers + directOutsCount; ++j) {
-						[_spatializationMixer setVolume: 1.f forCrosspointInput: j output: zirkOutput];
+						float gain = [[bassOutChannel valueForKey: @"gain"] floatValue];
+						[_spatializationMixer setVolume: gain forCrosspointInput: j output: zirkOutput];
 					}
 				}
 			}
 		}
 	}	
 	
+	// DEBUG BASS OUT
+	[_spatializationMixer logVolumesDebug];
+			
 	[_deviceOutput setChannelMap: channelMap];
 	
 }
