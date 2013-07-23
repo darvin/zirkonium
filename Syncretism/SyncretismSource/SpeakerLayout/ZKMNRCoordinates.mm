@@ -142,6 +142,13 @@ ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateDroppedToSphere(ZKMNRRectangularCo
 	return point.DropToSphere();
 }
 
+ZKMNRSphericalCoordinate	ZKMNRCoordinateProjectedToSphere(ZKMNRRectangularCoordinate coord)
+{
+	return (coord.z < 0.f) ?
+		ZKMNRPlanarCoordinateDroppedToSphere(coord) :
+		ZKMNRPlanarCoordinateLiftedToSphere(coord);
+}
+
 ZKMNRSphericalCoordinate	ZKMNRRectangularCoordinateToCircular(ZKMNRRectangularCoordinate coord)
 {
 	ZKMNRSphericalCoordinate point;

@@ -87,6 +87,8 @@ ZKMNRRectangularCoordinate	ZKMNRSphericalCoordinateToRectangular(ZKMNRSphericalC
 ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateLiftedToSphere(ZKMNRRectangularCoordinate coord);
 		/// takes a coordinate in the XY plane and drops it to the unit sphere
 ZKMNRSphericalCoordinate	ZKMNRPlanarCoordinateDroppedToSphere(ZKMNRRectangularCoordinate coord);
+		/// takes a 3D rectangular coordinate and projects it to the unit sphere
+ZKMNRSphericalCoordinate	ZKMNRCoordinateProjectedToSphere(ZKMNRRectangularCoordinate coord);
 
 //  Returns a Spherical Coordinate where R is the planar radius, and zenith is undefined
 ZKMNRSphericalCoordinate	ZKMNRRectangularCoordinateToCircular(ZKMNRRectangularCoordinate coord);
