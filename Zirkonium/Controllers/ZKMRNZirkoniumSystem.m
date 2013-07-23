@@ -647,22 +647,12 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 				unsigned zirkOutput = numberOfSpeakers + directOutsCount + [[bassOutChannel valueForKey: @"patchChannel"] unsignedIntValue];
 				if (deviceOutput < count) {
 					[channelMap replaceObjectAtIndex: deviceOutput withObject: [NSNumber numberWithInt: zirkOutput]];
-						// Activate bass outs
-					unsigned j;
-					for (j = 0; j < numberOfSpeakers + directOutsCount; ++j) {
-						float gain = [[bassOutChannel valueForKey: @"gain"] floatValue];
-						[_spatializationMixer setVolume: gain forCrosspointInput: j output: zirkOutput];
-					}
 				}
 			}
 		}
-	}	
+	}
 	
-	// DEBUG BASS OUT
-	[_spatializationMixer logVolumesDebug];
-			
 	[_deviceOutput setChannelMap: channelMap];
-	
 }
 
 - (void)synchronizeAudioGraph
@@ -713,6 +703,7 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 	[_audioGraph endPatching];
 	[_spatializationMixer setInputsAndOutputsOn];
 	[_panner transferPanningToMixer];
+	[self transferBassOutsToMixer];
 	
 	[self synchronizeOutputPatch];
 }
@@ -865,6 +856,7 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 	[_audioGraph initialize];
 	[_audioGraph endPatching];
 	[_spatializationMixer setInputsAndOutputsOn];
+	[self transferBassOutsToMixer];
 }
 
 //- (ZKMRNDeviceManager *)deviceManager { return _deviceManager; }
@@ -929,7 +921,6 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 		//[_masterSlaveController postOSCPlay];
 		[[_preferencesController oscController] postOSCStop:NO];
 		[[_preferencesController oscController] postOSCStart:YES];
-		
 	} else {
 		
 		[_deviceOutput stop];
@@ -946,6 +937,35 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 		}
 	}
 	[self didChangeValueForKey: @"playButtonTitle"];	
+}
+
+- (void)transferBassOutsToMixer
+{
+	if (![self outputPatch]) return;
+	
+	unsigned numberOfSpeakers = [_speakerSetup numberOfSpeakers];	
+	NSUInteger directOutsCount = [[_outputPatch valueForKey: @"directOutChannels"] count];
+	NSUInteger deviceOutCount = [[_deviceOutput channelMap] count];
+	
+	// add the bass outs
+	NSEnumerator* bassOuts = [[_outputPatch valueForKey: @"bassOutChannels"] objectEnumerator];
+	NSManagedObject* bassOutChannel;
+	while (bassOutChannel = [bassOuts nextObject]) {
+		NSNumber* sourceChannel = [bassOutChannel valueForKey: @"sourceChannel"];
+		if(sourceChannel)
+		{
+			unsigned deviceOutput = [sourceChannel unsignedIntValue];
+			unsigned zirkOutput = numberOfSpeakers + directOutsCount + [[bassOutChannel valueForKey: @"patchChannel"] unsignedIntValue];
+			if (deviceOutput < deviceOutCount) {
+					// Activate bass outs
+				unsigned j;
+				for (j = 0; j < numberOfSpeakers + directOutsCount; ++j) {
+					float gain = [[bassOutChannel valueForKey: @"gain"] floatValue];
+					[_spatializationMixer setVolume: gain forCrosspointInput: j output: zirkOutput];
+				}
+			}
+		}
+	}
 }
 
 - (BOOL)isGraphTesting { return _isTesting; }
@@ -981,6 +1001,7 @@ static void print_stream_info (AudioStreamBasicDescription *stream)
 	[_panner endEditingActiveSources];
 	
 	[_panner transferPanningToMixer];
+	[self transferBassOutsToMixer];
 	
 	[_audioGraph start];
 	[_deviceOutput start];
