@@ -260,7 +260,7 @@
 		514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		7087DD53178ECB27001223F2 /* ZKMRNBassOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNBassOutPatchChannel.h; sourceTree = "<group>"; };
 		7087DD54178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNBassOutPatchChannel.m; sourceTree = "<group>"; };
-		7087DD5B17903BDA001223F2 /* InputSetup 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InputSetup 3.xcdatamodel"; sourceTree = "<group>"; };
+		7087DD5B17903BDA001223F2 /* InputSetup 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "InputSetup 3.xcdatamodel"; sourceTree = "<group>"; };
 		7087DD6117904047001223F2 /* InputSetup2to3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = InputSetup2to3.xcmappingmodel; sourceTree = "<group>"; };
 		70DC96D3178E522B008A74F3 /* ZKMRNBassOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNBassOutPatch.h; sourceTree = "<group>"; };
 		70DC96D4178E522C008A74F3 /* ZKMRNBassOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNBassOutPatch.m; sourceTree = "<group>"; };
@@ -962,7 +962,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Zirkonium;
-				SDKROOT = macosx10.7;
 				SKIP_INSTALL = NO;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = app;
@@ -999,7 +998,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Zirkonium;
-				SDKROOT = macosx10.7;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1022,7 +1020,7 @@
 				MOMC_SUPPRESS_INVERSE_TRANSIENT_ERROR = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 				VERSIONING_SYSTEM = "";
@@ -1041,7 +1039,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
