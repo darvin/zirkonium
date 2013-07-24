@@ -60,6 +60,7 @@
 		36EE15480B2568F8001D079E /* ZKMRNEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EE15460B2568F8001D079E /* ZKMRNEvent.m */; };
 		7087DD55178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7087DD54178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m */; };
 		7087DD6217904047001223F2 /* InputSetup2to3.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7087DD6117904047001223F2 /* InputSetup2to3.xcmappingmodel */; };
+		70A26F88179F44B3008FF0C5 /* ZKMRNSpatialChordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A26F87179F44B3008FF0C5 /* ZKMRNSpatialChordController.m */; };
 		70DC96D5178E522C008A74F3 /* ZKMRNBassOutPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DC96D4178E522C008A74F3 /* ZKMRNBassOutPatch.m */; };
 		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -260,8 +261,10 @@
 		514EA014081EC7C3009B8CD9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
 		7087DD53178ECB27001223F2 /* ZKMRNBassOutPatchChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNBassOutPatchChannel.h; sourceTree = "<group>"; };
 		7087DD54178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNBassOutPatchChannel.m; sourceTree = "<group>"; };
-		7087DD5B17903BDA001223F2 /* InputSetup 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InputSetup 3.xcdatamodel"; sourceTree = "<group>"; };
+		7087DD5B17903BDA001223F2 /* InputSetup 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "InputSetup 3.xcdatamodel"; sourceTree = "<group>"; };
 		7087DD6117904047001223F2 /* InputSetup2to3.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = InputSetup2to3.xcmappingmodel; sourceTree = "<group>"; };
+		70A26F86179F44B3008FF0C5 /* ZKMRNSpatialChordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZKMRNSpatialChordController.h; path = Controllers/ZKMRNSpatialChordController.h; sourceTree = "<group>"; };
+		70A26F87179F44B3008FF0C5 /* ZKMRNSpatialChordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZKMRNSpatialChordController.m; path = Controllers/ZKMRNSpatialChordController.m; sourceTree = "<group>"; };
 		70DC96D3178E522B008A74F3 /* ZKMRNBassOutPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMRNBassOutPatch.h; sourceTree = "<group>"; };
 		70DC96D4178E522C008A74F3 /* ZKMRNBassOutPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMRNBassOutPatch.m; sourceTree = "<group>"; };
 		775BDEF0067A8BF0009058FE /* PieceDocument.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = PieceDocument.xcdatamodel; sourceTree = "<group>"; };
@@ -451,6 +454,8 @@
 				B4CB5492125C5794002A6F6E /* ZKMRNPieceDocumentWindowController.m */,
 				B4CB5493125C5794002A6F6E /* ZKMRNPreferencesController.h */,
 				B4CB5494125C5794002A6F6E /* ZKMRNPreferencesController.m */,
+				70A26F86179F44B3008FF0C5 /* ZKMRNSpatialChordController.h */,
+				70A26F87179F44B3008FF0C5 /* ZKMRNSpatialChordController.m */,
 				B4CB5495125C5794002A6F6E /* ZKMRNStudioSetupDocument.h */,
 				B4CB5496125C5794002A6F6E /* ZKMRNStudioSetupDocument.m */,
 				B4CB5497125C5794002A6F6E /* ZKMRNTestSourceController.h */,
@@ -876,6 +881,7 @@
 				70DC96D5178E522C008A74F3 /* ZKMRNBassOutPatch.m in Sources */,
 				7087DD55178ECB28001223F2 /* ZKMRNBassOutPatchChannel.m in Sources */,
 				7087DD6217904047001223F2 /* InputSetup2to3.xcmappingmodel in Sources */,
+				70A26F88179F44B3008FF0C5 /* ZKMRNSpatialChordController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

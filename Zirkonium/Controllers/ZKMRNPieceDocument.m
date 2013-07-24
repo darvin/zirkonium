@@ -17,6 +17,7 @@
 #import "ZKMRNChannelGroup.h"
 #import "ZKMRNPieceDocumentWindowController.h"
 #import "NSString+PathResolver.h"
+#import "ZKMRNSpatialChordController.h"
 
 static NSString* kZKMRNPieceVersionKey = @"ZKMRNPieceVersionKey";
 static unsigned kZKMRNPieceVersion = 3;
@@ -112,7 +113,8 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	//_currentTime = 0.;
 	_isGraphOutOfSynch = YES;
 	
-	_timeWatch  = [[ZKMRNTimeWatch alloc] initWithPiece:self]; 
+	_timeWatch  = [[ZKMRNTimeWatch alloc] initWithPiece:self];
+	_chordController = [[ZKMRNSpatialChordController alloc] initWithPieceDocument: self];
 	
     return self;
 }
@@ -303,23 +305,25 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
     // user interface preparation code
 	[spatializerView setDelegate: self];
 	[initialSpatializerView setDelegate: self];
+	[chordSpatializerView setDelegate: self];
 	
 	initialSpatializerView.useCamera = YES;
+	spatializerView.useCamera = YES;
+	visualizerWindowView.useCamera = YES;
+	chordSpatializerView.useCamera = YES;
 	
 	[spatializerView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];
 	[initialSpatializerView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];
+	[visualizerWindowView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];
+	[chordSpatializerView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];
 	
-	spatializerView.useCamera = YES;
 	
 	//[spatializerView setShowingMesh:YES];
 	
 	initialSpatializerView.isShowingInitial = YES; 
 	
-	visualizerWindowView.useCamera = YES;
-	
 	//[visualizerWindowView setShowingMesh:YES];
 	
-	[visualizerWindowView bind: @"speakerLayout" toObject: _system withKeyPath: @"speakerSetup.speakerLayout" options: nil];
 	[visualizerWindowView setViewType:kDomeView3DPreviewType]; //FullscreenType];
 	
 	[[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(managedObjectContextChanged:) name: NSManagedObjectContextObjectsDidChangeNotification object: [self managedObjectContext]];
@@ -374,6 +378,14 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	[super presentError: errorToPresent modalForWindow: window delegate: delegate didPresentSelector: didPresentSelector contextInfo: contextInfo];
 }
 
+- (void)initializeSpatialChordsState
+{
+	[self setChordNumberOfPoints: [[self orderedGraphChannels] count]];
+	[self setChordSpacing: 1.f];
+	[self setChordTransitionTime: 10.f];
+}
+
+
 #pragma mark _____ UI Actions
 - (IBAction)togglePlay:(id)sender
 {	
@@ -393,6 +405,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 		[self addEventsToScheduler];
 		[self activatePannerSources];
 		[self activateDirectOuts];
+		[self initializeSpatialChordsState];
 		[_system setPlaying: YES];
 		[spatializerView setPieceIsPlaying:YES];
 		[visualizerWindowView setPieceIsPlaying:YES];
@@ -624,6 +637,15 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 			break;
 	}
 }
+
+- (IBAction)startChord:(id)sender
+{
+	[_chordController startChord];
+}
+
+- (IBAction)setChordNumberOfPointsTo1:(id)sender { [self setChordNumberOfPoints: 1]; }
+- (IBAction)setChordNumberOfPointsTo2:(id)sender { [self setChordNumberOfPoints: 2]; }
+- (IBAction)setChordNumberOfPointsTo3:(id)sender { [self setChordNumberOfPoints: 3]; }
 
 #pragma mark _____ Accessors
 - (NSSet*)graphDirectOuts {
@@ -900,6 +922,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	[spatializerView setNeedsDisplay: YES];
 	[initialSpatializerView setNeedsDisplay: YES];
 	[visualizerWindowView setNeedsDisplay: YES];
+	[chordSpatializerView setNeedsDisplay: YES];
 }
 
 #pragma mark _____ ZKMRNPieceDocumentInternal
@@ -1063,6 +1086,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	if (spatializerView) [spatializerView setPannerSources: _pannerSources];
 	if (initialSpatializerView) [initialSpatializerView setPannerSources: _pannerSources];
 	if (visualizerWindowView) [visualizerWindowView setPannerSources: _pannerSources];
+	if (chordSpatializerView) [chordSpatializerView setPannerSources: _pannerSources];
 	if ([_system isPlaying]) [self activatePannerSources];
 }
 
@@ -1370,6 +1394,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	spatializerView = nil;
 	initialSpatializerView = nil;
 	visualizerWindowView = nil;
+	chordSpatializerView = nil;
 	[mainWindow unregisterDraggedTypes];
 	if (self == [[ZKMRNZirkoniumSystem sharedZirkoniumSystem] currentPieceDocument])
 		[[ZKMRNZirkoniumSystem sharedZirkoniumSystem] setCurrentPieceDocument: nil];
@@ -1380,10 +1405,20 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	[[ZKMRNZirkoniumSystem sharedZirkoniumSystem] setCurrentPieceDocument:self];
 }
 
+#pragma mark -
+#pragma mark ZKMRNPieceDocumentSpatialChords
+
+- (NSUInteger)chordNumberOfPoints { return [_chordController chordNumberOfPoints]; }
+- (void)setChordNumberOfPoints:(NSUInteger)chordNumberOfPoints { [_chordController setChordNumberOfPoints: chordNumberOfPoints]; }
+- (float)chordSpacing { return [_chordController chordSpacing]; }
+- (void)setChordSpacing:(float)chordSpacing { [_chordController setChordSpacing: chordSpacing]; }
+- (float)chordTransitionTime { return [_chordController chordTransitionTime]; }
+- (void)setChordTransitionTime:(float)chordTransitionTime { [_chordController setChordTransitionTime: chordTransitionTime]; }
+
+
 
 #pragma mark -
 #pragma mark SpatializerViewDelegate
-#pragma mark -
 
 - (void)view:(ZKMRNDomeView *)domeView selectedPannerSource:(ZKMNRPannerSource *)pannerSource 
 {

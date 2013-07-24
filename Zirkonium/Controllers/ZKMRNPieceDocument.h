@@ -26,7 +26,7 @@ extern NSString* ZKMRNCartesianEventPboardType;
 ///
 ///  The class that represents an individual piece / composition.
 ///
-@class ZKMRNZirkoniumSystem, ZKMRNSpatializerView;
+@class ZKMRNZirkoniumSystem, ZKMRNSpatializerView, ZKMRNSpatialChordController;
 
 @interface ZKMRNPieceDocument : NSPersistentDocument <ZKMRNDomeViewDelegate, FileSourcesControllerDelegate> {
 
@@ -34,6 +34,7 @@ extern NSString* ZKMRNCartesianEventPboardType;
 	IBOutlet NSTabView*				mainTabView;
 	IBOutlet ZKMRNSpatializerView*	initialSpatializerView;
 	IBOutlet ZKMRNSpatializerView*	spatializerView;
+	IBOutlet ZKMRNSpatializerView*	chordSpatializerView;
 	IBOutlet NSArrayController*		graphChannelsController;
 	IBOutlet FileSourcesController*		fileSourcesController;
 	IBOutlet NSArrayController*		eventsController;
@@ -47,6 +48,9 @@ extern NSString* ZKMRNCartesianEventPboardType;
 	IBOutlet ZKMRNSpatializerView*	visualizerWindowView;
 	
 	IBOutlet NSSlider*				timelineSlider;
+
+		// Chords Control
+	ZKMRNSpatialChordController		*_chordController;
 
 	ZKMORGraph*				_pieceGraph;
 	NSMutableArray*			_pannerSources;
@@ -72,6 +76,10 @@ extern NSString* ZKMRNCartesianEventPboardType;
 - (IBAction)deactivateVisualizer:(id)sender; 
 - (IBAction)copy:(id)sender;
 - (IBAction)paste:(id)sender;
+- (IBAction)startChord:(id)sender;
+- (IBAction)setChordNumberOfPointsTo1:(id)sender;
+- (IBAction)setChordNumberOfPointsTo2:(id)sender;
+- (IBAction)setChordNumberOfPointsTo3:(id)sender;
 -(void)togglePlayButton:(BOOL)flag;
 -(void)toggleRecordButton:(BOOL)flag; 
 -(void)setHasProcessedRecording:(BOOL)flag; 
@@ -168,6 +176,17 @@ extern NSString* ZKMRNCartesianEventPboardType;
 
 //TableView Selection 
 -(void)tableViewSelectionDidChange:(NSNotification*)inNotification;
+
+@end
+
+@interface ZKMRNPieceDocument (ZKMRNPieceDocumentSpatialChords)
+
+- (NSUInteger)chordNumberOfPoints;
+- (void)setChordNumberOfPoints:(NSUInteger)chordNumberOfPoints;
+- (float)chordSpacing;
+- (void)setChordSpacing:(float)chordSpacing;
+- (float)chordTransitionTime;
+- (void)setChordTransitionTime:(float)chordTransitionTime;
 
 @end
 
