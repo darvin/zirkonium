@@ -401,6 +401,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 		[self initializeSpatialChordsState];
 		[_system setPlaying: YES];
 		[spatializerView setPieceIsPlaying:YES];
+		[chordSpatializerView setPieceIsPlaying: YES];
 		[visualizerWindowView setPieceIsPlaying:YES];
 		[self setHasProcessedRecording:YES];
 	
@@ -421,6 +422,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 
 			[_system setPlaying: NO];
 			[spatializerView setPieceIsPlaying:NO];
+			[chordSpatializerView setPieceIsPlaying: NO];
 			[visualizerWindowView setPieceIsPlaying:NO];
 		
 			[_system didChangeValueForKey: @"isPlaying"];
@@ -1436,12 +1438,14 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 - (void)view:(ZKMRNDomeView *)domeView selectedPannerSource:(ZKMNRPannerSource *)pannerSource 
 {
 	if (domeView == spatializerView) return;
+	if (domeView == chordSpatializerView) return;
 	[graphChannelsController setSelectedObjects: [NSArray arrayWithObject: [pannerSource tag]]];
 }
 
 - (void)view:(ZKMRNDomeView *)domeView movedPannerSource:(ZKMNRPannerSource *)pannerSource toPoint:(ZKMNRSphericalCoordinate)point
 {
 	if (domeView == spatializerView) return;
+	if (domeView == chordSpatializerView) return;
 	ZKMRNGraphChannel* channel = [pannerSource tag];
 	[channel setValue: [NSNumber numberWithFloat: point.azimuth] forKey: @"initialAzimuth"];
 	[channel setValue: [NSNumber numberWithFloat: point.zenith] forKey: @"initialZenith"];
