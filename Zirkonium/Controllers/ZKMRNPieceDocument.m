@@ -18,6 +18,7 @@
 #import "ZKMRNPieceDocumentWindowController.h"
 #import "NSString+PathResolver.h"
 #import "ZKMRNSpatialChordController.h"
+#import "ZKMRNGraph.h"
 
 static NSString* kZKMRNPieceVersionKey = @"ZKMRNPieceVersionKey";
 static unsigned kZKMRNPieceVersion = 3;
@@ -568,7 +569,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	if (!responder || ![responder isKindOfClass: [NSView class]]) return;
 	
 	NSPasteboard* pboard = [NSPasteboard generalPasteboard];
-	int tag = [responder tag];
+	int tag = [(NSView *)responder tag];
 	switch (tag) {
 		case kPieceDocumentUITag_EventTable:
 		{
@@ -1470,7 +1471,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 - (NSString *)treeControlerString
 {
 	NSString* classString = NSStringFromClass([self class]);
-	return  [NSString stringWithFormat: @"<%@:0x%x>", classString, self];
+	return  [NSString stringWithFormat: @"<%@:0x%x>", classString, (unsigned)self];
 }
 @end
 
@@ -1483,7 +1484,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 - (NSString *)treeControlerString
 {
 	NSString* classString = NSStringFromClass([[self conduit] class]);
-	return  [NSString stringWithFormat: @"<%@:0x%x>:%u", classString, [self conduit], [self busNumber]];
+	return  [NSString stringWithFormat: @"<%@:0x%x>:%u", classString, (unsigned)[self conduit], [self busNumber]];
 }
 @end
 

@@ -7,6 +7,7 @@
 //
 
 #import "ZKMRNGraph.h"
+#import <Syncretism/ZKMNRValueTransformer.h>
 
 NSString* ZKMRNGraphNumberOfDirectOutsChanged = @"ZKMRNGraphNumberOfDirectOutsChanged";
 
