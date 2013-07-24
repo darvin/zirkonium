@@ -1737,7 +1737,7 @@ MDMAAAAAbW1vZAAAAAAAACbNAABIGgAACiC9d8KAAAAAAAAAAAAAAAAAAAAAAA</bytes>
 												<string key="NSFrame">{{551, 142}, {21, 19}}</string>
 												<reference key="NSSuperview" ref="403303561"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView" ref="776162929"/>
+												<reference key="NSNextKeyView" ref="1026775254"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSTextFieldCell" key="NSCell" id="834884885">
 													<int key="NSCellFlags">-1804599231</int>
@@ -5404,7 +5404,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 																<reference key="NSNextKeyView" ref="1049140861"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSSliderCell" key="NSCell" id="173654410">
-																	<int key="NSCellFlags">-2080374784</int>
+																	<int key="NSCellFlags">-2080112384</int>
 																	<int key="NSCellFlags2">0</int>
 																	<string key="NSContents"/>
 																	<reference key="NSControlView" ref="1055128483"/>
@@ -6427,7 +6427,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 																<int key="NSvFlags">265</int>
 																<string key="NSFrame">{{521, 13}, {32, 19}}</string>
 																<reference key="NSSuperview" ref="244282586"/>
-																<reference key="NSNextKeyView" ref="776162929"/>
+																<reference key="NSNextKeyView" ref="1026775254"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSTextFieldCell" key="NSCell" id="137609424">
 																	<int key="NSCellFlags">-1808793535</int>
@@ -14660,10 +14660,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
 			<integer value="1050" key="NS.object.0"/>
-		</object>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin.macosx</string>
-			<real value="1070" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
