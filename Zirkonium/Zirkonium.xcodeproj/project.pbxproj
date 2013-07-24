@@ -968,7 +968,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Zirkonium;
-				SDKROOT = macosx10.7;
 				SKIP_INSTALL = NO;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = app;
@@ -1005,7 +1004,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = Zirkonium;
-				SDKROOT = macosx10.7;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1028,7 +1026,7 @@
 				MOMC_SUPPRESS_INVERSE_TRANSIENT_ERROR = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 				VERSIONING_SYSTEM = "";
@@ -1047,7 +1045,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};

@@ -1079,7 +1079,6 @@
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1099,14 +1098,13 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/TetGenSource\"";
-				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS_QUOTED_FOR_TARGET_1)",
 					"-lm",
 				);
 				OTHER_LDFLAGS_QUOTED_FOR_TARGET_1 = "-L\"$(SRCROOT)/TetGenSource\"";
 				PRODUCT_NAME = Syncretism;
-				SDKROOT = macosx10.7;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = framework;
 				ZERO_LINK = YES;
@@ -1116,7 +1114,6 @@
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -1133,14 +1130,13 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/TetGenSource\"";
-				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(OTHER_LDFLAGS_QUOTED_FOR_TARGET_1)",
 					"-lm",
 				);
 				OTHER_LDFLAGS_QUOTED_FOR_TARGET_1 = "-L\"$(SRCROOT)/TetGenSource\"";
 				PRODUCT_NAME = Syncretism;
-				SDKROOT = macosx10.7;
 				VALID_ARCHS = i386;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -1156,7 +1152,7 @@
 				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
 				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
@@ -1172,7 +1168,7 @@
 				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
 				OTHER_CPLUSPLUSFLAGS = "-DCAAF_USE_EXTAUDIOFILE=0";
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
@@ -1208,7 +1204,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SyncretismTestTool;
-				SDKROOT = macosx10.7;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1241,7 +1236,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SyncretismTestTool;
-				SDKROOT = macosx10.7;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1274,7 +1268,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SyncretismTest;
-				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
 			};
@@ -1306,7 +1299,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SyncretismTest;
-				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
 			};

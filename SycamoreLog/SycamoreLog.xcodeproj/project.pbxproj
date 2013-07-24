@@ -282,7 +282,6 @@
 				GCC_PREFIX_HEADER = SycamoreLog_Prefix.pch;
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = SycamoreLog;
-				SDKROOT = macosx10.7;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -298,7 +297,6 @@
 				GCC_PREFIX_HEADER = SycamoreLog_Prefix.pch;
 				INSTALL_PATH = "$(HOME)/bin";
 				PRODUCT_NAME = SycamoreLog;
-				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -310,7 +308,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
@@ -324,7 +322,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = macosx;
 				SYMROOT = ../build;
 				VALID_ARCHS = i386;
 			};
