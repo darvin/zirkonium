@@ -374,7 +374,8 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 {
 	[self setChordNumberOfPoints: [[self orderedGraphChannels] count]];
 	[self setChordSpacing: 1.f];
-	[self setChordTransitionTime: 10.f];
+	[self setChordTransitionTime: 3.f];
+	[self setChordRotationSpeed: 15.f];
 }
 
 
@@ -1421,6 +1422,11 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 - (IBAction)setChordNumberOfPointsTo1:(id)sender { [self setChordNumberOfPoints: 1]; }
 - (IBAction)setChordNumberOfPointsTo2:(id)sender { [self setChordNumberOfPoints: 2]; }
 - (IBAction)setChordNumberOfPointsTo3:(id)sender { [self setChordNumberOfPoints: 3]; }
+
+- (IBAction)startRotation:(id)sender
+{
+	[_chordController startRotation];
+}
 
 
 

@@ -80,6 +80,7 @@ extern NSString* ZKMRNCartesianEventPboardType;
 - (IBAction)setChordNumberOfPointsTo1:(id)sender;
 - (IBAction)setChordNumberOfPointsTo2:(id)sender;
 - (IBAction)setChordNumberOfPointsTo3:(id)sender;
+- (IBAction)startRotation:(id)sender;
 -(void)togglePlayButton:(BOOL)flag;
 -(void)toggleRecordButton:(BOOL)flag; 
 -(void)setHasProcessedRecording:(BOOL)flag; 

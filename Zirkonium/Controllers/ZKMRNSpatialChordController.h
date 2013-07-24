@@ -56,5 +56,6 @@
 
 // Actions
 - (void)startChord;
+- (void)startRotation;
 
 @end

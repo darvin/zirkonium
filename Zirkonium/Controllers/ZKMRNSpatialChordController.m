@@ -178,7 +178,29 @@
 		[pannerEvent setTarget: pannerSource];
 		[scheduler scheduleEvent: pannerEvent];
 		[pannerEvent release];
-	}	
+	}
+}
+
+- (void)startRotation
+{
+	ZKMNREventScheduler* scheduler = [[ZKMRNZirkoniumSystem sharedZirkoniumSystem] scheduler];
+	[scheduler unscheduleAllEvents];	
+	
+	Float64 currentTime = [[_pieceDocument timeWatch] currentTime];
+	unsigned i, count = [_chordSources count];
+	for (i = 0; i < count; ++i) {
+		ZKMNRPannerSource *pannerSource = [[_chordSources objectAtIndex: i] pannerSource];		
+		ZKMNRPannerEvent *pannerEvent = [[ZKMNRPannerEvent alloc] init];
+		
+		[pannerEvent setStartTime: currentTime];
+		[pannerEvent setDuration: _chordRotationSpeed];
+		[pannerEvent setContinuationMode: kZKMNRContinuationMode_Continue];
+		[pannerEvent setDeltaAzimuth: 2.f];
+		[pannerEvent setGain: 1.0f];
+		[pannerEvent setTarget: pannerSource];
+		[scheduler scheduleEvent: pannerEvent];
+		[pannerEvent release];
+	}
 }
 
 @end
