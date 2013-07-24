@@ -231,6 +231,7 @@
 		float scale = ZKMORDBToNormalizedDB([[_panner mixer] postAveragePowerForInput: _processedSourceIndex]);
 		scale = (scale > 0.0) ? powf(scale, 4.f) : 0.0;
 		scale = MAX(MIN(2.0, scale), 0.0);
+		scale *= [source gain];
 		v = 0.05 + (0.15*scale);
 	}
 	
