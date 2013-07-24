@@ -60,9 +60,9 @@
 	ZKMNREventScheduler* scheduler = [[ZKMRNZirkoniumSystem sharedZirkoniumSystem] scheduler];
 	[scheduler unscheduleAllEvents];
 	
-	float azimuth = ZKMORFRand() * 2.f;
-	float zenith = ZKMORFRand();
-	
+	float azimuth = ZKMORFRand() * 2.f - 1.f;
+	float zenith = ZKMORFRand() - 0.5f;
+	NSLog(@"Center {%.2f, %.2f}", azimuth, zenith);
 	[self updateChordSources];
 	unsigned i, count = [_chordSources count];
 	for (i = 0; i < count; ++i) {
@@ -72,11 +72,13 @@
 			[pannerSource setMute: NO];
 		}
 		ZKMNRSphericalCoordinate center = [pannerSource center];
+		float eventAzimuth = ZKMORFold(azimuth + (ZKMORFRand() * 2.f * _chordSpacing - 1.f), -1.f, 1.f);
+		float eventZenith = ZKMORFold(zenith + (ZKMORFRand() * _chordSpacing - 0.5f), -0.5f, 0.5f);
 		ZKMNRPannerEvent *pannerEvent = [[ZKMNRPannerEvent alloc] init];
 		[pannerEvent setStartTime: [[_pieceDocument timeWatch] currentTime]];
 		[pannerEvent setDuration: _chordTransitionTime];
-		[pannerEvent setDeltaAzimuth: (azimuth - center.azimuth) + (ZKMORFRand() * 2.f * _chordSpacing)];
-		[pannerEvent setDeltaZenith: (zenith - center.zenith) + (ZKMORFRand() * _chordSpacing)];
+		[pannerEvent setDeltaAzimuth: eventAzimuth - center.azimuth];
+		[pannerEvent setDeltaZenith: eventZenith - center.zenith];
 		[pannerEvent setAzimuthSpan: 0.0f];
 		[pannerEvent setZenithSpan: 0.0f];
 		[pannerEvent setGain: 1.0f];
