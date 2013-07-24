@@ -195,7 +195,8 @@
 		[pannerEvent setStartTime: currentTime];
 		[pannerEvent setDuration: _chordRotationSpeed];
 		[pannerEvent setContinuationMode: kZKMNRContinuationMode_Continue];
-		[pannerEvent setDeltaAzimuth: 2.f];
+		[pannerEvent setDeltaAzimuth: 2.f * cosf(M_PI * _chordRotationTilt)];
+		[pannerEvent setDeltaZenith: 2.f * sinf(M_PI * _chordRotationTilt)];
 		[pannerEvent setGain: 1.0f];
 		[pannerEvent setTarget: pannerSource];
 		[scheduler scheduleEvent: pannerEvent];
