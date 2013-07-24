@@ -117,8 +117,10 @@
 	// Return an array with _chordNumberOfPoints sources
 	NSUInteger i, count = MIN(_chordNumberOfPoints, [_nonChordSources count]);
 	for (i = 0; i < count; ++i) {
-		NSUInteger index = floorf([_nonChordSources count] * ZKMORFRand());
-		index = MIN(index, count - 1);
+		float randomValue = ZKMORFRand();
+		NSUInteger numberOfAvailableSources = [_nonChordSources count];
+		NSUInteger index = numberOfAvailableSources * randomValue;
+		index = MIN(index, numberOfAvailableSources - 1);
 		id source = [_nonChordSources objectAtIndex: index];
 		[_chordSources addObject: source];
 		[_nonChordSources removeObjectAtIndex: index];
