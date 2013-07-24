@@ -674,7 +674,7 @@
 	float zenithStart;
 	if (_hasBottomHemisphere) {
 		center.zenith = ZKMORFold(center.zenith, -1.f, 1.f);
-		zenithStart = ZKMORClamp(center.zenith - (span.zenithSpan * 0.5f), -0.5f, 0.5f);
+		zenithStart = ZKMORFold(center.zenith - (span.zenithSpan * 0.5f), -1.f, 1.f);
 	} else {
 		center.zenith = ZKMORFold0ToMax(center.zenith, 1.f);
 		zenithStart = MAX(center.zenith - (span.zenithSpan * 0.5f), 0.f);
