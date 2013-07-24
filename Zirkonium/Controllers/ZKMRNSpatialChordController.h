@@ -18,9 +18,18 @@
 	
 	ZKMRNPieceDocument *_pieceDocument;
 
+	// Chord
 	NSUInteger	_chordNumberOfPoints;
 	float		_chordSpacing;
 	float		_chordTransitionTime;
+	
+	// Rotation
+	float		_chordRotationSpeed;
+	float		_chordRotationTilt;
+	
+	// Tilt
+	float		_chordTiltAzimuth;
+	float		_chordTiltZenith;
 	
 	// State that is updated for each chord
 	NSMutableArray *_chordSources;
@@ -29,6 +38,7 @@
 
 - (id)initWithPieceDocument:(ZKMRNPieceDocument *)pieceDocument;
 
+// Chord
 - (NSUInteger)chordNumberOfPoints;
 - (void)setChordNumberOfPoints:(NSUInteger)chordNumberOfPoints;
 - (float)chordSpacing;
@@ -36,6 +46,15 @@
 - (float)chordTransitionTime;
 - (void)setChordTransitionTime:(float)chordTransitionTime;
 
+// Rotation
+@property(nonatomic) float chordRotationSpeed;
+@property(nonatomic) float chordRotationTilt;
+
+// Tilt
+@property(nonatomic) float chordTiltAzimuth;
+@property(nonatomic) float chordTiltZenith;
+
+// Actions
 - (void)startChord;
 
 @end

@@ -630,15 +630,6 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	}
 }
 
-- (IBAction)startChord:(id)sender
-{
-	[_chordController startChord];
-}
-
-- (IBAction)setChordNumberOfPointsTo1:(id)sender { [self setChordNumberOfPoints: 1]; }
-- (IBAction)setChordNumberOfPointsTo2:(id)sender { [self setChordNumberOfPoints: 2]; }
-- (IBAction)setChordNumberOfPointsTo3:(id)sender { [self setChordNumberOfPoints: 3]; }
-
 #pragma mark _____ Accessors
 - (NSSet*)graphDirectOuts {
 	return [[self piecePatch] valueForKey:@"directOutChannels"];
@@ -1406,6 +1397,30 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 - (void)setChordSpacing:(float)chordSpacing { [_chordController setChordSpacing: chordSpacing]; }
 - (float)chordTransitionTime { return [_chordController chordTransitionTime]; }
 - (void)setChordTransitionTime:(float)chordTransitionTime { [_chordController setChordTransitionTime: chordTransitionTime]; }
+
+- (float)chordRotationSpeed { return _chordController.chordRotationSpeed; }
+- (void)setChordRotationSpeed:(float)chordRotationSpeed { _chordController.chordRotationSpeed = chordRotationSpeed; }
+- (float)chordRotationTilt { return _chordController.chordRotationTilt; }
+- (void)setChordRotationTilt:(float)chordRotationTilt { _chordController.chordRotationTilt = chordRotationTilt; }
+
+- (float)chordTiltAzimuth { return _chordController.chordTiltAzimuth; }
+- (void)setChordTiltAzimuth:(float)chordTiltAzimuth { _chordController.chordTiltAzimuth = chordTiltAzimuth; }
+- (float)chordTiltZenith { return _chordController.chordTiltZenith; }
+- (void)setChordTiltZenith:(float)chordTiltZenith { _chordController.chordTiltZenith = chordTiltZenith; }
+
+- (IBAction)startChord:(id)sender
+{
+	// Do this first because it can have side effects
+	[self setChordTiltAzimuth: 0.f];
+	[self setChordTiltZenith: 0.f];
+	
+	// Afterwards we can start the chord
+	[_chordController startChord];
+}
+
+- (IBAction)setChordNumberOfPointsTo1:(id)sender { [self setChordNumberOfPoints: 1]; }
+- (IBAction)setChordNumberOfPointsTo2:(id)sender { [self setChordNumberOfPoints: 2]; }
+- (IBAction)setChordNumberOfPointsTo3:(id)sender { [self setChordNumberOfPoints: 3]; }
 
 
 

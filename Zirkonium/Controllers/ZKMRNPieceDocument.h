@@ -181,12 +181,25 @@ extern NSString* ZKMRNCartesianEventPboardType;
 
 @interface ZKMRNPieceDocument (ZKMRNPieceDocumentSpatialChords)
 
+// Chord
 - (NSUInteger)chordNumberOfPoints;
 - (void)setChordNumberOfPoints:(NSUInteger)chordNumberOfPoints;
 - (float)chordSpacing;
 - (void)setChordSpacing:(float)chordSpacing;
 - (float)chordTransitionTime;
 - (void)setChordTransitionTime:(float)chordTransitionTime;
+
+// Rotation
+- (float)chordRotationSpeed;
+- (void)setChordRotationSpeed:(float)chordRotationSpeed;
+- (float)chordRotationTilt;
+- (void)setChordRotationTilt:(float)chordRotationTilt;
+
+// Tilt
+- (float)chordTiltAzimuth;
+- (void)setChordTiltAzimuth:(float)chordTiltAzimuth;
+- (float)chordTiltZenith;
+- (void)setChordTiltZenith:(float)chordTiltZenith;
 
 @end
 
