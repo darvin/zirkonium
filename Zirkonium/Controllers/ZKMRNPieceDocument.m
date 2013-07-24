@@ -158,18 +158,14 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	[[NSFileManager defaultManager] changeCurrentDirectoryPath: parentDir];
 	
 	NSError* theError = nil;
-	//NSError* anError = nil;  
 	NSDictionary* metadata = [NSPersistentStoreCoordinator metadataForPersistentStoreOfType:typeName URL:absoluteURL error:&theError];
 	
 	BOOL versionNeedsGraphChannelIndex = NO; 
 	
-	NSError* error = nil; 
-	
-	//Create Metadata ...
-	//id plist = [NSPersistentStoreCoordinator metadataForPersistentStoreOfType:typeName URL:[NSURL fileURLWithPath:@"/Users/jens/zirkoniumcode/D_BUGS/DocumentRecovery/Test.zrkpxml"] error:error]; 
-	//[plist writeToFile:@"/Users/jens/Metadata.plist" atomically:YES];
+	NSError* error = nil;
 		
 	if (kZKMRNPieceVersion != [[metadata valueForKey: kZKMRNPieceVersionKey] unsignedIntValue]) {
+		// Upgrade the piece
 		
 		versionNeedsGraphChannelIndex = YES; 
 
@@ -191,9 +187,9 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 		NSString *legacyPath = [NSString stringWithFormat:@"%@~.%@", [originalPath stringByDeletingPathExtension],[originalPath pathExtension]];
 				
 		BOOL success;
-		success = [[NSFileManager defaultManager] movePath:originalPath toPath:legacyPath handler:nil];
+		success = [[NSFileManager defaultManager] moveItemAtPath: originalPath toPath: legacyPath error: &error];
 		
-		if(!success) { NSLog(@"Backup not successfull"); return nil; }
+		if(!success) { NSLog(@"Backup not successful %@", error); return nil; }
 		
 		if (![NSPersistentStoreCoordinator setMetadata:destinationMetadata forPersistentStoreOfType:typeName URL:[NSURL fileURLWithPath:legacyPath isDirectory:NO] error:&error]) {
 			NSLog(@"Could not update metadata ...");
@@ -206,17 +202,15 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 		
 		// recreate original file from backup ...
 		NSLog(@"Recreating Original From Backup!");
-		success = [[NSFileManager defaultManager] movePath:legacyPath toPath:originalPath handler:nil];
+		success = [[NSFileManager defaultManager] moveItemAtPath: legacyPath toPath: originalPath error: &error];
 		NSLog(@"Done!");
 				
 		if(!success) { NSLog(@"Recreation of Backup not successfull"); return nil; }
 	}
 	
 	if (!(self = [super initWithContentsOfURL: absoluteURL ofType: typeName error: outError])) {
-		NSLog(@"Open Error!");
+		NSLog(@"Open Error! : %@", *outError);
 		return nil;
-	} else {
-		NSLog(@"Open Succesfull!");
 	}
 	
 	if (versionNeedsGraphChannelIndex) {
@@ -227,7 +221,6 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 			[aChannel setValue:[NSNumber numberWithUnsignedInt:index] forKey:@"graphChannelIndex"];
 			index++; 
 		}
-		NSLog(@"Save Document!");
 
 		// Re-save document ...
 		if(![self saveToURL:absoluteURL ofType:typeName forSaveOperation:NSSaveOperation error:&error])
@@ -236,9 +229,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 			NSAlert *theAlert = [NSAlert alertWithError:error];
 			[theAlert runModal]; // Ignore return value.
 		} else {
-		
 			//[self saveDocument:self];
-			NSLog(@"Done Saving Document!");
 		}
 	}
 	
@@ -607,7 +598,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 	
 	NSPasteboard* pboard = [NSPasteboard generalPasteboard];
 	NSManagedObjectContext* moc = [self managedObjectContext];	
-	int tag = [responder tag];
+	int tag = [(NSView *)responder tag];
 	switch (tag) {
 		NSManagedObject* mo;
 		NSArray* eventList;
@@ -683,7 +674,7 @@ NSString* ZKMRNEventArrayPboardType = @"ZKMRNEventArrayPboardType";
 		[source setCenter: center span: span gain: gain];
 		
 		// no need to update the display -- that will happen in due time.
-		// TODO -- Record the event if we are recording		
+		// TODO RECORD -- Record the event if we are recording		
 	} else {
 		[source setInitialCenter: center span: span gain: gain];
 		[initialSpatializerView	setNeedsDisplay: YES];
